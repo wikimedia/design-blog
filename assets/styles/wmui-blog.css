@@ -4,6 +4,10 @@
   margin: 0 auto;
 }
 
+.post__title {
+    margin-top: 1.6rem;
+}
+
 @media (min-width: 780px) {
   .content {
     width: 720px;

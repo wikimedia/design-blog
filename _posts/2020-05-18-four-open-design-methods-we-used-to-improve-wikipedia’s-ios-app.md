@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Four open design methods we used to improve Wikipedia’s iOS app
+image: /assets/uploads/wikimedia-hackathon-barcelona-2018-03-e1565972041606.jpg
+excerpt: Using open design techniques to learn from our editor community
 date: 2020-05-18T17:26:32.585Z
 ---
 *(Copied Carolyn's post from <https://wikimediafoundation.org/news/2019/05/28/four-open-design-methods-we-used-to-improve-wikipedias-ios-app/> for testing)*
