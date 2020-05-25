@@ -7,8 +7,6 @@ date: 2020-05-18T17:26:32.585Z
 ---
 *(Copied Carolyn's post from <https://wikimediafoundation.org/news/2019/05/28/four-open-design-methods-we-used-to-improve-wikipedias-ios-app/> for testing)*
 
-![Wikimedia Hackathon](/assets/uploads/wikimedia-hackathon-barcelona-2018-03-e1565972041606.jpg "Wikimedia Hackathon")
-
 Wikipedia is built and edited by the collaborative efforts of volunteers around the world. When it came time to improve the editing features on [Wikipedia’s iOS app](https://itunes.apple.com/us/app/wikipedia/id324715238?mt=8), we here on the [Wikimedia Foundation’s iOS team](https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/iOS) wanted to ensure that our design process reflected that and the values of our organization, including our [design principles](https://design.wikimedia.org/style-guide/design-principles.html).
 
 To accomplish this, we utilized a variety of different [open design techniques](http://opendesignkit.org/), including conversations with community members and usability testing, generative research, comparative analysis, and design reviews.
