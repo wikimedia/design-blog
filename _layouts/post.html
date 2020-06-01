@@ -3,10 +3,9 @@ layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
+  <header class="post__header">
     <img src="{{page.image}}" alt="{{ page.title }}">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
+    <p class="post__meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
@@ -14,9 +13,10 @@ layout: default
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
+    <h1 class="post__title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post__content e-content" itemprop="articleBody">
     {{ content }}
   </div>
 

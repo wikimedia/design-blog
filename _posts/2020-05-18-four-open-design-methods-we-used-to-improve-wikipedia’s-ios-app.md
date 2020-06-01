@@ -55,5 +55,4 @@ The Wikimedia Foundation’s iOS team is always looking for ways to make the app
 
 Additionally, as an open source project, we’re always happy to see volunteer contributions. If you are an iOS developer, you can learn about how to get involved on the [Wikimedia mobile engineering contribution page](https://www.mediawiki.org/wiki/Wikimedia_Mobile_engineering/Contribute).
 
-*Carolyn Li-Madeo, User Experience Designer, Audiences Design*\
-*Wikimedia Foundation*
+<p class="post__authors">Carolyn Li-Madeo, User Experience Designer, Audiences Design, Wikimedia Foundation</p>

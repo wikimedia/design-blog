@@ -6,7 +6,7 @@ excerpt: How designers at the Wikimedia Foundation are ensuring that all the wor
 date: 2020-05-21T17:26:32.585Z
 ---
 
-By [David A. M. Goldberg](https://www.linkedin.com/in/david-a-m-goldberg-900961b2/) with [Volker Eckl](https://twitter.com/Volker_E)
+_By [David A. M. Goldberg](https://www.linkedin.com/in/david-a-m-goldberg-900961b2/) with [Volker Eckl](https://twitter.com/Volker_E)_
 
 Activist and political theorist Dr. Angela Y. Davis once stated that the most ethical way to assess the health of a society or institution is in terms of how it treats those who have been marginalized. Put another way, Dr. Davis is arguing that outliers are the true measure of a system’s values, not those who are assumed to be “typical,” “average,” “healthy,” or “normal.” More often than not, such adjectives describe the degree to which a person conforms to a system’s requirements, not a system’s ability to accommodate the diversity of their needs. In line with its democratic mission to make all of the world’s information available for free, across differences in culture, tradition, and language, the Wikimedia Foundation believes that everyone should have access to computing’s ever-increasing powers of content creation, distribution, and consumption. This ethic and its problem-solving strategies are part of inclusive design.
 
@@ -22,6 +22,8 @@ The Wikimedia Foundation leaders like Volker and his design team, and the commun
 
 The Wikimedia Foundation aims to support a diverse audience, and it is committed to not raising barriers for one group of people as it seeks to improve the experience another has with its products and projects. Because Wikimedia projects are, at the level of their foundations, open and collaborative, a commitment to inclusive design that addresses more than the formal category of “disability” or “handicap” is a natural fit. Making all of the world’s knowledge freely available is a monumental task that some consider to be impossible. It is undoubtedly a slow process that cannot be managed from the top down in a fundamentally volunteer-driven movement, but it is absolutely worth it, because with the philosophical, ethical, and technical basis that Volker and his peers have provided, we are one step closer.
 
-[David A. M. Goldberg](https://www.linkedin.com/in/david-a-m-goldberg-900961b2/) is a writer, teacher, cultural critic, whose work focuses on issues of innovative democratic access to computing and communications technologies.
-
-[Volker Eckl](https://twitter.com/Volker_E) is a Senior User-Experience Engineer in the Wikimedia Foundation’s Product Design department and has been leading design system and accessibility projects.
+<p class="post__authors">
+  <a href="https://www.linkedin.com/in/david-a-m-goldberg-900961b2/">David A. M. Goldberg</a> is a writer, teacher, cultural critic, whose work focuses on issues of innovative democratic access to computing and communications technologies.
+  <br><br>
+  <a href="https://twitter.com/Volker_E">Volker Eckl</a> is a Senior User-Experience Engineer in the Wikimedia Foundation’s Product Design department and has been leading design system and accessibility projects.
+</p>
