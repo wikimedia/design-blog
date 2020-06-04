@@ -10,7 +10,7 @@ layout: default
       {%- for post in site.posts -%}
       <article class="post post--card">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <img src="{{post.image}}" alt="{{ post.title }}">
+        <img src="{{site.url}}{{ post.image }}" alt="{{ post.title }}">
         <h1 class="post__title">
           <a class="post__link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
