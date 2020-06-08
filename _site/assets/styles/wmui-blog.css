@@ -15,7 +15,8 @@ hr {
 
 .post__excerpt {
   font-size: 2rem;
-  color: #72777d;
+  font-weight: 100;
+  font-style: italic;
 }
 
 .post__title {
