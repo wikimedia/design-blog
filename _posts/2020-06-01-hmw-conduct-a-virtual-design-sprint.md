@@ -6,7 +6,7 @@ excerpt: Reflections from my first fully remote offsite
 date: 2020-06-30T17:26:32.585Z
 ---
 
-_By [Rita Ho](test.com)_
+_By [Rita Ho](https://medium.com/@reetssydney)_
 
 ## Background
 Being a designer at the Wikimedia Foundation means I am reasonably accustomed to working remotely – both geographically, and in the sense of being the sole designer in a cross-functional team. For the past 2 years I’ve worked in the [Growth team](https://www.mediawiki.org/wiki/Growth), whose goal is to increase the number of new contributors on wiki projects.
