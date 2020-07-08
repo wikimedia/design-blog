@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://design.wikimedia.org/blog/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/blog/" rel="alternate" type="text/html" /><updated>2020-07-02T00:46:49+05:30</updated><id>https://design.wikimedia.org/blog/blog/feed.xml</id><title type="html">Design blog test</title><subtitle>Testing if we can use a static site and netlify together</subtitle><entry><title type="html">How might we… conduct a virtual design sprint in ~3 hours?</title><link href="https://design.wikimedia.org/blog/blog/2020/06/30/hmw-conduct-a-virtual-design-sprint.html" rel="alternate" type="text/html" title="How might we... conduct a virtual design sprint in ~3 hours?" /><published>2020-06-30T22:56:32+05:30</published><updated>2020-06-30T22:56:32+05:30</updated><id>https://design.wikimedia.org/blog/blog/2020/06/30/hmw-conduct-a-virtual-design-sprint</id><content type="html" xml:base="https://design.wikimedia.org/blog/blog/2020/06/30/hmw-conduct-a-virtual-design-sprint.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://medium.com/@reetssydney&quot;&gt;Rita Ho&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://design.wikimedia.org/blog/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/blog/" rel="alternate" type="text/html" /><updated>2020-07-08T21:08:01+05:30</updated><id>https://design.wikimedia.org/blog/blog/feed.xml</id><title type="html">Design blog test</title><subtitle>Testing if we can use a static site and netlify together</subtitle><entry><title type="html">How might we… conduct a virtual design sprint in ~3 hours?</title><link href="https://design.wikimedia.org/blog/blog/2020/06/30/hmw-conduct-a-virtual-design-sprint.html" rel="alternate" type="text/html" title="How might we... conduct a virtual design sprint in ~3 hours?" /><published>2020-06-30T22:56:32+05:30</published><updated>2020-06-30T22:56:32+05:30</updated><id>https://design.wikimedia.org/blog/blog/2020/06/30/hmw-conduct-a-virtual-design-sprint</id><content type="html" xml:base="https://design.wikimedia.org/blog/blog/2020/06/30/hmw-conduct-a-virtual-design-sprint.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://medium.com/@reetssydney&quot;&gt;Rita Ho&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
 &lt;p&gt;Being a designer at the Wikimedia Foundation means I am reasonably accustomed to working remotely – both geographically, and in the sense of being the sole designer in a cross-functional team. For the past 2 years I’ve worked in the &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth&quot;&gt;Growth team&lt;/a&gt;, whose goal is to increase the number of new contributors on wiki projects.&lt;/p&gt;
@@ -31,7 +31,10 @@
 
 &lt;p&gt;Also essential to planning was determining the focus of the design sprint activity, and then tailoring (and paring down) only the most relevant activities to achieve that goal. Taking cues from a few other blog posts about &lt;a href=&quot;https://medium.com/@designsprintstudio/the-one-hour-brain-sprint-409fc5417e10&quot;&gt;one&lt;/a&gt;, &lt;a href=&quot;https://blog.prototypr.io/the-2-hour-design-sprint-9e2bbc14ee1&quot;&gt;two&lt;/a&gt; and &lt;a href=&quot;https://ux.shopify.com/the-4-hour-design-sprint-b05b516cede7&quot;&gt;four hour&lt;/a&gt; design sprints, I decided in session #1 to use some parts of the &lt;a href=&quot;https://designsprintkit.withgoogle.com/methodology/overview&quot;&gt;Google Ventures design sprint&lt;/a&gt; method, with the question of “How might we create an integrated newcomer homepage” as the overarching prompt.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://design.wikimedia.org/blog/assets/uploads/virtual-sprint-slides.png&quot; alt=&quot;Virtual sprint slides&quot; /&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&quot;http://localhost:4000/assets/uploads/virtual-sprint-slides.png&quot; alt=&quot;Virtual sprint slides&quot; /&gt;
+  &lt;figcaption&gt;Slides used to introduce the design sprint activity.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;h2 id=&quot;sprinting-what-happened-on-the-growth-sprint&quot;&gt;Sprinting: What happened on the Growth sprint&lt;/h2&gt;
 &lt;p&gt;This section discusses what we did during the sprint, before I then delve into more details on the tools and resources used.&lt;/p&gt;
@@ -43,18 +46,24 @@
 
 &lt;p&gt;We voted for the top five ideas from the affinity groups and proceeded to the sketch phase (the third Google DS Methodology phase) where participants created “pitch posters” (see example in the facilitation deck linked at the end resources). During these break-out sessions people worked in pairs to design interaction flows and user experiences in as high or low fidelity as they were comfortable working with, and returned to the group to present to everyone.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1kfsdw_C8Q7y1gfofEOieIdfFpVFyH75647zTNNTvpYk/&quot;&gt;
-  &lt;img src=&quot;https://design.wikimedia.org/blog/assets/uploads/virtual-sprint-figma-session-1.png&quot; alt=&quot;Facilitation deck&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Facilitation_deck_for_Design_exercise_1_Growth_2019_Virtual_Offsite.pdf&quot;&gt;
+    &lt;img src=&quot;https://design.wikimedia.org/blog/assets/uploads/virtual-sprint-figma-session-1.png&quot; alt=&quot;Facilitation deck&quot; /&gt;
+  &lt;/a&gt;
+  &lt;figcaption&gt;Screenshot from the Figma board used in Design Session One during the HMW exercise.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;h3 id=&quot;session-two-converging-on-key-insights&quot;&gt;Session Two: Converging on key insights&lt;/h3&gt;
 &lt;p&gt;This was the “wrap-up” session where we reviewed the top ideas generated in the first session, and ended with a fun exercise to help each team member reflect on the different perspectives brought to the newcomer homepage’s upcoming feature work. From here, the intention was that each team member could better articulate and advocate for priorities from their preferred position, and help drive the product direction.&lt;/p&gt;
 
 &lt;p&gt;We needed a collaborative decision-making activity that wasn’t purely democractic, but was still open, transparent, and hopefully fun. I invented the “Marry, Move, Kill” activity in which each person would describe their dream newcomer homepage based on the existing homepage as well as sections that had been voted on the previous day. From these candidates, each team member must “marry” sections to their home page, “move” others, and “kill” at least one.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.figma.com/file/atUa8TCT65bu1tMBx1Q571/Growth-Design-Fall-2019-Offsite-%E2%80%93%C2%A0Design-Session-2?node-id=216%3A13&quot;&gt;
-  &lt;img src=&quot;https://design.wikimedia.org/blog/assets/uploads/virtual-sprint-figma-session-2.png&quot; alt=&quot;Template page on Figma for Marry, Move, Kill activity&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
+&lt;figure&gt;
+  &lt;a href=&quot;https://www.figma.com/file/atUa8TCT65bu1tMBx1Q571/Growth-Design-Fall-2019-Offsite-%E2%80%93%C2%A0Design-Session-2?node-id=216%3A13&quot;&gt;
+    &lt;img src=&quot;https://design.wikimedia.org/blog/assets/uploads/virtual-sprint-figma-session-2.png&quot; alt=&quot;Template page on Figma for Marry, Move, Kill activity&quot; /&gt;
+  &lt;/a&gt;
+  &lt;figcaption&gt;Screenshot from the Figma board used in Design Session Two during the Marry, Move, Kill exercise.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;h3 id=&quot;documenting-the-outcomes-post-sprint&quot;&gt;Documenting the outcomes post-sprint&lt;/h3&gt;
 &lt;p&gt;One benefit of the virtual sprint is that format lends itself for easier documenting.  In the case of many conference call apps, you can literally record the sessions. Whilst we didn’t do so for the design sessions this time around, there were a few key outcomes documented in the various notes and artefacts:&lt;/p&gt;

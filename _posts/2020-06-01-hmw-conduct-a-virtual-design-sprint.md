@@ -37,7 +37,10 @@ Perhaps the oft-quoted saying that “[I would have written a shorter letter, bu
 
 Also essential to planning was determining the focus of the design sprint activity, and then tailoring (and paring down) only the most relevant activities to achieve that goal. Taking cues from a few other blog posts about [one](https://medium.com/@designsprintstudio/the-one-hour-brain-sprint-409fc5417e10), [two](https://blog.prototypr.io/the-2-hour-design-sprint-9e2bbc14ee1) and [four hour](https://ux.shopify.com/the-4-hour-design-sprint-b05b516cede7) design sprints, I decided in session #1 to use some parts of the [Google Ventures design sprint](https://designsprintkit.withgoogle.com/methodology/overview) method, with the question of “How might we create an integrated newcomer homepage” as the overarching prompt.
 
-![Virtual sprint slides]({{site.url}}/assets/uploads/virtual-sprint-slides.png)
+<figure>
+  <img src="http://localhost:4000/assets/uploads/virtual-sprint-slides.png" alt="Virtual sprint slides">
+  <figcaption>Slides used to introduce the design sprint activity.</figcaption>
+</figure>
 
 ## Sprinting: What happened on the Growth sprint
 This section discusses what we did during the sprint, before I then delve into more details on the tools and resources used.
@@ -49,18 +52,24 @@ The Growth team already had a pretty comprehensive understanding of the project,
 
 We voted for the top five ideas from the affinity groups and proceeded to the sketch phase (the third Google DS Methodology phase) where participants created “pitch posters” (see example in the facilitation deck linked at the end resources). During these break-out sessions people worked in pairs to design interaction flows and user experiences in as high or low fidelity as they were comfortable working with, and returned to the group to present to everyone.
 
-<a href="https://docs.google.com/presentation/d/1kfsdw_C8Q7y1gfofEOieIdfFpVFyH75647zTNNTvpYk/">
-  <img src="{{site.url}}/assets/uploads/virtual-sprint-figma-session-1.png" alt="Facilitation deck">
-</a>
+<figure>
+  <a href="https://commons.wikimedia.org/wiki/File:Facilitation_deck_for_Design_exercise_1_Growth_2019_Virtual_Offsite.pdf">
+    <img src="{{site.url}}/assets/uploads/virtual-sprint-figma-session-1.png" alt="Facilitation deck">
+  </a>
+  <figcaption>Screenshot from the Figma board used in Design Session One during the HMW exercise.</figcaption>
+</figure>
 
 ### Session Two: Converging on key insights
 This was the “wrap-up” session where we reviewed the top ideas generated in the first session, and ended with a fun exercise to help each team member reflect on the different perspectives brought to the newcomer homepage’s upcoming feature work. From here, the intention was that each team member could better articulate and advocate for priorities from their preferred position, and help drive the product direction.
 
 We needed a collaborative decision-making activity that wasn’t purely democractic, but was still open, transparent, and hopefully fun. I invented the “Marry, Move, Kill” activity in which each person would describe their dream newcomer homepage based on the existing homepage as well as sections that had been voted on the previous day. From these candidates, each team member must “marry” sections to their home page, “move” others, and “kill” at least one.
 
-<a href="https://www.figma.com/file/atUa8TCT65bu1tMBx1Q571/Growth-Design-Fall-2019-Offsite-%E2%80%93%C2%A0Design-Session-2?node-id=216%3A13">
-  <img src="{{site.url}}/assets/uploads/virtual-sprint-figma-session-2.png" alt="Template page on Figma for Marry, Move, Kill activity">
-</a>
+<figure>
+  <a href="https://www.figma.com/file/atUa8TCT65bu1tMBx1Q571/Growth-Design-Fall-2019-Offsite-%E2%80%93%C2%A0Design-Session-2?node-id=216%3A13">
+    <img src="{{site.url}}/assets/uploads/virtual-sprint-figma-session-2.png" alt="Template page on Figma for Marry, Move, Kill activity">
+  </a>
+  <figcaption>Screenshot from the Figma board used in Design Session Two during the Marry, Move, Kill exercise.</figcaption>
+</figure>
 
 ### Documenting the outcomes post-sprint
 One benefit of the virtual sprint is that format lends itself for easier documenting.  In the case of many conference call apps, you can literally record the sessions. Whilst we didn’t do so for the design sessions this time around, there were a few key outcomes documented in the various notes and artefacts:

@@ -8,6 +8,12 @@ hr {
   height: 2px;
 }
 
+figcaption {
+  font-size: 1.2rem;
+  margin: 1.2rem 0 3.2rem;
+  text-align: center;
+}
+
 .post--card .post__title {
   margin-top: 1.6rem;
   font-size: 3.2rem;
