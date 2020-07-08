@@ -38,7 +38,7 @@ Perhaps the oft-quoted saying that “[I would have written a shorter letter, bu
 Also essential to planning was determining the focus of the design sprint activity, and then tailoring (and paring down) only the most relevant activities to achieve that goal. Taking cues from a few other blog posts about [one](https://medium.com/@designsprintstudio/the-one-hour-brain-sprint-409fc5417e10), [two](https://blog.prototypr.io/the-2-hour-design-sprint-9e2bbc14ee1) and [four hour](https://ux.shopify.com/the-4-hour-design-sprint-b05b516cede7) design sprints, I decided in session #1 to use some parts of the [Google Ventures design sprint](https://designsprintkit.withgoogle.com/methodology/overview) method, with the question of “How might we create an integrated newcomer homepage” as the overarching prompt.
 
 <figure>
-  <img src="http://localhost:4000/assets/uploads/virtual-sprint-slides.png" alt="Virtual sprint slides">
+  <img src="{{site.url}}/assets/uploads/virtual-sprint-slides.png" alt="Virtual sprint slides">
   <figcaption>Slides used to introduce the design sprint activity.</figcaption>
 </figure>
 
