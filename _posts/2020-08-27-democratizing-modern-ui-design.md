@@ -11,7 +11,7 @@ _By [David A. M. Goldberg](https://www.linkedin.com/in/david-a-m-goldberg-900961
 The Wikimedia Foundation [WMF] has established the ambitious vision of making the sum of the world's knowledge accessible to all the world's people, by 2030. This vision necessitates a focus on scale: how to scale up content production, globally, and how to scale up access to this content in emerging contexts. Behind this need to scale is a critical design challenge: how to ensure a useful, usable and consistent reading experience while enabling rapid growth. To meet this challenge, WMF's small but mighty Product Design team has developed a set of best practices and guidelines for product development across all of the Wikimedia Projects. This Design Style Guide, the first of its kind since the founding of Wikipedia in 2001, is both a means of maintaining consistency while scaling, and also a key contribution that product design is uniquely positioned to make –  in the Free Knowledge Movement, and across Wikimedia projects.
 
 <figure>
-  <img src="{{site.url}}/assets/uploads/consistency.png" alt="Screenshot of Wikipedia mobile in different writing systems">
+  <img src="{{ "/assets/uploads/consistency.png" | relative_url }}" alt="Screenshot of Wikipedia mobile in different writing systems">
   <figcaption>The Wikipedia experience adapts to different contexts such as different mobile platforms and languages, while keeping the experience consistent. In the example, Android, web and iOS experiences are shown on top and part of the icon system at the bottom.</figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ The scope and reach of the Design Team’s web UX conventions puts the Foundatio
 I asked Pau Giner, one of the Design Team’s leads, how they negotiated a balance between the technical rigors of modern UX design, its pleasure principles (design is, after all, about a goodness), and inviting the participation of communities who do not take the first two actors for granted. This would include people who are new to working with Wikimedia projects, and designers who have never seen their expertise and insights play a part in pursuing the Foundation’s mission. One cannot design a comprehensive design standard by consensus, via self-organized volunteerism, or in direct response to every individual need. He provided an urban metaphor, contrasting the smaller winding streets of older cities like Barcelona (the utopian), with the regular and presumably more practical grids of Chicago or New York. I believe that part of Giner’s intent was to give a sense of what it would be like to introduce necessarily binding rules into a system that had developed in a largely organic fashion, but his metaphor goes further.
 
 <figure>
-  <img src="{{site.url}}/assets/uploads/paper-ink.png" alt="Ink and the Wikipedia wordmark on a paper">
+  <img src="{{ "/assets/uploads/paper-ink.png" | relative_url }}" alt="Ink and the Wikipedia wordmark on a paper">
   <figcaption>Inspiration for the visual direction of the style guide came from traditional elements to capture knowledge such as paper and ink.</figcaption>
 </figure>
 

@@ -38,7 +38,7 @@ Perhaps the oft-quoted saying that “[I would have written a shorter letter, bu
 Also essential to planning was determining the focus of the design sprint activity, and then tailoring (and paring down) only the most relevant activities to achieve that goal. Taking cues from a few other blog posts about [one](https://medium.com/@designsprintstudio/the-one-hour-brain-sprint-409fc5417e10), [two](https://blog.prototypr.io/the-2-hour-design-sprint-9e2bbc14ee1) and [four hour](https://ux.shopify.com/the-4-hour-design-sprint-b05b516cede7) design sprints, I decided in session #1 to use some parts of the [Google Ventures design sprint](https://designsprintkit.withgoogle.com/methodology/overview) method, with the question of “How might we create an integrated newcomer homepage” as the overarching prompt.
 
 <figure>
-  <img src="{{site.url}}/assets/uploads/virtual-sprint-slides.png" alt="Virtual sprint slides">
+  <img src="{{ "/assets/uploads/virtual-sprint-slides.png" | relative_url }}" alt="Virtual sprint slides">
   <figcaption>Slides used to introduce the design sprint activity.</figcaption>
 </figure>
 
@@ -54,7 +54,7 @@ We voted for the top five ideas from the affinity groups and proceeded to the sk
 
 <figure>
   <a href="https://commons.wikimedia.org/wiki/File:Facilitation_deck_for_Design_exercise_1_Growth_2019_Virtual_Offsite.pdf">
-    <img src="{{site.url}}/assets/uploads/virtual-sprint-figma-session-1.png" alt="Facilitation deck">
+    <img src="{{ "/assets/uploads/virtual-sprint-figma-session-1.png" | relative_url }}" alt="Facilitation deck">
   </a>
   <figcaption>Screenshot from the Figma board used in Design Session One during the HMW exercise.</figcaption>
 </figure>
@@ -66,7 +66,7 @@ We needed a collaborative decision-making activity that wasn’t purely democrac
 
 <figure>
   <a href="https://www.figma.com/file/atUa8TCT65bu1tMBx1Q571/Growth-Design-Fall-2019-Offsite-%E2%80%93%C2%A0Design-Session-2?node-id=216%3A13">
-    <img src="{{site.url}}/assets/uploads/virtual-sprint-figma-session-2.png" alt="Template page on Figma for Marry, Move, Kill activity">
+    <img src="{{ "/assets/uploads/virtual-sprint-figma-session-2.png" | relative_url }}" alt="Template page on Figma for Marry, Move, Kill activity">
   </a>
   <figcaption>Screenshot from the Figma board used in Design Session Two during the Marry, Move, Kill exercise.</figcaption>
 </figure>

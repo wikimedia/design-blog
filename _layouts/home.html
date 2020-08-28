@@ -11,7 +11,7 @@ layout: default
       <article class="post post--card">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <a class="post__link" href="{{ post.url | relative_url }}">
-          <img src="{{site.url}}{{ post.image }}" alt="{{ post.title }}">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
         </a>
         <h1 class="post__title">
           <a class="post__link" href="{{ post.url | relative_url }}">
