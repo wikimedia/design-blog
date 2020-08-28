@@ -27,6 +27,7 @@ github_username: wikimedia
 
 # Build settings
 theme: minima
+timezone: UTC
 plugins:
   - jekyll-feed
 
