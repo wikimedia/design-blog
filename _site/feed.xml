@@ -1,4 +1,125 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2020-08-28T16:54:32+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Democratizing Modern UI Design From The Bottom Up</title><link href="https://design.wikimedia.org/blog/2020/08/26/democratizing-modern-ui-design.html" rel="alternate" type="text/html" title="Democratizing Modern UI Design From The Bottom Up" /><published>2020-08-26T17:26:32+00:00</published><updated>2020-08-26T17:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2020/08/26/democratizing-modern-ui-design</id><content type="html" xml:base="https://design.wikimedia.org/blog/2020/08/26/democratizing-modern-ui-design.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://www.linkedin.com/in/david-a-m-goldberg-900961b2/&quot;&gt;David A. M. Goldberg&lt;/a&gt; with &lt;a href=&quot;https://pauginer.com/&quot;&gt;Pau Giner&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2020-10-15T07:56:39+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Organizing a remote offsite for a global team</title><link href="https://design.wikimedia.org/blog/2020/10/15/organizing-remote-offsite-global-team.html" rel="alternate" type="text/html" title="Organizing a remote offsite for a global team" /><published>2020-10-15T07:26:32+00:00</published><updated>2020-10-15T07:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2020/10/15/organizing-remote-offsite-global-team</id><content type="html" xml:base="https://design.wikimedia.org/blog/2020/10/15/organizing-remote-offsite-global-team.html">&lt;p&gt;&lt;em&gt;By Lucy Blackwell&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I started working at the Wikimedia Foundation as a Senior Design Manager in March of this year, just after the lockdown began in London, UK where I’m based. Whilst this design team has always been a fully remote team, they annually get together in person for a few days somewhere in the world for a team offsite, but this year, all travel was cancelled! This blog post will share a bit about how I set up a remote offsite for the team and what I learnt in the process.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-defining-the-goals&quot;&gt;1. Defining the goals&lt;/h2&gt;
+&lt;p&gt;It was a difficult time to organise an event with the coronavirus adding a new layer of stress to peoples lives. I realised we were going to have think carefully about what we wanted to achieve with this offsite, and what capacity people were likely to have to contribute.&lt;/p&gt;
+
+&lt;h3 id=&quot;gathering-information&quot;&gt;Gathering information&lt;/h3&gt;
+&lt;p&gt;I began like any designer, researching and reading everything I could find about how others had run remote off sites previously, and then started discussions on the topic with the other members of our design leadership group. Our director, Margeigh Novotny, suggested the theme of ‘cooperation’ and how we work together, which we all felt was very appropriate. We also agreed that it should have a light-hearted and fun tone, as a lot of the year so far had been quite difficult for many people.&lt;/p&gt;
+
+&lt;p&gt;I was also keen to understand what the team wanted to get out of the offsite, so I created a survey to gather their opinions including questions like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What’s the single most important thing you personally want to achieve by attending the team offsite?&lt;/li&gt;
+  &lt;li&gt;What inspires you most about how our team works together?&lt;/li&gt;
+  &lt;li&gt;What do you think could be improved in how our team works together?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;communicating-goals&quot;&gt;Communicating goals&lt;/h3&gt;
+
+&lt;p&gt;After collating all the responses, some pretty clear topics emerged – team bonding, learning from each other, small group collaboration and fun. There were a few other topics from one or two individuals which we decided not to do this time. I presented the survey results back to the team in our team meeting (about a month before the actual offsite) and explained the decisions we’d made for what to include and what to leave out.&lt;/p&gt;
+
+&lt;p&gt;By defining our goals early on, this helped set the expectations for the team, and created a blueprint for me to build the agenda and activities upon.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-planning-logistics-and-tools&quot;&gt;2. Planning, logistics and tools&lt;/h2&gt;
+
+&lt;p&gt;Our design and research team is truly global, with a total of 17 designers and researchers located all over the world from Bangalore to San Francisco.  We span a 12 hour time difference, so when it’s 8am in San Francisco, its 8pm in Bangalore. This requires some careful planning to make things run smoothly if we all want to connect at the same time.&lt;/p&gt;
+
+&lt;h3 id=&quot;scheduling&quot;&gt;Scheduling&lt;/h3&gt;
+&lt;p&gt;As a group we use google calendar to schedule our meetings which displays events in the right time zone for each individual, and allows users to define their working hours so we can identify the overlaps which is very important for remote teams. However, sometimes folks haven’t got around to putting in holidays they’re planning in the future, so I decided to use a tool called &lt;a href=&quot;https://doodle.com/en/&quot;&gt;doodle poll&lt;/a&gt; to determine what dates everyone was free and lock down the week for the offsite.&lt;/p&gt;
+
+&lt;h3 id=&quot;screen-time&quot;&gt;Screen time&lt;/h3&gt;
+&lt;p&gt;With the dates agreed upon, I needed to work out which activities would require all 17 team members together on a screen, versus which ones would be more effective in smaller groups, pairs, or even alone. I learnt some great tips from Jasmin Tanner in &lt;a href=&quot;https://jazmintanner.com/blog/2020/5/15/a-wikimedia-foundation-product-team-had-productive-virtual-strategy-sessions-and-meaningful-team-bonding-in-a-remote-environment-across-various-time-zones&quot;&gt;this article&lt;/a&gt; where she talked about limiting the amount of time on screen with others to just 4 hours a day, broken into sessions of 2 hours maximum at a time.  I realized that I needed to be more aware of the cognitive load during screen time to be sure people didn’t disengage. This is quite different to the physical off sites I’ve run previously, where I often included a walk or a physical activity to break up the sessions throughout the day.&lt;/p&gt;
+
+&lt;p&gt;So, we decided we would connect as a whole team for one 2 hour session every day, we chose the only reasonable time slot we could find, which was 8am - 10am in SF, which made it 8pm - 10pm in India.   In addition to these all team sessions, I then arranged some smaller break out sessions between individuals and people located in similar time zones.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/offsite-schedule.png&quot; alt=&quot;Screenshot of Wikipedia mobile in different writing systems&quot; /&gt;
+  &lt;figcaption&gt;Schedule for the offsite activities day by day&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;tools&quot;&gt;Tools&lt;/h3&gt;
+&lt;p&gt;As I started to gather ideas, I realised there were a number of activities that needed to happen before the group sessions, so I was going to need somewhere to provide instructions for what everyone needed to do, by when, and with whom.  I decided to use &lt;a href=&quot;http://www.notion.io/&quot;&gt;Notion&lt;/a&gt;, which is a lovely user-friendly in-browser tool for creating and sharing content that the team had been starting to experiment with. I prepared instructions for each day in Notion and then shared each page with the team the day before.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/offsite-notion.png&quot; alt=&quot;Screenshot of Wikipedia mobile in different writing systems&quot; /&gt;
+  &lt;figcaption&gt;Screenshot of prep page in Notion&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The team are already very active &lt;a href=&quot;http://www.slack.com/&quot;&gt;slack&lt;/a&gt; users so I created a special channel in Slack for all our offsite banter and chatting.  For some of the activities I also created some collaborative boards in &lt;a href=&quot;http://www.miro.com/&quot;&gt;Miro&lt;/a&gt; which is an online whiteboard used primarily for visual collaboration.&lt;/p&gt;
+
+&lt;h3 id=&quot;collaborators&quot;&gt;Collaborators&lt;/h3&gt;
+&lt;p&gt;It’s always useful to seek help from within the team when running an event as it brings a fresh perspective to the planning, lightens the load on the organizer and also engages some of the team in the process.  For this offsite, our research manager, Ana Chang and I brainstormed all the plans together, then she took over the activities for the last day with a couple of other designers, Carolyn Li-Madeo and Jess Klein.&lt;/p&gt;
+
+&lt;p&gt;Upon hearing that the theme of the offsite was ‘cooperation’, Bethany Gerdemann in the research team offered to share her facilitation skills, as it turned out she is a qualified Coop developer and has lots of experience helping groups establish workplace democracy.  We discussed the best way to weave her contribution into the event. In the end she made a great presentation and video for us all to watch about cooperation, which was very well received by the rest of the team.&lt;/p&gt;
+
+&lt;p&gt;Lots of people didn’t have much time with busy day jobs in their product teams and I think for many it felt challenging enough just to clear their calendar for 3 days to attend the event.  But a couple of the designers offered to organize an icebreaker, which is a short 10 minute warm up session which normally happens at the start of a meeting. These were really effective and didn’t take too much prep.&lt;/p&gt;
+
+&lt;p&gt;As the organizer, I was responsible for the bulk of the prep work, but I felt part of my role was to bring as many people into the process as I could, so it would really feel like a team effort, after all the offsite was for all of us.&lt;/p&gt;
+
+&lt;h3 id=&quot;swag&quot;&gt;Swag&lt;/h3&gt;
+&lt;p&gt;Like at every great event, everyone enjoys a little swag, and fabulously our team director, Margeigh Novotny, had already made some really awesome pins for everybody and ordered a small hardback book titled ‘&lt;a href=&quot;https://mitpress.mit.edu/books/why-we-cooperate&quot;&gt;Why We Cooperate&lt;/a&gt;’  by Michael Tomasello, so we got these sent off to everyone in advance. It’s a bit like sending out the VIP passes before the festival, it creates a little excitement and anticipation for the event and makes people feel special!&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/offsite-swag.jpg&quot; alt=&quot;Screenshot of Wikipedia mobile in different writing systems&quot; /&gt;
+  &lt;figcaption&gt;Wikimedia swag: 'The last best place on the internet' pins&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;2-team-building-activities&quot;&gt;2. Team building activities&lt;/h2&gt;
+
+&lt;p&gt;We needed to think of activities that could be done anywhere in the world, keeping in mind that some people were in lockdown and unable to leave their homes. We started by breaking the overarching themes into sub-themes for each day:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Day 1:&lt;/strong&gt; Individuals - learn about our teammates and their personality traits&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Day 2:&lt;/strong&gt; Groups - explore ways to work together in small groups and learn facilitation techniques&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Day 3:&lt;/strong&gt; Diversity - develop an appreciation for the diverse backgrounds in the team&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We did all sorts of different activities including a series of games around our personality profiles and making a set of guidelines for collaboration following a small group activity. Here’s a bit more detail about just a few of the activities that went pretty well…&lt;/p&gt;
+
+&lt;h3 id=&quot;ice-breakers&quot;&gt;Ice Breakers&lt;/h3&gt;
+&lt;p&gt;Ice breakers are short warm up activities to get everyone in the spirit of interacting together. Carolyn Li-Madeo ran a super fun activity which some may know as ‘A big wind blows’.  It went as follows…. we were all on the call with our cameras on, Carolyn asked us all to turn our cameras off, whilst she kept hers on.  She then said ‘Who had avocado for lunch?’ and anyone who did have avocado for lunch had to turn their camera back on. The last person to turn their camera on, who had had avocado is now ‘it’ and the process starts again….  So again each round started with everyone turning their camera off except the person whose turn it was…. they then asked a new question like… ‘Do you wear glasses?’  and the game continued… People really loved this activity as it allowed us to see how similar and different we all are, it was very interactive without any effort, and many people said they could have kept playing it for ages!&lt;/p&gt;
+
+&lt;h3 id=&quot;diy-user-manuals&quot;&gt;DIY User Manuals&lt;/h3&gt;
+&lt;p&gt;I’ve read that lots of teams have had success getting to know each other better by writing their own personal user manuals and sharing them with each other. In case you’re not familiar with the term, basically a user manual explains things like how you like to communicate best, if you’re a morning person, how you manage challenges etc.&lt;/p&gt;
+
+&lt;p&gt;As I searched through different options, it occurred to me that many of the examples I’d found felt a bit heavy and serious and we had agreed to keep things light, so in a highly unscientific manner, I decided to create my own list of 10 questions. I pulled from all sorts of different sources like a game from &lt;a href=&quot;https://www.theschooloflife.com/shop/100-questions-work-edition/&quot;&gt;School of Life&lt;/a&gt; where they ask the question ‘Which of your talents is the world in danger of overlooking?’, and a question from my favourite radio BBC show &lt;a href=&quot;https://www.bbc.co.uk/programmes/b006qnmr&quot;&gt;Desert Island Discs&lt;/a&gt;,  which asks ‘If you were going to be cast away to a mythical desert island and could only take one thing with you, what would you take and why?’  I even remembered an application form I’d filled out the year before in order to attend the &lt;a href=&quot;https://thedolectures.com/&quot;&gt;Do Lectures&lt;/a&gt; in Wales, where they’d asked me ‘If you had a life motto, what would it be?’&lt;/p&gt;
+
+&lt;p&gt;I shared the list of 10 questions with the team and asked everyone to fill them in on their own. Then I paired each person up with another person in the team who they said they’d spent less time with, and  encouraged them to spend an hour sharing their user manuals with each other and diving deeper into their answers.&lt;/p&gt;
+
+&lt;p&gt;In our collaborative all team session each person had to describe the person they’d chatted with, to the whole group. There were some amazing facts and stories revealed which allowed us all to gather some new perspectives on our team mates, such as the fact that one person said the living thing they feel most similar to is ‘slime mold’ - that same person also said that their ‘secret talent that the world might overlook’ was that they were an awesome parallel parker!&lt;/p&gt;
+
+&lt;h3 id=&quot;photo-walks&quot;&gt;Photo Walks&lt;/h3&gt;
+&lt;p&gt;For the last day some of the other folks in the team came up with the idea of asking everyone to take a walk around their neighbourhood to take photos. They wanted to encourage people to pause and really look at their physical environment objectively as a designer. The team were asked to take photos of; things that inspired them, things that they thought were good or poor design, and examples of inclusive or exclusive design. (If folks couldn’t leave their homes due to a lockdown, we suggested they found inspiration inside their home instead, or even using photos they’d taken before, or found relevant images online.)&lt;/p&gt;
+
+&lt;p&gt;We then asked everyone to upload their photos to a shared collaborative Miro board, adding their initials and any notes they wanted to add about the images. Later that day, in our full team group session we took turns sharing some of the stories behind the images we’d taken with each other.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/offsite-board.png&quot; alt=&quot;Screenshot of Wikipedia mobile in different writing systems&quot; /&gt;
+  &lt;figcaption&gt;Screenshot of our miro board from our photo walks.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;As a fully remote team we usually only see each other on Google meet and have no idea about the context our colleagues live in that inspire and inform their lives. This exercise really helped build an appreciation of the diverse environments and perspectives within our group, from Indian streets to European towns, to the American countryside, each image full of cultural nuance with its own unique story to tell.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-reflection-and-learnings&quot;&gt;4. Reflection and learnings&lt;/h2&gt;
+
+&lt;p&gt;Overall the offsite was a great success, we had a good time and got to know each other better and achieved many of the goals we’d set out to do. But there’s always more to learn, so here’s a few of my reflections after the event…&lt;/p&gt;
+
+&lt;h3 id=&quot;time-keeping&quot;&gt;Time keeping&lt;/h3&gt;
+&lt;p&gt;Effectively running a series of sessions requires quite a bit of preparation, not least a clear minute-by-minute plan of how long everything should take, especially when many folks in the team are working unusual hours already in order to attend the session. One of the key roles of the facilitator is to keep everything on track time-wise.&lt;/p&gt;
+
+&lt;p&gt;On the first day, I had planned a series of activities and games based upon the &lt;a href=&quot;http://www.16personalities.com/&quot;&gt;personality type profiles&lt;/a&gt; we’d identified for ourselves before that session. However, each activity had taken longer than I’d expected, so this meant the whole session ran over by about 20 minutes.  About a third of the group had to leave promptly at the agreed end time and it meant a few folks didn’t get to share back their user manuals with the team.  The beauty of being online was that we could easily record the remaining part of the session, so those who had to leave could watch it later, but it meant they had more to do to catchup and be ready for the next day.  The following day I did manage to keep the group session to time, but learning how to nail this every time is something I will be focusing on in the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-anti-climax&quot;&gt;The anti-climax&lt;/h3&gt;
+&lt;p&gt;At the end of our offsite I felt exhausted and a bit deflated, I found this to be a rather strange reaction, given that I thought things had generally gone fairly well. But it occurred to me as I cycled home that night on my own, that it was kind of sad not to be able to go and have a drink or a cup of tea with some folks from the team that evening, or even over lunch the next day. I wanted to hear their banter about the event, to know what they thought!  This is also contrary to my previous experiences, as in my last role I’d never been overly keen on the after work get togethers and usually would have to skip them anyway due to childcare responsibilities, but suddenly not having this option made me feel a bit empty. So how might we celebrate and wrap projects better in a remote world, without spending the evening on a screen again?  I think I will be exploring this question on the next remote offsite, but do let me know if you have any ideas…&lt;/p&gt;
+
+&lt;h3 id=&quot;feedback-survey&quot;&gt;Feedback survey&lt;/h3&gt;
+&lt;p&gt;In spite of there being no wrap party to speak of, I did ask the team to fill in a short survey after the offsite to reflect upon what they’d learnt.&lt;/p&gt;
+
+&lt;p&gt;One of the more positive results was that the team unanimously gave top marks for ‘having fun’. Before I began planning the event, I had not been totally sure if this was possible online, besides you can’t really tell people to ‘Have fun!’, you can only create an environment for it to happen and hope it does. It turns out the fact it was online really made no difference to this. I also think agreeing this as an objective early on helped us collectively create an experience that we all enjoyed.&lt;/p&gt;
+
+&lt;p&gt;Perhaps the loveliest piece of feedback that came from multiple people in the survey, was that they really enjoyed the one-on-one sessions they’d had in the offsite with people in the team that they don’t normally work with. This is of course the easiest thing to organise of everything. It is so often the simplest things in life that take us the farthest. Perhaps the simple act of finding time to get to know our teammates, and making this a pattern in our busy routines, might be the thing that really helps us bond as a team overtime.&lt;/p&gt;</content><author><name></name></author><summary type="html">Whilst this design team has always been a fully remote team, they annually get together in person for a few days somewhere in the world for a team offsite, but this year, all travel was cancelled!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/offsite-design-web.jpg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/offsite-design-web.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Democratizing Modern UI Design From The Bottom Up</title><link href="https://design.wikimedia.org/blog/2020/08/26/democratizing-modern-ui-design.html" rel="alternate" type="text/html" title="Democratizing Modern UI Design From The Bottom Up" /><published>2020-08-26T17:26:32+00:00</published><updated>2020-08-26T17:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2020/08/26/democratizing-modern-ui-design</id><content type="html" xml:base="https://design.wikimedia.org/blog/2020/08/26/democratizing-modern-ui-design.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://www.linkedin.com/in/david-a-m-goldberg-900961b2/&quot;&gt;David A. M. Goldberg&lt;/a&gt; with &lt;a href=&quot;https://pauginer.com/&quot;&gt;Pau Giner&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The Wikimedia Foundation [WMF] has established the ambitious vision of making the sum of the world’s knowledge accessible to all the world’s people, by 2030. This vision necessitates a focus on scale: how to scale up content production, globally, and how to scale up access to this content in emerging contexts. Behind this need to scale is a critical design challenge: how to ensure a useful, usable and consistent reading experience while enabling rapid growth. To meet this challenge, WMF’s small but mighty Product Design team has developed a set of best practices and guidelines for product development across all of the Wikimedia Projects. This Design Style Guide, the first of its kind since the founding of Wikipedia in 2001, is both a means of maintaining consistency while scaling, and also a key contribution that product design is uniquely positioned to make –  in the Free Knowledge Movement, and across Wikimedia projects.&lt;/p&gt;
 
