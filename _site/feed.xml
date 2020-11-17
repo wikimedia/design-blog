@@ -1,4 +1,131 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2020-10-30T11:38:50+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Organizing a remote offsite for a global team</title><link href="https://design.wikimedia.org/blog/2020/10/15/organizing-remote-offsite-global-team.html" rel="alternate" type="text/html" title="Organizing a remote offsite for a global team" /><published>2020-10-15T07:26:32+00:00</published><updated>2020-10-15T07:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2020/10/15/organizing-remote-offsite-global-team</id><content type="html" xml:base="https://design.wikimedia.org/blog/2020/10/15/organizing-remote-offsite-global-team.html">&lt;p&gt;&lt;em&gt;By Lucy Blackwell&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2020-11-17T04:59:57+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Transparency by Design</title><link href="https://design.wikimedia.org/blog/2020/11/16/transparency-by-design.html" rel="alternate" type="text/html" title="Transparency by Design" /><published>2020-11-16T07:26:32+00:00</published><updated>2020-11-16T07:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2020/11/16/transparency-by-design</id><content type="html" xml:base="https://design.wikimedia.org/blog/2020/11/16/transparency-by-design.html">&lt;p&gt;&lt;em&gt;By Alex Hollender&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Today when reading a Wikipedia article on your phone you might see a notice at the top:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/tbd-transparency-by-design.jpeg&quot; alt=&quot;Screenshot of Wikipedia notices on mobile&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You might be more familiar with how they look on a computer:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/tbd-arizona-state-university.jpeg&quot; alt=&quot;Screenshot of Wikipedia notices on desktop&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We call these notices &lt;em&gt;page issues&lt;/em&gt;, and 2018 we made them more visible on the mobile website. This blog post is about page issues: what they are, how they increase transparency, and our design process around increasing their visibility on mobile.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;What are page issues?&lt;/strong&gt; — Page issues let you know that there are unresolved issues with the article you’re reading. These issues range from the article not having sufficient citations, to the article not being neutral in its viewpoints, to the article having spelling and grammar mistakes. They usually do a good job of summarizing the issue, and then invite you to help fix it.&lt;/p&gt;
+
+&lt;figure class=&quot;alignwide&quot;&gt;
+  &lt;img src=&quot;/blog/assets/uploads/tbd-four-notices.jpeg&quot; alt=&quot;Screenshot of four different notices&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Page issues are manually added to articles by Wikipedia editors, and on English Wikipedia there are around 340 different kinds.&lt;/p&gt;
+
+&lt;p&gt;Page issues are inherently revealing. They are perhaps uncommonly honest. And they seem so unmistakably Wikipedian; I can’t quite imagine Facebook or Airbnb putting up such a notice — &lt;em&gt;this isn’t quite right, help us fix it&lt;/em&gt; — on one of their pages. So before proceeding to some of the specifics about how we increased their visibility on mobile I want to think aloud about some general questions.&lt;/p&gt;
+
+&lt;p&gt;Imagine you’re trying to establish a website as a trustworthy source of information, why would you tell your audience that a certain page is sub-par, or lacking in some way? Could this bit of transparency actually help build trust with them? Maybe it shows them that you’re more interested in finding the knowledge together than you are as being perceived as already having the knowledge on your own. At the same time imagine you’re trying to facilitate collaboration between a huge number of volunteer encyclopedia editors. Might it be helpful if they could leave little notes and clues for each other on articles, helping direct attention and effort? Is there some bigger purpose page issues serve, beyond just giving people a heads up? Or in other words, are page issues symbolic of some larger truth or value within the Wikipedia community?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Trust through transparency&lt;/strong&gt; — In 2007 David Weinberger gave a talk about his book “&lt;a href=&quot;https://www.youtube.com/watch?v=WHeta_YZ0oE&amp;amp;feature=youtu.be&amp;amp;t=2695&quot;&gt;Everything is Miscellaneous&lt;/a&gt;” at Google. Forty-five minutes in he comments on page issues on Wikipedia:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;iframe src=&quot;https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FWHeta_YZ0oE%3Fstart%3D2695%26feature%3Doembed%26start%3D2695&amp;amp;display_name=YouTube&amp;amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWHeta_YZ0oE&amp;amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FWHeta_YZ0oE%2Fhqdefault.jpg&amp;amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;amp;type=text%2Fhtml&amp;amp;schema=youtube&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;480&quot; width=&quot;720&quot; title=&quot;Everything is Miscellaneous&quot; class=&quot;ev hy ew hz w&quot; scrolling=&quot;auto&quot;&gt;&lt;/iframe&gt;
+  &lt;figcaption&gt;“&lt;a href=&quot;https://www.youtube.com/watch?v=WHeta_YZ0oE&amp;amp;feature=youtu.be&amp;amp;t=2695&quot;&gt;Everything is Miscellaneous&lt;/a&gt;” David Weinberger, 2007&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;blockquote&gt;“Wikipedia is very happy to have these notices stuck in…they encourage you to put up these notices saying this article isn’t good enough, don’t fully believe this article. And because of that we know that Wikipedia is on our side. [Wikipedia] becomes more credible because they’re willing to admit their lack of credibility, their lack of authority. It’s not trying to convince us that it’s the world’s greatest authority, it’s trying to help us know.”&lt;/blockquote&gt;
+
+&lt;p&gt;His observation rang true to me. To reiterate and expand: because Wikipedia is more interested in having correct information than it is in being perceived as authoritative, it is able to be transparent about issues and shortcomings. Wikipedia is happy to show its hand, happy to let you know when something might be wrong, because it empowers you as a reader to be alert and discerning. This transparency also reminds readers that every Wikipedia page is a work in progress, and hopefully encourages them to get involved (which is where collaboration comes in).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Participation through (intimate?) transparency&lt;/strong&gt; — Imagine that you walked into a coffee shop, sat down at a table, and on the table there was a note saying: &lt;em&gt;Hello, we’re not entirely sure if this table works well here. How does it feel to you? Do you have enough space/privacy from the next table over? Do you think it’s annoying when people slide by to get to the bathroom? Please feel free to let us know your thoughts, or move the table elsewhere. This experiment will end next week.&lt;/em&gt; What would you think or do? How would that information and invitation change your relationship to that coffee shop?&lt;/p&gt;
+
+&lt;p&gt;I’m thinking of this note as a display of transparency. The coffee shop is being transparent about what it knows (or doesn’t know), and how it makes decisions. But the note is different from publishing an annual report, or some other kind of formal transparency statement. Instead it’s intimate, direct, and timely.&lt;/p&gt;
+
+&lt;p&gt;From what I’ve seen during my time as a Wikipedia community member, this kind of transparency, often in the form of handwritten signs (so to speak), guiding people’s attention towards what’s going on, what needs additional work, is a fundamental aspect of how and why people choose to participate. This transparency seems to inspire a spirit of independent participation. Which is to say that you’re empowered to fix things on your own, while also being supported by others if you need help. So I wonder if page issues function in this way; showing newcomers where help is needed and inviting them to jump in? They also seem to help experienced editors stay organized and direct energy appropriately. And in their humble, handwritten way maybe they reinforce the spirit of intimacy that is so necessary for a community-run project. Again these are questions, hopes, guesses; not a proven understanding of what’s happening. Now onto the more concrete stuff.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Increasing the visibility of page issues on mobile&lt;/strong&gt; — Wikipedia community participation isn’t limited to writing and editing Wikipedia articles. The community is also involved with the planning, design, and development of Wikipedia as a website/piece of software. Just as anyone can edit, anyone can also voice their opinion about the functionality or look of the website and propose improvements, which is how page issues on mobile came to be prioritized.&lt;/p&gt;
+
+&lt;p&gt;In September, 2016 Wikipedian McGeddon posted on Village Pump (a Wikipedia discussion board):&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/tbd-mobile-page-issues.jpeg&quot; alt=&quot;Screenshot of page issues on mobile&quot; /&gt;
+  &lt;figcaption&gt;(left) McGeddon’s post, (right) how page issues looked on mobile in 2016&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;blockquote&gt;“If an article is up for [deletion] and flagged as a possible hoax with insufficient medical sourcing, any reader visiting that article on a computer is greeted by three large red and orange boxes at the top of the page, one with a cautionary stop sign… If a reader instead visits the same hoax medical article on their phone… they just get two tiny grey words “Page issues” under the article title…”&lt;/blockquote&gt;
+
+&lt;p&gt;And while the fix wasn’t made until 2018, all in all it was a great demonstration of Wikipedia at its best — a community member voiced their question/opinion, a discussion began, and eventually an improvement to the site was made.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Design challenge&lt;/strong&gt; — A page issue is like the note on the coffee table. They come in all shapes and sizes. They are not particularly standardized. Look at some of them, how much personality they have:&lt;/p&gt;
+
+&lt;figure class=&quot;alignwide&quot;&gt;
+  &lt;img src=&quot;/blog/assets/uploads/tbd-notices.jpeg&quot; alt=&quot;Collage of different types of notices&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Our goal seemed relatively straightforward: show these page issues to people reading Wikipedia on their phones to make them aware of any known issues with the article they were reading. However if you try the straightforward thing, and just show them on the mobile website, you get this:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/tbd-language-notices.jpeg&quot; alt=&quot;Notices in different languages&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;They don’t just automatically get smaller and look good on the mobile website. And to make matters worse, articles that have one issue often have others, so you get these boxes stacked on top of each other which pushes the article text way down the screen.&lt;/p&gt;
+
+&lt;p&gt;So how should they look on the mobile website? What’s the right balance between making them noticeable and them overwhelming the article? Keep in mind there aren’t just the 340 different page issues on English Wikipedia to test out, there are hundreds of others across various Wikipedia projects (e.g. French, Arabic, Thai, etc.). Some contain one image, some contain two or three. Many contain links to pages that also aren’t formatted to look good on a phone. We understood that we needed to come up with a systematic way of creating smaller, “mobile-friendly”, versions. To begin we identified that mostly all of them have: an icon/image, a text description, and a color. So it wasn’t too difficult to imagine the following:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/tbd-mobile-notices.jpeg&quot; alt=&quot;Notices on mobile&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This is the type of visual consistency we were hoping to achieve. Since page issues aren’t standardized from a code/template perspective the technical challenge to isolate the relevant pieces (image, description, color/severity) was significant, though I won’t be getting into that here. A few other questions naturally occurred as well (partly curiosity, partly things that we thought might inform our design process):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;What are all the different page issues that exist?&lt;/em&gt; There was no straightforward way to get this information. &lt;a href=&quot;https://people.wikimedia.org/~jdrewniak/page_issues_inventory/en.index.html&quot;&gt;This gallery&lt;/a&gt; shows page issues for some of the largest Wikipedias (thanks to Jan, an engineer on our team, who did this audit programmatically).&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Is there any structure or categorization to their level of importance?&lt;/em&gt; Thankfully yes, most page issues have a &lt;a href=&quot;https://en.wikipedia.org/wiki/Template:Ambox#type&quot;&gt;type&lt;/a&gt; parameter, which is a consistent way of programmatically knowing how severe a given issue is&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;How common are the different types of page issues? Are there a small few that show up a disproportionately large percentage of the time?&lt;/em&gt; There was no straightforward way to get this information.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+While we loved the personality of the custom icons/images many of them weren’t able to effectively communicate at a small size. We also hoped that using a simple visual system consistently across all page issues would make it easier for readers to quickly understand their importance. So we adopted the scale from English, using simplified versions of the icons:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/tbd-notice-types.jpeg&quot; alt=&quot;Screenshot of page issues on mobile&quot; /&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Template:Ambox#type&quot;&gt;https://en.wikipedia.org/wiki/Template:Ambox#type&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Our design criteria were also relatively simple: 1) people should see them (without them being distracting), 2) people should see the severe ones most easily, 3) the notices shouldn’t clash with other notices that appear at the top of the article.&lt;/p&gt;
+
+&lt;figure class=&quot;alignwide&quot;&gt;
+  &lt;img src=&quot;/blog/assets/uploads/tbd-notice-prominence.jpeg&quot; alt=&quot;Sketches showing different prominence of notices&quot; /&gt;
+  &lt;figcaption&gt;Initial sketches&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/tbd-other-notices.jpeg&quot; alt=&quot;Screenshot of page issues on mobile&quot; /&gt;
+  &lt;figcaption&gt;Other notices and elements that appear at the top of some articles&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We also questioned whether the placement on desktop — at the top of the article — was appropriate for mobile. We considered whether it might make sense to put important notices above the article, and less important ones perhaps below the first section. But we opted for simplicity here, and decided they should all just go in the same place.&lt;/p&gt;
+
+&lt;figure class=&quot;alignwide&quot;&gt;
+  &lt;img src=&quot;/blog/assets/uploads/tbd-notice-severity.jpeg&quot; alt=&quot;Position of notice according to severity&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;At that point we felt like our solution was good enough to start testing. The main thing we wanted to learn from our test was: do people notice the page issues, and interact with them, more than before? This was the goal for the project and was admittedly a pretty low bar (considering that previously they were very understated). We also wondered about the secondary effects of exposure to page issues. Would exposing page issues on mobile affect trust and/or participation in Wikipedia, even for people reading from their phones? Here is what we found:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On the main goal we succeeded: the new page issues were noticed and interacted with significantly more than the old ones. And furthermore, more severe issues are noticed and interacted with significantly more than less severe ones&lt;/li&gt;
+  &lt;li&gt;On the secondary goals the outcome was less clear: we saw no immediate increase in editing as a result of the updated treatment, and we didn’t end up measuring trust.&lt;/li&gt;
+  &lt;li&gt;You can view the &lt;a href=&quot;https://www.mediawiki.org/wiki/Reading/Web/Projects/Mobile_Page_Issues/AB_tests?useskinversion=2&quot;&gt;full report here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+And so we labor on, continually trying to bring transparency to every corner of our experience. The more people know about the information they are reading the better equipped they are to be discerning. We believe that transparency has value in and of itself, and this project was about furthering that value. We didn’t see an immediate increase in editing, but we also know that editing from a mobile is more difficult to begin with, and we are still continuing to learn about the different mentalities different people have when reading Wikipedia on their mobile device versus on a computer. In other words, we’re far from finished yet. But now people reading on their phones will see the notices, and over time more of them may be inspired to participate.&lt;/p&gt;
+
+&lt;p class=&quot;post__authors&quot;&gt;
+  Alex Hollender is a lead designer at the Wikimedia Foundation
+&lt;/p&gt;</content><author><name></name></author><summary type="html">How making page issues more visible on Wikipedia mobile helps foster trust and participation</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/tbd-notices.jpeg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/tbd-notices.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Organizing a remote offsite for a global team</title><link href="https://design.wikimedia.org/blog/2020/10/15/organizing-remote-offsite-global-team.html" rel="alternate" type="text/html" title="Organizing a remote offsite for a global team" /><published>2020-10-15T07:26:32+00:00</published><updated>2020-10-15T07:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2020/10/15/organizing-remote-offsite-global-team</id><content type="html" xml:base="https://design.wikimedia.org/blog/2020/10/15/organizing-remote-offsite-global-team.html">&lt;p&gt;&lt;em&gt;By Lucy Blackwell&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;I started working at the Wikimedia Foundation as a Senior Design Manager in March of this year, just after the lockdown began in London, UK where I’m based. Whilst this design team has always been a fully remote team, they annually get together in person for a few days somewhere in the world for a team offsite, but this year, all travel was cancelled! This blog post will share a bit about how I set up a remote offsite for the team and what I learnt in the process.&lt;/p&gt;
 

@@ -67,6 +67,12 @@ figcaption {
   font-weight: 800;
 }
 
+.alignwide {
+  width: 80vw;
+  max-width: 80vw;
+  margin-left:  calc(50% - 40vw);
+}
+
 @media (min-width: 780px) {
   .content {
     width: 720px;
