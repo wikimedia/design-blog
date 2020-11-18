@@ -6,6 +6,8 @@ excerpt: How making page issues more visible on Wikipedia mobile helps foster tr
 date: 2020-11-16T07:26:32.585Z
 ---
 
+<p class="post__excerpt">How making page issues more visible on Wikipedia mobile helps foster trust and participation</p>
+
 _By Alex Hollender_
 
 Today when reading a Wikipedia article on your phone you might see a notice at the top:
