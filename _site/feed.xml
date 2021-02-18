@@ -1,4 +1,181 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2021-01-25T04:05:18+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Translation on Wikipedia — Inclusion begins with discovery and ideation</title><link href="https://design.wikimedia.org/blog/2021/01/25/translation-on-wikipedia.html" rel="alternate" type="text/html" title="Translation on Wikipedia — Inclusion begins with discovery and ideation" /><published>2021-01-25T00:26:32+00:00</published><updated>2021-01-25T00:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2021/01/25/translation-on-wikipedia</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/01/25/translation-on-wikipedia.html">&lt;p class=&quot;post__excerpt&quot;&gt;Using remote international research to ensure diverse user groups are represented at the earliest stages of product development&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2021-02-18T12:01:03+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">In search of the perfect search for Wikipedia</title><link href="https://design.wikimedia.org/blog/2021/02/11/search-on-wikipedia.html" rel="alternate" type="text/html" title="In search of the perfect search for Wikipedia" /><published>2021-02-11T00:26:32+00:00</published><updated>2021-02-11T00:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2021/02/11/search-on-wikipedia</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/02/11/search-on-wikipedia.html">&lt;p class=&quot;post__excerpt&quot;&gt;Using remote international research to ensure diverse user groups are represented at the earliest stages of product development&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://twitter.com/scblr&quot;&gt;Robin Schönbächler&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In a recent project, the Android app team decided to improve one of their core experiences: searching for articles on Wikipedia. Community feedback and previous usability tests revealed, that the app’s search functionality was perceived as inconsistent. Our goal was to make the discovery process for readers more intelligent, personalized and efficient to present the right result at the right time.&lt;/p&gt;
+
+&lt;p&gt;With a &lt;a href=&quot;https://www.statista.com/statistics/272698/global-market-share-held-by-mobile-operating-systems-since-2009/&quot;&gt;market share of 72%&lt;/a&gt;, Android is by far the most used Mobile operating system worldwide. The &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android&quot;&gt;Wikipedia Android app team&lt;/a&gt; builds features for more than five million active readers per month. And it‘s not a secret, that the majority of the &lt;a href=&quot;https://nextbillionusers.google&quot;&gt;next billion users&lt;/a&gt; are likely joining the internet on an Android device. What does that mean for the Wikipedia Android app? Uncle Ben from Spiderman said it best: “With great power comes great responsibility“.&lt;/p&gt;
+
+&lt;p&gt;To be able to make an educated decision about one of our app’s core features, we had to take a step back and understand how people are using the app.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-do-readers-navigate-to-articles&quot;&gt;How do readers navigate to articles?&lt;/h2&gt;
+
+&lt;p&gt;The team collected usage data and insights from readers who had explicitly opted in to sharing their anonymized usage data. We wanted to understand how readers currently access Wikipedia articles in the Android app.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/pageviews-by-source.png&quot; alt=&quot;Pie chart of page views by source&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We discovered that the pageviews were almost equally distributed into thirds. At &lt;strong&gt;33.7%&lt;/strong&gt; the largest portion of readers, visit articles via links from other Wikipedia articles. This data supports the reader behavior known internally as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Wiki_rabbit_hole&quot;&gt;Wiki rabbit hole&lt;/a&gt;, where reader[s] travel by navigating from topic to topic while browsing Wikipedia. &lt;strong&gt;30.7%&lt;/strong&gt; of readers enter into an article via external links, these readers likely perform a search request via their default browser and are taken to the Wikipedia article in the app. Finally, &lt;strong&gt;28%&lt;/strong&gt; of all article visits (1.5 million readers a month) utilize the internal search bar for their queries.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-did-the-data-tell-us&quot;&gt;What did the data tell us?&lt;/h2&gt;
+
+&lt;p&gt;We knew now that &lt;strong&gt;28% of all page views derive from the internal app search&lt;/strong&gt;. However, we wanted more insight on how the different internal entry points for search are used. To accomplish this, we had to dig deeper into the data. Together with our analytics team we explored how readers commonly used the internal search.&lt;/p&gt;
+
+&lt;p&gt;First, we examined how the search experience worked and looked like. There were two main entry points to perform a search:&lt;/p&gt;
+
+&lt;div class=&quot;columns&quot;&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-first-entry.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
+    &lt;figcaption&gt;&lt;strong&gt;First entry point:&lt;/strong&gt;Search input field at the top in the Explore feed, the app’s home screen.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-second-entry.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
+    &lt;figcaption&gt;&lt;strong&gt;Second entry point:&lt;/strong&gt; Search button in the form of a magnifying glass icon at the top of each article.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Data revealed that approximately 60% of all readers access the search via the first entry point, a search input field in the Explore feed. Around 35% of readers were searching via the search button at the top of article (second entry point). Since the majority of our user base uses Wikipedia to read articles, we expected that most readers rely on the search button at the top of an article – so this was a surprising insight!&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-usage-distribution.png&quot; alt=&quot;Pie chart of page views by source&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;At this point, we asked ourselves if the search button in the articles is not obvious enough, as our hypothesis was that people were navigating back to the home screen to make use of the first entry point.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-did-the-readers-tell-us&quot;&gt;What did the readers tell us?&lt;/h2&gt;
+
+&lt;p&gt;To gain further insights about how search is used, our engineering team created three variants for a usability test. Each variant had a different design and position for the main Wikipedia search in the article. Our goals were:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Find out about pros and cons of each variant, with a specific focus on discoverability and speed of access.&lt;/li&gt;
+  &lt;li&gt;How discoverable is the search functionality in each variant?&lt;/li&gt;
+  &lt;li&gt;How can the specific variants be improved?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;columns&quot;&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-variant-a.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
+    &lt;figcaption&gt;&lt;strong&gt;Variant A:&lt;/strong&gt; Full size search input field at the top of the article.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-variant-b.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
+    &lt;figcaption&gt;&lt;strong&gt;Variant B:&lt;/strong&gt; Search icon at the top of the article, which is the current user experience.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-variant-c.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
+    &lt;figcaption&gt;&lt;strong&gt;Variant C:&lt;/strong&gt; Search icon at the bottom of the article.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Variant A&lt;/strong&gt; was inspired by the analytics insight that two-thirds of all readers search via input field in the home screen. This version put the search input field at the top of the article, as it is on the home screen.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Variant B&lt;/strong&gt; was the existing search experience in the app. To save vertical space, the image ratio and treatment was also slightly different.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Variant C&lt;/strong&gt; featured a search button in the bottom toolbar. The goal of this variant was to provide a more ergonomic search experience that should reduce “thumb travel” when reaching it on a smartphone. Find in page was moved to the overflow menu at the top right.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We went for an unmoderated, task-based test on &lt;a href=&quot;http://usertesting.com/&quot;&gt;usertesting.com&lt;/a&gt;. Participants were given a set of tasks to complete in a 15-20 minute time frame and perform the test remotely. Check out more details about the test &lt;a href=&quot;https://phabricator.wikimedia.org/T266883&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is your guess on which of the variants performed best in the usability tests?&lt;/strong&gt; I bet if Luke Wroblewski, aka Mr &lt;a href=&quot;https://twitter.com/LukeW/status/454637989503590400?s=20&quot;&gt;“Obvious Always Wins”&lt;/a&gt; had guessed, he’d have guessed right. &lt;strong&gt;Yes, it was Variant A.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Overall, participants had no issues finding articles after installing the app.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Similar to what we saw in analytics data, all participants directly used the search input on top of the Explore feed.&lt;/li&gt;
+  &lt;li&gt;Our hypothesis, that participants were remembering their initial action once they were prompted to search for another article from the article page, turned out to be true. All participants naturally used the search input in the article.&lt;/li&gt;
+  &lt;li&gt;From observing participants, we assume that readers are familiar with the look, feel and functionality of a search input from web browsers, such as the default web browser on Android: Chrome.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Due to these reasons, we decided to move forward with the large search input field at the top of the article. The change guarantees great discoverability for searching Wikipedia and as a bonus, the find in article feature.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-did-we-make-search-more-intelligent&quot;&gt;How did we make search more intelligent?&lt;/h2&gt;
+
+&lt;p&gt;Along the way of optimizing the discovery process for articles, we realized that there was room for improvement in how we handled search queries with no results. One of the amazing things about Wikipedia is that it exists in more than 300 languages. Notably, a third of our readers access articles in multiple languages and effortlessly switch between different language versions of Wikipedia. When using Wikipedia on web, these are completely separate websites: &lt;a href=&quot;https://en.wikipedia.org&quot;&gt;en.wikipedia.org&lt;/a&gt; and &lt;a href=&quot;https://de.wikipedia.org&quot;&gt;de.wikipedia.org&lt;/a&gt;, for example. One of the strengths of the Android app is that we can make these boundaries disappear.&lt;/p&gt;
+
+&lt;p&gt;In the example below, you’ll notice that, even though multiple languages have been set in the app, the German word “Schabrackenschakal” (&lt;a href=&quot;https://en.wikipedia.org/wiki/Black-backed_jackal&quot;&gt;a type of jackal&lt;/a&gt;) outputs zero results in the old version of the app when English Wikipedia is selected.&lt;/p&gt;
+
+&lt;figure class=&quot;third-width&quot;&gt;
+  &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-second-language.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
+  &lt;figcaption&gt;Searching articles that exist in a second language currently output 0 results.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In this case, &lt;strong&gt;there is a German Wikipedia article&lt;/strong&gt; for &lt;a href=&quot;https://de.wikipedia.org/wiki/Schabrackenschakal&quot;&gt;Schabrackenschakal&lt;/a&gt;. The result of the search query could be improved, as a person who’s using the app in multiple languages may not be aware of the language they’re searching in. We designed a solution that indicates results from other language versions of Wikipedia. This sounds like a straightforward solution, but is brand new to Wikipedia. For the first time, readers are able to search Wikipedia in multiple languages at once. Let’s check out how it works:&lt;/p&gt;
+
+&lt;div class=&quot;columns&quot;&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-no-of-results.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
+    &lt;figcaption&gt;Instead of 0 results, a compact list of results for other languages is presented. In this example, the result in German is highlighted as a link.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-other-language.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
+    &lt;figcaption&gt;After tapping the list item, readers are taken to the search of another Wikipedia language version.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-other-language-article.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
+    &lt;figcaption&gt;After tapping the list item, readers are taken to the search of another Wikipedia language version.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And finally, tapping the top search results then takes readers to this friendly guy!&lt;/p&gt;
+
+&lt;p&gt;You might wonder why we don’t show results from other languages in the same list rather than having this extra tap. We intentionally designed it this way to educate readers about how to search the different language versions of Wikipedia. Wikipedias in different languages can have  different content and articles might not exist across languages. The extra tap raises awareness. Plus, we didn’t want to make the slightest sacrifice in regards to search performance, and searching multiple Wikipedia languages would mean significant search speed reduction.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-did-we-personalize-search&quot;&gt;How did we personalize search?&lt;/h2&gt;
+
+&lt;p&gt;In its core, the app is a browser designed to explore the contents of Wikipedia in the best possible way. Saved articles, tabs and history are a reflection of a reader’s interest. We wanted to embrace this fact and create and a more personal discovery experience for readers. The new personalized search is another highlight and a brand new experience in the world of Wikipedia.&lt;/p&gt;
+
+&lt;p&gt;To illustrate how useful this is, here’s an example: During summer 2020, there was a brief moment in Switzerland where cinemas were open. As one of a few Hollywood blockbusters this year, &lt;a href=&quot;https://en.wikipedia.org/wiki/Tenet_(film)&quot;&gt;Tenet&lt;/a&gt; made its way to the big cinema halls. A good friend, &lt;a href=&quot;https://twitter.com/azumbrunnen_&quot;&gt;Adrian Zumbrunnen&lt;/a&gt;, and I have been big fans of the film’s director, &lt;a href=&quot;https://en.wikipedia.org/wiki/Christopher_Nolan&quot;&gt;Christopher Nolan&lt;/a&gt; for years and closely follow his career. Adrian and I were in agreement that the movie was average for Nolan movie standards, but I remember looking him up on Wikipedia that night. We were interested in rewatching Nolan’s older movies and landed on &lt;a href=&quot;https://en.wikipedia.org/wiki/Christopher_Nolan_filmography&quot;&gt;Christopher Nolan filmography Wikipedia&lt;/a&gt; article.&lt;/p&gt;
+
+&lt;p&gt;Fast forward to the end of the year when I was looking for Nolan infos in the Wikipedia Android app again. This was the result of that search query:&lt;/p&gt;
+
+&lt;figure class=&quot;third-width&quot;&gt;
+  &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-previous-experience.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
+  &lt;figcaption&gt;&lt;strong&gt;The previous experience:&lt;/strong&gt; a search for “nolan” results in results that are not relevant to my interest.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’re now surfacing relevant search results based on the user’s history. Articles from open tabs, reading lists or your browsing history are shown first. The right result is presented at the right time. Here’s the new search results list in action:&lt;/p&gt;
+
+&lt;div class=&quot;columns&quot;&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-new-personalized-experience.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
+    &lt;figcaption&gt;&lt;strong&gt;The new experience:&lt;/strong&gt; a search for “nolan” takes articles from your open tabs, reading list and search history into account.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-new-personalized-experience-article.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
+    &lt;figcaption&gt;Personalized search results allow readers to more efficiently find the right results. Let’s dig into Christopher Nolan’s art!&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In addition to prioritizing articles that readers have interacted with in the past, we added a source indication in the form of the icons next to the article thumbnails. To ensure that readers aren’t in their own &lt;a href=&quot;https://en.wikipedia.org/wiki/Filter_bubble&quot;&gt;filter bubble&lt;/a&gt;, we show a maximum of three personalized results at a time.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
+
+&lt;p&gt;The search for the perfect search never ends. Design is an iterative process and we’re going to continue monitoring community feedback and data in the upcoming months. All the features above are now available in the official &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.wikipedia&quot;&gt;Wikipedia for Android app on Google Play&lt;/a&gt;. The app is ad-free and free of charge, forever. With the Wikipedia Android app, you can search and explore 40 million+ articles in 300+ languages, no matter where you are. Our team is working on other exciting features like this, stay tuned! Let us know what you think about the updates, what you’d like to see in the app and even more importantly, which Christopher Nolan &lt;a href=&quot;https://en.wikipedia.org/wiki/Christopher_Nolan_filmography&quot;&gt;film&lt;/a&gt; is your favorite one and why via &lt;a href=&quot;https://twitter.com/WikimediaDesign&quot;&gt;@WikimediaDesign&lt;/a&gt; on Twitter.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to Lucy Blackwell, Pau Giner, Carolyn Li-Madeo, Volker Eckl, Jess Klein, Matt Cleinman, Shay Nowick, Cooltey Feng, Sharvani Haran, Johan Jönsson, Rita Ho, Dmitry Brant, Jazmin Tanner &amp;amp; Anthony Borba for their contributions to this article or the features.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;related-links&quot;&gt;Related links&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=org.wikipedia&quot;&gt;Wikipedia - Apps on Google Play&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Polar_Bear_-_Alaska.jpg&quot;&gt;File:Polar Bear - Alaska.jpg - Wikimedia Commons&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.statista.com/statistics/272698/global-market-share-held-by-mobile-operating-systems-since-2009/&quot;&gt;Mobile OS market share 2019 - Statista&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://foundation.wikimedia.org/wiki/Privacy_policy&quot;&gt;Privacy policy - Wikimedia Foundation Governance Wiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Christopher_Nolan_filmography&quot;&gt;Christopher Nolan filmography - Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.notion.so/wikimediadesign/In-search-of-the-perfect-search-for-Wikipedia-ca2a939963694c13a18e784b4abd7abf&quot;&gt;Black-backed jackal - Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://de.wikipedia.org/wiki/Schabrackenschakal&quot;&gt;Schabrackenschakal - Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/LukeW/status/454637989503590400&quot;&gt;Luke Wroblewski on Twitter: ”Obvious always wins.”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;post__authors&quot;&gt;
+  &lt;a href=&quot;https://twitter.com/scblr&quot;&gt;Robin Schönbächler&lt;/a&gt; is a senior designer at the Wikimedia Foundation
+&lt;/p&gt;</content><author><name></name></author><summary type="html">The Android app team improved one of their core features—searching for articles on Wikipedia. Along the way of making discovery more intelligent, personalized and efficient, we experienced a surprise.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/search-of-perfect-search/polar-search-cover.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/search-of-perfect-search/polar-search-cover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Translation on Wikipedia — Inclusion begins with discovery and ideation</title><link href="https://design.wikimedia.org/blog/2021/01/25/translation-on-wikipedia.html" rel="alternate" type="text/html" title="Translation on Wikipedia — Inclusion begins with discovery and ideation" /><published>2021-01-25T00:26:32+00:00</published><updated>2021-01-25T00:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2021/01/25/translation-on-wikipedia</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/01/25/translation-on-wikipedia.html">&lt;p class=&quot;post__excerpt&quot;&gt;Using remote international research to ensure diverse user groups are represented at the earliest stages of product development&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;By Eli Asikin-Garmager&lt;/em&gt;&lt;/p&gt;
 

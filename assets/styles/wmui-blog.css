@@ -73,6 +73,15 @@ figcaption {
   margin-left:  calc(50% - 40vw);
 }
 
+.columns {
+  display: flex;
+}
+
+.third-width {
+  width: 200px;
+  margin: 0 20px;
+}
+
 @media (min-width: 780px) {
   .content {
     width: 720px;
