@@ -3,7 +3,7 @@ layout: post
 title: In search of the perfect search for Wikipedia
 image: /assets/uploads/search-of-perfect-search/polar-search-cover.png
 excerpt: The Android app team improved one of their core features—searching for articles on Wikipedia. Along the way of making discovery more intelligent, personalized and efficient, we experienced a surprise.
-date: 2021-02-11T00:26:32.585Z
+date: 2021-02-19T00:26:32.585Z
 ---
 
 <p class="post__excerpt">Using remote international research to ensure diverse user groups are represented at the earliest stages of product development</p>
