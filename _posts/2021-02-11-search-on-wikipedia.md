@@ -119,12 +119,9 @@ In this case, **there is a German Wikipedia article** for [Schabrackenschakal](h
 
   <figure class="third-width">
     <img src="{{ "/assets/uploads/search-of-perfect-search/search-other-language-article.png" | relative_url }}" alt="Screenshot of Search on Wikipedia Android">
-    <figcaption>After tapping the list item, readers are taken to the search of another Wikipedia language version.</figcaption>
+    <figcaption>And finally, tapping the top search results then takes readers to this friendly guy!</figcaption>
   </figure>
 </div>
-
-
-And finally, tapping the top search results then takes readers to this friendly guy!
 
 You might wonder why we don’t show results from other languages in the same list rather than having this extra tap. We intentionally designed it this way to educate readers about how to search the different language versions of Wikipedia. Wikipedias in different languages can have  different content and articles might not exist across languages. The extra tap raises awareness. Plus, we didn’t want to make the slightest sacrifice in regards to search performance, and searching multiple Wikipedia languages would mean significant search speed reduction.
 
@@ -161,7 +158,7 @@ In addition to prioritizing articles that readers have interacted with in the pa
 
 The search for the perfect search never ends. Design is an iterative process and we’re going to continue monitoring community feedback and data in the upcoming months. All the features above are now available in the official [Wikipedia for Android app on Google Play](https://play.google.com/store/apps/details?id=org.wikipedia). The app is ad-free and free of charge, forever. With the Wikipedia Android app, you can search and explore 40 million+ articles in 300+ languages, no matter where you are. Our team is working on other exciting features like this, stay tuned! Let us know what you think about the updates, what you’d like to see in the app and even more importantly, which Christopher Nolan [film](https://en.wikipedia.org/wiki/Christopher_Nolan_filmography) is your favorite one and why via [@WikimediaDesign](https://twitter.com/WikimediaDesign) on Twitter.
 
-*Thanks to Lucy Blackwell, Pau Giner, Carolyn Li-Madeo, Volker Eckl, Jess Klein, Matt Cleinman, Shay Nowick, Cooltey Feng, Sharvani Haran, Johan Jönsson, Rita Ho, Dmitry Brant, Jazmin Tanner & Anthony Borba for their contributions to this article or the features.*
+*Thanks to Lucy Blackwell, Pau Giner, Carolyn Li-Madeo, Volker Eckl, Jess Klein, Matt Cleinman, Shay Nowick, Cooltey Feng, Sharvani Haran, Johan Jönsson, Rita Ho, Dmitry Brant, Jazmin Tanner, Anthony Borba & Prateek Saxena for their contributions to this article or the features.*
 
 ## Related links
 
@@ -175,5 +172,5 @@ The search for the perfect search never ends. Design is an iterative process and
 - [Luke Wroblewski on Twitter: ”Obvious always wins.”](https://twitter.com/LukeW/status/454637989503590400)
 
 <p class="post__authors">
-  <a href="https://twitter.com/scblr">Robin Schönbächler</a> is a senior designer at the Wikimedia Foundation
+  <a href="https://twitter.com/scblr">Robin Schönbächler</a> is a Senior Designer at the Wikimedia Foundation
 </p>
