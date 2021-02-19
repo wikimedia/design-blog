@@ -6,7 +6,7 @@ excerpt: The Android app team improved one of their core features—searching fo
 date: 2021-02-19T00:26:32.585Z
 ---
 
-<p class="post__excerpt">Using remote international research to ensure diverse user groups are represented at the earliest stages of product development</p>
+<p class="post__excerpt">The Android app team improved one of their core features—searching for articles on Wikipedia. Along the way of making discovery more intelligent, personalized and efficient, we experienced a surprise.</p>
 
 _By [Robin Schönbächler](https://twitter.com/scblr)_
 
