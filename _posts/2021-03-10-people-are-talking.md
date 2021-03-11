@@ -1,0 +1,195 @@
+---
+layout: post
+title: People are talking
+image: /assets/uploads/people-are-talking/people-talking-header.png
+excerpt: Embarking on a design refresh of Wikipedia Talk pages — in three acts
+date: 2021-03-10T00:26:32.585Z
+---
+
+<p class="post__excerpt">Embarking on a design refresh of Wikipedia Talk pages — in three acts</p>
+
+_By [Jess Klein](http://jessklein.is/)_
+
+## Prologue
+
+A few years ago, when I started making edits to Wikipedia, it felt illicit; like doing graffiti or writing notes inside a library book. I would open up the article editor and stare at the screen in disbelief that I could change a page by just typing a few words and hitting “Publish changes”. But there I was, making changes to the world’s biggest encyclopedia, a site that sees 300 billion page views a day (on average). It was simultaneously exhilarating and anxiety-provoking. Was I editing the page correctly? Was the content that I was adding valuable? Was someone going to check my edits?
+
+I did not know that Talk pages existed for at least a year into my editing adventures, and when I did learn of them, I misunderstood their purpose. With a name like Talk pages (on English Wikipedia), I thought they were literally pages to discuss whatever article it was connected to (if it was attached in fact to an article page), assuming that the Talk page on [Artemisia Gentileschi](https://en.wikipedia.org/wiki/Talk:Artemisia_Gentileschi) would be a fan forum of sorts for admirers of this 16th-century artist. I have since learned that it works like this: every single page on Wikipedia has a corresponding page associated with it for discussions and these pages are called “Talk pages.”
+
+<figure>
+  <img src="{{ "/assets/uploads/people-are-talking/talk-pages-top-level-navigation.png" | relative_url }}" alt="Screenshot of Talk pages on mobile web">
+  <figcaption>You can access Talk Pages the same way that you access articles (in the top level page navigation) on Wikipedia.</figcaption>
+</figure>
+
+However, the purpose of Talk pages (the ones connected to articles), is to discuss with other volunteers ways to improve the article. So the Talk page on Artemisia Gentileschi is not a fan forum for her, but a set of conversations around how to improve the Artemisia Gentileschi article on Wikipedia. The page was actually created so that I could ask questions, ask for help or get reviews! I had found the secret entrance to an underground club.
+
+<figure>
+  <img src="{{ "/assets/uploads/people-are-talking/not-fan-forum.png" | relative_url }}" alt="Screenshot of a Talk page">
+  <figcaption>Definitely not a fan forum! This is what the <a href="https://en.wikipedia.org/wiki/Talk:Artemisia_Gentileschi">Talk page</a> connected to the article on Artemisia Gentileschi looked like on January 6, 2021 at 11:58am EST. It contains lots of suggestions on how to improve the content of <a href="https://en.wikipedia.org/wiki/Artemisia_Gentileschi">the article</a>.</figcaption>
+</figure>
+
+However, the thing about clubs is that you have to know the rules (what to wear, how to talk to people, is it appropriate to dance?) in order to be part of the club. As you might have guessed, I didn’t know the rules — I didn’t even understand the language that I had to use in order to communicate with other people. This page sort of looked like people were writing and responding to questions, but when I went in to ask some questions myself, I was a mess. I couldn’t figure out where to post new topics, where to click to reply, how to sign my name, or, (if I even got this far) how to tell if someone was replying to my questions. Everything was written with what’s called wikitext (but at the time I just thought it was some sort of code), and it didn’t have any of the affordances that I expected from a forum. I couldn’t just click, type and publish. I had to type special characters to thread my conversations! Those were just the technical issues that I had with the page, to say nothing about understanding editing policy.
+
+<figure>
+  <center>
+    <img src="{{ "/assets/uploads/people-are-talking/fight-club-gif.gif" | relative_url }}" alt="GIF from the movie Fight Club">
+  </center>
+  <figcaption>This club was more like the club in the David Fincher film <a href="https://en.wikipedia.org/wiki/Fight_Club">Fight Club</a>, in that no one discussed the rules. Image src: <a href="https://www.syfy.com/">Syfy.com</a></figcaption>
+</figure>
+
+Fast forward to the middle of. 2019, and in my role as Lead Designer at Wikimedia Foundation, I was given the opportunity to make improvements to the club, aka the <a href="https://en.wikipedia.org/wiki/Wikipedia:Talk_pages_project">Talk pages Project</a>. I knew it was going to be an important project because I could help other volunteer editors connect with each other and improve the quality of content on Wikipedia. But, did every new volunteer have to go on an adventure to discover these “secret” Talk pages? Did every volunteer have the same experience as I did? In this article I’m going to share how I’ve spent the past year approaching the research and user experience design of these powerful spaces within Wikipedia and I’ll wonder out loud about the future design interventions.
+
+## Act 1. Listen to the experts.
+
+Before I started to sketch, I did a lot of research to better understand how contributors were using Talk pages. Even though I had my personal experience on Talk pages to inform the work, I wanted to learn a few things: the history of Talk pages, how they are being used by people who are <a href="https://www.mediawiki.org/wiki/Talk_pages_project/Glossary.">Senior contributors</a>, and how they are being used by more Junior Contributors.
+
+### Community Consultation
+
+Fortunately, I wasn’t starting from scratch. My colleagues had just completed a <a href="https://en.wikipedia.org/wiki/Wikipedia:Talk_pages_consultation_2019/Phase_1">Talk page Community Consultation</a>, which was basically listening to contributors evaluating their experiences with Talk pages. We heard from community members, who had a range of experience levels. However, at this stage we primarily were informed about the more experienced contributor’s experience (as Senior Contributors were the ones most likely to opt into conversations in the wiki forums). <a href="https://www.mediawiki.org/wiki/Talk_pages_consultation_2019/Phase_2_report">We learned a few things about Senior Contributor’s experiences</a>, including that some have important and complex workflows that any new design would need to respect. They identified opportunities for improvement of the look and feel, and interaction design of Talk pages.
+
+Here’s a very small sampling of quotes:
+
+#### Threading conversations
+> “但一些编辑喜欢用“：”缩进，一些编辑则使用“*”。后者可以附带唯一ID，前者或会被视为页面内容（Content）的普通章节，可能有点问题.” — 笔尖留痕, Chinese Wikipedia<br><br>
+Some editors like to indent with “:” and some editors use “*”. The latter can be accompanied by a unique ID, the former may be considered a normal part of the page content. This may be a bit problematic. — 笔尖留痕, Chinese Wikipedia
+
+#### Templates
+> Instead of actually moving the templates, perhaps this could be implemented as a “show/hide” option in the interface. Users who work with wikiprojects etc. could set all pages to “show templates” by default. A special “override” tag could be added to important administrative notices, making them visible to all users. — Dlthewave, English Wikipedia
+
+#### A list. The good and the bad.
+
+> A list, trying to be brief. I’ll probably come back and update this. First the good:<br><br>
+(1) Everyone loves the idea of the talk page. Let’s keep them. :) (2) Pretty low barrier to participation. (3) Once you get the hang of it, it’s pretty easy. (4) Page history is indispensable. (5) Easy to revise what you’ve written.<br><br>
+The not good:(1) Overall formatting not as intuitive as they’re used to. (2) Too easy to forget signature. (3) Indenting and bulletting interchangeable and messy. Hard to keep track of where things are sometimes. (4) Accessibility issues. (5) Other people’s signatures don’t always make it clear who you’re talking to. Sometimes add to confusion. (6) Archives often hard to find. Harder to use. (7) Too often don’t get a response (only mention because there may be an intervention relating to discoverability of active editors). (8) Banners at the top can be overwhelming as the first thing you see. (9) Edit conflicts. (10) Some pages are overly long. — <a href="https://en.wikipedia.org/wiki/User:Rhododendrites">Rhododendrites</a> <a href="https://en.wikipedia.org/wiki/User_talk:Rhododendrites">talk</a> <a href="https://en.wikipedia.org/wiki/Wikipedia:Talk_pages_consultation_2019/Phase_1">18:21, 24 February 2019 (UTC)</a>, English Wikipedia
+
+The changes that contributors wanted to be made were clear. Talk pages are too similar to article pages in their appearance and functionality, but not similar enough in their interaction capabilities (including the use of the visual editor tool instead of solely the markup wikitext editing tool that I had first experienced when trying to add a comment several years ago). As you can see from the quotes above, different contributors had different pain points that they wanted to highlight.
+
+Additionally, Danny Horn, VP of Product at the Wikimedia Foundation explained to me that “a key insight was that the users who are most impacted by feature changes should see a direct benefit of those changes.” This means that instead of expecting users to change their workflows and practices now, in order to benefit a different set of users in the future, we will need to focus on an approach that is informed by the experience of these contributors who have been using Talk Pages for frequently for many years (and in some cases, decades).
+
+### Previous Design Interventions
+
+Many people mentioned a previous attempt at rethinking the Talk page design called “Flow.” As Pau Giner, Principal Designer at the Wikimedia Foundation explained “Flow was conceived of as a new product to eventually replace Talk pages. Flow’s scope was around discussions, but Talk pages were used to support many other use cases such as a working space (drafting a paragraph before adding it to the article) or for decision making (voting). Part of the criticism was about the missing support for those.” Here’s an example of what Flow looks like below. In my opinion, it solves many problems that were identified in the consultation. It is easy to browse topics, it’s quick to start a new discussion, it’s obvious how to see responses, etc., so, why wasn’t everyone just using this? I followed up with Danny on this via a Slack conversation on January 6, 2021 asking him if the issue was the tool or maybe some larger issue with the way that the tool was socialized with the community.
+
+“It was a real problem with the tool, and the way that we were thinking about it. We assumed that it was okay to build a tool that couldn’t handle a lot of important senior editor use cases, because it would be easier for junior editors, and that was worth it. If we had gone ahead the way that we were planning to, we would have broken a lot of things without really understanding or respecting how important those broken things were. It was not the case that Flow was a great product direction, and the only problem was selling it to people. We had the wrong philosophy, and that led to bad product decisions.”
+
+Flow wasn’t compatible with the existing Talk pages. The strength of Flow and other interventions such as <a href="https://en.wikipedia.org/wiki/Wikipedia:LiquidThreads">LiquidThreads</a>, was that they were built around the constraint of providing a solid framework for structured discussions. For some, this constraint was freeing as commenting and starting new topics was finally clear to them. For others, it was too restrictive and the loss of source editing eliminated the flexibility core to their contribution.
+
+Flow, if it had been fully developed, would have also provided new functionalities called “workflows”, such as the ability to count votes automatically, to close a discussion at a predetermined date, to conveniently hold cross-wiki conversations, to move individual discussions with their page histories, and to watch only specific discussions rather than whole pages — all things that experienced editors have requested. That said, it changed all the paradigms around page history and discussions and it limited experienced contributors from using the page the way they had been using it.
+
+Two things that I took away from reviewing the work on Flow is 1. the new tool needed to consider the use of the tons of metadata that gets collected on Talk pages. 2.Many wikis actually still have Flow deployed and use it, so whatever we come up with in the future needs to be a better value to those wikis so that they would want to deploy our new set of features.
+
+<figure>
+  <center>
+    <img src="{{ "/assets/uploads/people-are-talking/flow-gif.gif" | relative_url }}" alt="GIF of the Flow product">
+  </center>
+  <figcaption>A previous attempt at refreshing Talk pages was a project called Flow.</figcaption>
+</figure>
+
+### Researching Community gadgets
+
+One really wonderful thing about designing for Wikipedia is that if a problem is a big enough issue on Wikipedia, then a community member has probably leveraged the fact that this is an open source project and built what’s called a gadget to attempt to fix it. A <a href="https://www.mediawiki.org/wiki/Extension:Gadgets">gadget</a> is a homemade tool that any Wikipedia can enable. The only catch is that it’s not officially supported by the Wikimedia Foundation. This means that even if the tool is a game changer, the community member who created it has to maintain the code and make adjustments based on feedback or bugs.
+
+<figure>
+  <center>
+    <img src="{{ "/assets/uploads/people-are-talking/community-driven-idea-funnel.png" | relative_url }}" alt="Illustration of community driven idea funnel">
+  </center>
+  <figcaption>This process represents one framework that we use for feature ideation. It would be great in the future to have a more supported version of this currently very fragmented and not always obvious framework (a girl can dream).</figcaption>
+</figure>
+
+Having been working in the open source design community for over two decades, I kind of take for granted the uniqueness of this kind of innovation framework. I discussed this with Wikimedia Senior Design Manager Lucy Blackwell who said that “Wikipedia is unique in that it is truly community-driven, meaning the community are ‘active creators’ of the platform itself, their vested interest is their passion for Wikipedia and the many hours they have put in personally to developing it. In stark contrast, one finds in most other organizations that when gathering feedback from the people who use the platform, they end up being ‘passive participants’ in the feedback loop, often paid or rewarded to provide an opinion, for which the organization will decide whether to uphold or disregard.” It gives me great pride to work in an environment that operationalizes its values, whenever possible.
+
+_The way that I view gadgets is that:_
+
+- Whatever the quality is of that gadget, the problem was big enough that someone felt compelled to fix it (so there’s a usability issue with what’s currently deployed to all users that I should probably look into).
+- If lots of other Wikipedia contributors have installed the gadget, then it probably has some good ideas that were accepted by the larger community, so I should learn from them, and, if appropriate, uplevel the ideas by productizing them.
+
+Two gadgets that were brought to my attention by community members that impressed. the Editing Team were the <a href="https://en.wikipedia.org/wiki/User:Enterprisey/reply-link">Reply Link</a> and <a href="https://commons.wikimedia.org/wiki/User:Jack_who_built_the_house/Convenient_Discussions">Convenient Discussions</a> (authored by <a href="https://en.wikipedia.org/wiki/User:Enterprisey">Enterprisey</a> and <a href="https://commons.wikimedia.org/wiki/User:Jack_who_built_the_house">Jack who built the house</a> respectively). Both addressed key issues such as replying and threading and handled them with elegant and intuitive interaction design.
+
+<figure>
+  <center>
+    <img src="{{ "/assets/uploads/people-are-talking/reply-link-gadget-gif.gif" | relative_url }}" alt="GIF of Relpy Link Gadget">
+  </center>
+  <figcaption>Here is a gif of the Editing Team Product Manager, Peter Pelberg and I testing out the <a href="https://en.wikipedia.org/wiki/User:Enterprisey/reply-link">reply link gadget</a>.</figcaption>
+</figure>
+
+
+<br>
+## Act 2: Newcomers and Emerging Communities
+(2019-2020)
+
+After reading the reports from both phases of the consultation, I realized that the voice of Junior Contributors was missing from the conversation (despite several attempts from communities to reach out to this audience). Hearing directly from them would provide a complete picture of the potential opportunities for the design. In fact, one of the major reasons that this project was being undertaken in the first place was to make it easier for new contributors to communicate on wiki.
+
+### Usability Testing with Junior Contributors
+
+Identifying where to start to do this research was pretty challenging because the contributors to the Talk page consultation weren’t 100% brand new to the site. They probably had some level of experience on Wikipedia and other Wikimedia wikis, whether that was editing content or some other kind of interaction. I decided to try out a widely used testing service. What I like about services such as usertesting.com is that they often attract multilingual testers and, because of their popularity, I could pre-screen and filter the testers to meet profile requirements that matched the experience goals of Junior Contributors. I pulled together a very basic persona (based off of what I could intuit from the Talk page Consultation as well as [other research](https://www.mediawiki.org/wiki/New_Editor_Experiences) on new editors) and wrote a few simple protocols for testing common workflows, such as replying to or starting a new conversation.
+
+Junior Contributors did, in fact, deal with many of the issues that I was dealing with. Specifically, testing showed that it was hard to:
+- start a conversation,
+- reply to a conversation,
+- follow a conversation,
+- thread discussions within a conversation
+
+<br>
+Here are a few choice quotes from the usability testing:
+
+> “There was too much information going on in the top section. It was painful looking at all the options that I could click and also read through what is at the top.” Ct2-d4
+
+> “I was not easily able to find it, although it was right in front of me.” ct3-d1
+
+> “Everything was painful, I got lost a couple of times, the layout is very difficult to digest with lots of text and too much colours that don’t mean much unless you are familiar with the site” ct3-d2
+
+> “If I got to this point, I’d give up. Regardless of what I was doing because it’s overwhelming.” ct3-d2
+
+Additionally, people who I tested the tool with repeatedly described how outdated the tools looked, felt, and worked. That’s probably because the tools haven’t significantly changed in 15 years, so it’s time to upgrade and provide contributors with the modern web affordances that they have come to rely on. One usability tester even said “I was really thinking I was going to see something like a Reddit page or some kind of chat page where there are some boxes and you just put in what you want to add.” Ct2-d5
+
+<figure>
+  <center>
+    <img src="{{ "/assets/uploads/people-are-talking/thread-colon.gif" | relative_url }}" alt="GIF of Relpy Link Gadget">
+  </center>
+  <figcaption>In order to thread a conversation on Talk pages, a user needs to add a colon and then write their response.</figcaption>
+</figure>
+
+### Emerging Communities have started to leave Wikipedia!
+
+In addition to individual Junior Contributors, another key stakeholder that the Talk page Consultation didn’t go into depth exploring was emerging communities. These are wikis who have moved these kinds of conversations mostly off wiki and into other widely used platforms, such as WhatsApp or Facebook. Sherry Snyder, Community Specialist at the Wikimedia Foundation explained “Different communities have different approaches, and some of them find it easier to communicate off wiki, using third-party services.” So, after talking with colleagues on our Product Team, our goal with this project is not to tell these communities what to do, but to offer an appetizing alternative should they return to on-wiki communication.
+
+<br>
+## Act 3: Synthesizing Feedback and designing a strategy
+(present day)
+
+With all of these data points, we needed to develop a strategy for how to work with the online communities to design these new series of interventions. I took a step back from all of the pockets of feedback I received and [created](http://opendesignkit.org/methods/journey-maps/) a journey map for a few common workflows. The journey map was asking the questions: What’s the current experience for a Junior Contributor talking to a Senior Contributors? And, in turn, what does that experience look and feel like for Senior Contributors? I asked the questions intentionally this way because, unlike previous attempts at solving the problems of the page, I wanted to represent a shared experience. As Peter Pelberg, product manager for the project described, “A core promise people need to depend on talk pages to fulfill is connecting them with others. In this way, talk pages represent a unique place in the software where Junior and Senior Contributors meet. As such, we needed to consider their individual experiences within the context of the productive interactions this work is intended to promote.” Talk pages are places for conversations (in addition to also being places where people draft and evaluate Wikipedia content and much more), so I wanted to represent that there are opportunities for reinvigorating that asynchronous collaboration.
+
+<figure>
+  <center>
+    <img src="{{ "/assets/uploads/people-are-talking/journey-map.png" | relative_url }}" alt="Image of journey map of different personas">
+  </center>
+  <figcaption>A journey map shows what the current experience feels like and identifies opportunities for improvements.</figcaption>
+</figure>
+
+At this point we understood the problem space and had a few solutions that we could start to experiment with, but we needed to figure out how and when we were going to do it. In terms of how, our team developed three principles that would guide all of our decisions:
+
+1. **Make it easy to do the right thing**: it shouldn’t be a challenge for someone to follow a social convention, such as signing their posts.
+2. **Elevate existing functionality**: wherever possible, build upon the functionality that existing contributors have come to know and use.
+3. **Fix what doesn’t function**: don’t elevate functionality for the sake of elevating. Make sure that it works, and if it doesn’t, fix it. Once that’s done, make sure that it’s super easy to discover and use.
+
+With that philosophy in mind, our strategy is to fix the core interaction touch points that everyone struggles with, to make it easier for contributors of all skill levels to:
+
+- Understand the context
+- Discover new discussion tools to get started
+- Acquaint yourself with the editing environment: technically understand the UI, conceptually understand that this is a public post, have an expectation as to how and where it will be posted.
+- Type and format your post
+- Post
+- Find your post
+
+<br>
+A key part of this strategy is to continue to learn from the work that the communities are doing on gadgets and to develop an understanding of how people are using and adapting Talk pages regularly.
+
+### Where to start?
+
+Good question. That’s a tall list to work from, where should we even begin? Even though we know that there are issues with discovery and context, we decided to start after that point in the conversation timeline. We are going to start off by making it easier for contributors to use the tools and then follow that up by making it easier for folks to discover them. The advantage of this approach is that it’s more iterative than designing something wholesale and deploying it. We can make small incremental tweaks and test those tweaks before building on them further. When I was researching approaches, I came across [this article](https://articles.uie.com/death_of_relaunch/) by Jared Spool which describes many times when companies went big with a design change and it just failed. Because of this area’s history of failed attempts, we wanted to avoid that and so we are moving slowly, asking lots of questions and testing with the online communities early and often.
+
+### Epilogue
+
+This is the first post in a series dedicated to the design of Talk pages on Wikimedia wikis. Please continue to read and share ideas, opinions or questions. You can learn more about the project on the [Project Page](https://www.mediawiki.org/wiki/Talk_pages_project). In my next post I will dive into some of the first features that we are working on and share what it’s been like for contributors testing out the prototypes.
+
+_Thanks to: Ed Sanders, David Lynch, Danny Horn, Sherry Snyder, Benoit Evellin, Prateek Saxena, Carolyn Li-Madeo, Peter Pelberg, Pau Giner and Lucy Blackwell_
