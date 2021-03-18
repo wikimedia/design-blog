@@ -51,7 +51,7 @@ Here’s a very small sampling of quotes:
 
 #### Threading conversations
 > “但一些编辑喜欢用“：”缩进，一些编辑则使用“*”。后者可以附带唯一ID，前者或会被视为页面内容（Content）的普通章节，可能有点问题.” — 笔尖留痕, Chinese Wikipedia<br><br>
-Some editors like to indent with “:” and some editors use “*”. The latter can be accompanied by a unique ID, the former may be considered a normal part of the page content. This may be a bit problematic. — 笔尖留痕, Chinese Wikipedia
+Some editors like to indent with “:” and some editors use “ * ”. The latter can be accompanied by a unique ID, the former may be considered a normal part of the page content. This may be a bit problematic. — 笔尖留痕, Chinese Wikipedia
 
 #### Templates
 > Instead of actually moving the templates, perhaps this could be implemented as a “show/hide” option in the interface. Users who work with wikiprojects etc. could set all pages to “show templates” by default. A special “override” tag could be added to important administrative notices, making them visible to all users. — Dlthewave, English Wikipedia
@@ -193,3 +193,5 @@ Good question. That’s a tall list to work from, where should we even begin? Ev
 This is the first post in a series dedicated to the design of Talk pages on Wikimedia wikis. Please continue to read and share ideas, opinions or questions. You can learn more about the project on the [Project Page](https://www.mediawiki.org/wiki/Talk_pages_project). In my next post I will dive into some of the first features that we are working on and share what it’s been like for contributors testing out the prototypes.
 
 _Thanks to: Ed Sanders, David Lynch, Danny Horn, Sherry Snyder, Benoit Evellin, Prateek Saxena, Carolyn Li-Madeo, Peter Pelberg, Pau Giner and Lucy Blackwell_
+
+<small><em>Unless otherwise credited, all images in this post are licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a>.</em></small>
