@@ -64,7 +64,7 @@ The not good:(1) Overall formatting not as intuitive as they’re used to. (2) T
 
 The changes that contributors wanted to be made were clear. Talk pages are too similar to article pages in their appearance and functionality, but not similar enough in their interaction capabilities (including the use of the visual editor tool instead of solely the markup wikitext editing tool that I had first experienced when trying to add a comment several years ago). As you can see from the quotes above, different contributors had different pain points that they wanted to highlight.
 
-Additionally, Danny Horn, VP of Product at the Wikimedia Foundation explained to me that “a key insight was that the users who are most impacted by feature changes should see a direct benefit of those changes.” This means that instead of expecting users to change their workflows and practices now, in order to benefit a different set of users in the future, we will need to focus on an approach that is informed by the experience of these contributors who have been using Talk Pages for frequently for many years (and in some cases, decades).
+Additionally, Danny Horn, Director of Product Management at the Wikimedia Foundation explained to me that “a key insight was that the users who are most impacted by feature changes should see a direct benefit of those changes.” This means that instead of expecting users to change their workflows and practices now, in order to benefit a different set of users in the future, we will need to focus on an approach that is informed by the experience of these contributors who have been using Talk Pages for frequently for many years (and in some cases, decades).
 
 ### Previous Design Interventions
 
@@ -103,7 +103,7 @@ _The way that I view gadgets is that:_
 - Whatever the quality is of that gadget, the problem was big enough that someone felt compelled to fix it (so there’s a usability issue with what’s currently deployed to all users that I should probably look into).
 - If lots of other Wikipedia contributors have installed the gadget, then it probably has some good ideas that were accepted by the larger community, so I should learn from them, and, if appropriate, uplevel the ideas by productizing them.
 
-Two gadgets that were brought to my attention by community members that impressed. the Editing Team were the <a href="https://en.wikipedia.org/wiki/User:Enterprisey/reply-link">Reply Link</a> and <a href="https://commons.wikimedia.org/wiki/User:Jack_who_built_the_house/Convenient_Discussions">Convenient Discussions</a> (authored by <a href="https://en.wikipedia.org/wiki/User:Enterprisey">Enterprisey</a> and <a href="https://commons.wikimedia.org/wiki/User:Jack_who_built_the_house">Jack who built the house</a> respectively). Both addressed key issues such as replying and threading and handled them with elegant and intuitive interaction design.
+Two gadgets that were brought to my attention by community members that impressed the Editing Team were the <a href="https://en.wikipedia.org/wiki/User:Enterprisey/reply-link">Reply Link</a> and <a href="https://commons.wikimedia.org/wiki/User:Jack_who_built_the_house/Convenient_Discussions">Convenient Discussions</a> (authored by <a href="https://en.wikipedia.org/wiki/User:Enterprisey">Enterprisey</a> and <a href="https://commons.wikimedia.org/wiki/User:Jack_who_built_the_house">Jack who built the house</a> respectively). Both addressed key issues such as replying and threading and handled them with elegant and intuitive interaction design.
 
 <figure>
   <center>
@@ -163,7 +163,10 @@ With all of these data points, we needed to develop a strategy for how to work w
   <center>
     <img src="{{ "/assets/uploads/people-are-talking/journey-map.png" | relative_url }}" alt="Image of journey map of different personas">
   </center>
-  <figcaption>A journey map shows what the current experience feels like and identifies opportunities for improvements.</figcaption>
+  <figcaption>
+    A journey map shows what the current experience feels like and identifies opportunities for improvements.<br>
+    <a href="https://commons.wikimedia.org/wiki/File:Discussion_Page_Reply_Journey_Map.png" target="_blank">Link to a larger (more legible) image</a>
+  </figcaption>
 </figure>
 
 At this point we understood the problem space and had a few solutions that we could start to experiment with, but we needed to figure out how and when we were going to do it. In terms of how, our team developed three principles that would guide all of our decisions:
@@ -192,6 +195,6 @@ Good question. That’s a tall list to work from, where should we even begin? Ev
 
 This is the first post in a series dedicated to the design of Talk pages on Wikimedia wikis. Please continue to read and share ideas, opinions or questions. You can learn more about the project on the [Project Page](https://www.mediawiki.org/wiki/Talk_pages_project). In my next post I will dive into some of the first features that we are working on and share what it’s been like for contributors testing out the prototypes.
 
-_Thanks to: Ed Sanders, David Lynch, Danny Horn, Sherry Snyder, Benoit Evellin, Prateek Saxena, Carolyn Li-Madeo, Peter Pelberg, Pau Giner and Lucy Blackwell_
+_Thanks to: Ed Sanders, David Lynch, Danny Horn, Sherry Snyder, Benoît Evellin, Prateek Saxena, Carolyn Li-Madeo, Peter Pelberg, Pau Giner and Lucy Blackwell_
 
 <small><em>Unless otherwise credited, all images in this post are licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a>.</em></small>
