@@ -8,7 +8,7 @@ date: 2021-04-7T00:00:00.585Z
 
 <p class="post__excerpt">In the interest of providing more clarity over our hiring process, this article will attempt to answer some of the questions that people who want to apply for a UX design job at Wikimedia may have...</p>
 
-_By Lucy Blackwell : Senior Design Manager_
+_By [Lucy Blackwell](https://twitter.com/lucyblackwell) : Senior Design Manager_
 
 ### Mission Alignment
 
@@ -98,7 +98,7 @@ Task will be sent out at a time of your choosing, upon which you will have 3 hou
 
 *Part 2 - Product Manager & UX Engineer:* Discuss how you collaborate, agile development processes, accessibility guidelines and design systems.
 
-**Step 4:** **Interview with the Senior Director of Strategy and Design**<br>
+**Step 5:** **Interview with the Senior Director of Strategy and Design**<br>
 Discuss product strategy and other related questions specific to your application.
 
 _**Top Tip:** The interview process is as much for your benefit at ours.  We try to leave time at the end of every interview for your questions, so come ready to ask all the things you want to know..._
