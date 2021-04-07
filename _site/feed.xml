@@ -1,4 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2021-04-05T10:47:41+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">People are talking</title><link href="https://design.wikimedia.org/blog/2021/03/10/people-are-talking.html" rel="alternate" type="text/html" title="People are talking" /><published>2021-03-10T00:26:32+00:00</published><updated>2021-03-10T00:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2021/03/10/people-are-talking</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/03/10/people-are-talking.html">&lt;p class=&quot;post__excerpt&quot;&gt;Embarking on a design refresh of Wikipedia Talk pages — in three acts&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2021-04-07T03:50:58+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">How we hire UX designers at Wikimedia</title><link href="https://design.wikimedia.org/blog/2021/04/07/how-we-hire-ux-designers.html" rel="alternate" type="text/html" title="How we hire UX designers at Wikimedia" /><published>2021-04-07T00:00:00+00:00</published><updated>2021-04-07T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/04/07/how-we-hire-ux-designers</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/04/07/how-we-hire-ux-designers.html">&lt;p class=&quot;post__excerpt&quot;&gt;In the interest of providing more clarity over our hiring process, this article will attempt to answer some of the questions that people who want to apply for a UX design job at Wikimedia may have...&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;By Lucy Blackwell : Senior Design Manager&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mission-alignment&quot;&gt;Mission Alignment&lt;/h3&gt;
+
+&lt;p&gt;We’re a mission driven organisation on a quest to support every human being in freely sharing knowledge.  We’re a non-profit operating one of the world’s top five websites, Wikipedia. We believe that those who are passionate about our cause will be the best contributors to our mission. Here’s &lt;a href=&quot;https://wikimediafoundation.org/about/mission/#:~:text=The%20mission%20of%20the%20Wikimedia,disseminate%20it%20effectively%20and%20globally.&quot;&gt;our mission&lt;/a&gt; and these are our &lt;a href=&quot;https://wikimediafoundation.org/about/values/&quot;&gt;values&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So first things first, check them out before going any further, and just be honest… is this what you’re into? If so, why?  We want to know! It’s also totally fine if it’s not, but we really only hire people who are as passionate about our mission as us.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Top Tip:&lt;/strong&gt; The best way to show us your passion for the role is in a &lt;a href=&quot;https://en.wikipedia.org/wiki/Cover_letter&quot;&gt;cover letter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;design-skills&quot;&gt;Design skills&lt;/h3&gt;
+
+&lt;p&gt;We need to know that you have all the design skills needed to do the job. We have high standards in the team which we want to uphold, so we’re looking for people who are motivated to do their best work with us, people we can support to grow and evolve here.&lt;/p&gt;
+
+&lt;p&gt;Our job descriptions outline the specific skills we’re looking for in each role, but just to briefly summarise, for any of our UX designer roles we seek folks that can envision and create experiences that reduce complexity. English Wikipedia has just celebrated its 20th birthday, and we are a fairly small design team for the size of our main website, so there are many legacy UX issues to be addressed. Designers at Wikimedia need to be able to break down a complicated existing experience and come up with a much simpler, clearer solution.&lt;/p&gt;
+
+&lt;p&gt;We are a highly user-focused organisation with two key user groups on Wikipedia; the readers, and the editors (who we refer to as our community). Our community is very active and engaged, with many of the editors volunteering huge amounts of their time to write and edit content on Wikipedia. They have lots of great perspectives to add and are often the drivers behind the changes we decide to make on our platform(s). This means that for designers, we look for people who are comfortable, or excited by the opportunity to be very engaged with the community throughout their design process.  We value a transparent work style using open source platforms and public task boards.&lt;/p&gt;
+
+&lt;p&gt;And lastly, we are a truly global product.  Wikipedia is available in around 300 languages. We design for everyone!  This means that many of the design decisions we make have to consider carefully the global reach of our platform. In addition, we need to make sure the platform we’re evolving is accessible too, so we do require a basic knowledge of how to apply accessibility standards to your designs, as part of our interview process.&lt;/p&gt;
+
+&lt;h3 id=&quot;your-portfolio&quot;&gt;Your portfolio&lt;/h3&gt;
+
+&lt;p&gt;Your portfolio is going to be one of the best ways for you to show us your work before we’ve met.  We review portfolios to decide if we should chat further. No portfolio = no interview. For designers, portfolios are often more important than your CV or resume, this is because this is the place we can see how you think! When we look at portfolios we are trying to understand a few key things which are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Do the people you are designing for come first in your process?&lt;/li&gt;
+  &lt;li&gt;Do you have the ability to simplify complex problems?&lt;/li&gt;
+  &lt;li&gt;Do you communicate your ideas and process clearly and simply?&lt;/li&gt;
+  &lt;li&gt;Do you deliver effective solutions and pay attention to detail?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+As a hiring manager, I’ve had the privilege of looking through hundreds of portfolios over the years, and in my experience the ones that stand out are always those with 3 or 4 solid projects that clearly frame an interesting problem they had to solve and explain to me how they did it.&lt;/p&gt;
+
+&lt;p&gt;I know designers spend hours and hours making their portfolios.  As you focus on the design of your portfolio, don’t forget the UX of your portfolio too. Your core user is going to be a recruiter or a hiring manager. That’s me! So here’s a few of my user needs…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I need to be able to scan your portfolio in less than a minute, and find something that makes me want to look longer.&lt;/li&gt;
+  &lt;li&gt;I need to see your best work first. (I don’t need to see everything you’ve ever done)&lt;/li&gt;
+  &lt;li&gt;I need to see your thinking process and how you break down problems.&lt;/li&gt;
+  &lt;li&gt;I need to know what your specific role was in the projects you’re presenting.&lt;/li&gt;
+  &lt;li&gt;I understand that some of your work maybe under NDA, so I need you to tell me about this work in another way, like a blog post.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;em&gt;&lt;strong&gt;Top Tip:&lt;/strong&gt; Keep it simple and just show your best work.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;people-skills&quot;&gt;People skills&lt;/h3&gt;
+
+&lt;p&gt;On our job descriptions we state ‘The right person is better than the right set of experiences.’ Of course we need to know you have the design skills, but we’re less concerned with ‘&lt;em&gt;where’&lt;/em&gt; you developed those skills. What we feel is more important is if you’re a great collaborator and can communicate your ideas clearly. This is not an optional skill, we actually see this as a core requirement for working in our team.  This doesn’t mean you have to be an extrovert though, you might have developed your own unique way of collaborating and communicating with others that fits your personality and abilities.  It also doesn’t mean english needs to be your first language, we just need to know that you can communicate your ideas in english to us.&lt;/p&gt;
+
+&lt;p&gt;As we’re a global organisation, it’s really important to us that our team represents some of the different aspects of the communities we serve.  We’re always looking to bring different perspectives into the team, because fundamentally we know that diverse teams deliver better products. This is why we’re a fully remote team. By hiring in many different places in the world, we have the best chance of attracting a wide-range of perspectives.  We currently have designers across 12 timezones from India to the USA.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Top Tip:&lt;/strong&gt; In the interview, come prepared to share specific examples of how you’ve collaborated with people and overcome challenges.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;levels&quot;&gt;Levels&lt;/h3&gt;
+
+&lt;p&gt;The UX designers in our team sit at 4 different levels based upon experience going from UX designer to Seniors, Leads up to Principals.  For each role, the job title and job description will show you what level of experience we’re looking for and what our expectations for your skills at that level are. Generally we won’t hire someone if they are over-qualified, or under-qualified for the level of the role we have listed, as this creates inequity in the team.&lt;/p&gt;
+
+&lt;p&gt;We’ll normally mention how many years of experience we expect someone to have at the level we’re recruiting for on the job spec, but this is purely a guide. We know that people grow and develop at different speeds and this is fine, so we’re really assessing your experience based upon the skills you demonstrate in your work.&lt;/p&gt;
+
+&lt;h3 id=&quot;design-tasks&quot;&gt;Design tasks&lt;/h3&gt;
+
+&lt;p&gt;One of the tools that we use to assess what level someone is at is a design task. We’re very aware that this is now a fairly controversial debate in the design community, for lots of good reasons.  We recently took a step back and reassessed the pros and cons of design tasks, but ultimately came back to the decision to continue to ask UX designers and Senior UX Designers to do design tasks in a time-boxed manner.&lt;/p&gt;
+
+&lt;p&gt;The reason for this is that we have found that our design tasks serve a few key purposes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;They allow us to see how candidates approach a problem within a time constraint.&lt;/li&gt;
+  &lt;li&gt;They give the candidate an opportunity to demonstrate their thinking process to us.&lt;/li&gt;
+  &lt;li&gt;They allow candidates to be assessed more fairly against other candidates in the process who may have wildly different backgrounds.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+One thing we have realised, is that people with more time often spend longer on their tasks than the suggested time period. Whilst this clearly shows their passion for the role, it doesn’t feel entirely fair to those with other commitments that simply couldn’t put as much time into their task.  So, we’re now trialling a slightly different approach to the process in our next recruitment round, in the hopes that we can make things a bit fairer and less of a burden on candidates.&lt;/p&gt;
+
+&lt;p&gt;We’ve now explicitly time box the task to a maximum of 3 hours.  We’ll ask the candidate to let us know what time and date suits them to do the task, then we will send the task out at that exact time via email.  The candidate is then required to return the task by email within 3 hours.&lt;/p&gt;
+
+&lt;h3 id=&quot;our-interview-process&quot;&gt;Our interview process&lt;/h3&gt;
+
+&lt;p&gt;For each role, a hiring team is put together, each with specific roles in the hiring process. We have a step-by-step approach to interviewing, where you will have a series of interviews with different people from Wikimedia. Whilst there maybe some overlaps in questions, generally we try to make sure different areas are covered in different interviews. This process allows us to gather a collective view on a candidate. On average it can take approx. 1-2 months to complete all the steps in our process, although we’re currently looking at ways to speed this up. At any stage we may decide not to proceed further with a candidate as we don’t want to waste anyone’s time. Our process is continually evolving, but here’s where it stands today:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1: Interview with Recruiter&lt;/strong&gt;&lt;br /&gt;
+Discuss your experience and why you’re interested in working at Wikimedia.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 2: Interview with Senior Design Manager&lt;/strong&gt;&lt;br /&gt;
+Discuss your background and design skills and where you’re looking to go in your career.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 3: Design task&lt;/strong&gt;&lt;br /&gt;
+Task will be sent out at a time of your choosing, upon which you will have 3 hours to complete the task and return it by email.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; &lt;strong&gt;Panel interview with Designers, Product Manager &amp;amp; UX Engineer&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;Part 1 - Designers:&lt;/em&gt; Present and discuss your design task, followed by UX and design focused discussion about how your design approaches and ways of working.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Part 2 - Product Manager &amp;amp; UX Engineer:&lt;/em&gt; Discuss how you collaborate, agile development processes, accessibility guidelines and design systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; &lt;strong&gt;Interview with the Senior Director of Strategy and Design&lt;/strong&gt;&lt;br /&gt;
+Discuss product strategy and other related questions specific to your application.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Top Tip:&lt;/strong&gt; The interview process is as much for your benefit at ours.  We try to leave time at the end of every interview for your questions, so come ready to ask all the things you want to know…&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;feedback&quot;&gt;Feedback&lt;/h3&gt;
+
+&lt;p&gt;Well that’s it for now, but we’re always looking to evolve and improve our processes.  We’re keen to be sure our hiring process is a good experience for you, the candidate.  If you’ve got any thoughts that could help us improve this experience, do let us know.  We’re especially interested in how we could make our hiring process even more inclusive.  Thanks for reading!&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;&lt;em&gt;
+Cover image by &lt;a href=&quot;https://www.flickr.com/people/37804979@N00&quot;&gt;Tony Hisgett&lt;/a&gt; from Birmingham, UK. Taken from &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Coloured_Lights_2_(5129805518).jpg&quot;&gt;Commons&lt;/a&gt;, licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by/2.0/deed.en&quot;&gt;CC-BY-2.0&lt;/a&gt;.
+&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This article attempts to answer some of the questions that people who want to apply for a UX design job at Wikimedia may have.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/colored-lights-hiring-ux-designer.jpg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/colored-lights-hiring-ux-designer.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">People are talking</title><link href="https://design.wikimedia.org/blog/2021/03/10/people-are-talking.html" rel="alternate" type="text/html" title="People are talking" /><published>2021-03-10T00:26:32+00:00</published><updated>2021-03-10T00:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2021/03/10/people-are-talking</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/03/10/people-are-talking.html">&lt;p class=&quot;post__excerpt&quot;&gt;Embarking on a design refresh of Wikipedia Talk pages — in three acts&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;By &lt;a href=&quot;http://jessklein.is/&quot;&gt;Jess Klein&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
@@ -796,140 +905,4 @@ And so we labor on, continually trying to bring transparency to every corner of 
 &lt;p id=&quot;note-1&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-1&quot;&gt;[1]&lt;/a&gt; In 1994 Carmen “humdog” Hermosillo wrote &lt;a href=&quot;https://gist.github.com/kolber/2131643&quot;&gt;pandora’s vox: on community in cyberspace&lt;/a&gt;, a prescient and pioneering critique of online life’s everyday practices. In this  essay she calls cyberspace a “black hole” that, in commodifying our attention spans, “absorbs energy and personality and then re-presents it as spectacle.” Today, such a description could be applied to any online platform whose technical infrastructure and/or community model is descended from the glory days of Web 2.0’s “user-generated content.”&lt;/small&gt;&lt;/p&gt;
 
 &lt;p id=&quot;note-2&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-2&quot;&gt;[2]&lt;/a&gt;A sockpuppet is an &lt;a href=&quot;https://en.wikipedia.org/wiki/Online_identity&quot;&gt;online identity&lt;/a&gt; used for purposes of deception. &lt;a href=&quot;https://en.wikipedia.org/wiki/Sockpuppet_(Internet)&quot;&gt;Source&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
-&lt;/footer&gt;</content><author><name></name></author><summary type="html">Ever wonder how content moderation works on Wikipedia?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/moderation-groups.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/moderation-groups.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How might we… conduct a virtual design sprint in ~3 hours?</title><link href="https://design.wikimedia.org/blog/2020/06/30/hmw-conduct-a-virtual-design-sprint.html" rel="alternate" type="text/html" title="How might we... conduct a virtual design sprint in ~3 hours?" /><published>2020-06-30T17:26:32+00:00</published><updated>2020-06-30T17:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2020/06/30/hmw-conduct-a-virtual-design-sprint</id><content type="html" xml:base="https://design.wikimedia.org/blog/2020/06/30/hmw-conduct-a-virtual-design-sprint.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://medium.com/@reetssydney&quot;&gt;Rita Ho&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
-&lt;p&gt;Being a designer at the Wikimedia Foundation means I am reasonably accustomed to working remotely – both geographically, and in the sense of being the sole designer in a cross-functional team. For the past 2 years I’ve worked in the &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth&quot;&gt;Growth team&lt;/a&gt;, whose goal is to increase the number of new contributors on wiki projects.&lt;/p&gt;
-
-&lt;p&gt;In late 2019, for a number of reasons (logistics of scheduling 10 people spread all around the world, financial prudence, desire to reduce the carbon footprint of travel), we decided to trial holding our team offsite virtually. At the time it seemed like a novel experiment to try, but in the wake of the COVID-19 pandemic, I have since realized that this might be the new normal.&lt;/p&gt;
-
-&lt;p&gt;After our team’s program manager, Jazmin Tanner published a &lt;a href=&quot;https://medium.com/@ItsJazTanner/how-planning-a-virtual-offsite-prepared-me-for-covid-19-remote-work-c0e92bb4fefb&quot;&gt;richly detailed piece&lt;/a&gt; on her experience organizing the entire offsite virtually, I decided to write this post based on my specific role as the designer tasked with running a “mini-design sprint” virtually as part of the proceedings, with reflections on what things worked well (and not so well) for more virtual design sprints that will likely be in our futures.&lt;/p&gt;
-
-&lt;h2 id=&quot;setting-the-scene&quot;&gt;Setting the scene&lt;/h2&gt;
-
-&lt;h3 id=&quot;goals-and-expectations&quot;&gt;Goals and expectations&lt;/h3&gt;
-&lt;p&gt;The first thing to do was to set clear objectives for the event. For the Growth team, our aims were two-fold. Firstly, it was to finalise work on our current project to introduce “&lt;a href=&quot;https://www.mediawiki.org/wiki/Growth/Personalized_first_day/Newcomer_tasks&quot;&gt;Suggested edits&lt;/a&gt;” (small editing tasks) to new users in the Wikipedia languages we work with to pilot our new features. As the designer on the team, it was my responsibility to lead ideation for the offsite’s second aim: to address our longer term goal of creating a &lt;strong&gt;cohesive newcomer experience&lt;/strong&gt; so that new Wikipedia users feel welcomed and encouraged to contribute.&lt;/p&gt;
-
-&lt;h3 id=&quot;audience-and-constraints&quot;&gt;Audience and constraints&lt;/h3&gt;
-&lt;p&gt;To meet these challenges we had to integrate the diverse perspectives of our team, which consisted of myself, a product manager, a program manager, three engineers, an engineering manager, a QA analyst, a data analyst, and a community relations specialist. Some members of our team had participated in a couple of design sprints before, others had limited experience with the process.&lt;/p&gt;
-
-&lt;p&gt;As I saw it there were 3 main challenges in adapting the traditional / formal design sprint format:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Time&lt;/strong&gt;: How might we complete a nimble ~3 hour design sprint when it typically takes a few days? &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Distance&lt;/strong&gt;: How might we successfully discuss and sketch together to generate ideas when everyone is remote? &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Engagement&lt;/strong&gt;: How might we encourage participation amongst non-designers who may be unfamiliar, daunted and/or plain dislike the format and tools used? (sketching is not enjoyable for everyone!) &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;An additional constraint on time was that the design “mini-sprint” was to be broken up into two sessions on days #2 and #4 of a four-day long virtual offsite.&lt;/p&gt;
-
-&lt;h3 id=&quot;over-planning-ahead&quot;&gt;(Over) Planning ahead&lt;/h3&gt;
-
-&lt;p&gt;Perhaps the oft-quoted saying that “&lt;a href=&quot;https://en.wikiquote.org/wiki/Blaise_Pascal&quot;&gt;I would have written a shorter letter, but I did not have the time&lt;/a&gt;” applies to sprint planning too. Doing more pre-planning including creating pre-reading for participants was important in ensuring the shorter sprint format had a chance of being executed well, and in time.  Prior to the whole offsite, the team responded to a short survey with their hopes and fears, which helped immensely with deciding the mix of passive/active participation and level of group vs individual work to include.&lt;/p&gt;
-
-&lt;p&gt;Also essential to planning was determining the focus of the design sprint activity, and then tailoring (and paring down) only the most relevant activities to achieve that goal. Taking cues from a few other blog posts about &lt;a href=&quot;https://medium.com/@designsprintstudio/the-one-hour-brain-sprint-409fc5417e10&quot;&gt;one&lt;/a&gt;, &lt;a href=&quot;https://blog.prototypr.io/the-2-hour-design-sprint-9e2bbc14ee1&quot;&gt;two&lt;/a&gt; and &lt;a href=&quot;https://ux.shopify.com/the-4-hour-design-sprint-b05b516cede7&quot;&gt;four hour&lt;/a&gt; design sprints, I decided in session #1 to use some parts of the &lt;a href=&quot;https://designsprintkit.withgoogle.com/methodology/overview&quot;&gt;Google Ventures design sprint&lt;/a&gt; method, with the question of “How might we create an integrated newcomer homepage” as the overarching prompt.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/virtual-sprint-slides.png&quot; alt=&quot;Virtual sprint slides&quot; /&gt;
-  &lt;figcaption&gt;Slides used to introduce the design sprint activity.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;sprinting-what-happened-on-the-growth-sprint&quot;&gt;Sprinting: What happened on the Growth sprint&lt;/h2&gt;
-&lt;p&gt;This section discusses what we did during the sprint, before I then delve into more details on the tools and resources used.&lt;/p&gt;
-
-&lt;h3 id=&quot;session-one-diverging-and-ideating&quot;&gt;Session One: Diverging and ideating&lt;/h3&gt;
-&lt;p&gt;The product manager and I gave lightning talks on different key themes around the newcomer experience, while each person wrote down their ideas in the “How Might We…” (HMW) format: a way of describing ideas and challenges positively in the form of an opportunity.&lt;/p&gt;
-
-&lt;p&gt;The Growth team already had a pretty comprehensive understanding of the project, so as anticipated there was a diverse range of HMWs generated. I then took the team through an affinity mapping exercise – essentially a fancy term for organizing similar ideas into groups.&lt;/p&gt;
-
-&lt;p&gt;We voted for the top five ideas from the affinity groups and proceeded to the sketch phase (the third Google DS Methodology phase) where participants created “pitch posters” (see example in the facilitation deck linked at the end resources). During these break-out sessions people worked in pairs to design interaction flows and user experiences in as high or low fidelity as they were comfortable working with, and returned to the group to present to everyone.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Facilitation_deck_for_Design_exercise_1_Growth_2019_Virtual_Offsite.pdf&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/virtual-sprint-figma-session-1.png&quot; alt=&quot;Facilitation deck&quot; /&gt;
-  &lt;/a&gt;
-  &lt;figcaption&gt;Screenshot from the Figma board used in Design Session One during the HMW exercise.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;session-two-converging-on-key-insights&quot;&gt;Session Two: Converging on key insights&lt;/h3&gt;
-&lt;p&gt;This was the “wrap-up” session where we reviewed the top ideas generated in the first session, and ended with a fun exercise to help each team member reflect on the different perspectives brought to the newcomer homepage’s upcoming feature work. From here, the intention was that each team member could better articulate and advocate for priorities from their preferred position, and help drive the product direction.&lt;/p&gt;
-
-&lt;p&gt;We needed a collaborative decision-making activity that wasn’t purely democractic, but was still open, transparent, and hopefully fun. I invented the “Marry, Move, Kill” activity in which each person would describe their dream newcomer homepage based on the existing homepage as well as sections that had been voted on the previous day. From these candidates, each team member must “marry” sections to their home page, “move” others, and “kill” at least one.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;a href=&quot;https://www.figma.com/file/atUa8TCT65bu1tMBx1Q571/Growth-Design-Fall-2019-Offsite-%E2%80%93%C2%A0Design-Session-2?node-id=216%3A13&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/virtual-sprint-figma-session-2.png&quot; alt=&quot;Template page on Figma for Marry, Move, Kill activity&quot; /&gt;
-  &lt;/a&gt;
-  &lt;figcaption&gt;Screenshot from the Figma board used in Design Session Two during the Marry, Move, Kill exercise.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;documenting-the-outcomes-post-sprint&quot;&gt;Documenting the outcomes post-sprint&lt;/h3&gt;
-&lt;p&gt;One benefit of the virtual sprint is that format lends itself for easier documenting.  In the case of many conference call apps, you can literally record the sessions. Whilst we didn’t do so for the design sessions this time around, there were a few key outcomes documented in the various notes and artefacts:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Identified a future feature&lt;/strong&gt;: Building out a Mentor dashboard to help experienced editors better guide new contributors&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Insights about tailoring specific features to Mobile or Desktop&lt;/strong&gt;: Experimenting with different experiences and on mobile and desktop - realising that a cohesive experience does not necessarily require parity of features available&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Confirmation about product direction&lt;/strong&gt;: Driving editing as the focus of the newcomer homepage feature&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Meta-outcome&lt;/strong&gt;: Getting a better sense of each team member’s priorities&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;choosing-suitable-tools-for&quot;&gt;Choosing suitable tools for…&lt;/h2&gt;
-&lt;h3 id=&quot;remote-friendly-participation&quot;&gt;Remote-friendly participation&lt;/h3&gt;
-&lt;p&gt;Design sprints can be challenging even when people are face-to-face. Managing the process remotely had to address such variables as connection speeds, platform diversity, familiarity with remote collaboration tools, and general comfort with doing this kind of work via video conference. So much can be lost without the cues and subtleties of being co-located, so it was important to choose remote-collaboration tools that were both reliable, and relatively familiar for everyone.&lt;/p&gt;
-
-&lt;p&gt;Google Meet was used for all video conferencing and communication, Google Slides to create and present the facilitation deck (and supporting materials), and Figma for our collaborative design sessions.&lt;/p&gt;
-
-&lt;h3 id=&quot;video-conferencing&quot;&gt;Video conferencing&lt;/h3&gt;
-&lt;p&gt;We used Google Meet for both the main event, as well as breaking out  into smaller groups in ‘side Meets’ for the sketch phase, but only on the first day, as it seemed like too much time spent out of group discussion dissipated focus. We did no breakout sessions on day two to allow the team to concentrate on the Marry, Move, Kill exercise.&lt;/p&gt;
-
-&lt;h3 id=&quot;facilitating&quot;&gt;Facilitating&lt;/h3&gt;
-&lt;p&gt;I made a facilitation deck that communicated each session’s goals and served as the roadmap for the sprint. I chose Google Slides because as with Meet, everyone was already familiar with the tool. For presenting over a video call, it turned out to be very useful to not only have this deck, but having it under the management and control of a single presenter meant easy incorporation of useful facilitator tools like countdown timers (via embedding YouTube videos like &lt;a href=&quot;https://www.youtube.com/watch?v=Vn31KFenBIo&quot;&gt;this one&lt;/a&gt;) and reaction GIFs.&lt;/p&gt;
-
-&lt;h3 id=&quot;collaborating&quot;&gt;Collaborating&lt;/h3&gt;
-&lt;p&gt;For the sketch phase I used Figma, a web-based collaborative design tool, to create templates and design elements that were intended to help non-designers participate more easily (through being able to copy and paste existing visual elements). In retrospect, even Figma proved to be too finicky for some on the team (and this was even with a “warm-up exercise” to get team members familiar with using it). I recommend using collaboration tools that everyone in a group is familiar with or can get up to speed on quickly. Google slides could have been used instead, and so could paper and pencil sketches that could have been photographed and shared.&lt;/p&gt;
-
-&lt;h2 id=&quot;tldr-checklist-for-the-next-virtual-sprint&quot;&gt;TL;DR: Checklist for the next virtual sprint&lt;/h2&gt;
-&lt;p&gt;Whilst there is definitely value in having in-person meetings that a remote event can never match completely, there are some benefits of the format that may help offset the social/bonding cost. Being alone in their own environments may be beneficial in helping participants to focus, albeit in shorter online doses. The following are some thoughts for how I would try to plan the next sprint so that folks go from being a captive audience to a captivated participant.&lt;/p&gt;
-
-&lt;h3 id=&quot;plan&quot;&gt;Plan&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Set clear objectives for what should be accomplished at the end of the sprint.&lt;/li&gt;
-  &lt;li&gt;Tailor to your audience. Determine how much onboarding for an idea or activity may be necessary for the particular group’s knowledge/skill set/interests.&lt;/li&gt;
-  &lt;li&gt;Preview content if possible. Sharing the agenda, introducing tools, rubrics, etc. &lt;em&gt;beforehand&lt;/em&gt; can reduce the amount of introduction required.&lt;/li&gt;
-  &lt;li&gt;Understand the scope. Don’t try to shoot the moon in 3 hours.&lt;/li&gt;
-  &lt;li&gt;Provide enough time, then add a few more minutes for transition time for good measure.&lt;/li&gt;
-  &lt;li&gt;Assign a moderator and note-taker.&lt;/li&gt;
-  &lt;li&gt;Incorporate some ‘fun’ activities too. Interspersing sessions with some short ice-breaker type activities will help folks get comfortable chatting and sharing ideas over video&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;provide&quot;&gt;Provide&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;An overview of goals, activities, and metrics.&lt;/li&gt;
-  &lt;li&gt;Warm-up exercises to get familiar and comfortable with relatively new collaboration tools.&lt;/li&gt;
-  &lt;li&gt;More interactive and entertaining-framing on activities can help inject some more social enjoyment that is missed from not having an in-person event&lt;/li&gt;
-  &lt;li&gt;Opportunities for smaller sessions and regrouping.&lt;/li&gt;
-  &lt;li&gt;Templates for collaboration and assessment.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;collaborate&quot;&gt;Collaborate&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Use templates.&lt;/li&gt;
-  &lt;li&gt;Pick the right tool for the collaborative job.&lt;/li&gt;
-  &lt;li&gt;Focus on enabling everyone to contribute.&lt;/li&gt;
-  &lt;li&gt;Break out and regroup as necessary.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;reflect&quot;&gt;Reflect&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Look back on what has been done.&lt;/li&gt;
-  &lt;li&gt;Measure against stated goals.&lt;/li&gt;
-  &lt;li&gt;Share the results.&lt;/li&gt;
-  &lt;li&gt;Provide opportunity for group feedback.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;more-feedback-always-welcome&quot;&gt;More feedback always welcome&lt;/h2&gt;
-&lt;p&gt;Though the opinions in this writing are my own, the Wikimedia Design team strives to design in the open with a transparent and participatory process. With that in mind, we welcome any thoughts and experiences you may have on running a virtual design sprint, especially in a group where not everyone is a designer.&lt;/p&gt;
-
-&lt;p class=&quot;post__authors&quot;&gt;
-  Written with the assistance of David A.M. Goldberg
-&lt;/p&gt;</content><author><name></name></author><summary type="html">Reflections from my first fully remote offsite</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/virtual-sprint-lead-image.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/virtual-sprint-lead-image.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/footer&gt;</content><author><name></name></author><summary type="html">Ever wonder how content moderation works on Wikipedia?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/moderation-groups.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/moderation-groups.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
