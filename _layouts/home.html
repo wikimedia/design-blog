@@ -7,7 +7,7 @@ layout: default
   {{ content }}
   {%- if site.posts.size > 0 -%}
     <main class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in paginator.posts -%}
       <article class="post post--card">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <a class="post__link" href="{{ post.url | relative_url }}">
@@ -23,5 +23,20 @@ layout: default
       </article>
       {%- endfor -%}
     </main>
+
+    <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="previous">&laquo; Previous</a>
+      {% endif %}
+
+      <span class="page_number ">
+        {{ paginator.page }} of {{ paginator.total_pages }}
+      </span>
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url}}" class="next">Next &raquo;</a>
+      {% endif %}
+    </div>
   {%- endif -%}
 </div>

@@ -28,8 +28,12 @@ github_username: wikimedia
 # Build settings
 theme: minima
 timezone: UTC
+paginate: 5
+paginate_path: "/:num/"
+
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 exclude:

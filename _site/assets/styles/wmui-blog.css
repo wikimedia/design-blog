@@ -82,6 +82,14 @@ figcaption {
   margin: 0 20px;
 }
 
+.pagination {
+  text-align: center;
+}
+
+.pagination .page_number {
+  margin: 0 3rem;
+}
+
 @media (min-width: 780px) {
   .content {
     width: 720px;
