@@ -1,4 +1,187 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2021-05-03T04:29:49+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Bringing Wikipedia to the homescreen on iOS</title><link href="https://design.wikimedia.org/blog/2021/04/26/bringing-wikipedia-to-the-homescreen-on-ios.html" rel="alternate" type="text/html" title="Bringing Wikipedia to the homescreen on iOS" /><published>2021-04-26T00:00:00+00:00</published><updated>2021-04-26T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/04/26/bringing-wikipedia-to-the-homescreen-on-ios</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/04/26/bringing-wikipedia-to-the-homescreen-on-ios.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;http://carolynlimadeo.com/&quot;&gt;Carolyn Li-Madeo&lt;/a&gt; and &lt;a href=&quot;https://deepakmantena.com/&quot;&gt;Deepak Mantena&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2021-06-14T04:31:25+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Nurturing newbies: Growing Wikipedia contributors by Design</title><link href="https://design.wikimedia.org/blog/2021/06/12/growing-wikipedia-by-design.html" rel="alternate" type="text/html" title="Nurturing newbies: Growing Wikipedia contributors by Design" /><published>2021-06-12T00:00:00+00:00</published><updated>2021-06-12T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/06/12/growing-wikipedia-by-design</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/06/12/growing-wikipedia-by-design.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://medium.com/@reetssydney&quot;&gt;Rita Ho&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;When the average person hears that I’m the designer on the Growth team for Wikipedia, there’s a common misconception that it’s about growing the number of readers, the more commonly thought of “Wikipedia user”.  However, our team was formed almost three years ago with a different challenge and audience as our focus. This article aims to tell the six-part story of how and why we started this team, and all the failures, learnings, and  successes we’ve had since.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Identify the problem&lt;/li&gt;
+  &lt;li&gt;Plant the seeds for Growth: Research&lt;/li&gt;
+  &lt;li&gt;The set up: Team process &amp;amp; principles&lt;/li&gt;
+  &lt;li&gt;Design experiments 1, 2, and 3: Down, up, and up&lt;/li&gt;
+  &lt;li&gt;Now what? Doubling down and scaling up&lt;/li&gt;
+  &lt;li&gt;What’s next&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;1-identify-the-problem&quot;&gt;1. Identify the problem&lt;/h1&gt;
+
+&lt;p&gt;While it’s commonly known that Wikipedia is a multilingual project, one thing that may be surprising is how much variation there is between articles on the same topic in different languages. For example, the &lt;a href=&quot;https://fr.wikipedia.org/wiki/Canel%C3%A9&quot;&gt;French canelé article&lt;/a&gt; has a fairly different history on the origins for the small pastries than its &lt;a href=&quot;https://en.wikipedia.org/wiki/Canel%C3%A9&quot;&gt;English version&lt;/a&gt;&lt;sup&gt;&lt;a href=&quot;#note-1&quot; id=&quot;ref-1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;. This is because each article version is written by its own community of editors, not machine translated&lt;sup&gt;&lt;a href=&quot;#note-2&quot; id=&quot;ref-2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;. The diversity and breadth of content across around 300 languages is awesome, but it also presents a challenge:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How might we grow knowledge across all languages?&lt;/strong&gt;&lt;br /&gt;
+Currently the largest Wikipedia language is English, with ~6.3 million articles&lt;sup&gt;&lt;a href=&quot;#note-3&quot; id=&quot;ref-3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;. Contrast this with the Hindi version (the 4th most spoken first-language, just behind English&lt;sup&gt;&lt;a href=&quot;#note-4&quot; id=&quot;ref-4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt;) with ~147K articles&lt;sup&gt;&lt;a href=&quot;#note-5&quot; id=&quot;ref-5&quot;&gt;[5]&lt;/a&gt;&lt;/sup&gt;. This highlights the many knowledge gaps that exist on Wikipedia – and how it is a massive barrier to information access for those who don’t know English. To continue on the case of the canelé, (as of writing) there is no article about the deliciously rich heritage of these pastries documented on Hindi Wikipedia at all. Or to give a more ‘serious’ example of the knowledge gap (though one would argue pastries are a culturally significant item), the Hindi edition also lacks biographies for prominent figures like Nobel laureate &lt;a href=&quot;https://en.wikipedia.org/wiki/Ir%C3%A8ne_Joliot-Curie&quot;&gt;Irène Joliot-Curie&lt;/a&gt;, or conservationist &lt;a href=&quot;https://en.wikipedia.org/wiki/Dian_Fossey&quot;&gt;Dian Fossey&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/irene-screenshot.png&quot; alt=&quot;Screenshot of Iréne Joliot-Curie's English Wikipedia page&quot; /&gt;
+  &lt;figcaption&gt; Screenshot of “Irène Joliot-Curie” from &lt;a href=&quot;https://en.wikipedia.org/wiki/Irène_Joliot-Curie&quot;&gt;English Wikipedia&lt;/a&gt; (2021) with a pop-up dialog on the bottom left with a message that the article does not yet exist in Hindi Wikipedia. | Accessed 2021-05-18 | text CC-BY-SA-3.0 | ™ Wikipedia logo | Other media in this image may be subject to other terms.
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The Wikimedia Foundation’s &lt;a href=&quot;https://wikimediafoundation.org/about/vision/&quot;&gt;vision&lt;/a&gt; is to ensure that every single human being can freely share in the world’s knowledge, which can only be accomplished if more people contribute to that corpus of knowledge across all languages. Unfortunately Wikipedia has seen the number of contributors (a.k.a. editors) either stagnate or shrink over the years, and struggle to attract and retain new folks. A notable metric is that around 94% of first time editors don’t ever stick around to make a second edit&lt;sup&gt;&lt;a href=&quot;#note-6&quot; id=&quot;ref-6&quot;&gt;[6]&lt;/a&gt;&lt;/sup&gt;. The Growth team was formed at the Wikimedia Foundation in July 2018 to directly address this problem. There need to be significant increases in the number of contributors  as well as a more diverse contributor pool in order to supply knowledge that is relevant to everyone in the world.&lt;/p&gt;
+
+&lt;p&gt;With this in mind, the Growth team’s objective is to:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Increase contributor &lt;strong&gt;activation&lt;/strong&gt; (people who make a first edit)&lt;/li&gt;
+  &lt;li&gt;Increase contributor &lt;strong&gt;retention&lt;/strong&gt; (people who come back another day to make subsequent edits)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We have also concentrated on working with smaller-to-medium sized Wikipedias to help promote the diversity of the contributors (rather than the larger, established language Wikipedias who tend to be an established homogenous group).&lt;/p&gt;
+
+&lt;h1 id=&quot;2-planting-the-seeds-for-growth-research&quot;&gt;2. Planting the seeds for Growth: Research&lt;/h1&gt;
+
+&lt;p&gt;The inception of our work actually began a year earlier with the “&lt;a href=&quot;https://www.mediawiki.org/wiki/New_Editor_Experiences&quot;&gt;New Editor Experiences&lt;/a&gt;” research project in 2017. This was a foundational research project aimed at learning as much as possible about new editors in Korean and Czech Wikipedias – two languages chosen as representative of many smaller Wikipedias. The project was conducted not only in collaboration with a research partner Reboot, but also with Wikipedians in Korea and Czech, with a “Community ambassador” role created for a long-term active member in each language, to encourage their communities’ participation in the project. In all, 64 interviews were conducted in Korea and Czechia to draw out a number of important insights about new editors.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/new-editor-research.png&quot; alt=&quot;Screenshot of a page of the new editors experiences research.&quot; /&gt;
+  &lt;figcaption&gt;Left: &lt;a href=&quot;https://meta.wikimedia.org/w/index.php?title=File:New_Editor_Experiences_summary_of_findings,_August_2017.pdf&amp;amp;page=12&quot;&gt;New Editor Experiences summary of findings, August 2017 - Page 12&lt;/a&gt; | By Reboot and the Wikimedia Foundation | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC-BY-SA 4.0&lt;/a&gt; || Right: &lt;a href=&quot;https://meta.wikimedia.org/wiki/File:New_Editor_Experiences_user_personas,_August_2017.pdf&quot;&gt;New Editor Experiences user personas, August 2017 - Page 1&lt;/a&gt; | By Reboot and the Wikimedia Foundation | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC-BY-SA 4.0&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;One of the outcomes of the research was identifying that contributors have very different motivations for editing (represented in the personas). Despite their differences, all these newcomer personas encountered one or more of these key barriers to editing:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Technical barrier (e.g. How do I write in code?)&lt;/strong&gt; – Newcomers have trouble finding and using editing tools.  A lot of our editing tools can seem too overwhelmingly open-ended and complex for them to know where to even start.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Conceptual barrier (e.g. What is “notability”?)&lt;/strong&gt; – How do they write the “Wikipedia way”? What does it mean when their subject is not notable enough? What is NPOV?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cultural (e.g. Why are people so mean?)&lt;/strong&gt; – Newcomers are often unaware of the collaborative effort involved in writing Wikipedia. In turn, they can’t easily become part of the “community” of established and active editors, because they don’t know it exists. And for many, their first interaction is not positive because it’s someone telling them they did something wrong, or reverting their edit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/new-editors-barriers.png&quot; alt=&quot;Illustration showing three icons - no wikitext, warning sign and a sad message emoji&quot; /&gt;
+  &lt;figcaption&gt;Illustration of the three key barriers (Technical, Conceptual, and Cultural) newcomers face when editing Wikipedia. By Rita Ho | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0&quot;&gt;CC BY-SA 4.0&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Besides the different newcomer needs, motivations, and challenges being surfaced, the research concluded with a number of recommendations. This was where the Growth team came into the picture, as it was formed to take action on these recommendations.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Our aim was to experiment with design interventions to drive increases in activation and retention of newcomers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;3-the-set-up-team-process-and-principles&quot;&gt;3. The set up: Team process and principles&lt;/h1&gt;
+
+&lt;p&gt;Vanilla Ice once sang, “&lt;a href=&quot;https://en.wikipedia.org/wiki/Ice_Ice_Baby&quot;&gt;Stop, collaborate and listen&lt;/a&gt;”. Our team works according to similar principles, but in a different order.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-collaborate-in-the-open&quot;&gt;1. Collaborate in the open&lt;/h2&gt;
+&lt;p&gt;Modelling on the success of the New Editor Experiences research approach, a core part of our process is to ensure close communication and collaboration with the communities in which we work. The first thing we did when the team was formed was to partner with four “pilot” languages (Korean, Czech, Arabic, and Vietnamese) that we would collaborate with in controlled experiments. In addition to the team’s Community Relations Specialist (a liaison between Wikimedia product teams and volunteer community members), we created a “Community Ambassador” role for each pilot language – a representative who helps us to collaborate with their respective members on a range of tasks such as translation, communicating our progress, and recruiting others to participate in our project.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/growth-team-wikipedias-logo.png&quot; alt=&quot;Logos of the Growth team and pilot wikis&quot; /&gt;
+  &lt;figcaption&gt;Top: &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Growth_team_logo_-_en.svg&quot;&gt;Growth team logo - en&lt;/a&gt; | By Rita Ho | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0&quot;&gt;CC BY-SA 4.0&lt;/a&gt;  || Bottom (left to right): &lt;a href=&quot;https://commons.wikimedia.org/wiki/Wikipedia/2.0#SVG&quot;&gt;Wikipedia logo 2.0&lt;/a&gt; for &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2-ar.svg&quot;&gt;Arabic&lt;/a&gt;, &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2-cs.svg&quot;&gt;Czech&lt;/a&gt;, &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2-ko.svg&quot;&gt;Korean&lt;/a&gt;, and &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2-vi.svg&quot;&gt;Vietnamese&lt;/a&gt; | By Wikimedia Foundation &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/3.0&quot;&gt;CC BY-SA 3.0&lt;/a&gt; (™ Wikipedia logo)&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Notably, not only do we collaborate with our communities, but because it’s Wikipedia – anyone can be a part of the community – so we work in the public. We post in-progress designs and engineering updates that anyone interested can react to and give feedback.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-listen&quot;&gt;2. Listen&lt;/h2&gt;
+&lt;p&gt;We listen to all the feedback coming back on our work, from usability testing on early stage designs through to analysing data from our released experiments in order to decide how to improve. We also listen to our community partners, and try to ensure there is sufficient flexibility and adaptability in designs to work for different groups.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-stop-if-its-not-working&quot;&gt;3. Stop (if it’s not working)&lt;/h2&gt;
+&lt;p&gt;A very important work principle we try to keep in mind is that experiments fail. When we see something is not working, we try to make a clean stop and take learnings from that failure to make the next experiment better.&lt;/p&gt;
+
+&lt;p&gt;Of course, nested in this last principle is making sure we are measuring results rigorously, and running &lt;a href=&quot;https://en.wikipedia.org/wiki/Treatment_and_control_groups&quot;&gt;controlled experiments&lt;/a&gt; for everything we try.&lt;/p&gt;
+
+&lt;h1 id=&quot;4-design-experiments-1-2-and-3-down-up-and-up&quot;&gt;4. Design experiments 1, 2, and 3: Down, up, and up&lt;/h1&gt;
+
+&lt;p&gt;To illustrate our process and journey, I’d like to talk about three key experiments our team has worked on based on major recommendations from the design research.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-help-panel-a-helpful-failure&quot;&gt;#1 Help panel: A helpful failure&lt;/h2&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/growth-help-panel.png&quot; alt=&quot;Screenshots of the help panel&quot; /&gt;
+  &lt;figcaption&gt;Screenshots of the Help panel open over the “Hamlet” article from four Wikipedia languages (left to right: Arabic, Czech, Korean, and Vietnamese). | Text from Wikimedia projects are &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC-BY-SA-3.0&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;One of our first experiments was based on research recommendations for better &lt;strong&gt;in-context help&lt;/strong&gt; (small doses of help relevant to the activity being done at that moment), as well as &lt;strong&gt;human-to-human help&lt;/strong&gt; (providing a real connection to a friendly person in the community). In a nutshell, the feature was a help panel tool available to newcomers when they opened an article for editing, and allowed them to search and/or ask questions to experienced users about how to edit.&lt;/p&gt;
+
+&lt;p&gt;In order for this design to work in practice, not only did we consult with all our pilot wikis for buy-in on the idea, via our ambassadors, but we needed these very experienced editors from each language to sign up to answer questions. So community engagement was doubly important for this experiment.&lt;/p&gt;
+
+&lt;p&gt;The engagement with the help panel was quite high&lt;sup&gt;&lt;a href=&quot;#note-7&quot; id=&quot;ref-7&quot;&gt;[7]&lt;/a&gt;&lt;/sup&gt; considering its ancillary placement and function, so we considered it a positive sign that newcomers want in-context and human help.  An interesting tidbit was that there were cultural differences in the usage, where Koreans asked very few questions compared to the other pilot wikis. However, per our “Stop if it’s not working” principle, we ultimately didn’t see any change in more people starting to edit or being retained, so we paused further iteration and went to try a different idea.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-newcomer-homepage-a-welcoming-place&quot;&gt;#2 Newcomer homepage: A welcoming place&lt;/h2&gt;
+&lt;p&gt;The Newcomer homepage was the second project built as a result of  the usability testing of our earlier work, where we noticed a lot of test participants expected a dashboard or some homepage to orient themselves.&lt;/p&gt;
+
+&lt;p&gt;So we created this “newcomer homepage” that gives them that clear place to start.&lt;/p&gt;
+
+&lt;p&gt;In its first iteration, it contained a few different modules that help someone learn about editing, encourage them to create a user page, and seek help from both the help desk or from a specific experienced editor assigned as their mentor.&lt;/p&gt;
+
+&lt;p&gt;It was encouraging to see people engaging with this page and returning to it on multiple days to take different actions. One of our most important observations was that the most popular button was for creating a “user page”, which is like a user profile in which newcomers can identify themselves to others.  The engagement with this button gave us a very strong signal that newcomers will start contributing if given a call-to-action.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/interaction-percentage.png&quot; alt=&quot;Screenshot showing interaction percentages&quot; /&gt;
+  &lt;figcaption&gt;Image is a derivative of &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Homepage_mockup_2019-04-24.png&quot;&gt;Homepage mockup 2019-04-24&lt;/a&gt;, by Alessandro Contini, used under &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0&quot;&gt;CC BY-SA 4.0&lt;/a&gt;, with percentage values added to indicate the different amount of interactions from newcomers on various parts of the homepage, showing the “create user page” call to action as having the highest percent of clicks. This image is licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0&quot;&gt;CC BY-SA 4.0&lt;/a&gt; [Rita Ho].&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;3-newcomer-tasks-suggestions-to-get-started&quot;&gt;#3 Newcomer tasks: Suggestions to get started&lt;/h2&gt;
+&lt;p&gt;A natural next step after seeing newcomers interacting and seeking out editing actions on the newcomer homepage was to give them opportunities to edit actual Wikipedia articles. We did this in the form of newcomer task recommendations, a feature we call “Suggested edits” on the homepage.&lt;/p&gt;
+
+&lt;p&gt;Based on foundational research and cumulative feedback from previous experiments, we knew that many newcomers either arrive with a very challenging edit in mind (e.g., write a new article from scratch) from which failure becomes a demoralising dead-end, or else they don’t have any edits in mind at all, and never find their footing as contributors. The “Suggested edits” module offers tasks ranging from easy tasks (like copyediting or adding links), to harder tasks (like adding citations or expanding articles) that newcomers can filter to based on their specific interests (e.g., copyedit articles about “Food and drink”). This feature is intended to cater to both groups – a clear way to start editing for those who don’t know what they want to do, and for those who do have a difficult edit in mind, it provides a learning pathway to build up their skills first.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/suggested-edit-mobile.png&quot; alt=&quot;Screenshots of Suggested edits on mobile&quot; /&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Suggested_edits_-_sample_mobile_screens.png&quot;&gt;Suggested edits - sample mobile screens&lt;/a&gt; | By RHo (WMF) | &lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;CC BY 4.0&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Since its launch, and as we added more editing guidance and improvements to the homepage design over multiple iterations and variant tests (a subject for another post), we’ve seen steady increases in edits and number of editors using it. In other words, the release of this experimental feature saw us succeed in increasing editor activation and retention. 🙌 🙌&lt;/p&gt;
+
+&lt;h1 id=&quot;5-now-what--doubling-down-and-scaling-up&quot;&gt;5. Now what?  Doubling down and scaling up&lt;/h1&gt;
+&lt;p&gt;The success we saw in the pilot languages meant that we are able to work on the next great problem to solve: how can we scale up and encourage all the other Wikipedias to adopt our features?&lt;sup&gt;&lt;a href=&quot;#note-8&quot; id=&quot;ref-8&quot;&gt;[8]&lt;/a&gt;&lt;/sup&gt; Luckily, one of the benefits of working in this somewhat slow-and-steady approach is that as the team consults with the different language communities, we’ve got a lot of supporting data and built up a lot of trust from collaborating with our pilot communities which has helped encourage many language communities to sign up. To date, we’ve added the features to 35 Wikipedias, which, when accounting for the relative sizes of the languages, amounting to nearly half (42% to be exact) of all newcomers to Wikipedia.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/languages-with-growth-features.png&quot; alt=&quot;List of languages where growth features are enabled&quot; /&gt;
+  &lt;figcaption&gt;Illustration showing that the 35 Wikipedia languages which currently have the Growth team’s newcomer features accounts for nearly half of all newcomers (new accounts) on Wikipedia. | By Rita Ho CC BY-SA 4.0, Wikimedia Foundation CC BY-SA 3.0 (™ Wikipedia logo)&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Reflecting on the time it has taken from the initial failed experiment with the help panel to the modest success we’ve had so far in increasing new contributors, these were my biggest realisations about what it is to design with and for the open community of communities that is Wikipedia.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Importance of collaborating with communities for adoption &amp;amp; understanding.&lt;/strong&gt; Collaborating with our communities is paramount for trust, acceptance, and improved user experience&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Experimenting with an open mind&lt;/strong&gt; (and being ready to fail with a next plan).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;There’s no one size fits all for everyone.&lt;/strong&gt; Accepting that actually, there is no perfect design for everyone. Seeing how different cultures and languages react to and use the same design differently has made me realise the importance of allowing a degree of customization, to empower different communities to figure out what’s best for them.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Change takes time and perseverance&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;6-whats-next&quot;&gt;6. What’s next?&lt;/h1&gt;
+
+&lt;p&gt;We’ve now established a good cadence to our experiment-and-scale-up-on-success approach, and as the Growth team features become available on more Wikipedias, our ultimate goal is that one day these will no longer be experiments but a core part of welcoming editors to the Wikipedia community. So, mission accomplished right?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thankfully, my job as a designer is not done here.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You may have noticed that all the design interventions so far have been about trying to get newcomers to succeed by giving them access to help and suggestions to edit using the existing editing interface. At the moment, if someone selects a suggested edit to “copy edit” an article, they don’t receive any specific pointers about what part of the article needs help with fixing spelling or grammar. Our newcomers still need to know which of the many editing tools they should be using, and will often need to ask for more guidance. And that’s what instigated our team’s latest design exploration: &lt;strong&gt;Structured tasks.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The idea is that instead of guiding people through the current complex, open-ended editing UI, we create new, easier ways to edit. And we will do this by breaking down editing tasks you can do on Wikipedia into a series of single smaller steps or “structured tasks” instead. Something that newcomers can quickly and easily accomplish.&lt;/p&gt;
+
+&lt;p&gt;The very first structured task that we have designed is to review suggestions by an algorithm to make words in a Wikipedia article link to other articles, and we are again approaching this by seeing how this new task type is working firstly for our pilot Wikipedias by the start of June 2021. I’m anxiously optimistic about  how this next experiment goes, fodder for  another post, but until then (and until there’s time for another blog post), you can learn more about our work on our &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth&quot;&gt;team page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;&lt;em&gt;
+Cover image by Rizzelli Stefania. Taken from &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:MUFFE_E_LIEVITI_ISOLATI_NELLE_FARINE_ALIMENTARI.jpg&quot;&gt;Commons&lt;/a&gt;, licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/deed.en&quot;&gt;CC-BY-SA-4.0&lt;/a&gt;.
+&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks Marshall Miller, Jessica Klein, and Margeigh Novotny for your feedback and editing help.&lt;/em&gt;&lt;/p&gt;
+
+&lt;footer&gt;
+&lt;p id=&quot;note-1&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-1&quot;&gt;[1]&lt;/a&gt;Digression: As of 2021-05-17, the French version of the Canelé article talks about its creation being connected to wine production in the Bordeaux region: since only egg whites were used in the “fining” wine process, the excess egg yolks were used in canelé-making. This is contrasted with the English article which focuses on the origins of the name, and is much more circumspect about its origins.
+&lt;/small&gt;&lt;/p&gt;
+
+&lt;p id=&quot;note-2&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-2&quot;&gt;[2]&lt;/a&gt;Wikipedia does, however, also offer a pretty great &lt;a href=&quot;https://www.mediawiki.org/wiki/Content_translation&quot;&gt;Content Translation&lt;/a&gt; tool that helps multilingual people translate articles into different languages they know.&lt;/small&gt;&lt;/p&gt;
+
+&lt;p id=&quot;note-3&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-3&quot;&gt;[3]&lt;/a&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia&quot;&gt;https://en.wikipedia.org/wiki/Wikipedia &lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p id=&quot;note-4&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-4&quot;&gt;[4]&lt;/a&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers&quot;&gt;https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p id=&quot;note-5&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-5&quot;&gt;[5]&lt;/a&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Hindi_Wikipedia&quot;&gt;https://en.wikipedia.org/wiki/Hindi_Wikipedia&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p id=&quot;note-6&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-6&quot;&gt;[6]&lt;/a&gt; Ripstra, A. &amp;amp; Quinn, N. (2018). “New Editor Experiences, Wikimania 2018” [PDF Presentation]. Slides 4-5. Available at &lt;a href=&quot;https://wikimania2018.wikimedia.org/wiki/File:New_Editor_Experiences,_Wikimania_2018.pdf&quot;&gt;https://wikimania2018.wikimedia.org/wiki/File:New_Editor_Experiences,_Wikimania_2018.pdf&lt;/a&gt; (Accessed 2021-05-18)
+&lt;/small&gt;&lt;/p&gt;
+
+&lt;p id=&quot;note-7&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-7&quot;&gt;[7]&lt;/a&gt; 13-29% of newcomers opened the help panel. Of those, 43-59% took some action.&lt;/small&gt;&lt;/p&gt;
+
+&lt;p id=&quot;note-8&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-8&quot;&gt;[8]&lt;/a&gt;Some of you may be flummoxed that it is a necessary step at all to encourage the different communities to adopt our features. This is one of the interesting things about designing for Wikipedia! Communities have the option to not adopt the features we create, literally being able to change or turn off features if their particular community has not reached consensus. This is what makes developing trust and collaboration particularly vital, and also helps explain our slower pace of change.
+&lt;/small&gt;&lt;/p&gt;
+&lt;/footer&gt;</content><author><name></name></author><summary type="html">Reflections on a multi-year effort now bearing fruit</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/nurturing-newbies/isolated-food-flours.jpeg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/nurturing-newbies/isolated-food-flours.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Bringing Wikipedia to the homescreen on iOS</title><link href="https://design.wikimedia.org/blog/2021/04/26/bringing-wikipedia-to-the-homescreen-on-ios.html" rel="alternate" type="text/html" title="Bringing Wikipedia to the homescreen on iOS" /><published>2021-04-26T00:00:00+00:00</published><updated>2021-04-26T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/04/26/bringing-wikipedia-to-the-homescreen-on-ios</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/04/26/bringing-wikipedia-to-the-homescreen-on-ios.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;http://carolynlimadeo.com/&quot;&gt;Carolyn Li-Madeo&lt;/a&gt; and &lt;a href=&quot;https://deepakmantena.com/&quot;&gt;Deepak Mantena&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;When Apple introduced an update to &lt;a href=&quot;https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/widgets&quot;&gt;widgets&lt;/a&gt; with iOS 14, the Wikipedia iOS team was excited to take the opportunity to rethink our own. With the ability to place widgets right on the home screen, the team was curious about how we could highlight Wikipedia content in a way that was visually engaging, glanceable and up-to-date. For our first suite of home screen widgets, we built off of elements from the app’s Explore Feed to design and build three new widgets for iOS 14: On this day, Picture of the day and Top read on Wikipedia.&lt;/p&gt;
 
@@ -978,34 +1161,4 @@ And so we labor on, continually trying to bring transparency to every corner of 
 
 &lt;p class=&quot;post__authors&quot;&gt;
   Olga Vasileva, Lead Product Manager at the Wikimedia foundation
-&lt;/p&gt;</content><author><name></name></author><summary type="html">The desktop design is particularly important to new users who have come to the internet for the first time over the last decade.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-under-construction.gif" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-under-construction.gif" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Democratizing Modern UI Design From The Bottom Up</title><link href="https://design.wikimedia.org/blog/2020/08/26/democratizing-modern-ui-design.html" rel="alternate" type="text/html" title="Democratizing Modern UI Design From The Bottom Up" /><published>2020-08-26T17:26:32+00:00</published><updated>2020-08-26T17:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2020/08/26/democratizing-modern-ui-design</id><content type="html" xml:base="https://design.wikimedia.org/blog/2020/08/26/democratizing-modern-ui-design.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://www.linkedin.com/in/david-a-m-goldberg-900961b2/&quot;&gt;David A. M. Goldberg&lt;/a&gt; with &lt;a href=&quot;https://pauginer.com/&quot;&gt;Pau Giner&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The Wikimedia Foundation [WMF] has established the ambitious vision of making the sum of the world’s knowledge accessible to all the world’s people, by 2030. This vision necessitates a focus on scale: how to scale up content production, globally, and how to scale up access to this content in emerging contexts. Behind this need to scale is a critical design challenge: how to ensure a useful, usable and consistent reading experience while enabling rapid growth. To meet this challenge, WMF’s small but mighty Product Design team has developed a set of best practices and guidelines for product development across all of the Wikimedia Projects. This Design Style Guide, the first of its kind since the founding of Wikipedia in 2001, is both a means of maintaining consistency while scaling, and also a key contribution that product design is uniquely positioned to make –  in the Free Knowledge Movement, and across Wikimedia projects.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/consistency.png&quot; alt=&quot;Screenshot of Wikipedia mobile in different writing systems&quot; /&gt;
-  &lt;figcaption&gt;The Wikipedia experience adapts to different contexts such as different mobile platforms and languages, while keeping the experience consistent. In the example, Android, web and iOS experiences are shown on top and part of the icon system at the bottom.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The focus of  the Guide is to translate the core values of the Foundation into a language of design: this is for everyone, content has priority, usability guides aesthetics, and there is joy to be discovered in honest, open, and free communication. These values are not just idealizations, they are concretely expressed in the Design Team’s comprehensive suite of user interface visual elements (available for &lt;a href=&quot;https://design.wikimedia.org/style-guide/resources.html&quot;&gt;download&lt;/a&gt; and use) and Wikimedia’s evolving  &lt;a href=&quot;https://doc.wikimedia.org/oojs-ui/master/demos/?page=widgets&amp;amp;theme=wikimediaui&amp;amp;direction=ltr&amp;amp;platform=desktop&quot;&gt;Object Oriented User Interface&lt;/a&gt; (OOUI) JavaScript library that puts them to use. Taken together, the WMF Design Team has created a spectrum of engagement that includes those who want to see better-looking, more accessible and consistent design across Wikimedia projects (or the Web at large!), and folks who want to work with free design and interface-development resources. Even if you have never reflected on the effort that goes into creating the best user experiences—we take icons and UI components for granted until they break or confuse us—it is worth casually exploring these resources to get a sense of exactly how the Web can and should work.&lt;/p&gt;
-
-&lt;p&gt;The scope and reach of the Design Team’s web UX conventions puts the Foundation in the company of other free, standards-based, and open source initiatives like the &lt;a href=&quot;https://designsystem.digital.gov/design-principles/&quot;&gt;United States Web Design System&lt;/a&gt;, and the &lt;a href=&quot;https://getuikit.com/docs/introduction&quot;&gt;UIKit&lt;/a&gt; project, and in the same class as influential commercial giants like Apple, Facebook, and Google. However, unlike the design requirements of the governmental public sector, or multinational for-profit corporations, the Design Style is informed by the unique challenges associated with the heterogeneity that exists at all levels of large-scale, global, volunteer-driven projects.&lt;/p&gt;
-
-&lt;p&gt;I asked Pau Giner, one of the Design Team’s leads, how they negotiated a balance between the technical rigors of modern UX design, its pleasure principles (design is, after all, about a goodness), and inviting the participation of communities who do not take the first two actors for granted. This would include people who are new to working with Wikimedia projects, and designers who have never seen their expertise and insights play a part in pursuing the Foundation’s mission. One cannot design a comprehensive design standard by consensus, via self-organized volunteerism, or in direct response to every individual need. He provided an urban metaphor, contrasting the smaller winding streets of older cities like Barcelona (the utopian), with the regular and presumably more practical grids of Chicago or New York. I believe that part of Giner’s intent was to give a sense of what it would be like to introduce necessarily binding rules into a system that had developed in a largely organic fashion, but his metaphor goes further.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/paper-ink.png&quot; alt=&quot;Ink and the Wikipedia wordmark on a paper&quot; /&gt;
-  &lt;figcaption&gt;Inspiration for the visual direction of the style guide came from traditional elements to capture knowledge such as paper and ink.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Compared to Google’s Material Design, he describes the WMF Design Style Guide and its supporting resources as less “complete.” For now, it lacks Material’s formal guidelines for approaches to media, motion, and visual density for example, but according to Giner’s urban metaphor, a totalizing approach to all possible modalities of design would run counter to the bespoke intricacies developed during the lifetime of a collaborative project like Wikipedia. That said, some of what is considered “charming” about the plans of very old cities is a record of old solutions remaining  in service long after their original problems were solved. This creates some interesting tensions that the Design Team has tried to resolve through an open and flexible approach rather than a fixed set of top-down “universal” standards that demand adherence.&lt;/p&gt;
-
-&lt;p&gt;Giner describes the team’s approach as co-evolutionary in the sense that it works closely with various Wikimedia communities that are already deeply invested, both conceptually and technically, in their tools and approaches to content. Working across a number of time zones and specialties, using hackathons and project management tools, the Design Team has collaborated with Wikimedians like Samantha Nguyen (&lt;a href=&quot;https://brickipedia.fandom.com/wiki/LEGO_Wiki&quot;&gt;Brickipedia&lt;/a&gt;), Nislihan Turan (volunteer on the Android Commons app), and numerous internal and cross-Foundation folks. Their contributions ranged from feedback to specifications design, to coordination and connecting normally separated communities such as designers and developers. Giner has also seen increased usage of the Style Guide among new Wikimedia editors and readers, coming—importantly—from non-English speaking communities all over the world.&lt;/p&gt;
-
-&lt;p&gt;As a Wikimedia project itself, the Style Guide serves as a kind of global ambassador, presenting itself to other communities as a demonstration of its own standards, and offering its own DNA, so to speak, as a solution. Communities with great passion and expertise in their field of knowledge, but varying levels of design and technical literacy, work transparently and collaboratively with Giner and his peers to pose and answer questions. This iterative responds to new questions that are raised, and avoids infinite regression, unilateral appeals to expertise, and the blandness of design-by-committee. The argument for a unified—but not necessarily comprehensive—design is not forced, but developed from the inside out, and guided by a respect for the specificity and diversity in communication that underlies the Foundation’s mission to make all of human knowledge available to everyone, without relying on any given human’s exclusive perspective. The Wikimedia Design Team’s particular alignment with the mission makes it real in that special way that steering wheels, doorknobs, light switches, and traffic signs simultaneously tell us what to do, and how things can be done, in a system where individuals are ultimately responsible for their own actions.&lt;/p&gt;
-
-&lt;p class=&quot;post__authors&quot;&gt;
-  &lt;a href=&quot;https://www.linkedin.com/in/david-a-m-goldberg-900961b2/&quot;&gt;David A. M. Goldberg&lt;/a&gt; is a writer, teacher, cultural critic, whose work focuses on issues of innovative democratic access to computing and communications technologies.
-  &lt;br /&gt;&lt;br /&gt;
-  &lt;a href=&quot;https://pauginer.com/&quot;&gt;Pau Giner&lt;/a&gt; is a Principal User-Experience Designer in the Wikimedia Foundation’s Product Design department and has been leading language projects.
-&lt;/p&gt;</content><author><name></name></author><summary type="html">Designing the way millions of users access knowledge requires lots of considerations. The Wikimedia Style guide is an effort to compile good practices to facilitate this task for designers and developers</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/democratizing-modern-ui.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/democratizing-modern-ui.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/p&gt;</content><author><name></name></author><summary type="html">The desktop design is particularly important to new users who have come to the internet for the first time over the last decade.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-under-construction.gif" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-under-construction.gif" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

@@ -50,6 +50,11 @@ figcaption {
   font-size: 1.6rem;
 }
 
+.post__content footer p {
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
 .banner {
   display: flex;
   margin-bottom: 12rem;
