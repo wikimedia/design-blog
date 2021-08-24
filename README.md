@@ -22,7 +22,7 @@
   bundle exec jekyll serve
   ```
 
-* To just build the site to stage and commit with Git:
+* To build the production version to commit to Git and deploy:
   ```
-  bundle exec jekyll build
+  bundle exec jekyll build -d _site/
   ```

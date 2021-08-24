@@ -1,5 +1,7 @@
-.DS_Store
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+/.bundle/
+/.jekyll-cache/
+/.jekyll-metadata/
+/.sass-cache/
+/_dev/
+/vendor/
+/.DS_Store
