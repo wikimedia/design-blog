@@ -22,7 +22,11 @@
   bundle exec jekyll serve
   ```
 
-* To build the production version to commit to Git and deploy:
+### Deployment to production server
+Design blog server points to the '_site/' directory, so Jekyll needs to build
+in order to show the latest output.
+
+* To build the production version to commit to Git and deploy to live server:
   ```
   bundle exec jekyll build -d _site/
   ```
