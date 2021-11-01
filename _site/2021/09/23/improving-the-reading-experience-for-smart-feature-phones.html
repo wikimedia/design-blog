@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en" class="js--off">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel="stylesheet" href="/blog/assets/styles/wmui-style-guide.min.css">
+	<link rel="stylesheet" href="/blog/assets/styles/wmui-blog.css">
+	<link rel="alternate" type="application/rss+xml" href="https://design.wikimedia.org/blog/feed.xml" title="Wikimedia Design Blog">
+  <title>Improving the reading experience for smart feature phones</title>
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
+	</script>
+	<!--[if lt IE 9]>
+	<script>window.html5={'shivCSS':false};</script>
+	<script src="js/vendor/ie/html5shiv-3.7.3.min.js"></script>
+	<![endif]-->
+	<link rel="preload" href="https://design.wikimedia.org/style-guide/fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+	<header id="header" class="header">
+		<div class="content-box">
+			<a href="#content" class="is-aural is-focusable">Jump to content</a>
+			<h6 class="site__title"><a href="/blog/"><span class="site__org">Wikimedia </span><span class="site__project">Design Blog</span></a></h6>
+			<a href="https://design.wikimedia.org/" class="lnk--contribute" title="Design at Wikimedia Foundation">Design at Wikimedia</a>
+		</div>
+	</header>
+
+	<div class="page" itemscope itemtype="http://schema.org/Blog">
+		<div class="content-box">
+			<div>
+				<main id="content" class="content">
+          <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post__header">
+    <img src="/blog/assets/uploads/improving-reading-experience/improving-reading-experience.png" alt="Improving the reading experience for smart feature phones">
+    <p class="post__meta">
+      <time class="dt-published" datetime="2021-09-23T07:30:00+00:00" itemprop="datePublished">Sep 23, 2021
+      </time></p>
+    <h1 class="post__title p-name" itemprop="name headline">Improving the reading experience for smart feature phones</h1>
+  </header>
+
+  <div class="post__content e-content" itemprop="articleBody">
+    <p><em>By <a href="https://twitter.com/baba786">Sudhanshu Gautam</a></em></p>
+
+<p>Reading a Wikipedia article on a feature phone is time consuming. The article about Tiger might take 25-30 minutes to read on a smartphone; alternatively, it would take much longer to read on a feature phone. While smartphones are almost ubiquitous in some parts of the world, over 100M<sup><a href="#note-1" id="ref-1">[1]</a></sup> people across the globe still use feature phones to connect to the internet.</p>
+
+<p>Wikimedia has significant room to expand in emerging communities where access to inexpensive devices and cheap data is quickly growing. To help people overcome barriers to access free knowledge on our projects and be a trustworthy source of knowledge and information, the <a href="https://www.mediawiki.org/wiki/Inuka_team" target="_blank">Inuka team</a> at Wikimedia Foundation decided to improve the Wikipedia reading experience on feature phones to accommodate the unique needs and preferences of historically underrepresented users.</p>
+
+<h1 id="about-the-devices">About the devices</h1>
+
+<p>KaiOS, a mobile operating system based on HTML5 power these phones. It supports 4G/LTE, Wi-Fi, Bluetooth, and GPS. India is one of the biggest markets for KaiOS, where it powers Jiophone. These phones have limited computing capabilities, small displays, and most actions are performed using a keypad. Their low cost, combined with the ability to use apps like Google, Facebook, Youtube, etc., make them a top choice among first-time internet users.</p>
+
+<p>On the phone, all actions are presented on a softkey panel linked to physical keys on the keypad. Most actions are performed using center, left, and right hardware keys.</p>
+
+<h1 id="design-process">Design process</h1>
+
+<p>Our team started using feature phones to familiarize ourselves with keypad-based interactions, challenges when using apps, impact of limited infrastructure on user experience, and how the Wikipedia reading experience feels. In parallel, we worked with <a href="https://hureo.com/" target="_blank">Hureo</a>, a user research firm based in India, to conduct foundational research<sup><a href="#note-2" id="ref-2">[2]</a></sup> with 25 participants in different cities in India. Research aimed to learn about how they used these devices, their motivations to use them, their awareness of Wikipedia, and their experiences reading Wikipedia articles. These are some of the findings:</p>
+
+<ul>
+  <li>Smart features, durability, and good battery life at an affordable price are the main reasons to use feature phones.</li>
+  <li>Primary usage is social media, entertainment, and look for information online.</li>
+  <li>Wikipedia awareness is low. Informed users use it to read about famous people, entertainment, places to visit, etc.</li>
+  <li>Reading a long Wikipedia article on its browser is quite laborious as typing and scrolling is difficult.</li>
+  <li>Participants mentioned that the small font size required extra effort to read, and caused strain on their eyes.</li>
+  <li>For quick navigation, users wished to have easy access to the table of contents, images, and other parts of articles.</li>
+</ul>
+
+<p><br />
+These insights from our research, combined with our own experiences and frustrations when reading Wikipedia articles on feature phones, indicated that we should try to provide a better reading experience for all of these people. These were the improvements we were interested in testing with users:</p>
+
+<ul>
+  <li>An onboarding flow to define What Wikipedia is in simple language to users who may or may not have used it before.</li>
+</ul>
+
+<div class="columns">
+  <figure>
+    <img src="/blog/assets/uploads/improving-reading-experience/brief-onboarding.png" alt="Brief onboarding to share about Wikipedia, language diversity, and the volume of articles available." />
+    <figcaption>Brief onboarding to share about Wikipedia, language diversity, and the volume of articles available.</figcaption>
+  </figure>
+</div>
+
+<ul>
+  <li>A “quick links panel” to directly access a section of an article, view images, or  read an article in different languages.</li>
+</ul>
+<div class="columns">
+  <figure class="third-width centered">
+    <img src="/blog/assets/uploads/improving-reading-experience/quick-links.png" alt="Quick links to access different parts of an article." />
+    <figcaption>Quick links to access different parts of an article.</figcaption>
+  </figure>
+</div>
+
+<ul>
+  <li>Instead of continuous scrolling using the keypad while moving through an article, readers can read clear segments of a Wikipedia article on the small screen one page at a time.</li>
+</ul>
+<div class="columns"> 
+  <figure class="third-width centered">
+    <img src="/blog/assets/uploads/improving-reading-experience/page-navigation.gif" alt="Animation showing page by page navigation on the Wikipedia app for KaiOS" />
+    <figcaption>Animation showing page by page navigation on the Wikipedia app for KaiOS</figcaption>
+  </figure>
+</div>
+
+<ul>
+  <li>Option to read an article in different text sizes.</li>
+</ul>
+<figure>
+  <img src="/blog/assets/uploads/improving-reading-experience/change-article-text-size.jpg" alt="Change article text size from options menu." />
+  <figcaption>Change article text size from options menu.</figcaption>
+</figure>
+
+<ul>
+  <li>Option to use the app in different languages.</li>
+</ul>
+<figure>
+  <img src="/blog/assets/uploads/improving-reading-experience/change-app-language.jpg" alt="Change app language from settings menu." />
+  <figcaption>Change app language from settings menu.</figcaption>
+</figure>
+
+<h2 id="what-did-we-learn">What did we learn?</h2>
+
+<p>Due to the pandemic, conducting remote sessions in India was quite challenging as screen sharing is not directly supported by KaiOS. Luckily, all participants had access to smartphones either through their family members or friends. Twenty participants(12 Male, 8 Females) were recruited within the 20 to 40 years age group. Interviews were conducted in English, Hindi, Marathi, and Telugu to cover language diversity. Usability tasks involved installing the app, searching &amp; reading an article of their choice, and any additional feedback to improve the app.</p>
+<div class="columns">
+  <figure class="half-width centered">
+    <img src="/blog/assets/uploads/improving-reading-experience/android-participant.jpg" alt="A participant is using an android device to screen share on a zoom call." />
+    <figcaption>A participant is using an android device to screen share on a zoom call.</figcaption>
+  </figure>
+</div>
+
+<p><strong>Summary of session learnings.</strong></p>
+
+<ul>
+  <li>Users appreciated the ease of discovering articles in multiple languages and the simplicity of changing the app language.</li>
+</ul>
+
+<blockquote>
+  <p>I can change before searching only. I will use this feature because I can use it  whenever I want to read in Marathi. - User 12</p>
+</blockquote>
+
+<ul>
+  <li>Users liked quick links to help them access different sections of an article, view images, and quickly access important facts.</li>
+</ul>
+
+<blockquote>
+  <p>This is part of the same article. This is like a shortcut, so from here I can read any topic related to the article. - User 6</p>
+</blockquote>
+
+<ul>
+  <li>Users were confused when certain articles were unavailable when they changed the app language to their regional language.</li>
+</ul>
+
+<blockquote>
+  <p>When I search for ‘Dosa recipe in hindi’ using voice search I get the results, here maybe the information is available in English only and not Hindi. - User 10</p>
+</blockquote>
+
+<ul>
+  <li>Users could not understand the icon used for quick facts and considered it a map icon.</li>
+</ul>
+
+<blockquote>
+  <p>I expected to see a map here, as the icon used for it was of a location. - User 11</p>
+</blockquote>
+
+<ul>
+  <li>Most users did not read the onboarding descriptions as they mostly ignore that part in other apps too.</li>
+</ul>
+
+<p><br /></p>
+<h1 id="whats-next">What’s next?</h1>
+
+<p>The app was first released in India in September 2020 and was later released globally in December 2020. It has been downloaded over 2.5M times since its first release. In the next update, we are looking forward to improving article discovery and the overall reading experience. Improvements would include contextual onboarding to quickly start the app, a trending article list to find content beyond search functionality, and other minor changes to improve issues observed during usability sessions. Stay tuned for all the amazing work the Inuka team does to support new internet users in emerging markets.</p>
+
+<figure>
+  <img src="/blog/assets/uploads/improving-reading-experience/contextual-onboarding.png" alt="Tips section for Contextual onboarding." />
+  <figcaption>Tips section for Contextual onboarding.</figcaption>
+</figure>
+
+<figure>
+  <img src="/blog/assets/uploads/improving-reading-experience/trending-article-list.jpg" alt=" Trending article list for regional content discovery. " />
+  <figcaption>Trending article list for regional content discovery. </figcaption>
+</figure>
+
+<p><br />
+<em>Thanks Angie Muigai, Prateek Saxena, Rita Ho, Nicolas Ayoub, Alex Hollender, and Aishwarya Vardhana for your feedback and editing help. A special thanks to Carolyn Li-Madeo, who did a fantastic job designing the app’s early experience.</em></p>
+
+<h2 id="related-links">Related links</h2>
+
+<ul>
+  <li><a href="https://www.mediawiki.org/wiki/Wikipedia_for_KaiOS">Wikipedia for KaiOS project page</a></li>
+  <li><a href="https://github.com/wikimedia/wikipedia-kaios">Wikipedia for kaiOS on Github</a></li>
+  <li><a href="https://wikimedia.github.io/wikipedia-kaios/sim.html">Wikipedia KaiOS app simulator</a></li>
+  <li><a href="https://developer.kaiostech.com/docs/">KaiOS documentation</a></li>
+</ul>
+
+<footer>
+<br />
+<p id="note-1"><small><a href="#ref-1">[1]</a><a href="https://www.kaiostech.com/kaios-2019-year-in-review/">https://www.kaiostech.com/kaios-2019-year-in-review/</a>
+</small></p>
+
+<p id="note-2"><small><a href="#ref-2">[2]</a><a href="https://www.mediawiki.org/wiki/File:Understanding_KaiOS_users_in_India_-_Report.pdf
+">https://www.mediawiki.org/wiki/File:Understanding_KaiOS_users_in_India_-_Report.pdf
+</a></small></p>
+</footer>
+
+  </div>
+
+  <a class="u-url" href="/blog/2021/09/23/improving-the-reading-experience-for-smart-feature-phones.html" hidden></a>
+</article>
+
+				</main>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footer" class="footer">
+		<div class="content-box">
+			<ul class="footer__list footer__list--connect">
+				<li><a href="https://github.com/wikimedia/" target="_blank" rel="noopener">Contribute on GitHub</a></li>
+				<li><a href="https://twitter.com/@WikimediaDesign" title="Follow Wikimedia Product Design team on Twitter">Follow @WikimediaDesign</a></li>
+				<li><a href="https://medium.com/wikimediadesign" title="Follow Wikimedia Product Design team on Medium">Read on Medium</a></li>
+				<li><a href="https://lists.wikimedia.org/mailman/listinfo/design" title="Join Wikimedia Design mailing list">Join mailing list</a></li>
+			</ul>
+			<p>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener" property="license">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.</p>
+			<ul class="footer__list footer__list--policy">
+				<li><a href="https://wikimediafoundation.org/privacy-policy/">Privacy policy</a></li>
+				<li><a href="https://design.wikimedia.org/accessibility-statement.html">Accessibility statement</a></li>
+			</ul>
+			<p><a href="https://wikimediafoundation.org/" class="lnk--wikimedia-project" property="author" typeof="Organization">A Wikimedia Foundation project</a></p>
+			<noscript><p><img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" alt=""></p></noscript>
+		</div>
+	</footer>
+</body>
+</html>

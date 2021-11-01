@@ -82,9 +82,22 @@ figcaption {
   display: flex;
 }
 
+.half-width {
+  width: 300px;
+  margin: 0 20px;
+}
+
+.half-width.centered {
+  margin: 0 auto;
+}
+
 .third-width {
   width: 200px;
   margin: 0 20px;
+}
+
+.third-width.centered {
+  margin: 0 auto;
 }
 
 .pagination {
