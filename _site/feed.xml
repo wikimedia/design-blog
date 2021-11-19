@@ -1,4 +1,138 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2021-11-01T03:08:43+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Improving the reading experience for smart feature phones</title><link href="https://design.wikimedia.org/blog/2021/09/23/improving-the-reading-experience-for-smart-feature-phones.html" rel="alternate" type="text/html" title="Improving the reading experience for smart feature phones" /><published>2021-09-23T07:30:00+00:00</published><updated>2021-09-23T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/09/23/improving-the-reading-experience-for-smart-feature-phones</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/09/23/improving-the-reading-experience-for-smart-feature-phones.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://twitter.com/baba786&quot;&gt;Sudhanshu Gautam&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2021-11-19T17:24:37+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Patrolling Unregistered Editors on Wikipedia</title><link href="https://design.wikimedia.org/blog/2021/11/17/patrolling-unregistered-editors-on-wikipedia.html" rel="alternate" type="text/html" title="Patrolling Unregistered Editors on Wikipedia" /><published>2021-11-17T07:30:00+00:00</published><updated>2021-11-17T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/11/17/patrolling-unregistered-editors-on-wikipedia</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/11/17/patrolling-unregistered-editors-on-wikipedia.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://prtksxna.com/&quot;&gt;Prateek Saxena&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;On most Wikipedias, you don’t need an account to make an edit. While there are benefits to making an account — such as a single place to see all communications, or a place to store articles that you’re interested in — there is no requirement to make one. This reduced barrier to entry means that people around the world can contribute to our projects — whether it’s a small typo fix or a new article — without ever having to make an account.&lt;/p&gt;
+
+&lt;p&gt;But, it also means that it’s easier to vandalize and make destructive edits to our projects. To counter this, our editors and administrators patrol edits made by registered and unregistered editors alike. These watchful editors are also known as &lt;em&gt;patrollers&lt;/em&gt;. To keep out bad faith edits from our projects, patrollers need to have an understanding of who is making the edits. In the case of unregistered editors though, the information that they rely on most is their &lt;a href=&quot;https://en.wikipedia.org/wiki/IP_address&quot; target=&quot;_blank&quot;&gt;IP address&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;An IP address is a unique address that is given to any device that is connected to a network like the Internet. When an unregistered user makes an edit, the change isn’t attributed to their name, but their device’s IP address instead. An IP address is like a home address, it cannot reveal your identity but one can deduce a lot about you by knowing where you live. So, what might seem to some as an &lt;em&gt;anonymous&lt;/em&gt; way of editing actually reveals more about them than a simple pseudonym would.&lt;/p&gt;
+
+&lt;p&gt;Patrollers copy these IP addresses into external &lt;a href=&quot;https://en.wikipedia.org/wiki/WHOIS&quot; target=&quot;_blank&quot;&gt;WHOIS tools&lt;/a&gt; to understand where the editor is coming from. These tools tell them information about where the editor might be and how they’re connecting to the Internet. To reduce the extra step of copy-pasting addresses, and providing a single place to get IP  information, the Anti-Harassment Tools team started work on an &lt;em&gt;IPInfo&lt;/em&gt; tool within Wikipedia. This tool would give our patrollers the needed information right where they need it — when analyzing an unregistered user’s contributions.&lt;/p&gt;
+
+&lt;h1 id=&quot;designing-ip-info&quot;&gt;Designing IP Info&lt;/h1&gt;
+
+&lt;h2 id=&quot;initial-research&quot;&gt;Initial Research&lt;/h2&gt;
+
+&lt;p&gt;First, we wanted to get a better understanding of the patrolling process and specifically how IP addresses are used while evaluating edits. To do this we conducted interviews with editors who often patrol our projects and asked them to show and talk us through their process. This gave us an overview of the different ways patrollers go about keeping our projects vandalism free. After a few rounds of feedback from design, research, engineers and Trust &amp;amp; Safety folks we had the following task model:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/ip-info-risk-vs-usefulness-matrix-wikimedia-design.jpg&quot; alt=&quot;Task model for IP Patrolling on wikis.&quot; /&gt;
+  &lt;figcaption&gt;Task model for IP Patrolling on wikis. See &lt;a href=&quot;https://miro.com/app/board/o9J_lmUSH8s=/&quot; target=&quot;_blank&quot;&gt;Miro&lt;/a&gt; for a full view.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We understand now that IP patrolling usually starts from RecentChanges, an editor’s Watchlist, or from a page that the editor knows gets vandalized often. When looking at the edits of such a page the patroller first looks for clear red flags like edit flooding (lots of minor edits in a short amount of time), no edit summary, large deletions etc. They then look for more specific on-wiki information like if the IP has a talk page, if it has ever been blocked, and its global and local contributions.&lt;/p&gt;
+
+&lt;p&gt;Based on this initial fact-finding, patrollers decide if an IP is worth looking into further. If it is, they use external tools to find more information about the IP. They’re looking for details  like — location, proxy usage and organization that the IP might be linked to. This process is not completely accurate since different databases have different information on the same IP. Oftentimes, based on the location of the IP and the location of the tool the editors are using, the information provided might vary.&lt;/p&gt;
+
+&lt;p&gt;Finally, based on the information collected, patrollers decide which action would be most appropriate. Again, this decision takes into account various factors like the policies of that wiki, the scale of the collateral damage caused by a range block, consistency in editing patterns, etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;mock-ups&quot;&gt;Mock-ups&lt;/h2&gt;
+
+&lt;p&gt;The patrollers need on-wiki information about the IP before they decide to investigate it, so, we decided to add a popup that shows block and contribution information. The popup would be accessible by clicking an information icon next to the IP address on pages like RecentChanges, Watchlist and History.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/ip-info-popup-wikimedia-design.png&quot; alt=&quot;The IP Info popup that’ll be accessible from pages like RecentChanges that patrollers monitor for edits.&quot; /&gt;
+  &lt;figcaption&gt;The IP Info popup that’ll be accessible from pages like RecentChanges that patrollers monitor for edits.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If the patroller decides to dig deeper into an IP address by going to their Contributions page, they’ll be able to see a collapsible box that shows more IP related information.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/ip-info-box-wikimedia-design.png&quot; alt=&quot;The IP Info box shown on the Contributions page gives detailed information to the patrollers.&quot; /&gt;
+  &lt;figcaption&gt;The IP Info box shown on the Contributions page gives detailed information to the patrollers.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Sharing these mocks internally brought up three questions:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;How much information is useful?&lt;/li&gt;
+  &lt;li&gt;Who should have access to this information?&lt;/li&gt;
+  &lt;li&gt;Should some patrollers have access to partial bits of information?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;balancing-needs&quot;&gt;Balancing needs&lt;/h1&gt;
+
+&lt;p&gt;Our projects have a wide variety of contributors and vary in socio-demography, accessibility and motivations. These and other factors were captured in the &lt;a href=&quot;https://meta.wikimedia.org/wiki/Research:Knowledge_Gaps_Index/Taxonomy&quot; target=&quot;_blank&quot;&gt;Knowledge Gap Taxonomy&lt;/a&gt; research, which not only looked at the gaps in Wikipedia’s content but the gaps in the contributors as well. In turn, we reframed our design questions as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;How might we make sure that revealing IP information doesn’t put our most marginalized contributors at risk?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How might we ensure that access to information and tools doesn’t become a barrier to contributions for our least technically skilled contributors?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While IP information needs to be available to all, we wanted to make sure that it doesn’t put anyone at risk and it isn’t so technical &amp;amp; overwhelming that it becomes meaningless to most patrollers.&lt;/p&gt;
+
+&lt;h2 id=&quot;team-workshop&quot;&gt;Team Workshop&lt;/h2&gt;
+
+&lt;p&gt;The Anti-Harassment Tools team and the Trust &amp;amp; Safety teams came together for a small workshop to discuss these items. We acknowledged that we want both non-technical and technical users to have easy access to IP information. We also acknowledged that we can’t put our unregistered editors at risk especially because some of the IP information, like location and organization, can potentially help in identifying a person.&lt;/p&gt;
+
+&lt;p&gt;In our discussions around accessibility for patrollers we noted questions and concerns around information overload, accuracy of information and false confidence in IP data. We also considered if having IP information more readily available might lead to its misuse. The following clusters began to form:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Data:&lt;/strong&gt; How might we make sure that people understand the data they’re looking at, and understand its accuracy too?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Personal information:&lt;/strong&gt; How might we make sure that information is accessible to those who need it, without putting unregistered editors at risk?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Agency:&lt;/strong&gt; How might we inform unregistered editors of the data they are leaving traces of and show them ways to protect it (create an account)?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After brainstorming on the questions we started to organize our thoughts in the following manner — we need to balance the concerns of ease of use for patrollers and risk to unregistered editors. To do this we plotted the different pieces of IP information on a graph with Risk on the Y axis and Usefulness to patrolling on the X axis.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/ip-info-task-model-wikimedia-design.jpg&quot; alt=&quot;Task model for IP Patrolling on wikis.&quot; /&gt;
+  &lt;figcaption&gt;Plotting the different pieces of IP information based on Risk (to editor) and Usefulness (to patroller). See &lt;a href=&quot;https://miro.com/app/board/o9J_lmUSH8s=/&quot; target=&quot;_blank&quot;&gt;Miro&lt;/a&gt; for a full view.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This exercise was based on the learnings from research as well as the team’s experience. Two clear clusters appeared, the high risk one mostly containing information that could reveal an editor’s location.&lt;/p&gt;
+
+&lt;p&gt;Based on this, we are planning to show a limited set of information to most users and give access to more sensitive information to only our most trusted users — Administrators and CheckUsers.&lt;/p&gt;
+
+&lt;h1 id=&quot;gathering-feedback&quot;&gt;Gathering feedback&lt;/h1&gt;
+
+&lt;h2 id=&quot;community-input&quot;&gt;Community input&lt;/h2&gt;
+
+&lt;p&gt;Sharing our findings with the community led to some interesting &lt;a href=&quot;https://meta.wikimedia.org/wiki/Talk:IP_Editing:_Privacy_Enhancement_and_Abuse_Mitigation/IP_Info_feature&quot; target=&quot;_blank&quot;&gt;conversations and feedback&lt;/a&gt;. Some common themes were:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Increasing or deepening the scope of a particular piece of information. IP Information is complex and having more context and data usually helps.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Adding more data sources to get a wider picture of the IP information. This would also help in figuring out if the data being shown is reliable.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Specific points about IP ranges and IPv6 addresses and how to deal with them.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;usability-tests&quot;&gt;Usability tests&lt;/h2&gt;
+
+&lt;p&gt;We were also able to do some usability tests with Patrollers in the community. Overall, the feature was well-received and they liked that they won’t have to rely on external tools in the future. We were given some specific feedback around:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The distribution of information between the popup and the box. Some information is more helpful in the popup to decide whether or not to investigate further.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Having more guidance on how to use this information.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Showing some of this information on Diff pages so that editors have access to it while comparing revisions.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h1&gt;
+
+&lt;p&gt;The implementation is currently in the works and we’ll be rolling it out to wikis slowly as a BetaFeature, incorporating improvements based on usability testing. We’ll also be implementing feedback mechanisms in the tool so that we can learn more about how people are using the tool. To follow the updates on this feature and join the discussion, check out the project’s page on &lt;a href=&quot;https://meta.wikimedia.org/wiki/IP_Editing:_Privacy_Enhancement_and_Abuse_Mitigation/IP_Info_feature&quot; target=&quot;_blank&quot;&gt;Wikimedia’s Meta-Wiki&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Cover image by Tristan J. Wilson. Taken from &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:TJDW_Stonehenge_20111107.tif&quot; target=&quot;_blank&quot;&gt;Commons&lt;/a&gt;, licensed under &lt;a href=&quot;https://creativecommons.org/publicdomain/zero/1.0/deed.en&quot; target=&quot;_blank&quot;&gt;CC0 1.0&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to Carolyn Li-Madeo, Rita Ho, Aida Ramirez, Jessica Klein &amp;amp; Niharika Kohli for your feedback and editing help.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Balancing the needs of patrollers and unregistered editors on the wikis</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/stonehenge.jpg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/stonehenge.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Improving the reading experience for smart feature phones</title><link href="https://design.wikimedia.org/blog/2021/09/23/improving-the-reading-experience-for-smart-feature-phones.html" rel="alternate" type="text/html" title="Improving the reading experience for smart feature phones" /><published>2021-09-23T07:30:00+00:00</published><updated>2021-09-23T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/09/23/improving-the-reading-experience-for-smart-feature-phones</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/09/23/improving-the-reading-experience-for-smart-feature-phones.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://twitter.com/baba786&quot;&gt;Sudhanshu Gautam&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Reading a Wikipedia article on a feature phone is time consuming. The article about Tiger might take 25-30 minutes to read on a smartphone; alternatively, it would take much longer to read on a feature phone. While smartphones are almost ubiquitous in some parts of the world, over 100M&lt;sup&gt;&lt;a href=&quot;#note-1&quot; id=&quot;ref-1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; people across the globe still use feature phones to connect to the internet.&lt;/p&gt;
 
@@ -1165,133 +1299,4 @@ A key part of this strategy is to continue to learn from the work that the commu
 
 &lt;p&gt;The &lt;strong&gt;Design Strategy Team&lt;/strong&gt; is pleased to announce the launch of &lt;a href=&quot;https://design.wikimedia.org/strategy/&quot;&gt;a new site&lt;/a&gt; which makes years of design research more accessible to our wiki project contributors and to the global design community. While most of this work is specific to the user experience of content creators and readers of Wikipedia on our various platforms, some of these studies are more generally applicable - for example, work related to &lt;a href=&quot;https://design.wikimedia.org/strategy/online-social-behavior.html&quot;&gt;online social behavior&lt;/a&gt; and use and training of &lt;a href=&quot;https://design.wikimedia.org/strategy/machine-augmentation.html&quot;&gt;machine learning&lt;/a&gt; applications may be of more general interest. If you find this to be the case &lt;a href=&quot;mailto:desresadmin@wikimedia.org&quot;&gt;we’d love to hear from you&lt;/a&gt;!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://design.wikimedia.org/strategy/team.html&quot;&gt;Design Strategy&lt;/a&gt; supports product development at the Foundation by providing the qualitative and quantitative research that enables Product teams to make informed and inspired decisions. From explanations of what people do and want, to evaluations of what they experience, to experiments with new and emerging technologies, the research team answers the most urgent and impactful questions that stand in the way of achieving our vision of &lt;strong&gt;a world in which every single human being can freely share in the sum of all knowledge&lt;/strong&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Making design research more accessible to our wiki project contributors and to the global design community</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/wiki-pins.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/wiki-pins.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Transparency by Design</title><link href="https://design.wikimedia.org/blog/2020/11/16/transparency-by-design.html" rel="alternate" type="text/html" title="Transparency by Design" /><published>2020-11-16T07:26:32+00:00</published><updated>2020-11-16T07:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2020/11/16/transparency-by-design</id><content type="html" xml:base="https://design.wikimedia.org/blog/2020/11/16/transparency-by-design.html">&lt;p class=&quot;post__excerpt&quot;&gt;How making page issues more visible on Wikipedia mobile helps foster trust and participation&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;By Alex Hollender&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Today when reading a Wikipedia article on your phone you might see a notice at the top:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/tbd-transparency-by-design.jpeg&quot; alt=&quot;Screenshot of Wikipedia notices on mobile&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;You might be more familiar with how they look on a computer:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/tbd-arizona-state-university.jpeg&quot; alt=&quot;Screenshot of Wikipedia notices on desktop&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We call these notices &lt;em&gt;page issues&lt;/em&gt;, and 2018 we made them more visible on the mobile website. This blog post is about page issues: what they are, how they increase transparency, and our design process around increasing their visibility on mobile.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;What are page issues?&lt;/strong&gt; — Page issues let you know that there are unresolved issues with the article you’re reading. These issues range from the article not having sufficient citations, to the article not being neutral in its viewpoints, to the article having spelling and grammar mistakes. They usually do a good job of summarizing the issue, and then invite you to help fix it.&lt;/p&gt;
-
-&lt;figure class=&quot;alignwide&quot;&gt;
-  &lt;img src=&quot;/blog/assets/uploads/tbd-four-notices.jpeg&quot; alt=&quot;Screenshot of four different notices&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Page issues are manually added to articles by Wikipedia editors, and on English Wikipedia there are around 340 different kinds.&lt;/p&gt;
-
-&lt;p&gt;Page issues are inherently revealing. They are perhaps uncommonly honest. And they seem so unmistakably Wikipedian; I can’t quite imagine Facebook or Airbnb putting up such a notice — &lt;em&gt;this isn’t quite right, help us fix it&lt;/em&gt; — on one of their pages. So before proceeding to some of the specifics about how we increased their visibility on mobile I want to think aloud about some general questions.&lt;/p&gt;
-
-&lt;p&gt;Imagine you’re trying to establish a website as a trustworthy source of information, why would you tell your audience that a certain page is sub-par, or lacking in some way? Could this bit of transparency actually help build trust with them? Maybe it shows them that you’re more interested in finding the knowledge together than you are as being perceived as already having the knowledge on your own. At the same time imagine you’re trying to facilitate collaboration between a huge number of volunteer encyclopedia editors. Might it be helpful if they could leave little notes and clues for each other on articles, helping direct attention and effort? Is there some bigger purpose page issues serve, beyond just giving people a heads up? Or in other words, are page issues symbolic of some larger truth or value within the Wikipedia community?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Trust through transparency&lt;/strong&gt; — In 2007 David Weinberger gave a talk about his book “&lt;a href=&quot;https://www.youtube.com/watch?v=WHeta_YZ0oE&amp;amp;feature=youtu.be&amp;amp;t=2695&quot;&gt;Everything is Miscellaneous&lt;/a&gt;” at Google. Forty-five minutes in he comments on page issues on Wikipedia:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;iframe src=&quot;https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FWHeta_YZ0oE%3Fstart%3D2695%26feature%3Doembed%26start%3D2695&amp;amp;display_name=YouTube&amp;amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWHeta_YZ0oE&amp;amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FWHeta_YZ0oE%2Fhqdefault.jpg&amp;amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;amp;type=text%2Fhtml&amp;amp;schema=youtube&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;480&quot; width=&quot;720&quot; title=&quot;Everything is Miscellaneous&quot; class=&quot;ev hy ew hz w&quot; scrolling=&quot;auto&quot;&gt;&lt;/iframe&gt;
-  &lt;figcaption&gt;“&lt;a href=&quot;https://www.youtube.com/watch?v=WHeta_YZ0oE&amp;amp;feature=youtu.be&amp;amp;t=2695&quot;&gt;Everything is Miscellaneous&lt;/a&gt;” David Weinberger, 2007&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;blockquote&gt;“Wikipedia is very happy to have these notices stuck in…they encourage you to put up these notices saying this article isn’t good enough, don’t fully believe this article. And because of that we know that Wikipedia is on our side. [Wikipedia] becomes more credible because they’re willing to admit their lack of credibility, their lack of authority. It’s not trying to convince us that it’s the world’s greatest authority, it’s trying to help us know.”&lt;/blockquote&gt;
-
-&lt;p&gt;His observation rang true to me. To reiterate and expand: because Wikipedia is more interested in having correct information than it is in being perceived as authoritative, it is able to be transparent about issues and shortcomings. Wikipedia is happy to show its hand, happy to let you know when something might be wrong, because it empowers you as a reader to be alert and discerning. This transparency also reminds readers that every Wikipedia page is a work in progress, and hopefully encourages them to get involved (which is where collaboration comes in).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Participation through (intimate?) transparency&lt;/strong&gt; — Imagine that you walked into a coffee shop, sat down at a table, and on the table there was a note saying: &lt;em&gt;Hello, we’re not entirely sure if this table works well here. How does it feel to you? Do you have enough space/privacy from the next table over? Do you think it’s annoying when people slide by to get to the bathroom? Please feel free to let us know your thoughts, or move the table elsewhere. This experiment will end next week.&lt;/em&gt; What would you think or do? How would that information and invitation change your relationship to that coffee shop?&lt;/p&gt;
-
-&lt;p&gt;I’m thinking of this note as a display of transparency. The coffee shop is being transparent about what it knows (or doesn’t know), and how it makes decisions. But the note is different from publishing an annual report, or some other kind of formal transparency statement. Instead it’s intimate, direct, and timely.&lt;/p&gt;
-
-&lt;p&gt;From what I’ve seen during my time as a Wikipedia community member, this kind of transparency, often in the form of handwritten signs (so to speak), guiding people’s attention towards what’s going on, what needs additional work, is a fundamental aspect of how and why people choose to participate. This transparency seems to inspire a spirit of independent participation. Which is to say that you’re empowered to fix things on your own, while also being supported by others if you need help. So I wonder if page issues function in this way; showing newcomers where help is needed and inviting them to jump in? They also seem to help experienced editors stay organized and direct energy appropriately. And in their humble, handwritten way maybe they reinforce the spirit of intimacy that is so necessary for a community-run project. Again these are questions, hopes, guesses; not a proven understanding of what’s happening. Now onto the more concrete stuff.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Increasing the visibility of page issues on mobile&lt;/strong&gt; — Wikipedia community participation isn’t limited to writing and editing Wikipedia articles. The community is also involved with the planning, design, and development of Wikipedia as a website/piece of software. Just as anyone can edit, anyone can also voice their opinion about the functionality or look of the website and propose improvements, which is how page issues on mobile came to be prioritized.&lt;/p&gt;
-
-&lt;p&gt;In September, 2016 Wikipedian McGeddon posted on Village Pump (a Wikipedia discussion board):&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/tbd-mobile-page-issues.jpeg&quot; alt=&quot;Screenshot of page issues on mobile&quot; /&gt;
-  &lt;figcaption&gt;(left) McGeddon’s post, (right) how page issues looked on mobile in 2016&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;blockquote&gt;“If an article is up for [deletion] and flagged as a possible hoax with insufficient medical sourcing, any reader visiting that article on a computer is greeted by three large red and orange boxes at the top of the page, one with a cautionary stop sign… If a reader instead visits the same hoax medical article on their phone… they just get two tiny grey words “Page issues” under the article title…”&lt;/blockquote&gt;
-
-&lt;p&gt;And while the fix wasn’t made until 2018, all in all it was a great demonstration of Wikipedia at its best — a community member voiced their question/opinion, a discussion began, and eventually an improvement to the site was made.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Design challenge&lt;/strong&gt; — A page issue is like the note on the coffee table. They come in all shapes and sizes. They are not particularly standardized. Look at some of them, how much personality they have:&lt;/p&gt;
-
-&lt;figure class=&quot;alignwide&quot;&gt;
-  &lt;img src=&quot;/blog/assets/uploads/tbd-notices.jpeg&quot; alt=&quot;Collage of different types of notices&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Our goal seemed relatively straightforward: show these page issues to people reading Wikipedia on their phones to make them aware of any known issues with the article they were reading. However if you try the straightforward thing, and just show them on the mobile website, you get this:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/tbd-language-notices.jpeg&quot; alt=&quot;Notices in different languages&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;They don’t just automatically get smaller and look good on the mobile website. And to make matters worse, articles that have one issue often have others, so you get these boxes stacked on top of each other which pushes the article text way down the screen.&lt;/p&gt;
-
-&lt;p&gt;So how should they look on the mobile website? What’s the right balance between making them noticeable and them overwhelming the article? Keep in mind there aren’t just the 340 different page issues on English Wikipedia to test out, there are hundreds of others across various Wikipedia projects (e.g. French, Arabic, Thai, etc.). Some contain one image, some contain two or three. Many contain links to pages that also aren’t formatted to look good on a phone. We understood that we needed to come up with a systematic way of creating smaller, “mobile-friendly”, versions. To begin we identified that mostly all of them have: an icon/image, a text description, and a color. So it wasn’t too difficult to imagine the following:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/tbd-mobile-notices.jpeg&quot; alt=&quot;Notices on mobile&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;This is the type of visual consistency we were hoping to achieve. Since page issues aren’t standardized from a code/template perspective the technical challenge to isolate the relevant pieces (image, description, color/severity) was significant, though I won’t be getting into that here. A few other questions naturally occurred as well (partly curiosity, partly things that we thought might inform our design process):&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;What are all the different page issues that exist?&lt;/em&gt; There was no straightforward way to get this information. &lt;a href=&quot;https://people.wikimedia.org/~jdrewniak/page_issues_inventory/en.index.html&quot;&gt;This gallery&lt;/a&gt; shows page issues for some of the largest Wikipedias (thanks to Jan, an engineer on our team, who did this audit programmatically).&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Is there any structure or categorization to their level of importance?&lt;/em&gt; Thankfully yes, most page issues have a &lt;a href=&quot;https://en.wikipedia.org/wiki/Template:Ambox#type&quot;&gt;type&lt;/a&gt; parameter, which is a consistent way of programmatically knowing how severe a given issue is&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;How common are the different types of page issues? Are there a small few that show up a disproportionately large percentage of the time?&lt;/em&gt; There was no straightforward way to get this information.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-While we loved the personality of the custom icons/images many of them weren’t able to effectively communicate at a small size. We also hoped that using a simple visual system consistently across all page issues would make it easier for readers to quickly understand their importance. So we adopted the scale from English, using simplified versions of the icons:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/tbd-notice-types.jpeg&quot; alt=&quot;Screenshot of page issues on mobile&quot; /&gt;
-  &lt;figcaption&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Template:Ambox#type&quot;&gt;https://en.wikipedia.org/wiki/Template:Ambox#type&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Our design criteria were also relatively simple: 1) people should see them (without them being distracting), 2) people should see the severe ones most easily, 3) the notices shouldn’t clash with other notices that appear at the top of the article.&lt;/p&gt;
-
-&lt;figure class=&quot;alignwide&quot;&gt;
-  &lt;img src=&quot;/blog/assets/uploads/tbd-notice-prominence.jpeg&quot; alt=&quot;Sketches showing different prominence of notices&quot; /&gt;
-  &lt;figcaption&gt;Initial sketches&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/tbd-other-notices.jpeg&quot; alt=&quot;Screenshot of page issues on mobile&quot; /&gt;
-  &lt;figcaption&gt;Other notices and elements that appear at the top of some articles&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We also questioned whether the placement on desktop — at the top of the article — was appropriate for mobile. We considered whether it might make sense to put important notices above the article, and less important ones perhaps below the first section. But we opted for simplicity here, and decided they should all just go in the same place.&lt;/p&gt;
-
-&lt;figure class=&quot;alignwide&quot;&gt;
-  &lt;img src=&quot;/blog/assets/uploads/tbd-notice-severity.jpeg&quot; alt=&quot;Position of notice according to severity&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;At that point we felt like our solution was good enough to start testing. The main thing we wanted to learn from our test was: do people notice the page issues, and interact with them, more than before? This was the goal for the project and was admittedly a pretty low bar (considering that previously they were very understated). We also wondered about the secondary effects of exposure to page issues. Would exposing page issues on mobile affect trust and/or participation in Wikipedia, even for people reading from their phones? Here is what we found:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;On the main goal we succeeded: the new page issues were noticed and interacted with significantly more than the old ones. And furthermore, more severe issues are noticed and interacted with significantly more than less severe ones&lt;/li&gt;
-  &lt;li&gt;On the secondary goals the outcome was less clear: we saw no immediate increase in editing as a result of the updated treatment, and we didn’t end up measuring trust.&lt;/li&gt;
-  &lt;li&gt;You can view the &lt;a href=&quot;https://www.mediawiki.org/wiki/Reading/Web/Projects/Mobile_Page_Issues/AB_tests?useskinversion=2&quot;&gt;full report here&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-And so we labor on, continually trying to bring transparency to every corner of our experience. The more people know about the information they are reading the better equipped they are to be discerning. We believe that transparency has value in and of itself, and this project was about furthering that value. We didn’t see an immediate increase in editing, but we also know that editing from a mobile is more difficult to begin with, and we are still continuing to learn about the different mentalities different people have when reading Wikipedia on their mobile device versus on a computer. In other words, we’re far from finished yet. But now people reading on their phones will see the notices, and over time more of them may be inspired to participate.&lt;/p&gt;
-
-&lt;p class=&quot;post__authors&quot;&gt;
-  Alex Hollender is a lead designer at the Wikimedia Foundation
-&lt;/p&gt;</content><author><name></name></author><summary type="html">How making page issues more visible on Wikipedia mobile helps foster trust and participation</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/tbd-notices.jpeg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/tbd-notices.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://design.wikimedia.org/strategy/team.html&quot;&gt;Design Strategy&lt;/a&gt; supports product development at the Foundation by providing the qualitative and quantitative research that enables Product teams to make informed and inspired decisions. From explanations of what people do and want, to evaluations of what they experience, to experiments with new and emerging technologies, the research team answers the most urgent and impactful questions that stand in the way of achieving our vision of &lt;strong&gt;a world in which every single human being can freely share in the sum of all knowledge&lt;/strong&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Making design research more accessible to our wiki project contributors and to the global design community</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/wiki-pins.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/wiki-pins.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
