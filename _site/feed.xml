@@ -1,4 +1,208 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2021-11-19T17:24:37+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Patrolling Unregistered Editors on Wikipedia</title><link href="https://design.wikimedia.org/blog/2021/11/17/patrolling-unregistered-editors-on-wikipedia.html" rel="alternate" type="text/html" title="Patrolling Unregistered Editors on Wikipedia" /><published>2021-11-17T07:30:00+00:00</published><updated>2021-11-17T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/11/17/patrolling-unregistered-editors-on-wikipedia</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/11/17/patrolling-unregistered-editors-on-wikipedia.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://prtksxna.com/&quot;&gt;Prateek Saxena&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2021-12-09T01:01:27+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Wikipedia and Apps: A Love Story</title><link href="https://design.wikimedia.org/blog/2021/12/08/wikipedia-and-apps-a-love-story.html" rel="alternate" type="text/html" title="Wikipedia and Apps: A Love Story" /><published>2021-12-08T07:30:00+00:00</published><updated>2021-12-08T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/12/08/wikipedia-and-apps-a-love-story</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/12/08/wikipedia-and-apps-a-love-story.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://twitter.com/scblr&quot;&gt;Robin Schoenbaechler&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/carolynlimadeo&quot;&gt;Carolyn Li-Madeo&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/baba786&quot;&gt;Sudhanshu Gautam&lt;/a&gt;&lt;/em&gt; and &lt;em&gt;&lt;a href=&quot;https://twitter.com/Volker_E&quot;&gt;Volker Eckl&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Designing for mobile apps presents unique challenges and opportunities compared to traditional websites. Mobile apps run natively on a device and have access to system resources that are harder to access within a web based architecture. Key characteristics of apps are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Apps are designed to fit with the rest of the operating system. When an app fits in with the rest of the OS, it not only looks and feels more at home, it lowers the users learning curve.&lt;/li&gt;
+  &lt;li&gt;A deep integration with the OS comes with benefits right out of the box, e.g. accessibility, performance, integration with voice assistants or &lt;a href=&quot;https://design.wikimedia.org/blog/2021/04/26/bringing-wikipedia-to-the-homescreen-on-ios.html&quot; target=&quot;_blank&quot;&gt;home screen widgets&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Offline capabilities and often reduced data usage: offline capabilities allow users to consume content from anywhere, even when they are not connected to the internet or connectivity is low.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Wikimedia Foundation’s apps are an essential piece to meet our &lt;a href=&quot;https://design.wikimedia.org/style-guide/design-principles.html#this-is-for-everyone&quot; target=&quot;_blank&quot;&gt;“this is for everyone” design principle&lt;/a&gt;. Wikimedia apps are designed with the philosophy of &lt;a href=&quot;http://mobile-first.abookapart.com/&quot; target=&quot;_blank&quot;&gt;mobile first&lt;/a&gt; in mind. One of the core principles of mobile first is to embrace the constraints of a mobile environment and with it, prioritize essential information, as there’s simply not enough room for everything.&lt;/p&gt;
+
+&lt;p&gt;Limited connectivity of people in certain areas of the world inspires us to create products that are performant and light on data. When building new features for people using mobile apps, we strive for excellency in user experience and aim to break down complex existing flows and processes.&lt;/p&gt;
+
+&lt;div class=&quot;columns&quot;&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/app-android.png&quot; alt=&quot;Wikipedia app on Android&quot; /&gt;
+    &lt;figcaption&gt;Wikipedia app on Android&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/app-ios.png&quot; alt=&quot;Wikipedia app on iOS&quot; /&gt;
+    &lt;figcaption&gt;Wikipedia app on iOS&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/app-kaios.png&quot; alt=&quot;Wikipedia app on kaiOS&quot; /&gt;
+    &lt;figcaption&gt;Wikipedia app on kaiOS&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;strategy&quot;&gt;Strategy&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;The apps are here to create mobile first experiences&lt;/strong&gt; and are not trying to replace existing desktop or community tools. Through the apps, we aim to meet potential users where they are. We are interested in understanding and addressing barriers of those that have been historically left behind, while not compromising the integrity of the workflows of our long-time users on other platforms. Making participation fit naturally the mobile first lives we live.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The apps are a place to experiment.&lt;/strong&gt; Due to development speed, richer capabilities and unique needs of our user base, we are able to experiment. It is on the apps where we think the future of mobile editing will be discovered. Notably, the apps are where we piloted &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Suggested_edits#Welcome_to_Suggested_edits&quot; target=&quot;_blank&quot;&gt;micro contributions&lt;/a&gt;, our most successful editing intervention to this date.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The apps are a forcing function to make our technologies future proof.&lt;/strong&gt; To provide an example: Right now Wikipedia’s web experience works as a website only and cannot be exported to new mediums. By building on the apps, we create technology that is platform independent and enables next generation experiences. Whether these use artificial intelligence, augmented reality or future technology that is changing our world.&lt;/p&gt;
+
+&lt;h1 id=&quot;theming&quot;&gt;Theming&lt;/h1&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/theming.png&quot; alt=&quot;Theming.&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;As mentioned in the introduction, iOS and Android both have platform specific guidelines. When building apps for the global Wikimedia movement, our goal is to create native experiences for the specific platform. When designing for mobile apps, guidelines for the platform sit at the top of the hierarchy. Throughout Wikimedia’s product suite, we follow &lt;a href=&quot;https://design.wikimedia.org/style-guide/visual-style.html&quot; target=&quot;_blank&quot;&gt;Wikimedia Design’s visual design principles&lt;/a&gt; when providing solutions.&lt;/p&gt;
+
+&lt;p&gt;To create a seamless and familiar experience within Wikimedia’s products and services, we apply theming that is based on Wikimedia’s visual style guidelines. Theming allows us to customize the app’s look and feel, to better represent our product’s brand. Theming is reflected in the entire UI, including individual components, like buttons. Here’s an example of applying Material Theming in the Wikipedia Android app:&lt;/p&gt;
+
+&lt;div class=&quot;columns&quot;&gt;
+  &lt;figure class=&quot;half-width centered&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/material-button.png&quot; alt=&quot;A standard Material button&quot; /&gt;
+    &lt;figcaption&gt;A standard Material button (&lt;a href=&quot;https://material.io/design/material-theming/overview.html#material-theming&quot; target=&quot;_blank&quot;&gt;image source&lt;/a&gt;)&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;half-width centered&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/material-wikipedia-button.png&quot; alt=&quot;A themed button in the Wikipedia Android app&quot; /&gt;
+    &lt;figcaption&gt;A themed button in the Wikipedia Android app&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;columns&quot;&gt;
+  &lt;figure class=&quot;half-width centered&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/ios-keyboard-messages.png&quot; alt=&quot;Chat toolbar in iOS messaging&quot; /&gt;
+    &lt;figcaption&gt;Chat toolbar in iOS messaging (&lt;a href=&quot;https://developer.apple.com/design/resources/&quot; target=&quot;_blank&quot;&gt;image source&lt;/a&gt;)&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;half-width centered&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/ios-keyboard-wikipedia.png&quot; alt=&quot;Editing toolbar in the Wikipedia iOS app&quot; /&gt;
+    &lt;figcaption&gt;Editing toolbar in the Wikipedia iOS app&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;columns&quot;&gt;
+  &lt;figure class=&quot;half-width centered&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/kaios-without-theming.png&quot; alt=&quot;KaiOS standard progress indicator.&quot; /&gt;
+    &lt;figcaption&gt;KaiOS standard progress indicator.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;half-width centered&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/kaios-with-theming.png&quot; alt=&quot;We used a planet animation progress indicator to show the vast amount of knowledge available on Wikipedia.&quot; /&gt;
+    &lt;figcaption&gt;We used a planet animation progress indicator to show the vast amount of knowledge available on Wikipedia.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The design style guide’s &lt;strong&gt;&lt;a href=&quot;https://design.wikimedia.org/style-guide/visual-style_colors.html&quot; target=&quot;_blank&quot;&gt;color palette&lt;/a&gt;&lt;/strong&gt; is also used in the apps. Since both the Android and iOS Wikipedia app is available in four different reading themes (Light, Sepia, Dark and Black), they are using an enhanced color palette for an optimal reading experience. Check out more details about the color palette for &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_theme_guidelines&quot; target=&quot;_blank&quot;&gt;Android&lt;/a&gt; or &lt;a href=&quot;https://diff.wikimedia.org/2017/12/04/ios-app-dark-theme/&quot; target=&quot;_blank&quot;&gt;iOS&lt;/a&gt; here.&lt;/p&gt;
+
+&lt;div class=&quot;columns&quot;&gt;
+  &lt;figure class=&quot;half-width centered&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/google-fonts.png&quot; alt=&quot;The Wikipedia Android app uses on Material Icons&quot; /&gt;
+    &lt;figcaption&gt;The Wikipedia Android app uses on &lt;a href=&quot;https://fonts.google.com/icons&quot; target=&quot;_blank&quot;&gt;Material Icons&lt;/a&gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;half-width centered&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/sf-symbols.png&quot; alt=&quot;The Wikipedia iOS app uses SF Symbols&quot; /&gt;
+    &lt;figcaption&gt;The Wikipedia iOS app uses &lt;a href=&quot;https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/&quot; target=&quot;_blank&quot;&gt;SF Symbols&lt;/a&gt;&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;As defined in the &lt;strong&gt;&lt;a href=&quot;https://design.wikimedia.org/style-guide/visual-style_typography.html&quot; target=&quot;_blank&quot;&gt;typography&lt;/a&gt;&lt;/strong&gt; section of Wikimedia’s Design Style Guide, the app’s rely on the operating system’s default sans-serif typeface. The app’s mostly use &lt;strong&gt;&lt;a href=&quot;https://design.wikimedia.org/style-guide/visual-style_icons.html&quot; target=&quot;_blank&quot;&gt;icons&lt;/a&gt;&lt;/strong&gt; provided by the platform, e.g. from &lt;a href=&quot;hhttps://material.io/design/iconography&quot; target=&quot;_blank&quot;&gt;Google Material&lt;/a&gt; or &lt;a href=&quot;https://developer.apple.com/design/human-interface-guidelines/sf-symbols/overview/&quot; target=&quot;_blank&quot;&gt;Apple Human Interface Guidelines&lt;/a&gt;, except for icons that are associated with established Wikimedia products or services (e.g. &lt;a href=&quot;https://commons.wikimedia.org/wiki/OOUI_icons#userTalk&quot; target=&quot;_blank&quot;&gt;Wikipedia’s icon for user talk pages&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h1 id=&quot;principles&quot;&gt;Principles&lt;/h1&gt;
+
+&lt;h2 id=&quot;focus&quot;&gt;Focus&lt;/h2&gt;
+
+&lt;div class=&quot;columns&quot;&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/focus-android.png&quot; alt=&quot;The “Picture of the day” on Wikipedia for Android puts content from Wikimedia Commons in the spotlight.&quot; /&gt;
+    &lt;figcaption&gt;The “Picture of the day” on Wikipedia for Android puts content from &lt;a href=&quot;https://commons.wikimedia.org/&quot; target=&quot;_blank&quot;&gt;Wikimedia Commons&lt;/a&gt; in the spotlight.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/focus-ios.png&quot; alt=&quot;Wikipedia for iOS focuses on the essential in its homescreen widgets.&quot; /&gt;
+    &lt;figcaption&gt;Wikipedia for iOS focuses on the essential in its &lt;a href=&quot;https://uxdesign.cc/bringing-wikipedia-to-the-homescreen-on-ios-fcf8548ae449&quot; target=&quot;_blank&quot;&gt;homescreen widgets&lt;/a&gt;.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/focus-kaios.png&quot; alt=&quot;Trending article list for readers to discover regionally relevant content. &quot; /&gt;
+    &lt;figcaption&gt;Trending article list for readers to discover regionally relevant content.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;How clear is the goal? Based on Wikimedia Design’s &lt;a href=&quot;https://design.wikimedia.org/style-guide/design-principles.html#content-first&quot; target=&quot;_blank&quot;&gt;“content first” principle&lt;/a&gt;, we aim to &lt;strong&gt;design apps that are easy to understand and focus on the essential&lt;/strong&gt;. When designing, content comes first, control comes second. On mobile, screen real estate is limited, places of usage are unforeseeable and the user’s focus is reduced. We strive to reduce information density while not neglecting an interface’s functional essence. Guiding questions like: What is the essence of this feature? What is the purpose of this particular screen? How much information can be deprioritized (or left out) to convey a UI’s purpose? Clarity stands for designing user interfaces with clear call to actions, generous use of white space, accessible contrast and hierarchy when designing with type or icons. Writing concise and suitable multilingual UI copy supports in reaching their goals more efficiently.&lt;/p&gt;
+
+&lt;h2 id=&quot;orientation&quot;&gt;Orientation&lt;/h2&gt;
+
+&lt;div class=&quot;columns&quot;&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/orientation-android.png&quot; alt=&quot;The 'More' navigation for Wikipedia on Android is designed to maintain the user’s context.&quot; /&gt;
+    &lt;figcaption&gt;The 'More' navigation for Wikipedia on Android is designed to maintain the user’s context.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/orientation-ios.png&quot; alt=&quot;The off-canvas menu on Wikipedia for iOS is one tap away from anywhere in the app.&quot; /&gt;
+    &lt;figcaption&gt;The off-canvas menu on Wikipedia for iOS is one tap away from anywhere in the app.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/orientation-kaios.png&quot; alt=&quot;Trending article list for readers to discover regionally relevant content. &quot; /&gt;
+    &lt;figcaption&gt;The 'Options' menu lets readers easily navigate an article. It avoids unnecessary key presses.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Where am I? &lt;strong&gt;&lt;a href=&quot;https://design.wikimedia.org/style-guide/design-principles.html#design-for-consistency&quot; target=&quot;_blank&quot;&gt;Design for consistency and orientation&lt;/a&gt;&lt;/strong&gt; are key aspects to help users navigate through an interface in a mobile app. We put explicit effort in communicating where users are and where they can go. Spatial awareness in a digital product helps users in achieving goals more directly. This is exemplified by using a consistent navigation, usage of depth and the application of motion. Deliberate usage of animation and transitions help users navigate an interface. Visual layers and realistic motion convey hierarchy, emotion and understanding when using a device.&lt;/p&gt;
+
+&lt;h2 id=&quot;emotion&quot;&gt;Emotion&lt;/h2&gt;
+
+&lt;div class=&quot;columns&quot;&gt;
+  &lt;figure class=&quot;half-width centered&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/emotion-android.png&quot; alt=&quot;The 'Thanks' interaction in the Wikipedia for Android app&quot; /&gt;
+    &lt;figcaption&gt;The 'Thanks' interaction in the Wikipedia for Android app&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;half-width centered&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/emotion-ios.png&quot; alt=&quot;The onboarding experience in the Wikipedia for iOS app educates and resonates emotionally&quot; /&gt;
+    &lt;figcaption&gt;The onboarding experience in the Wikipedia for iOS app educates and resonates emotionally&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;How does the design feel on an emotional level? An often forgotten and invisible theme but yet one of the most impactful: emotional design. Along the lines of our &lt;a href=&quot;https://design.wikimedia.org/style-guide/design-principles.html#trustworthy-yet-joyful&quot; target=&quot;_blank&quot;&gt;”trustworthy yet joyful” design principle&lt;/a&gt;, &lt;strong&gt;we believe that preserving the human touch and showing ourselves with our values in our work is essential&lt;/strong&gt;. Especially on a device that is as personal as your mobile phone. Instead of creating one more cheap and fast mass feature, we follow a philosophy that has been paved by artists, designers, and architects of the arts and crafts movement. After all, we design for humans and strive to create humane and emotional experiences. Through design, we can see and connect with other human beings. To design experiences that are emotional, we consider understanding the needs of the people we are designing for, as the core mission.&lt;/p&gt;
+
+&lt;h2 id=&quot;ergonomics&quot;&gt;Ergonomics&lt;/h2&gt;
+
+&lt;div class=&quot;columns&quot;&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/ergonomics-android.png&quot; alt=&quot;Example of ergonomically supporting users in the Wikipedia for Android app.&quot; /&gt;
+    &lt;figcaption&gt;Example of ergonomically supporting users in the Wikipedia for Android app.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/ergonomics-ios.png&quot; alt=&quot;Relevant actions are located near the bottom of the screen for easy access.&quot; /&gt;
+    &lt;figcaption&gt;Relevant actions are located near the bottom of the screen for easy access.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;figure class=&quot;third-width&quot;&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/ergonomics-kaios.png&quot; alt=&quot;For non-touch interfaces, placement of key actions (e.g. search, read, edit) is important. We linked key actions with commonly used phone keys to make them easy to perform&quot; /&gt;
+    &lt;figcaption&gt;For non-touch interfaces, placement of key actions (e.g. search, read, edit) is important. We linked key actions with commonly used phone keys to make them easy to perform&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;How does the design feel in my hand? &lt;strong&gt;Ergonomics, posture, context, and the tactile nature of touch have implications on how users interact with a design&lt;/strong&gt;. Our design principle “this is for everyone” is part of our core mission and designing for touch is different than designing for a keyboard, mouse or trackpad. When designing for apps, we embrace principles of &lt;a href=&quot;https://en.wikipedia.org/wiki/Direct_manipulation_interface&quot; target=&quot;_blank&quot;&gt;direct manipulation&lt;/a&gt;, an interaction model where effect are immediately visible on the screen to the user. Designing for a touch device goes beyond enlarging buttons for bigger fingers. We deeply consider placement and positioning of elements to achieve an ergonomic user experience while being aware of different device usage types. And, as voice is considered as the most natural machine-human input method available, we make sure the interface reflects it. We design experiences that provide ergonomics on smartphones, tablets and hybrid laptop/touch devices.&lt;/p&gt;
+
+&lt;h1 id=&quot;get-involved&quot;&gt;Get involved&lt;/h1&gt;
+
+&lt;p&gt;The Wikimedia iOS, Android and kaiOS apps are each designed and developed by a specific team to that platform. If you’re interested in learning more about the apps or if you want to get involved, please visit &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps&quot; target=&quot;_blank&quot;&gt;Wikimedia Apps on mediawiki.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;android&quot;&gt;Android&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_FAQ&quot; target=&quot;_blank&quot;&gt;Wikipedia for Android project page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android&quot; target=&quot;_blank&quot;&gt;Wikipedia for Android team page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/wikimedia/apps-android-wikipedia&quot; target=&quot;_blank&quot;&gt;Wikipedia for Android on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=org.wikipedia&amp;amp;hl=en&amp;amp;gl=US&quot; target=&quot;_blank&quot;&gt;Wikipedia Android on Google Play&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6UkFHYqVsbc&quot; target=&quot;_blank&quot;&gt;Wikipedia Android App promo video on YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Android_theme_guidelines&quot; target=&quot;_blank&quot;&gt;Android color guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://material.io/&quot; target=&quot;_blank&quot;&gt;Google Material Design Guidelines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ios&quot;&gt;iOS&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/iOS&quot; target=&quot;_blank&quot;&gt;Wikipedia iOS project page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/iOS&quot; target=&quot;_blank&quot;&gt;Wikipedia iOS team page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/wikimedia/wikipedia-ios&quot; target=&quot;_blank&quot;&gt;Wikipedia for iOS on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/wikipedia/id324715238&quot; target=&quot;_blank&quot;&gt;Wikipedia for iOS in the App Store&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://phabricator.wikimedia.org/T169148&quot; target=&quot;_blank&quot;&gt;iOS color guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/&quot; target=&quot;_blank&quot;&gt;Apple Human Interface Guidelines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;kaios&quot;&gt;kaiOS&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mediawiki.org/wiki/Wikipedia_for_KaiOS&quot; target=&quot;_blank&quot;&gt;Wikipedia for KaiOS project page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/wikimedia/wikipedia-kaios&quot; target=&quot;_blank&quot;&gt;Wikipedia for kaiOS on Github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wikimedia.github.io/wikipedia-kaios/sim.html&quot; target=&quot;_blank&quot;&gt;Wikipedia KaiOS app simulator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.kaiostech.com/docs/&quot; target=&quot;_blank&quot;&gt;KaiOS documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;em&gt;Thanks to Lucy Blackwell, Jazmin Tanner &amp;amp; Josh Minor for their contributions.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Designing for mobile apps presents unique challenges and opportunities compared to traditional websites. Mobile apps run natively on a device and have access to system resources that are harder to access within a web based architecture.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-and-apps-a-love-story/header.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-and-apps-a-love-story/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Patrolling Unregistered Editors on Wikipedia</title><link href="https://design.wikimedia.org/blog/2021/11/17/patrolling-unregistered-editors-on-wikipedia.html" rel="alternate" type="text/html" title="Patrolling Unregistered Editors on Wikipedia" /><published>2021-11-17T07:30:00+00:00</published><updated>2021-11-17T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/11/17/patrolling-unregistered-editors-on-wikipedia</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/11/17/patrolling-unregistered-editors-on-wikipedia.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://prtksxna.com/&quot;&gt;Prateek Saxena&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;On most Wikipedias, you don’t need an account to make an edit. While there are benefits to making an account — such as a single place to see all communications, or a place to store articles that you’re interested in — there is no requirement to make one. This reduced barrier to entry means that people around the world can contribute to our projects — whether it’s a small typo fix or a new article — without ever having to make an account.&lt;/p&gt;
 
@@ -1295,8 +1499,4 @@ A key part of this strategy is to continue to learn from the work that the commu
 
 &lt;p class=&quot;post__authors&quot;&gt;
   &lt;a href=&quot;https://meta.wikimedia.org/wiki/User:EAsikingarmager_(WMF)&quot;&gt;Eli Asikin-Garmager&lt;/a&gt; is a lead design researcher at the Wikimedia Foundation
-&lt;/p&gt;</content><author><name></name></author><summary type="html">Using remote international research to ensure diverse user groups are represented at the earliest stages of product development</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/translation-on-wikipedia.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/translation-on-wikipedia.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Design Strategy Website Launch</title><link href="https://design.wikimedia.org/blog/2020/12/08/design-strategy-website-launch.html" rel="alternate" type="text/html" title="Design Strategy Website Launch" /><published>2020-12-08T07:26:32+00:00</published><updated>2020-12-08T07:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2020/12/08/design-strategy-website-launch</id><content type="html" xml:base="https://design.wikimedia.org/blog/2020/12/08/design-strategy-website-launch.html">&lt;p class=&quot;post__excerpt&quot;&gt;Making design research more accessible to our wiki project contributors and to the global design community&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;Design Strategy Team&lt;/strong&gt; is pleased to announce the launch of &lt;a href=&quot;https://design.wikimedia.org/strategy/&quot;&gt;a new site&lt;/a&gt; which makes years of design research more accessible to our wiki project contributors and to the global design community. While most of this work is specific to the user experience of content creators and readers of Wikipedia on our various platforms, some of these studies are more generally applicable - for example, work related to &lt;a href=&quot;https://design.wikimedia.org/strategy/online-social-behavior.html&quot;&gt;online social behavior&lt;/a&gt; and use and training of &lt;a href=&quot;https://design.wikimedia.org/strategy/machine-augmentation.html&quot;&gt;machine learning&lt;/a&gt; applications may be of more general interest. If you find this to be the case &lt;a href=&quot;mailto:desresadmin@wikimedia.org&quot;&gt;we’d love to hear from you&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://design.wikimedia.org/strategy/team.html&quot;&gt;Design Strategy&lt;/a&gt; supports product development at the Foundation by providing the qualitative and quantitative research that enables Product teams to make informed and inspired decisions. From explanations of what people do and want, to evaluations of what they experience, to experiments with new and emerging technologies, the research team answers the most urgent and impactful questions that stand in the way of achieving our vision of &lt;strong&gt;a world in which every single human being can freely share in the sum of all knowledge&lt;/strong&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Making design research more accessible to our wiki project contributors and to the global design community</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/wiki-pins.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/wiki-pins.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/p&gt;</content><author><name></name></author><summary type="html">Using remote international research to ensure diverse user groups are represented at the earliest stages of product development</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/translation-on-wikipedia.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/translation-on-wikipedia.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
