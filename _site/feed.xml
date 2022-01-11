@@ -1,6 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2021-12-20T23:42:21+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Understanding the Wiki Communications and Mentorship Ecosystems</title><link href="https://design.wikimedia.org/blog/2021/12/20/understanding-the-wiki-communications-and-mentorship-ecosystems.html" rel="alternate" type="text/html" title="Understanding the Wiki Communications and Mentorship Ecosystems" /><published>2021-12-20T07:30:00+00:00</published><updated>2021-12-20T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/12/20/understanding-the-wiki-communications-and-mentorship-ecosystems</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/12/20/understanding-the-wiki-communications-and-mentorship-ecosystems.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;mailto:dchen@wikimedia.org&quot;&gt;Daisy Chen&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-01-11T01:14:31+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Surfacing and embracing diversity within your team</title><link href="https://design.wikimedia.org/blog/2022/01/10/surfacing-and-embracing-diversity-within-your-team.html" rel="alternate" type="text/html" title="Surfacing and embracing diversity within your team" /><published>2022-01-10T07:30:00+00:00</published><updated>2022-01-10T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/01/10/surfacing-and-embracing-diversity-within-your-team</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/01/10/surfacing-and-embracing-diversity-within-your-team.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://lucyblackwell.medium.com/&quot;&gt;Lucy Blackwell&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;As the Wikimedia Foundation’s &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth&quot; target=&quot;_blank&quot;&gt;Growth&lt;/a&gt; and &lt;a href=&quot;https://www.mediawiki.org/wiki/Editing_team&quot; target=&quot;_blank&quot;&gt;Editing&lt;/a&gt; teams were respectively making plans and progress on Newcomer features and Talk Pages in recent quarters, the teams were curious about where and how wiki users are communicating with one another, and how mentorship manifests within the communication ecosystem. As a first step in this process, &lt;a href=&quot;https://design.wikimedia.org/strategy/&quot; target=&quot;_blank&quot;&gt;Product Design Strategy&lt;/a&gt; completed an initial round of research with a participant cohort of primarily affiliate group members, Foundation staff, and other long-time volunteers to illuminate the communications/mentorship ecosystem  and identify areas of potential future study.&lt;/p&gt;
+&lt;p&gt;Diverse teams generally perform better than others, but what do we mean by diversity and how do we know what diversity exists within our own teams?  Most people consider diversity to be things like gender, sexual orientation, racial or ethnic identity, religion, languages spoken, age, educational background, etc. and ultimately everyone has multiple facets to their identity that make them who they are, but some of these facets are not always visible in the workplace.&lt;/p&gt;
+
+&lt;p&gt;Last month my colleague and I organised and facilitated our annual three-day virtual offsite, for our global team of 25 designers and researchers. Across the team we span multiple timezones and continents and are a very global team geographically, but we are also an entirely English-language speaking team, grounded in many of the cultural norms of American society, where the Wikimedia Foundations headquarters are based. So we decided to focus the offsite on an overarching theme of ‘communication,’ with a particular focus on understanding a little more about each person’s cultural background and the role communication played in this for them.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-idea&quot;&gt;The idea&lt;/h1&gt;
+
+&lt;p&gt;We surveyed the team to find out what languages everyone spoke, and what each person’s native language was. We discovered that almost half the team had NOT learnt English as their first language. It occurred to me then that if we could actually hear every person in the team, speak about themselves in their native language, we may experience something quite different about each other. What if we hired translators to translate team members speaking in their first language?&lt;/p&gt;
+
+&lt;p&gt;We wanted to be sure that people were encouraged to open up as much or as little as they felt comfortable doing in this context. We were aware that for some people speaking about themselves in a large group can feel quite intimidating, and different people have different levels of personal information they want to share in a work environment. So I thought that perhaps adding a level of abstraction to the conversation might ease this tension. We decided to ask folks to describe themselves through a set of ‘artifacts’ or ‘objects’.&lt;/p&gt;
+
+&lt;h1 id=&quot;preparation&quot;&gt;Preparation&lt;/h1&gt;
+
+&lt;p&gt;Before the session we asked each person to spend some time identifying and thinking about some objects in their lives that had significance for them. What did they mean to them personally, and what did they say about who they were? They prepared for the activity by following these guidelines;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Identify a set of three ‘&lt;a href=&quot;https://en.wiktionary.org/wiki/artifact&quot; target=&quot;_blank&quot;&gt;artifacts&lt;/a&gt;’ (or objects) that show…&lt;br /&gt;
+    &lt;ol type=&quot;a&quot;&gt;
+     &lt;li&gt;Something that represents different aspects of your &lt;strong&gt;personality&lt;/strong&gt;.&lt;/li&gt;
+     &lt;li&gt;Something that represents the &lt;strong&gt;culture(s)&lt;/strong&gt; you most closely associate with.&lt;/li&gt;
+     &lt;li&gt;Something that represents the &lt;strong&gt;method of communication&lt;/strong&gt; that makes you feel most alive.&lt;/li&gt;
+ &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Take photos or download images of your artifacts and add them to a shared slide deck.&lt;/li&gt;
+  &lt;li&gt;Prepare to talk for 2 minutes about your artifacts and why you chose them, in your native language.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;activity&quot;&gt;Activity&lt;/h1&gt;
+
+&lt;p&gt;We hired seven translators to join the online event and translate the talks, sentence-by-sentence, from Hindi, Cantonese, German, French, Italian, Russian and Spanish back into English for the team. As the activity flowed I could see the faces of the team lit up with intrigue and curiosity as they discovered a whole new side to their teammates. As one person later said,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Hearing my colleagues speak in their native language was like meeting new people.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;People were highly creative in how they interpreted the activity and chose fascinating objects to describe themselves. For example, one person showed a picture of a digital watch to describe their personality whilst another showed a tent hung between two trees.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/surfacing-embracing-diversity/watch-tent.png&quot; alt=&quot;Digital watch to describe their personality whilst another showed a tent hung between two trees.&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Some people chose very similar objects to describe their culture, often when they in fact came from quite different backgrounds. For example, a couple of people chose stones and objects from nature, whilst two showed pictures of their bikes, and two others shared bottles of olive oil.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/surfacing-embracing-diversity/nature-objects.png&quot; alt=&quot;Stones and objects from nature, whilst two showed pictures of their bikes, and two others shared bottles of olive oil.&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Many people chose music as the method of communication that makes them feel most alive.  Perhaps we should have a team playlist?&lt;/p&gt;
+
+&lt;h1 id=&quot;learnings&quot;&gt;Learnings&lt;/h1&gt;
+
+&lt;p&gt;The process of translating the talks wasn’t easy, given the fact that many of the people in the team actually spoke better English than some of the professional translators we had hired. This meant that when a few of the translations appeared not to be entirely accurate, some of the people doing their talks, felt the need to briefly re-explain what had been said in English.  As one of the participants said,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Listening to translators on the first day, especially when it was evident there was missed or incorrect interpretation. It really highlighted the invisible communication issues we face as designers and researchers working on a multilingual product with people from around the world, and the importance of reviewing text, written, speech, and visual communications as there is so much room for (mis)interpretation.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But this whole process was very interesting to observe and felt like as much part of the experience as the talking was. As the challenges of speaking and translating different languages became evident throughout the exercise, one participant observed,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Hearing fellow team members presenting in their native languages was a lovely moment that made me appreciate what a global team we have and also full of admiration of how so many people communicate so eloquently in English when it’s their second language.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There was something about this experience that allowed us all to connect on a different level. One person said to me that no-one had ever asked them to speak their native language at work before. By seeing the different facets of each other and starting to form new types of connections, we began to see how our different views and perspectives actually bring us together and make us stronger as a team. And in turn, this will lay the foundations for being able to work on more complex problems together and ultimately build even better products. As one of my colleagues so beautifully put it;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“All the moments of hearing my multi-cultural team speaking in different languages was such a beautiful sound and an aural reminder of our diversity.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ve shared this story today in the hopes that it may inspire others to run a similar activity in their own teams. If you do, please share your experience, we would love to hear about it.&lt;/p&gt;</content><author><name></name></author><summary type="html">An activity to speak your native language.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/surfacing-embracing-diversity/header.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/surfacing-embracing-diversity/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Understanding the Wiki Communications and Mentorship Ecosystems</title><link href="https://design.wikimedia.org/blog/2021/12/20/understanding-the-wiki-communications-and-mentorship-ecosystems.html" rel="alternate" type="text/html" title="Understanding the Wiki Communications and Mentorship Ecosystems" /><published>2021-12-20T07:30:00+00:00</published><updated>2021-12-20T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/12/20/understanding-the-wiki-communications-and-mentorship-ecosystems</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/12/20/understanding-the-wiki-communications-and-mentorship-ecosystems.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;mailto:dchen@wikimedia.org&quot;&gt;Daisy Chen&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As the Wikimedia Foundation’s &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth&quot; target=&quot;_blank&quot;&gt;Growth&lt;/a&gt; and &lt;a href=&quot;https://www.mediawiki.org/wiki/Editing_team&quot; target=&quot;_blank&quot;&gt;Editing&lt;/a&gt; teams were respectively making plans and progress on Newcomer features and Talk Pages in recent quarters, the teams were curious about where and how wiki users are communicating with one another, and how mentorship manifests within the communication ecosystem. As a first step in this process, &lt;a href=&quot;https://design.wikimedia.org/strategy/&quot; target=&quot;_blank&quot;&gt;Product Design Strategy&lt;/a&gt; completed an initial round of research with a participant cohort of primarily affiliate group members, Foundation staff, and other long-time volunteers to illuminate the communications/mentorship ecosystem and identify areas of potential future study.&lt;/p&gt;
 
 &lt;h1 id=&quot;what-we-wanted-to-learn&quot;&gt;What we wanted to learn&lt;/h1&gt;
 
@@ -1428,179 +1498,4 @@ A key part of this strategy is to continue to learn from the work that the commu
 
 &lt;p&gt;&lt;em&gt;Thanks to: Ed Sanders, David Lynch, Danny Horn, Sherry Snyder, Benoît Evellin, Prateek Saxena, Carolyn Li-Madeo, Peter Pelberg, Pau Giner and Lucy Blackwell&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;small&gt;&lt;em&gt;Unless otherwise credited, all images in this post are licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC-BY-SA-4.0&lt;/a&gt;.&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Embarking on a design refresh of Wikipedia Talk pages — in three acts</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/people-are-talking/people-talking-header.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/people-are-talking/people-talking-header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">In search of the perfect search for Wikipedia</title><link href="https://design.wikimedia.org/blog/2021/02/19/search-on-wikipedia.html" rel="alternate" type="text/html" title="In search of the perfect search for Wikipedia" /><published>2021-02-19T00:26:32+00:00</published><updated>2021-02-19T00:26:32+00:00</updated><id>https://design.wikimedia.org/blog/2021/02/19/search-on-wikipedia</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/02/19/search-on-wikipedia.html">&lt;p class=&quot;post__excerpt&quot;&gt;The Android app team improved one of their core features—searching for articles on Wikipedia. Along the way of making discovery more intelligent, personalized and efficient, we experienced a surprise.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://twitter.com/scblr&quot;&gt;Robin Schönbächler&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;In a recent project, the Android app team decided to improve one of their core experiences: searching for articles on Wikipedia. Community feedback and previous usability tests revealed, that the app’s search functionality was perceived as inconsistent. Our goal was to make the discovery process for readers more intelligent, personalized and efficient to present the right result at the right time.&lt;/p&gt;
-
-&lt;p&gt;With a &lt;a href=&quot;https://www.statista.com/statistics/272698/global-market-share-held-by-mobile-operating-systems-since-2009/&quot;&gt;market share of 72%&lt;/a&gt;, Android is by far the most used Mobile operating system worldwide. The &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android&quot;&gt;Wikipedia Android app team&lt;/a&gt; builds features for more than five million active readers per month. And it‘s not a secret, that the majority of the &lt;a href=&quot;https://nextbillionusers.google&quot;&gt;next billion users&lt;/a&gt; are likely joining the internet on an Android device. What does that mean for the Wikipedia Android app? Uncle Ben from Spiderman said it best: “With great power comes great responsibility“.&lt;/p&gt;
-
-&lt;p&gt;To be able to make an educated decision about one of our app’s core features, we had to take a step back and understand how people are using the app.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-do-readers-navigate-to-articles&quot;&gt;How do readers navigate to articles?&lt;/h2&gt;
-
-&lt;p&gt;The team collected usage data and insights from readers who had explicitly opted in to sharing their anonymized usage data. We wanted to understand how readers currently access Wikipedia articles in the Android app.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/pageviews-by-source.png&quot; alt=&quot;Pie chart of page views by source&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We discovered that the pageviews were almost equally distributed into thirds. At &lt;strong&gt;33.7%&lt;/strong&gt; the largest portion of readers, visit articles via links from other Wikipedia articles. This data supports the reader behavior known internally as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Wiki_rabbit_hole&quot;&gt;Wiki rabbit hole&lt;/a&gt;, where reader[s] travel by navigating from topic to topic while browsing Wikipedia. &lt;strong&gt;30.7%&lt;/strong&gt; of readers enter into an article via external links, these readers likely perform a search request via their default browser and are taken to the Wikipedia article in the app. Finally, &lt;strong&gt;28%&lt;/strong&gt; of all article visits (1.5 million readers a month) utilize the internal search bar for their queries.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-did-the-data-tell-us&quot;&gt;What did the data tell us?&lt;/h2&gt;
-
-&lt;p&gt;We knew now that &lt;strong&gt;28% of all page views derive from the internal app search&lt;/strong&gt;. However, we wanted more insight on how the different internal entry points for search are used. To accomplish this, we had to dig deeper into the data. Together with our analytics team we explored how readers commonly used the internal search.&lt;/p&gt;
-
-&lt;p&gt;First, we examined how the search experience worked and looked like. There were two main entry points to perform a search:&lt;/p&gt;
-
-&lt;div class=&quot;columns&quot;&gt;
-  &lt;figure class=&quot;third-width&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-first-entry.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
-    &lt;figcaption&gt;&lt;strong&gt;First entry point:&lt;/strong&gt;Search input field at the top in the Explore feed, the app’s home screen.&lt;/figcaption&gt;
-  &lt;/figure&gt;
-
-  &lt;figure class=&quot;third-width&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-second-entry.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
-    &lt;figcaption&gt;&lt;strong&gt;Second entry point:&lt;/strong&gt; Search button in the form of a magnifying glass icon at the top of each article.&lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Data revealed that approximately 60% of all readers access the search via the first entry point, a search input field in the Explore feed. Around 35% of readers were searching via the search button at the top of article (second entry point). Since the majority of our user base uses Wikipedia to read articles, we expected that most readers rely on the search button at the top of an article – so this was a surprising insight!&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-usage-distribution.png&quot; alt=&quot;Pie chart of page views by source&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;At this point, we asked ourselves if the search button in the articles is not obvious enough, as our hypothesis was that people were navigating back to the home screen to make use of the first entry point.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-did-the-readers-tell-us&quot;&gt;What did the readers tell us?&lt;/h2&gt;
-
-&lt;p&gt;To gain further insights about how search is used, our engineering team created three variants for a usability test. Each variant had a different design and position for the main Wikipedia search in the article. Our goals were:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Find out about pros and cons of each variant, with a specific focus on discoverability and speed of access.&lt;/li&gt;
-  &lt;li&gt;How discoverable is the search functionality in each variant?&lt;/li&gt;
-  &lt;li&gt;How can the specific variants be improved?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;columns&quot;&gt;
-  &lt;figure class=&quot;third-width&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-variant-a.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
-    &lt;figcaption&gt;&lt;strong&gt;Variant A:&lt;/strong&gt; Full size search input field at the top of the article.&lt;/figcaption&gt;
-  &lt;/figure&gt;
-
-  &lt;figure class=&quot;third-width&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-variant-b.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
-    &lt;figcaption&gt;&lt;strong&gt;Variant B:&lt;/strong&gt; Search icon at the top of the article, which is the current user experience.&lt;/figcaption&gt;
-  &lt;/figure&gt;
-
-  &lt;figure class=&quot;third-width&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-variant-c.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
-    &lt;figcaption&gt;&lt;strong&gt;Variant C:&lt;/strong&gt; Search icon at the bottom of the article.&lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Variant A&lt;/strong&gt; was inspired by the analytics insight that two-thirds of all readers search via input field in the home screen. This version put the search input field at the top of the article, as it is on the home screen.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Variant B&lt;/strong&gt; was the existing search experience in the app. To save vertical space, the image ratio and treatment was also slightly different.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Variant C&lt;/strong&gt; featured a search button in the bottom toolbar. The goal of this variant was to provide a more ergonomic search experience that should reduce “thumb travel” when reaching it on a smartphone. Find in page was moved to the overflow menu at the top right.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We went for an unmoderated, task-based test on &lt;a href=&quot;http://usertesting.com/&quot;&gt;usertesting.com&lt;/a&gt;. Participants were given a set of tasks to complete in a 15-20 minute time frame and perform the test remotely. Check out more details about the test &lt;a href=&quot;https://phabricator.wikimedia.org/T266883&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What is your guess on which of the variants performed best in the usability tests?&lt;/strong&gt; I bet if Luke Wroblewski, aka Mr &lt;a href=&quot;https://twitter.com/LukeW/status/454637989503590400?s=20&quot;&gt;“Obvious Always Wins”&lt;/a&gt; had guessed, he’d have guessed right. &lt;strong&gt;Yes, it was Variant A.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Overall, participants had no issues finding articles after installing the app.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Similar to what we saw in analytics data, all participants directly used the search input on top of the Explore feed.&lt;/li&gt;
-  &lt;li&gt;Our hypothesis, that participants were remembering their initial action once they were prompted to search for another article from the article page, turned out to be true. All participants naturally used the search input in the article.&lt;/li&gt;
-  &lt;li&gt;From observing participants, we assume that readers are familiar with the look, feel and functionality of a search input from web browsers, such as the default web browser on Android: Chrome.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Due to these reasons, we decided to move forward with the large search input field at the top of the article. The change guarantees great discoverability for searching Wikipedia and as a bonus, the find in article feature.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-did-we-make-search-more-intelligent&quot;&gt;How did we make search more intelligent?&lt;/h2&gt;
-
-&lt;p&gt;Along the way of optimizing the discovery process for articles, we realized that there was room for improvement in how we handled search queries with no results. One of the amazing things about Wikipedia is that it exists in more than 300 languages. Notably, a third of our readers access articles in multiple languages and effortlessly switch between different language versions of Wikipedia. When using Wikipedia on web, these are completely separate websites: &lt;a href=&quot;https://en.wikipedia.org&quot;&gt;en.wikipedia.org&lt;/a&gt; and &lt;a href=&quot;https://de.wikipedia.org&quot;&gt;de.wikipedia.org&lt;/a&gt;, for example. One of the strengths of the Android app is that we can make these boundaries disappear.&lt;/p&gt;
-
-&lt;p&gt;In the example below, you’ll notice that, even though multiple languages have been set in the app, the German word “Schabrackenschakal” (&lt;a href=&quot;https://en.wikipedia.org/wiki/Black-backed_jackal&quot;&gt;a type of jackal&lt;/a&gt;) outputs zero results in the old version of the app when English Wikipedia is selected.&lt;/p&gt;
-
-&lt;figure class=&quot;third-width&quot;&gt;
-  &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-second-language.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
-  &lt;figcaption&gt;Searching articles that exist in a second language currently output 0 results.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;In this case, &lt;strong&gt;there is a German Wikipedia article&lt;/strong&gt; for &lt;a href=&quot;https://de.wikipedia.org/wiki/Schabrackenschakal&quot;&gt;Schabrackenschakal&lt;/a&gt;. The result of the search query could be improved, as a person who’s using the app in multiple languages may not be aware of the language they’re searching in. We designed a solution that indicates results from other language versions of Wikipedia. This sounds like a straightforward solution, but is brand new to Wikipedia. For the first time, readers are able to search Wikipedia in multiple languages at once. Let’s check out how it works:&lt;/p&gt;
-
-&lt;div class=&quot;columns&quot;&gt;
-  &lt;figure class=&quot;third-width&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-no-of-results.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
-    &lt;figcaption&gt;Instead of 0 results, a compact list of results for other languages is presented. In this example, the result in German is highlighted as a link.&lt;/figcaption&gt;
-  &lt;/figure&gt;
-
-  &lt;figure class=&quot;third-width&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-other-language.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
-    &lt;figcaption&gt;After tapping the list item, readers are taken to the search of another Wikipedia language version.&lt;/figcaption&gt;
-  &lt;/figure&gt;
-
-  &lt;figure class=&quot;third-width&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-other-language-article.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
-    &lt;figcaption&gt;And finally, tapping the top search results then takes readers to this friendly guy!&lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;You might wonder why we don’t show results from other languages in the same list rather than having this extra tap. We intentionally designed it this way to educate readers about how to search the different language versions of Wikipedia. Wikipedias in different languages can have  different content and articles might not exist across languages. The extra tap raises awareness. Plus, we didn’t want to make the slightest sacrifice in regards to search performance, and searching multiple Wikipedia languages would mean significant search speed reduction.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-did-we-personalize-search&quot;&gt;How did we personalize search?&lt;/h2&gt;
-
-&lt;p&gt;In its core, the app is a browser designed to explore the contents of Wikipedia in the best possible way. Saved articles, tabs and history are a reflection of a reader’s interest. We wanted to embrace this fact and create and a more personal discovery experience for readers. The new personalized search is another highlight and a brand new experience in the world of Wikipedia.&lt;/p&gt;
-
-&lt;p&gt;To illustrate how useful this is, here’s an example: During summer 2020, there was a brief moment in Switzerland where cinemas were open. As one of a few Hollywood blockbusters this year, &lt;a href=&quot;https://en.wikipedia.org/wiki/Tenet_(film)&quot;&gt;Tenet&lt;/a&gt; made its way to the big cinema halls. A good friend, &lt;a href=&quot;https://twitter.com/azumbrunnen_&quot;&gt;Adrian Zumbrunnen&lt;/a&gt;, and I have been big fans of the film’s director, &lt;a href=&quot;https://en.wikipedia.org/wiki/Christopher_Nolan&quot;&gt;Christopher Nolan&lt;/a&gt; for years and closely follow his career. Adrian and I were in agreement that the movie was average for Nolan movie standards, but I remember looking him up on Wikipedia that night. We were interested in rewatching Nolan’s older movies and landed on &lt;a href=&quot;https://en.wikipedia.org/wiki/Christopher_Nolan_filmography&quot;&gt;Christopher Nolan filmography Wikipedia&lt;/a&gt; article.&lt;/p&gt;
-
-&lt;p&gt;Fast forward to the end of the year when I was looking for Nolan infos in the Wikipedia Android app again. This was the result of that search query:&lt;/p&gt;
-
-&lt;figure class=&quot;third-width&quot;&gt;
-  &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-previous-experience.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
-  &lt;figcaption&gt;&lt;strong&gt;The previous experience:&lt;/strong&gt; a search for “nolan” results in results that are not relevant to my interest.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We’re now surfacing relevant search results based on the user’s history. Articles from open tabs, reading lists or your browsing history are shown first. The right result is presented at the right time. Here’s the new search results list in action:&lt;/p&gt;
-
-&lt;div class=&quot;columns&quot;&gt;
-  &lt;figure class=&quot;third-width&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-new-personalized-experience.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
-    &lt;figcaption&gt;&lt;strong&gt;The new experience:&lt;/strong&gt; a search for “nolan” takes articles from your open tabs, reading list and search history into account.&lt;/figcaption&gt;
-  &lt;/figure&gt;
-
-  &lt;figure class=&quot;third-width&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/search-of-perfect-search/search-new-personalized-experience-article.png&quot; alt=&quot;Screenshot of Search on Wikipedia Android&quot; /&gt;
-    &lt;figcaption&gt;Personalized search results allow readers to more efficiently find the right results. Let’s dig into Christopher Nolan’s art!&lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;In addition to prioritizing articles that readers have interacted with in the past, we added a source indication in the form of the icons next to the article thumbnails. To ensure that readers aren’t in their own &lt;a href=&quot;https://en.wikipedia.org/wiki/Filter_bubble&quot;&gt;filter bubble&lt;/a&gt;, we show a maximum of three personalized results at a time.&lt;/p&gt;
-
-&lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
-
-&lt;p&gt;The search for the perfect search never ends. Design is an iterative process and we’re going to continue monitoring community feedback and data in the upcoming months. All the features above are now available in the official &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.wikipedia&quot;&gt;Wikipedia for Android app on Google Play&lt;/a&gt;. The app is ad-free and free of charge, forever. With the Wikipedia Android app, you can search and explore 40 million+ articles in 300+ languages, no matter where you are. Our team is working on other exciting features like this, stay tuned! Let us know what you think about the updates, what you’d like to see in the app and even more importantly, which Christopher Nolan &lt;a href=&quot;https://en.wikipedia.org/wiki/Christopher_Nolan_filmography&quot;&gt;film&lt;/a&gt; is your favorite one and why via &lt;a href=&quot;https://twitter.com/WikimediaDesign&quot;&gt;@WikimediaDesign&lt;/a&gt; on Twitter.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Thanks to Lucy Blackwell, Pau Giner, Carolyn Li-Madeo, Volker Eckl, Jess Klein, Matt Cleinman, Shay Nowick, Cooltey Feng, Sharvani Haran, Johan Jönsson, Rita Ho, Dmitry Brant, Jazmin Tanner, Anthony Borba &amp;amp; Prateek Saxena for their contributions to this article or the features.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;related-links&quot;&gt;Related links&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=org.wikipedia&quot;&gt;Wikipedia - Apps on Google Play&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Polar_Bear_-_Alaska.jpg&quot;&gt;File:Polar Bear - Alaska.jpg - Wikimedia Commons&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.statista.com/statistics/272698/global-market-share-held-by-mobile-operating-systems-since-2009/&quot;&gt;Mobile OS market share 2019 - Statista&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://foundation.wikimedia.org/wiki/Privacy_policy&quot;&gt;Privacy policy - Wikimedia Foundation Governance Wiki&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Christopher_Nolan_filmography&quot;&gt;Christopher Nolan filmography - Wikipedia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.notion.so/wikimediadesign/In-search-of-the-perfect-search-for-Wikipedia-ca2a939963694c13a18e784b4abd7abf&quot;&gt;Black-backed jackal - Wikipedia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://de.wikipedia.org/wiki/Schabrackenschakal&quot;&gt;Schabrackenschakal - Wikipedia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/LukeW/status/454637989503590400&quot;&gt;Luke Wroblewski on Twitter: ”Obvious always wins.”&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;post__authors&quot;&gt;
-  &lt;a href=&quot;https://twitter.com/scblr&quot;&gt;Robin Schönbächler&lt;/a&gt; is a Senior Designer at the Wikimedia Foundation
-&lt;/p&gt;</content><author><name></name></author><summary type="html">The Android app team improved one of their core features—searching for articles on Wikipedia. Along the way of making discovery more intelligent, personalized and efficient, we experienced a surprise.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/search-of-perfect-search/polar-search-cover.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/search-of-perfect-search/polar-search-cover.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;&lt;small&gt;&lt;em&gt;Unless otherwise credited, all images in this post are licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC-BY-SA-4.0&lt;/a&gt;.&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Embarking on a design refresh of Wikipedia Talk pages — in three acts</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/people-are-talking/people-talking-header.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/people-are-talking/people-talking-header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
