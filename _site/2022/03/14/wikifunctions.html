@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" class="js--off">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel="stylesheet" href="/blog/assets/styles/wmui-style-guide.min.css">
+	<link rel="stylesheet" href="/blog/assets/styles/wmui-blog.css">
+	<link rel="alternate" type="application/rss+xml" href="https://design.wikimedia.org/blog/feed.xml" title="Wikimedia Design Blog">
+  	<title>Designing Wikifunctions, brick by brick.</title>
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
+	</script>
+	<!--[if lt IE 9]>
+	<script>window.html5={'shivCSS':false};</script>
+	<script src="js/vendor/ie/html5shiv-3.7.3.min.js"></script>
+	<![endif]-->
+	<link rel="preload" href="https://design.wikimedia.org/style-guide/fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body vocab="http://schema.org/" typeof="WebPage">
+	<header id="header" class="header">
+		<div class="content-box">
+			<a href="#content" class="is-aural is-focusable">Jump to content</a>
+			<h6 class="site__title"><a href="/blog/"><span class="site__org">Wikimedia </span><span class="site__project">Design Blog</span></a></h6>
+			<a href="https://design.wikimedia.org/" class="lnk--contribute" title="Design at Wikimedia Foundation">Design at Wikimedia</a>
+		</div>
+	</header>
+
+	<div class="page" itemscope itemtype="http://schema.org/Blog">
+		<div class="content-box">
+			<div>
+				<main id="content" class="content">
+          <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post__header">
+    <img src="/blog/assets/uploads/wikifunctions/header.jpg" alt="Designing Wikifunctions, brick by brick.">
+    <p class="post__meta">
+      <time class="dt-published" datetime="2022-03-14T07:30:00+00:00" itemprop="datePublished">Mar 14, 2022
+      </time></p>
+    <h1 class="post__title p-name" itemprop="name headline">Designing Wikifunctions, brick by brick.</h1>
+  </header>
+
+  <div class="post__content e-content" itemprop="articleBody">
+    <p><em>By <a href="https://www.aishwaryavardhana.com">Aishwarya Vardhana</a></em></p>
+
+<h1 id="what-is-wikifunctions">What is Wikifunctions</h1>
+
+<p>Wikifunctions will be a collaboratively edited multilingual library of functions. It will be the first platform The Wikimedia Foundation launches since <a href="https://en.wikipedia.org/wiki/Wikidata" target="_blank">Wikidata</a> in 2012, and part of a bigger vision towards an Abstract Wikipedia, which you can read about at <a href="https://meta.wikimedia.org/wiki/Abstract_Wikipedia" target="_blank">Abstract Wikipedia on meta-wiki</a>.</p>
+
+<h2 id="a-function-and-its-parts">A function and its parts</h2>
+
+<p>If you’re not a programmer you might not be familiar with what a function needs to be usable, or to use technical-speak “to run”. A function takes an input (e.g. the population of a city) and provides an output (e.g. the acres of watershed needed to supply residents with water). It can do this calculation over and over again for different cases.</p>
+
+<p>A function has three parts. The function definition (part 1), the implementation (part 2), and a test (part 3) to validate. These three components – the definition, implementation, and tests – are what a function needs to perform and be usable.</p>
+
+<p>A definition defines the functions behavior. What type of inputs does it accept? How many? What will it output? An implementation is the set of instructions that transforms an input into an output. A test is what validates the implementation and ensures it performs correctly.</p>
+
+<figure>
+  <img src="/blog/assets/uploads/wikifunctions/function-model.png" alt="Function model" />
+</figure>
+
+<h2 id="what-can-functions-do">What can functions do?</h2>
+
+<p>For starters, you might use a function to wake up in the morning. Let’s say you want to sleep 8 hours tonight, you could ask a function, <em>“If I go to sleep at 10 P.M. what time should I wake up to get 8 hours of sleep?”</em></p>
+
+<h3 id="examples-of-general-questions-that-could-be-answered-by-functions">Examples of general questions that could be answered by functions:</h3>
+<ul>
+  <li>What is the distance from my house in northern Sao Paulo, Brazil to the nearest beach?</li>
+  <li>If I took out a $240,000 loan and my loan term is 30-year fixed with a 4% interest rate, what is my monthly mortgage?</li>
+  <li>If the omicron variant has a transmission rate of 25% among vaccinated people, how quickly could it spread in a city with 2,059 people per square kilometer, 95% of whom are vaccinated?</li>
+  <li>When in the next ten years will my birthday fall on a Saturday if I was born March 28, 1954?</li>
+</ul>
+
+<h3 id="examples-of-wikimedia-related-questions-that-could-be-answered-by-functions">Examples of Wikimedia-related questions that could be answered by functions:</h3>
+<ul>
+  <li>Given the dates of birth and death of a person, how old did the person get?</li>
+  <li>Given a population and an area, what is the population density?</li>
+  <li>Given an image on Commons, crop it and run it through a filter</li>
+  <li>Given two images on Commons, which one is more red?</li>
+  <li>Based on Wikidata, how are Queen Elizabeth II and Barack Obama related to each other?</li>
+</ul>
+
+<p>Functions are ubiquitous in modern life, from the apps we use daily (e.g. maps and search) to the analyses made by scientists, doctors, journalists, and financial advisors, functions enable our activities by efficiently and precisely making meaning through calculations.</p>
+
+<p>Functions will provide the code that translates language-independent articles from Abstract Wikipedia into natural language Wikipedia articles. This will theoretically allow more people to share more knowledge in more languages!</p>
+
+<p><strong>This blog post is about how to create, view, and edit functions in Wikifunctions, and the design process behind making this happen.</strong></p>
+
+<h1 id="our-audience">Our audience</h1>
+
+<p>Similar to other Wikimedia projects, our hope and aim is for Wikifunctions to be inviting, accessible to, and available to all people across the world. This is why we are designing a <strong>multilingual platform that is mobile friendly</strong>.</p>
+
+<p>There are several roles for people within the Wikifunctions ecosystem. There are “answer seekers”, or people who simply want to learn about functions and use them. A level deeper are those who edit or materially contribute to Wikifunctions in some capacity. They could be function patrollers, programmers who write implementations, translators, admins who approve of proposed implementations and tests, or test writers who QA implementations. These folks will maintain functions and documentation. Among these editors there will be technical and nontechnical folks. Leading up to launch and post-launch, <strong>our team aims to increase the agency of the nontechnical folks and “junior” techies</strong> by creating pathways for them to contribute meaningfully.</p>
+
+<p>Part of creating these pathways is simplifying a complicated process. Functions are not simple. They are complex in that they require computational thinking and well-written documentation. When designing the creation experience, our objective was to design an editor interface that looks and feels friendly to nontechnical people and radically simplifies a complex process.</p>
+
+<h1 id="our-approach">Our approach</h1>
+
+<p>We explored different mental models for Wikifunctions such as collaborative coding, a structured Q&amp;A forum, a homework helper, infrastructure for Abstract Wikipedia, and a ‘generic library of functions’. <strong>We settled on the structured Q&amp;A model, where we conceive of functions as tools which can answer structured questions</strong>.</p>
+
+<figure>
+  <img src="/blog/assets/uploads/wikifunctions/our-approach.png" alt="Our approach" />
+</figure>
+
+<p>WMF’s mission is to unlock knowledge and help all people share in it, freely. The Abstract Wikipedia team believes that functions can play a key role in unlocking knowledge, and sees Wikifunctions as a crucial player in moving all of us towards this mission.</p>
+
+<p>It is a source of power to know how to write and use functions. It gives the person the power of knowledge creation. Our objective when designing the function creation experience was to make it as friendly, intuitive, and simple as possible so that more people can have access to this power.</p>
+
+<h3 id="our-design-principles">Our design principles</h3>
+
+<ol>
+  <li>Conceptual simplicity: Given the complex nature of this project, our team aims to radically simplify the concepts involved so that we might be inclusive of all people, especially those who are less familiar with functions, code, natural language processing, or lexicographic knowledge.</li>
+  <li>Intuitive interface: We want to build a system with a shallow onramp, one that anyone can figure out and engage with in meaningful ways. We wish for there to be little gap between a newcomer’s existing knowledge (i.e. current knowledge) and the knowledge they need to operate the product (i.e. target knowledge). Our interface will provide community members with an uninterrupted experience, where they are well-supported to complete tasks with relative ease and confidence.</li>
+  <li>Multilingual: In a world where all people can share in the sum of all knowledge, it is critical that Wikimedia products are designed as multilingual interfaces and experiences. From the beginning, the Abstract Wikipedia team will prioritize designing for and testing in the native languages of our community-members. Our objective is to move at the speed of trust with all populations, but especially with small Wikis and underrepresented groups.</li>
+  <li>Balance: We wish to acknowledge that many of our community members will be veterans of Wikipedia, Wikidata, or any of the movement’s other projects. Many of them will be highly-skilled at navigating technical interfaces and desire customizability similar to Wikipedia or other open source projects. The challenge before us is prioritizing the needs of non-programmers and those with little-to-no coding experience while keeping in mind the expectations of veterans. This will require flexibility and openness in our designs, and filtering design decisions through multiple lenses in order to ensure that we are not locked into any one particular user experience.</li>
+</ol>
+
+<h3 id="we-have-implemented-these-principles-by-doing-the-following">We have implemented these principles by doing the following:</h3>
+<ul>
+  <li>Intentionally minimizing the use of technical jargon and providing a glossary of terms</li>
+  <li>Providing tooltips and informative microcopy on every interface</li>
+  <li>Focused attention on information hierarchy so as not to overwhelm users with information</li>
+  <li>User testing with nontechnical people and iterating to meet their needs and expectations</li>
+  <li>User testing with technical people to ensure we are not causing irritation or creating unnecessary roadblocks to their progress
+-Multilingual design and usability testing (testing is in the planning process)</li>
+</ul>
+
+<h1 id="how-to-use-wikifunctions">How to use Wikifunctions</h1>
+
+<h2 id="creating-a-function">Creating a function</h2>
+
+<p>Let’s say we wanted to create a function that determined if two words rhymed. The “two words” are two inputs of type <a href="https://en.wikipedia.org/wiki/String_(computer_science)" target="_blank">string</a>, and the output is a single “yes or no”, which is a type <a href="https://en.wikipedia.org/wiki/Boolean_data_type" target="_blank">Boolean</a>. To create a function that could do this, we would need to tell the system, “Hey this function <strong><em>accepts two inputs</em></strong>, both have to be <strong><em>strings</em></strong>, and the function’s output will be a <strong><em>Boolean</em></strong>.”</p>
+
+<p><strong>This process is known as “defining” the function, and it is the first step in creating a function.</strong></p>
+
+<p>Our team believes that the UI and UX for defining a function must be as inclusive as possible because, technically, anyone can do it. It requires no coding or composition writing. Defining a function can be thought of as a request: <em>“Hey I want a function that does X”</em> translates to <em>“the function accepts this input, returns this output”</em>. We also provide a way to add documentation so that the user can further explain what they’re looking for.</p>
+
+<h2 id="design-challenge-1-the-function-editor">Design challenge 1: The function editor</h2>
+
+<p>We initially planned to design a “function editor” that provided an end-to-end experience, meaning users could define, implement, and test in one environment. Since we were designing for <strong>technical and nontechnical people</strong>, we hypothesized that unifying the experience would:</p>
+<ul>
+  <li>Simplify the concept of what a function needs</li>
+  <li>Provide a contextual experience which would be helpful for nontechnical users</li>
+  <li>Keep related tasks together</li>
+  <li>Allow more senior editors to move in and out of the process as they pleased</li>
+  <li>Not slow down the technical audience from using the editor as they wanted, while providing guardrails for nontechnical users</li>
+</ul>
+
+<p>Early drafts and variations of an end-to-end function editor</p>
+
+<figure>
+  <img src="/blog/assets/uploads/wikifunctions/early-draft01.png" alt="Early draft 1" />
+</figure>
+
+<figure>
+  <img src="/blog/assets/uploads/wikifunctions/early-draft02.png" alt="Early draft 2" />
+</figure>
+
+<figure>
+  <img src="/blog/assets/uploads/wikifunctions/early-draft03.png" alt="Early draft 3" />
+</figure>
+
+<p>The UX was inspired by <a href="https://dribbble.com/tags/miro" target="_blank" rel="noopener">Miro</a>, <a href="https://dribbble.com/figma" target="_blank" rel="noopener">Figma</a>, <a href="https://wd-query-builder.toolforge.org/" target="_blank" rel="noopener">Wikidata query builder</a>, and <a href="https://dribbble.com/tags/typeform" target="_blank" rel="noopener">Typeform</a>.</p>
+
+<p><strong>Pivoting –</strong> we tested these mockups with technical non-Wikimedians and Wikimedians, and the results were overwhelmingly positive. However, as our developers were building this design, <strong>we realized that the underlying design of the system was incompatible with this approach.</strong> Function definitions, implementations, and tests are all separate objects in Wikifunctions, and each object can refer to other objects within it, such as data types (e.g. strings, Booleans, or other functions). <strong>Due to the complexity allowed for each object, we decided it’s best to keep each creation experience separate.</strong> Objects also have their own pages, so any object you create automatically publishes as a Page.</p>
+
+<p>Today the function editor is a place only for defining the function, in other words part one of creating a function.</p>
+
+<figure>
+  <img src="/blog/assets/uploads/wikifunctions/creating-function.png" alt="Creating a function" />
+</figure>
+
+<figure>
+  <img src="/blog/assets/uploads/wikifunctions/creating-function-steps.png" alt="Steps in creating a function" />
+</figure>
+
+<p>The function editor as it currently exists today</p>
+
+<figure>
+  <img src="/blog/assets/uploads/wikifunctions/function-editor.png" alt="function editor" />
+</figure>
+
+<h2 id="design-challenge-2-a-function-page">Design challenge 2: A function page</h2>
+
+<p>When you publish a function that you’ve defined, it is saved and published as a function page. <strong>This is the page where all parts of a function live.</strong> We framed this page as an entry point for the community to learn about, use, and/or edit a function. The goal of this page is to help people progressively edit a function or simply engage with one. The challenge of this page, and a Wikifunctions motif, is that the page must appeal to both non-technical and technical people.</p>
+
+<h3 id="our-short-term-goals-were-to">Our short term goals were to</h3>
+<ul>
+  <li>Help all users <strong>UNDERSTAND</strong> the function so that they can edit or use it</li>
+  <li><strong>ENCOURAGE</strong> users with coding backgrounds to make technical contributions</li>
+  <li><strong>ENCOURAGE</strong> users who are not coders to make non-technical contributions</li>
+  <li>Usability test a Figma prototype of the product solution with people who have a strong coding background</li>
+</ul>
+
+<h3 id="our-hopes-and-dreams-were-to">Our hopes and dreams were to</h3>
+<ul>
+  <li>Encourage everyone that views a function to try using it</li>
+  <li>Support coders who want to make technical contributions</li>
+  <li>Encourage users who don’t code to make non-technical contributions because functions need names, aliases, translations of the name/input labels, and documentation</li>
+</ul>
+
+<h3 id="we-aimed-to-avoid">We aimed to avoid</h3>
+<ul>
+  <li>Confusing, discouraging, overwhelming, or intimidating non-coders</li>
+  <li>Unintentionally signaling to non-coders that this isn’t a space for them</li>
+  <li>Irritating coders by slowing them down or hiding important actions</li>
+</ul>
+
+<p>The function page as it currently exists today. A user lands on a function page’s ‘About’ tab and can toggle between ‘About’ and ‘Details’.</p>
+
+<figure>
+  <img src="/blog/assets/uploads/wikifunctions/function-page.png" alt="function page" />
+</figure>
+
+<p>A user can learn more about the technical details of the function on the ‘Details’ tab, such as how many available implementations and verified testers it has, and what the definition is.</p>
+
+<figure>
+  <img src="/blog/assets/uploads/wikifunctions/function-details.png" alt="function details" />
+</figure>
+
+<h2 id="how-to-get-involved-with-wikifunctions">How to get involved with Wikifunctions</h2>
+
+<ul>
+  <li>Subscribe to our <a href="https://lists.wikimedia.org/postorius/lists/abstract-wikipedia.lists.wikimedia.org/" target="_blank">mailing list</a> to get weekly updates from our product lead Denny Vrandecic. <a href="https://meta.wikimedia.org/wiki/Abstract_Wikipedia/Updates" target="_blank">Read past newsletters on Meta-wiki</a>!</li>
+  <li>Join our <a href="https://t.me/Wikifunctions" target="_blank" rel="noopener">Telegram community</a> or our <a href="https://kiwiirc.com/nextclient/irc.libera.chat/#wikipedia-abstract" target="_blank" rel="noopener">IRC channel</a> (mirrored) for in-depth conversations on Wikifunctions</li>
+  <li>Follow us on <a href="https://twitter.com/Wikifunctions" target="_blank">Twitter</a> for team and product updates</li>
+  <li>Email me (<a href="mailto:avardhana@wikimedia.org">avardhana@wikimedia.org</a>) if you’re interested in product testing</li>
+</ul>
+
+<p><br />
+<em>Thank you to Nicolas Ayoub, Amin Al Hazwani, Sudhanshu Gautam, Genoveva Galarza Heredero, David Martin, Nick Wilson, and Denny Vrandečić for their contributions!</em></p>
+
+  </div>
+
+  <a class="u-url" href="/blog/2022/03/14/wikifunctions.html" hidden></a>
+</article>
+
+				</main>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footer" class="footer">
+		<div class="content-box">
+			<ul class="footer__list footer__list--connect">
+				<li><a href="https://github.com/wikimedia/" target="_blank" rel="noopener">Contribute on GitHub</a></li>
+				<li><a href="https://twitter.com/@WikimediaDesign" title="Follow Wikimedia Product Design team on Twitter">Follow @WikimediaDesign</a></li>
+				<li><a href="https://medium.com/wikimediadesign" title="Follow Wikimedia Product Design team on Medium">Read on Medium</a></li>
+				<li><a href="https://lists.wikimedia.org/mailman/listinfo/design" title="Join Wikimedia Design mailing list">Join mailing list</a></li>
+			</ul>
+			<p>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener" property="license">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.</p>
+			<ul class="footer__list footer__list--policy">
+				<li><a href="https://wikimediafoundation.org/privacy-policy/">Privacy policy</a></li>
+				<li><a href="https://design.wikimedia.org/accessibility-statement.html">Accessibility statement</a></li>
+			</ul>
+			<p><a href="https://wikimediafoundation.org/" class="lnk--wikimedia-project" property="author" typeof="Organization">A Wikimedia Foundation project</a></p>
+			<noscript><p><img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" alt=""></p></noscript>
+		</div>
+	</footer>
+</body>
+</html>

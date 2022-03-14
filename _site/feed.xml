@@ -1,8 +1,195 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-02-08T22:07:19+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Talk is Cheap; it shouldn’t also be hard.</title><link href="https://design.wikimedia.org/blog/2022/02/08/talk-is-cheap.html" rel="alternate" type="text/html" title="Talk is Cheap; it shouldn’t also be hard." /><published>2022-02-08T07:30:00+00:00</published><updated>2022-02-08T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/02/08/talk-is-cheap</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/02/08/talk-is-cheap.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;http://jessklein.is/&quot;&gt;Jess Klein&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-03-14T20:53:46+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Designing Wikifunctions, brick by brick.</title><link href="https://design.wikimedia.org/blog/2022/03/14/wikifunctions.html" rel="alternate" type="text/html" title="Designing Wikifunctions, brick by brick." /><published>2022-03-14T07:30:00+00:00</published><updated>2022-03-14T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/03/14/wikifunctions</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/03/14/wikifunctions.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://www.aishwaryavardhana.com&quot;&gt;Aishwarya Vardhana&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-is-wikifunctions&quot;&gt;What is Wikifunctions&lt;/h1&gt;
+
+&lt;p&gt;Wikifunctions will be a collaboratively edited multilingual library of functions. It will be the first platform The Wikimedia Foundation launches since &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikidata&quot; target=&quot;_blank&quot;&gt;Wikidata&lt;/a&gt; in 2012, and part of a bigger vision towards an Abstract Wikipedia, which you can read about at &lt;a href=&quot;https://meta.wikimedia.org/wiki/Abstract_Wikipedia&quot; target=&quot;_blank&quot;&gt;Abstract Wikipedia on meta-wiki&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-function-and-its-parts&quot;&gt;A function and its parts&lt;/h2&gt;
+
+&lt;p&gt;If you’re not a programmer you might not be familiar with what a function needs to be usable, or to use technical-speak “to run”. A function takes an input (e.g. the population of a city) and provides an output (e.g. the acres of watershed needed to supply residents with water). It can do this calculation over and over again for different cases.&lt;/p&gt;
+
+&lt;p&gt;A function has three parts. The function definition (part 1), the implementation (part 2), and a test (part 3) to validate. These three components – the definition, implementation, and tests – are what a function needs to perform and be usable.&lt;/p&gt;
+
+&lt;p&gt;A definition defines the functions behavior. What type of inputs does it accept? How many? What will it output? An implementation is the set of instructions that transforms an input into an output. A test is what validates the implementation and ensures it performs correctly.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/wikifunctions/function-model.png&quot; alt=&quot;Function model&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;what-can-functions-do&quot;&gt;What can functions do?&lt;/h2&gt;
+
+&lt;p&gt;For starters, you might use a function to wake up in the morning. Let’s say you want to sleep 8 hours tonight, you could ask a function, &lt;em&gt;“If I go to sleep at 10 P.M. what time should I wake up to get 8 hours of sleep?”&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;examples-of-general-questions-that-could-be-answered-by-functions&quot;&gt;Examples of general questions that could be answered by functions:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;What is the distance from my house in northern Sao Paulo, Brazil to the nearest beach?&lt;/li&gt;
+  &lt;li&gt;If I took out a $240,000 loan and my loan term is 30-year fixed with a 4% interest rate, what is my monthly mortgage?&lt;/li&gt;
+  &lt;li&gt;If the omicron variant has a transmission rate of 25% among vaccinated people, how quickly could it spread in a city with 2,059 people per square kilometer, 95% of whom are vaccinated?&lt;/li&gt;
+  &lt;li&gt;When in the next ten years will my birthday fall on a Saturday if I was born March 28, 1954?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;examples-of-wikimedia-related-questions-that-could-be-answered-by-functions&quot;&gt;Examples of Wikimedia-related questions that could be answered by functions:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Given the dates of birth and death of a person, how old did the person get?&lt;/li&gt;
+  &lt;li&gt;Given a population and an area, what is the population density?&lt;/li&gt;
+  &lt;li&gt;Given an image on Commons, crop it and run it through a filter&lt;/li&gt;
+  &lt;li&gt;Given two images on Commons, which one is more red?&lt;/li&gt;
+  &lt;li&gt;Based on Wikidata, how are Queen Elizabeth II and Barack Obama related to each other?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Functions are ubiquitous in modern life, from the apps we use daily (e.g. maps and search) to the analyses made by scientists, doctors, journalists, and financial advisors, functions enable our activities by efficiently and precisely making meaning through calculations.&lt;/p&gt;
+
+&lt;p&gt;Functions will provide the code that translates language-independent articles from Abstract Wikipedia into natural language Wikipedia articles. This will theoretically allow more people to share more knowledge in more languages!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This blog post is about how to create, view, and edit functions in Wikifunctions, and the design process behind making this happen.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;our-audience&quot;&gt;Our audience&lt;/h1&gt;
+
+&lt;p&gt;Similar to other Wikimedia projects, our hope and aim is for Wikifunctions to be inviting, accessible to, and available to all people across the world. This is why we are designing a &lt;strong&gt;multilingual platform that is mobile friendly&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are several roles for people within the Wikifunctions ecosystem. There are “answer seekers”, or people who simply want to learn about functions and use them. A level deeper are those who edit or materially contribute to Wikifunctions in some capacity. They could be function patrollers, programmers who write implementations, translators, admins who approve of proposed implementations and tests, or test writers who QA implementations. These folks will maintain functions and documentation. Among these editors there will be technical and nontechnical folks. Leading up to launch and post-launch, &lt;strong&gt;our team aims to increase the agency of the nontechnical folks and “junior” techies&lt;/strong&gt; by creating pathways for them to contribute meaningfully.&lt;/p&gt;
+
+&lt;p&gt;Part of creating these pathways is simplifying a complicated process. Functions are not simple. They are complex in that they require computational thinking and well-written documentation. When designing the creation experience, our objective was to design an editor interface that looks and feels friendly to nontechnical people and radically simplifies a complex process.&lt;/p&gt;
+
+&lt;h1 id=&quot;our-approach&quot;&gt;Our approach&lt;/h1&gt;
+
+&lt;p&gt;We explored different mental models for Wikifunctions such as collaborative coding, a structured Q&amp;amp;A forum, a homework helper, infrastructure for Abstract Wikipedia, and a ‘generic library of functions’. &lt;strong&gt;We settled on the structured Q&amp;amp;A model, where we conceive of functions as tools which can answer structured questions&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/wikifunctions/our-approach.png&quot; alt=&quot;Our approach&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;WMF’s mission is to unlock knowledge and help all people share in it, freely. The Abstract Wikipedia team believes that functions can play a key role in unlocking knowledge, and sees Wikifunctions as a crucial player in moving all of us towards this mission.&lt;/p&gt;
+
+&lt;p&gt;It is a source of power to know how to write and use functions. It gives the person the power of knowledge creation. Our objective when designing the function creation experience was to make it as friendly, intuitive, and simple as possible so that more people can have access to this power.&lt;/p&gt;
+
+&lt;h3 id=&quot;our-design-principles&quot;&gt;Our design principles&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Conceptual simplicity: Given the complex nature of this project, our team aims to radically simplify the concepts involved so that we might be inclusive of all people, especially those who are less familiar with functions, code, natural language processing, or lexicographic knowledge.&lt;/li&gt;
+  &lt;li&gt;Intuitive interface: We want to build a system with a shallow onramp, one that anyone can figure out and engage with in meaningful ways. We wish for there to be little gap between a newcomer’s existing knowledge (i.e. current knowledge) and the knowledge they need to operate the product (i.e. target knowledge). Our interface will provide community members with an uninterrupted experience, where they are well-supported to complete tasks with relative ease and confidence.&lt;/li&gt;
+  &lt;li&gt;Multilingual: In a world where all people can share in the sum of all knowledge, it is critical that Wikimedia products are designed as multilingual interfaces and experiences. From the beginning, the Abstract Wikipedia team will prioritize designing for and testing in the native languages of our community-members. Our objective is to move at the speed of trust with all populations, but especially with small Wikis and underrepresented groups.&lt;/li&gt;
+  &lt;li&gt;Balance: We wish to acknowledge that many of our community members will be veterans of Wikipedia, Wikidata, or any of the movement’s other projects. Many of them will be highly-skilled at navigating technical interfaces and desire customizability similar to Wikipedia or other open source projects. The challenge before us is prioritizing the needs of non-programmers and those with little-to-no coding experience while keeping in mind the expectations of veterans. This will require flexibility and openness in our designs, and filtering design decisions through multiple lenses in order to ensure that we are not locked into any one particular user experience.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;we-have-implemented-these-principles-by-doing-the-following&quot;&gt;We have implemented these principles by doing the following:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Intentionally minimizing the use of technical jargon and providing a glossary of terms&lt;/li&gt;
+  &lt;li&gt;Providing tooltips and informative microcopy on every interface&lt;/li&gt;
+  &lt;li&gt;Focused attention on information hierarchy so as not to overwhelm users with information&lt;/li&gt;
+  &lt;li&gt;User testing with nontechnical people and iterating to meet their needs and expectations&lt;/li&gt;
+  &lt;li&gt;User testing with technical people to ensure we are not causing irritation or creating unnecessary roadblocks to their progress
+-Multilingual design and usability testing (testing is in the planning process)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;how-to-use-wikifunctions&quot;&gt;How to use Wikifunctions&lt;/h1&gt;
+
+&lt;h2 id=&quot;creating-a-function&quot;&gt;Creating a function&lt;/h2&gt;
+
+&lt;p&gt;Let’s say we wanted to create a function that determined if two words rhymed. The “two words” are two inputs of type &lt;a href=&quot;https://en.wikipedia.org/wiki/String_(computer_science)&quot; target=&quot;_blank&quot;&gt;string&lt;/a&gt;, and the output is a single “yes or no”, which is a type &lt;a href=&quot;https://en.wikipedia.org/wiki/Boolean_data_type&quot; target=&quot;_blank&quot;&gt;Boolean&lt;/a&gt;. To create a function that could do this, we would need to tell the system, “Hey this function &lt;strong&gt;&lt;em&gt;accepts two inputs&lt;/em&gt;&lt;/strong&gt;, both have to be &lt;strong&gt;&lt;em&gt;strings&lt;/em&gt;&lt;/strong&gt;, and the function’s output will be a &lt;strong&gt;&lt;em&gt;Boolean&lt;/em&gt;&lt;/strong&gt;.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This process is known as “defining” the function, and it is the first step in creating a function.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Our team believes that the UI and UX for defining a function must be as inclusive as possible because, technically, anyone can do it. It requires no coding or composition writing. Defining a function can be thought of as a request: &lt;em&gt;“Hey I want a function that does X”&lt;/em&gt; translates to &lt;em&gt;“the function accepts this input, returns this output”&lt;/em&gt;. We also provide a way to add documentation so that the user can further explain what they’re looking for.&lt;/p&gt;
+
+&lt;h2 id=&quot;design-challenge-1-the-function-editor&quot;&gt;Design challenge 1: The function editor&lt;/h2&gt;
+
+&lt;p&gt;We initially planned to design a “function editor” that provided an end-to-end experience, meaning users could define, implement, and test in one environment. Since we were designing for &lt;strong&gt;technical and nontechnical people&lt;/strong&gt;, we hypothesized that unifying the experience would:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Simplify the concept of what a function needs&lt;/li&gt;
+  &lt;li&gt;Provide a contextual experience which would be helpful for nontechnical users&lt;/li&gt;
+  &lt;li&gt;Keep related tasks together&lt;/li&gt;
+  &lt;li&gt;Allow more senior editors to move in and out of the process as they pleased&lt;/li&gt;
+  &lt;li&gt;Not slow down the technical audience from using the editor as they wanted, while providing guardrails for nontechnical users&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Early drafts and variations of an end-to-end function editor&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/wikifunctions/early-draft01.png&quot; alt=&quot;Early draft 1&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/wikifunctions/early-draft02.png&quot; alt=&quot;Early draft 2&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/wikifunctions/early-draft03.png&quot; alt=&quot;Early draft 3&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The UX was inspired by &lt;a href=&quot;https://dribbble.com/tags/miro&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Miro&lt;/a&gt;, &lt;a href=&quot;https://dribbble.com/figma&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Figma&lt;/a&gt;, &lt;a href=&quot;https://wd-query-builder.toolforge.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Wikidata query builder&lt;/a&gt;, and &lt;a href=&quot;https://dribbble.com/tags/typeform&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Typeform&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pivoting –&lt;/strong&gt; we tested these mockups with technical non-Wikimedians and Wikimedians, and the results were overwhelmingly positive. However, as our developers were building this design, &lt;strong&gt;we realized that the underlying design of the system was incompatible with this approach.&lt;/strong&gt; Function definitions, implementations, and tests are all separate objects in Wikifunctions, and each object can refer to other objects within it, such as data types (e.g. strings, Booleans, or other functions). &lt;strong&gt;Due to the complexity allowed for each object, we decided it’s best to keep each creation experience separate.&lt;/strong&gt; Objects also have their own pages, so any object you create automatically publishes as a Page.&lt;/p&gt;
+
+&lt;p&gt;Today the function editor is a place only for defining the function, in other words part one of creating a function.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/wikifunctions/creating-function.png&quot; alt=&quot;Creating a function&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/wikifunctions/creating-function-steps.png&quot; alt=&quot;Steps in creating a function&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The function editor as it currently exists today&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/wikifunctions/function-editor.png&quot; alt=&quot;function editor&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;design-challenge-2-a-function-page&quot;&gt;Design challenge 2: A function page&lt;/h2&gt;
+
+&lt;p&gt;When you publish a function that you’ve defined, it is saved and published as a function page. &lt;strong&gt;This is the page where all parts of a function live.&lt;/strong&gt; We framed this page as an entry point for the community to learn about, use, and/or edit a function. The goal of this page is to help people progressively edit a function or simply engage with one. The challenge of this page, and a Wikifunctions motif, is that the page must appeal to both non-technical and technical people.&lt;/p&gt;
+
+&lt;h3 id=&quot;our-short-term-goals-were-to&quot;&gt;Our short term goals were to&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Help all users &lt;strong&gt;UNDERSTAND&lt;/strong&gt; the function so that they can edit or use it&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ENCOURAGE&lt;/strong&gt; users with coding backgrounds to make technical contributions&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ENCOURAGE&lt;/strong&gt; users who are not coders to make non-technical contributions&lt;/li&gt;
+  &lt;li&gt;Usability test a Figma prototype of the product solution with people who have a strong coding background&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;our-hopes-and-dreams-were-to&quot;&gt;Our hopes and dreams were to&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Encourage everyone that views a function to try using it&lt;/li&gt;
+  &lt;li&gt;Support coders who want to make technical contributions&lt;/li&gt;
+  &lt;li&gt;Encourage users who don’t code to make non-technical contributions because functions need names, aliases, translations of the name/input labels, and documentation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;we-aimed-to-avoid&quot;&gt;We aimed to avoid&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Confusing, discouraging, overwhelming, or intimidating non-coders&lt;/li&gt;
+  &lt;li&gt;Unintentionally signaling to non-coders that this isn’t a space for them&lt;/li&gt;
+  &lt;li&gt;Irritating coders by slowing them down or hiding important actions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The function page as it currently exists today. A user lands on a function page’s ‘About’ tab and can toggle between ‘About’ and ‘Details’.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/wikifunctions/function-page.png&quot; alt=&quot;function page&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A user can learn more about the technical details of the function on the ‘Details’ tab, such as how many available implementations and verified testers it has, and what the definition is.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/wikifunctions/function-details.png&quot; alt=&quot;function details&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;how-to-get-involved-with-wikifunctions&quot;&gt;How to get involved with Wikifunctions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Subscribe to our &lt;a href=&quot;https://lists.wikimedia.org/postorius/lists/abstract-wikipedia.lists.wikimedia.org/&quot; target=&quot;_blank&quot;&gt;mailing list&lt;/a&gt; to get weekly updates from our product lead Denny Vrandecic. &lt;a href=&quot;https://meta.wikimedia.org/wiki/Abstract_Wikipedia/Updates&quot; target=&quot;_blank&quot;&gt;Read past newsletters on Meta-wiki&lt;/a&gt;!&lt;/li&gt;
+  &lt;li&gt;Join our &lt;a href=&quot;https://t.me/Wikifunctions&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Telegram community&lt;/a&gt; or our &lt;a href=&quot;https://kiwiirc.com/nextclient/irc.libera.chat/#wikipedia-abstract&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;IRC channel&lt;/a&gt; (mirrored) for in-depth conversations on Wikifunctions&lt;/li&gt;
+  &lt;li&gt;Follow us on &lt;a href=&quot;https://twitter.com/Wikifunctions&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt; for team and product updates&lt;/li&gt;
+  &lt;li&gt;Email me (&lt;a href=&quot;mailto:avardhana@wikimedia.org&quot;&gt;avardhana@wikimedia.org&lt;/a&gt;) if you’re interested in product testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;em&gt;Thank you to Nicolas Ayoub, Amin Al Hazwani, Sudhanshu Gautam, Genoveva Galarza Heredero, David Martin, Nick Wilson, and Denny Vrandečić for their contributions!&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Wikifunctions will be a collaboratively edited multilingual library of functions.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/wikifunctions/header.jpg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/wikifunctions/header.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Talk is Cheap; it shouldn’t also be hard.</title><link href="https://design.wikimedia.org/blog/2022/02/08/talk-is-cheap.html" rel="alternate" type="text/html" title="Talk is Cheap; it shouldn’t also be hard." /><published>2022-02-08T07:30:00+00:00</published><updated>2022-02-08T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/02/08/talk-is-cheap</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/02/08/talk-is-cheap.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;http://jessklein.is/&quot;&gt;Jess Klein&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;prologue&quot;&gt;Prologue&lt;/h1&gt;
 
-&lt;p&gt;On the discussion page about Nellie Bly’s article, communication isn’t the easiest in normal circumstances. You have to hunt for, and then decipher, little clues scattered around the page to initiate a conversation, and then navigate a confusing interface with seemingly-arcane glyphs to orient yourself in the conversation, all while trying to write what you actually came to discuss. A few months back, I wanted to add a photo of &lt;em&gt;&lt;u&gt;The Girl Puzzle&lt;/u&gt;&lt;/em&gt;, a monument which is located on Roosevelt Island, New York that memorializes Nellie Bly. I think that this image will show how revered she still is for her journalistic work and, since there are very few images of her, it is a nice representation of her likeness. I walk to the monument on the north edge of this island situated within the center of Manhattan, take a photo and prepare to post it on &lt;u&gt;Wikimedia Commons&lt;/u&gt; so that it can be linked and posted on the Wikipedia article.&lt;/p&gt;
+&lt;p&gt;On the discussion page about Nellie Bly’s article, communication isn’t the easiest in normal circumstances. You have to hunt for, and then decipher, little clues scattered around the page to initiate a conversation, and then navigate a confusing interface with seemingly-arcane glyphs to orient yourself in the conversation, all while trying to write what you actually came to discuss. A few months back, I wanted to add a photo of &lt;em&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Nellie_Bly_-_The_Girl_Puzzle.jpg?useskin=vector-2022&quot; target=&quot;_blank&quot;&gt;The Girl Puzzle&lt;/a&gt;&lt;/em&gt;, a monument which is located on Roosevelt Island, New York that memorializes Nellie Bly. I think that this image will show how revered she still is for her journalistic work and, since there are very few images of her, it is a nice representation of her likeness. I walk to the monument on the north edge of this island situated within the center of Manhattan, take a photo and prepare to post it on &lt;a href=&quot;https://commons.wikimedia.org/wiki/Main_Page?useskin=vector-2022&quot; target=&quot;_blank&quot;&gt;Wikimedia Commons&lt;/a&gt; so that it can be linked and posted on the Wikipedia article.&lt;/p&gt;
 
 &lt;p&gt;This is where I got stuck. Am I allowed to post this? Are there copyright issues? I visited the discussion page on the English Wikipedia and tried to start a new topic. It’s not easy, but ultimately I realized that I needed to click the “add new section” tab in the interface and ask about inserting the image into the article. After some conversation I wrote &lt;em&gt;“I can take a photo, but would that make it alright to post it or do I need to get approval from the artist?”&lt;/em&gt; I didn’t know the rules around image rights. I magically got responses from other contributors, but I didn’t even notice that they wrote back to me until a month later when I checked the page. Eventually, I’m guided to a number of different policy pages, and from these I figured out that the best way to get the image up is to get an appropriately licensed photo from the monument’s owners, and then go back to the article to post the image and its associated information.&lt;/p&gt;
 
@@ -10,7 +197,7 @@
 
 &lt;h1 id=&quot;making-easier-to-use-tools&quot;&gt;Making easier-to-use tools&lt;/h1&gt;
 
-&lt;p&gt;In the first &lt;u&gt;installment&lt;/u&gt; in this series, I shared how we in the Editing Team conducted research and collaborated with community members to identify a design strategy for the project. The heart of our strategy involves us diving deeply into the asynchronous collaboration experience. To do this, our approach is to first make it easier for contributors to use the tools and then, when we have confirmed that the tools are useful, follow that up by making it easier for folks to discover them in the first place.&lt;/p&gt;
+&lt;p&gt;In the &lt;a href=&quot;https://design.wikimedia.org/blog/2021/03/10/people-are-talking.html&quot; target=&quot;_blank&quot;&gt;first installment&lt;/a&gt; in this series, I shared how we in the Editing Team conducted research and collaborated with community members to identify a design strategy for the project. The heart of our strategy involves us diving deeply into the asynchronous collaboration experience. To do this, our approach is to first make it easier for contributors to use the tools and then, when we have confirmed that the tools are useful, follow that up by making it easier for folks to discover them in the first place.&lt;/p&gt;
 
 &lt;p&gt;We undertook a virtual “listening tour”, where we heard from contributors with a variety of experience levels on Talk Pages share what their interactions there were like. From this, we identified four initial opportunities to improve the Talk Page experience that I will walk you through today. Our hypothesis was that addressing these problems would mean that contributors have a more positive and productive experience.&lt;/p&gt;
 
@@ -84,7 +271,7 @@
 
 &lt;h2 id=&quot;problem-4-talk-pages-look-like-articles&quot;&gt;Problem 4: Talk pages look like articles.&lt;/h2&gt;
 
-&lt;p&gt;In English there’s a metaphorical idiom of “&lt;u&gt;the elephant in the room&lt;/u&gt;,” which means that there’s something very important that needs to be discussed but it’s probably going to be a little awkward to talk about it. For talk pages, that elephant is the fact that article pages look very similar to talk pages, and it confuses people who are new to the concept of a talk page. Headings are the same, the table of contents is the same, and there’s no other indication that this is a place where people can have conversations. This is where we are now. We are beginning to explore ways to make it more obvious what this page is all about by emphasizing elements on the page so that you can easily see what conversations are active, who is talking in them, and how you can get involved in them. This will be addressed in a future release.&lt;/p&gt;
+&lt;p&gt;In English there’s a metaphorical idiom of “&lt;a href=&quot;https://en.wikipedia.org/wiki/Elephant_in_the_room?useskin=vector-2022&quot; target=&quot;_blank&quot;&gt;the elephant in the room&lt;/a&gt;,” which means that there’s something very important that needs to be discussed but it’s probably going to be a little awkward to talk about it. For talk pages, that elephant is the fact that article pages look very similar to talk pages, and it confuses people who are new to the concept of a talk page. Headings are the same, the table of contents is the same, and there’s no other indication that this is a place where people can have conversations. This is where we are now. We are beginning to explore ways to make it more obvious what this page is all about by emphasizing elements on the page so that you can easily see what conversations are active, who is talking in them, and how you can get involved in them. This will be addressed in a future release.&lt;/p&gt;
 
 &lt;h1 id=&quot;feedback&quot;&gt;Feedback&lt;/h1&gt;
 
@@ -104,11 +291,11 @@
 
 &lt;p&gt;This feedback is crucial to the success of these tools. Peter explained that “As a fundamentally social and community-driven project, conversation is a core part of Wikipedia. It is a core practice that shapes Wikipedia’s policies, culture and ultimately, the knowledge that is and is NOT represented within it.”&lt;/p&gt;
 
-&lt;p&gt;I want testers and skeptics to try these tools out so that I can refine and if necessary rethink the design proposal. What’s particularly great about having a beta release channel is that it offers an opportunity to get things wrong and then quickly throw up a new proposal for review. Try out the tools yourself by going into &lt;u&gt;Beta&lt;/u&gt; or global preferences and turning on Discussions Tools. &lt;u&gt;Let us know what you think&lt;/u&gt;, it’s a discussion, afterall.&lt;/p&gt;
+&lt;p&gt;I want testers and skeptics to try these tools out so that I can refine and if necessary rethink the design proposal. What’s particularly great about having a beta release channel is that it offers an opportunity to get things wrong and then quickly throw up a new proposal for review. Try out the tools yourself by going into &lt;a href=&quot;https://www.mediawiki.org/wiki/Beta_Features?useskin=vector-2022&quot; target=&quot;_blank&quot;&gt;Beta&lt;/a&gt; or global preferences and turning on Discussions Tools. &lt;a href=&quot;https://www.mediawiki.org/wiki/Talk_pages_project?useskin=vector-2022&quot; target=&quot;_blank&quot;&gt;Let us know what you think&lt;/a&gt;, it’s a discussion, afterall.&lt;/p&gt;
 
 &lt;h1 id=&quot;epilogue&quot;&gt;Epilogue&lt;/h1&gt;
 
-&lt;p&gt;Through the help of the Roosevelt Island Operating Corporation, I was successfully able to add the image of The Girl Puzzle to &lt;u&gt;Wikimedia Commons&lt;/u&gt; and &lt;u&gt;Wikipedia&lt;/u&gt;.&lt;/p&gt;
+&lt;p&gt;Through the help of the Roosevelt Island Operating Corporation, I was successfully able to add the image of The Girl Puzzle to &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Nellie_Bly_-_The_Girl_Puzzle.jpg&quot; target=&quot;_blank&quot;&gt;Wikimedia Commons&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Nellie_Bly?useskin=vector-2022&quot; target=&quot;_blank&quot;&gt;Wikipedia&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Thanks to: Ed Sanders, Sherry Snyder, Peter Pelberg, James Forrester, Bethany Gerdemann, David Lynch, David Chan, Bartosz Dziewoński, Val Puffet-Michel and Esther Akinloose&lt;/em&gt;&lt;/p&gt;
 
@@ -1291,113 +1478,4 @@ We utilized the &lt;a href=&quot;https://developer.apple.com/design/resources/&q
 &lt;h2 id=&quot;join-us-in-developing-and-designing-new-widgets&quot;&gt;Join us in developing and designing new widgets!&lt;/h2&gt;
 &lt;p&gt;The &lt;a href=&quot;https://github.com/wikimedia/wikipedia-ios&quot;&gt;Wikipedia iOS app is open source&lt;/a&gt; and contributions are always welcome! If you are interested in &lt;a href=&quot;https://phabricator.wikimedia.org/T257370&quot;&gt;developing one of our already designed widgets&lt;/a&gt; or if you have an idea for something new, please do reach out! You can follow along with the team’s work on &lt;a href=&quot;https://phabricator.wikimedia.org/project/view/782/&quot;&gt;Phabricator&lt;/a&gt; and file design or development tickets there, or feel free to contribute to the project on &lt;a href=&quot;https://github.com/wikimedia/wikipedia-ios&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Thanks to Lucy Blackwell, Rita Ho, Robin Schoenbaechler, Matt Cleinman and Toni Sevener for editing help. Thank you to Deepak Mantena for writing the ‘Building the widgets’ section.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">How we designed and built our iOS 14 widgets</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-widget/wikipedia-ios-widgets-lead.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-widget/wikipedia-ios-widgets-lead.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How we hire UX designers at Wikimedia</title><link href="https://design.wikimedia.org/blog/2021/04/07/how-we-hire-ux-designers.html" rel="alternate" type="text/html" title="How we hire UX designers at Wikimedia" /><published>2021-04-07T00:00:00+00:00</published><updated>2021-04-07T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/04/07/how-we-hire-ux-designers</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/04/07/how-we-hire-ux-designers.html">&lt;p class=&quot;post__excerpt&quot;&gt;In the interest of providing more clarity over our hiring process, this article will attempt to answer some of the questions that people who want to apply for a UX design job at Wikimedia may have...&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://twitter.com/lucyblackwell&quot;&gt;Lucy Blackwell&lt;/a&gt; : Senior Design Manager&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;mission-alignment&quot;&gt;Mission Alignment&lt;/h3&gt;
-
-&lt;p&gt;We’re a mission driven organisation on a quest to support every human being in freely sharing knowledge.  We’re a non-profit operating one of the world’s top five websites, Wikipedia. We believe that those who are passionate about our cause will be the best contributors to our mission. Here’s &lt;a href=&quot;https://wikimediafoundation.org/about/mission/#:~:text=The%20mission%20of%20the%20Wikimedia,disseminate%20it%20effectively%20and%20globally.&quot;&gt;our mission&lt;/a&gt; and these are our &lt;a href=&quot;https://wikimediafoundation.org/about/values/&quot;&gt;values&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;So first things first, check them out before going any further, and just be honest… is this what you’re into? If so, why?  We want to know! It’s also totally fine if it’s not, but we really only hire people who are as passionate about our mission as us.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Top Tip:&lt;/strong&gt; The best way to show us your passion for the role is in a &lt;a href=&quot;https://en.wikipedia.org/wiki/Cover_letter&quot;&gt;cover letter&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;design-skills&quot;&gt;Design skills&lt;/h3&gt;
-
-&lt;p&gt;We need to know that you have all the design skills needed to do the job. We have high standards in the team which we want to uphold, so we’re looking for people who are motivated to do their best work with us, people we can support to grow and evolve here.&lt;/p&gt;
-
-&lt;p&gt;Our job descriptions outline the specific skills we’re looking for in each role, but just to briefly summarise, for any of our UX designer roles we seek folks that can envision and create experiences that reduce complexity. English Wikipedia has just celebrated its 20th birthday, and we are a fairly small design team for the size of our main website, so there are many legacy UX issues to be addressed. Designers at Wikimedia need to be able to break down a complicated existing experience and come up with a much simpler, clearer solution.&lt;/p&gt;
-
-&lt;p&gt;We are a highly user-focused organisation with two key user groups on Wikipedia; the readers, and the editors (who we refer to as our community). Our community is very active and engaged, with many of the editors volunteering huge amounts of their time to write and edit content on Wikipedia. They have lots of great perspectives to add and are often the drivers behind the changes we decide to make on our platform(s). This means that for designers, we look for people who are comfortable, or excited by the opportunity to be very engaged with the community throughout their design process.  We value a transparent work style using open source platforms and public task boards.&lt;/p&gt;
-
-&lt;p&gt;And lastly, we are a truly global product.  Wikipedia is available in around 300 languages. We design for everyone!  This means that many of the design decisions we make have to consider carefully the global reach of our platform. In addition, we need to make sure the platform we’re evolving is accessible too, so we do require a basic knowledge of how to apply accessibility standards to your designs, as part of our interview process.&lt;/p&gt;
-
-&lt;h3 id=&quot;your-portfolio&quot;&gt;Your portfolio&lt;/h3&gt;
-
-&lt;p&gt;Your portfolio is going to be one of the best ways for you to show us your work before we’ve met.  We review portfolios to decide if we should chat further. No portfolio = no interview. For designers, portfolios are often more important than your CV or resume, this is because this is the place we can see how you think! When we look at portfolios we are trying to understand a few key things which are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Do the people you are designing for come first in your process?&lt;/li&gt;
-  &lt;li&gt;Do you have the ability to simplify complex problems?&lt;/li&gt;
-  &lt;li&gt;Do you communicate your ideas and process clearly and simply?&lt;/li&gt;
-  &lt;li&gt;Do you deliver effective solutions and pay attention to detail?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-As a hiring manager, I’ve had the privilege of looking through hundreds of portfolios over the years, and in my experience the ones that stand out are always those with 3 or 4 solid projects that clearly frame an interesting problem they had to solve and explain to me how they did it.&lt;/p&gt;
-
-&lt;p&gt;I know designers spend hours and hours making their portfolios.  As you focus on the design of your portfolio, don’t forget the UX of your portfolio too. Your core user is going to be a recruiter or a hiring manager. That’s me! So here’s a few of my user needs…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I need to be able to scan your portfolio in less than a minute, and find something that makes me want to look longer.&lt;/li&gt;
-  &lt;li&gt;I need to see your best work first. (I don’t need to see everything you’ve ever done)&lt;/li&gt;
-  &lt;li&gt;I need to see your thinking process and how you break down problems.&lt;/li&gt;
-  &lt;li&gt;I need to know what your specific role was in the projects you’re presenting.&lt;/li&gt;
-  &lt;li&gt;I understand that some of your work maybe under NDA, so I need you to tell me about this work in another way, like a blog post.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;em&gt;&lt;strong&gt;Top Tip:&lt;/strong&gt; Keep it simple and just show your best work.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;people-skills&quot;&gt;People skills&lt;/h3&gt;
-
-&lt;p&gt;On our job descriptions we state ‘The right person is better than the right set of experiences.’ Of course we need to know you have the design skills, but we’re less concerned with ‘&lt;em&gt;where’&lt;/em&gt; you developed those skills. What we feel is more important is if you’re a great collaborator and can communicate your ideas clearly. This is not an optional skill, we actually see this as a core requirement for working in our team.  This doesn’t mean you have to be an extrovert though, you might have developed your own unique way of collaborating and communicating with others that fits your personality and abilities.  It also doesn’t mean english needs to be your first language, we just need to know that you can communicate your ideas in english to us.&lt;/p&gt;
-
-&lt;p&gt;As we’re a global organisation, it’s really important to us that our team represents some of the different aspects of the communities we serve.  We’re always looking to bring different perspectives into the team, because fundamentally we know that diverse teams deliver better products. This is why we’re a fully remote team. By hiring in many different places in the world, we have the best chance of attracting a wide-range of perspectives.  We currently have designers across 12 timezones from India to the USA.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Top Tip:&lt;/strong&gt; In the interview, come prepared to share specific examples of how you’ve collaborated with people and overcome challenges.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;levels&quot;&gt;Levels&lt;/h3&gt;
-
-&lt;p&gt;The UX designers in our team sit at 4 different levels based upon experience going from UX designer to Seniors, Leads up to Principals.  For each role, the job title and job description will show you what level of experience we’re looking for and what our expectations for your skills at that level are. Generally we won’t hire someone if they are over-qualified, or under-qualified for the level of the role we have listed, as this creates inequity in the team.&lt;/p&gt;
-
-&lt;p&gt;We’ll normally mention how many years of experience we expect someone to have at the level we’re recruiting for on the job spec, but this is purely a guide. We know that people grow and develop at different speeds and this is fine, so we’re really assessing your experience based upon the skills you demonstrate in your work.&lt;/p&gt;
-
-&lt;h3 id=&quot;design-tasks&quot;&gt;Design tasks&lt;/h3&gt;
-
-&lt;p&gt;One of the tools that we use to assess what level someone is at is a design task. We’re very aware that this is now a fairly controversial debate in the design community, for lots of good reasons.  We recently took a step back and reassessed the pros and cons of design tasks, but ultimately came back to the decision to continue to ask UX designers and Senior UX Designers to do design tasks in a time-boxed manner.&lt;/p&gt;
-
-&lt;p&gt;The reason for this is that we have found that our design tasks serve a few key purposes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;They allow us to see how candidates approach a problem within a time constraint.&lt;/li&gt;
-  &lt;li&gt;They give the candidate an opportunity to demonstrate their thinking process to us.&lt;/li&gt;
-  &lt;li&gt;They allow candidates to be assessed more fairly against other candidates in the process who may have wildly different backgrounds.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-One thing we have realised, is that people with more time often spend longer on their tasks than the suggested time period. Whilst this clearly shows their passion for the role, it doesn’t feel entirely fair to those with other commitments that simply couldn’t put as much time into their task.  So, we’re now trialling a slightly different approach to the process in our next recruitment round, in the hopes that we can make things a bit fairer and less of a burden on candidates.&lt;/p&gt;
-
-&lt;p&gt;We’ve now explicitly time box the task to a maximum of 3 hours.  We’ll ask the candidate to let us know what time and date suits them to do the task, then we will send the task out at that exact time via email.  The candidate is then required to return the task by email within 3 hours.&lt;/p&gt;
-
-&lt;h3 id=&quot;our-interview-process&quot;&gt;Our interview process&lt;/h3&gt;
-
-&lt;p&gt;For each role, a hiring team is put together, each with specific roles in the hiring process. We have a step-by-step approach to interviewing, where you will have a series of interviews with different people from Wikimedia. Whilst there maybe some overlaps in questions, generally we try to make sure different areas are covered in different interviews. This process allows us to gather a collective view on a candidate. On average it can take approx. 1-2 months to complete all the steps in our process, although we’re currently looking at ways to speed this up. At any stage we may decide not to proceed further with a candidate as we don’t want to waste anyone’s time. Our process is continually evolving, but here’s where it stands today:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 1: Interview with Recruiter&lt;/strong&gt;&lt;br /&gt;
-Discuss your experience and why you’re interested in working at Wikimedia.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 2: Interview with Senior Design Manager&lt;/strong&gt;&lt;br /&gt;
-Discuss your background and design skills and where you’re looking to go in your career.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 3: Design task&lt;/strong&gt;&lt;br /&gt;
-Task will be sent out at a time of your choosing, upon which you will have 3 hours to complete the task and return it by email.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 4:&lt;/strong&gt; &lt;strong&gt;Panel interview with Designers, Product Manager &amp;amp; UX Engineer&lt;/strong&gt;&lt;br /&gt;
-&lt;em&gt;Part 1 - Designers:&lt;/em&gt; Present and discuss your design task, followed by UX and design focused discussion about how your design approaches and ways of working.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Part 2 - Product Manager &amp;amp; UX Engineer:&lt;/em&gt; Discuss how you collaborate, agile development processes, accessibility guidelines and design systems.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 5:&lt;/strong&gt; &lt;strong&gt;Interview with the Senior Director of Strategy and Design&lt;/strong&gt;&lt;br /&gt;
-Discuss product strategy and other related questions specific to your application.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Top Tip:&lt;/strong&gt; The interview process is as much for your benefit at ours.  We try to leave time at the end of every interview for your questions, so come ready to ask all the things you want to know…&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;feedback&quot;&gt;Feedback&lt;/h3&gt;
-
-&lt;p&gt;Well that’s it for now, but we’re always looking to evolve and improve our processes.  We’re keen to be sure our hiring process is a good experience for you, the candidate.  If you’ve got any thoughts that could help us improve this experience, do let us know.  We’re especially interested in how we could make our hiring process even more inclusive.  Thanks for reading!&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;&lt;em&gt;
-Cover image by &lt;a href=&quot;https://www.flickr.com/people/37804979@N00&quot;&gt;Tony Hisgett&lt;/a&gt; from Birmingham, UK. Taken from &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Coloured_Lights_2_(5129805518).jpg&quot;&gt;Commons&lt;/a&gt;, licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by/2.0/deed.en&quot;&gt;CC-BY-2.0&lt;/a&gt;.
-&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This article attempts to answer some of the questions that people who want to apply for a UX design job at Wikimedia may have.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/colored-lights-hiring-ux-designer.jpg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/colored-lights-hiring-ux-designer.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;&lt;em&gt;Thanks to Lucy Blackwell, Rita Ho, Robin Schoenbaechler, Matt Cleinman and Toni Sevener for editing help. Thank you to Deepak Mantena for writing the ‘Building the widgets’ section.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">How we designed and built our iOS 14 widgets</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-widget/wikipedia-ios-widgets-lead.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-widget/wikipedia-ios-widgets-lead.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
