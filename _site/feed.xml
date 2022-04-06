@@ -1,4 +1,123 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-03-14T20:53:46+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Designing Wikifunctions, brick by brick.</title><link href="https://design.wikimedia.org/blog/2022/03/14/wikifunctions.html" rel="alternate" type="text/html" title="Designing Wikifunctions, brick by brick." /><published>2022-03-14T07:30:00+00:00</published><updated>2022-03-14T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/03/14/wikifunctions</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/03/14/wikifunctions.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://www.aishwaryavardhana.com&quot;&gt;Aishwarya Vardhana&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-04-06T17:26:41+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Designing variant experiments is as simple as A/B. See?</title><link href="https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments.html" rel="alternate" type="text/html" title="Designing variant experiments is as simple as A/B. See?" /><published>2022-04-04T07:30:00+00:00</published><updated>2022-04-04T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://medium.com/@reetssydney&quot;&gt;Rita Ho&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As hinted at in the name, the purpose of the Wikimedia Foundation’s &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth&quot; target=&quot;_blank&quot;&gt;Growth team&lt;/a&gt; is to grow the number of new people who come and make a first edit on Wikipedia, and to keep more of them around (a.k.a., “editor retention”).&lt;/p&gt;
+
+&lt;p&gt;There is an element of teaching and persuasion involved, since we need to convey to the majority of people extremely familiar with using Wikipedia one way (reading and consuming information) that in fact they should consider using it quite differently (participating in writing and changing the information), and then guiding them how to use it in this brand new way. It’s like telling someone who has eaten eggs their whole life that actually, the egg shells can be eaten as a calcium supplement too, if properly prepared (&lt;a href=&quot;https://en.wikipedia.org/wiki/Egg_as_food#cite_note-31&quot; target=&quot;_blank&quot;&gt;it’s true&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Our approach to this mission has been to work briskly, and try out our ideas of how to provide opportunities to edit as a series of experiments. Instead of releasing a new feature or tool for everyone and iterating on the results, we test them out on smaller groups (typically limited to people on a few smaller Wikipedia languages and rarely on the bigger languages like English), then compare how the experimental feature performs against the control (the existing experience). We then iterate on the designs based on a mixture of usability feedback, community feedback, and finally from interpreting the resulting data from people using the feature (or in some cases not using it!).&lt;/p&gt;
+
+&lt;p&gt;For one of the key features on which our team has worked, we decided to run an A/B test. Whilst it is relatively common for the Fundraising department to multivariate test small UI variations (e.g., different button placement, copy differences) on donation banners, it has been less commonly used by the Product Design team to experiment with different user experiences in reading and editing on Wikipedia itself. A major reason we don’t typically run such A/B tests is that there is a high bar for respecting the privacy of people who use Wikipedia, especially those who are anonymous&lt;sup&gt;&lt;a href=&quot;#note-1&quot; id=&quot;ref-1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;. However, since the Growth features are offered to those who have already created an account, this was a case where A/B testing was a good fit for our purposes.&lt;/p&gt;
+
+&lt;h1 id=&quot;ab-testing&quot;&gt;A/B testing&lt;/h1&gt;
+
+&lt;h2 id=&quot;the-inciting-incident-a-new-experiment&quot;&gt;The inciting incident: A new experiment&lt;/h2&gt;
+
+&lt;p&gt;We knew from past research that many people who create a Wikipedia account often do so with the intention of editing, but then aren’t able to easily find articles to which they can contribute. This led us to design a feature that appears for newcomers after they join Wikipedia, which encourages them to do some small “suggested edits” (like copyediting or adding links) on articles across a variety of topics they might be interested in.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/designing-experiments/suggested-edits.png&quot; alt=&quot;Screenshot of a page of the new editors experiences research.&quot; /&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Suggested_edits_-_sample_mobile_screens.png&quot; target=&quot;_blank&quot;&gt;Suggested edits - sample mobile screens&lt;/a&gt; | By RHo (WMF) | &lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;CC BY 4.0&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Our hypothesis underpinning this feature was that if we give people specific, and achievable small editing tasks to do, they will be more likely to try a first edit, and more of these people will do enough to build their expertise and interest to become long term contributors.&lt;/p&gt;
+
+&lt;p&gt;The diagram below illustrates the user flow initially designed for the feature. Newcomers would first be provided with a prompt to “opt-in” to seeing these suggestions, and if they choose to proceed, they are then provided with some short onboarding screens to learn what it’s about and how to customise suggestions to their interests before seeing the actual suggested articles.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/designing-experiments/user-flow.png&quot; alt=&quot;Var A - Suggested edits v1.1 variant A flow diagram&quot; /&gt;
+  &lt;figcaption&gt;Diagram showing the intended user flow design. &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Var_A_-_Suggested_edits_v1.1_variant_A_flow_diagram.png&quot; target=&quot;_blank&quot;&gt;Var A - Suggested edits v1.1 variant A flow diagram &lt;/a&gt; | By RHo (WMF) | &lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;CC BY 4.0&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;experimenting-within-the-controlled-experiment-enter-variant-b&quot;&gt;Experimenting within the controlled experiment: Enter Variant B&lt;/h2&gt;
+
+&lt;p&gt;We started developing the design for this feature, with the design described above as the new feature that would be implemented in a controlled experiment – comparing editing retention with a control group of new accounts which would not receive these suggested edits at all.&lt;/p&gt;
+
+&lt;p&gt;During the course of development, Marshall, our Product Manager had a hypothesis that if we showed people the suggestions sooner (without onboarding), that they would do more edits. I agreed this was a valid point, and wondered how we could balance this consideration with my reasons for the importance of user education in letting people understand why doing one was valuable and relevant to them (going back to my earlier analogy of explaining how one can eat egg shells).&lt;/p&gt;
+
+&lt;p&gt;And this is how we decided to run our first simple variant test - a nested test within the controlled experiment. We would split the experiment group so that half the participants received variant A which had the “full” designed flow with opt-in and user education; whilst the other half received variant B where they would see the suggestions immediately in their newcomer homepage.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/designing-experiments/variant-test.png&quot; alt=&quot;Var A - Suggested edits v1.1 variant A flow diagram&quot; /&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Var_A_vs_B_-_Suggested_edits_v1.1_A-B_variant_test_flow_diagram.png&quot; target=&quot;_blank&quot;&gt;Var A - Suggested edits v1.1 variant A flow diagram &lt;/a&gt; | By RHo (WMF) | &lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;CC BY 4.0&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;the-results-are-in-and-the-winner-is&quot;&gt;The results are in and the winner is…&lt;/h2&gt;
+
+&lt;p&gt;Together with the data analyst and PM, the key metrics were examined and interpreted to figure out what was significant.&lt;/p&gt;
+&lt;div class=&quot;columns&quot;&gt;
+	&lt;figure class=&quot;half-width&quot;&gt;
+		&lt;img src=&quot;/blog/assets/uploads/designing-experiments/interaction.png&quot; alt=&quot; Growth team Var A vs. B result slide 4 2020-04-03&quot; /&gt;
+		&lt;figcaption&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Growth_team_Var_A_vs._B_result_slide_4_2020-04-03.png&quot; target=&quot;_blank&quot;&gt; Growth team Var A vs. B result slide 4 2020-04-03&lt;/a&gt; | By Nettrom (WMF) | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;CC-BY-SA 4.0&lt;/a&gt;&lt;/figcaption&gt;
+	&lt;/figure&gt;
+	&lt;figure class=&quot;half-width&quot;&gt;
+		&lt;img src=&quot;/blog/assets/uploads/designing-experiments/success.png&quot; alt=&quot;Variant A vs. B for edit success 2020-06-08&quot; /&gt;
+		&lt;figcaption&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Variant_A_vs._B_for_edit_success_2020-06-08.png&quot; target=&quot;_blank&quot;&gt;Variant A vs. B for edit success 2020-06-08&lt;/a&gt; | By Nettrom (WMF) | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;CC-BY-SA 4.0&lt;/a&gt;&lt;/figcaption&gt;
+	&lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;As it turned out, the results vindicated the user-education hypothesis! The results varied depending on the wiki and platform, but generally showed that whilst more people did indeed interact with the suggested edits module when it was shown to them immediately in variant B on desktop; in the end, more of those in variant A who had to opt-in to the feature and saw the onboarding made successful edits.&lt;/p&gt;
+
+&lt;h2 id=&quot;data-informed-iteration&quot;&gt;Data-informed iteration&lt;/h2&gt;
+
+&lt;p&gt;So what did this mean for design improvements moving forward?
+As we saw it, the three key takeaways from the test were:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Featuring suggested edits prominently&lt;/strong&gt; was key to getting people to try the tool; but at the same time…&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Onboarding is crucial&lt;/strong&gt; to driving more people to successfully completing an edit.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile and Desktop&lt;/strong&gt; performed differently so as not to be strictly comparable.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It was based on these findings that the next two new variants C/D were created&lt;sup&gt;&lt;a href=&quot;#note-2&quot; id=&quot;ref-2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;, which applied the best aspects we interpreted from the results of the first test, roughly translated into the designs in the following ways:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Variants C and D centred much more on the suggested edits feature in the homepage, removing a smaller ‘start’ module and making it more prominent in size and the focus of onboarding.&lt;/li&gt;
+  &lt;li&gt;Onboarding is available in both variants C &amp;amp; D, though it is optional (and more easily dismissable) in variant C.&lt;/li&gt;
+  &lt;li&gt;On mobile, variants C and D explore different ways to give more direct access to the suggested edits feature immediately from the homepage.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/designing-experiments/variants-cd.png&quot; alt=&quot;Screenshot of a page of the new editors experiences research.&quot; /&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;https://phabricator.wikimedia.org/F31790797&quot; target=&quot;_blank&quot;&gt;Variant C and D flow&lt;/a&gt; | By Rita Ho | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/3.0/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;CC-BY-SA 3.0&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;design-decisions-affirmed-by-data&quot;&gt;Design decisions affirmed by data&lt;/h2&gt;
+&lt;p&gt;And it was great to see our interpretation of data and design decisions payoff! In the form of both C &amp;amp; D variants in the next iteration leading to both more usage and successful edits.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/blog/assets/uploads/designing-experiments/chart.png&quot; alt=&quot;Screenshot of a page of the new editors experiences research.&quot; /&gt;
+  &lt;figcaption&gt;Chart showing the interaction, task clicks, and saved edits from the suggested edits feature on the homepage, with increases highlighted when the design was changed from to variants C and D.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;learnings-and-tips&quot;&gt;Learnings and tips&lt;/h1&gt;
+
+&lt;p&gt;Besides the gratification of seeing variant tests make a difference in people’s experience of a design, it’s been a great learning experience to apply this method of design optimisation often seen as hard to utilise effectively with other more qualitative approaches.&lt;sup&gt;&lt;a href=&quot;#note-3&quot; id=&quot;ref-3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;In my opinion, these are the key aspects of running A/B tests:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Set a clear, testable hypothesis.&lt;/strong&gt; Formulating the rationale for why different designs bring about better outcomes will help in devising an experiment that accurately measures the impact of those design changes. Besides that, it’s also good practice for critical thinking that is helpful for design decision making when there is no time/need to run experiments.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Determine if the effort is worth the investment.&lt;/strong&gt; Once the hypothesis is set, ask whether it is worth the considerable time and investment request to run an experiment to get the answer, or whether other tactics (such as user testing) can be used instead to help move the design forward.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Be bold with the variant differences.&lt;/strong&gt; If the test ends up being about different button colours, it’s probably a &lt;a href=&quot;https://www.nngroup.com/articles/multivariate-testing/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;multivariate test&lt;/a&gt; that is needed. On the other hand, it’s also not advisable to have too many variables (such as testing complete redesigns) since this would make it hard to pinpoint what changes made the difference.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ask the right questions of the data:&lt;/strong&gt; For our team, we care about how many people finish an edit (saving it), not if they started it.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Collaborate closely with data-savvy colleagues.&lt;/strong&gt; It was vital to work closely with the data analyst and product manager to check the hypothesis and test was sound, to ensure the correct (and sufficient) data was being measured, and then properly analysed. Having an data analyst expert is also very important in removing &lt;a href=&quot;https://en.wikipedia.org/wiki/Confirmation_bias&quot; target=&quot;_blank&quot;&gt;confirmation bias&lt;/a&gt;, akin to having a design researcher conduct usability testing. They are the key person in determining the experiment feasibility and timeframe from an audience size perspective to get statistically significant results. For folks without an awesome analyst at hand, there are free tools available (like this &lt;a href=&quot;http://www.experimentcalculator.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;one&lt;/a&gt;) that provide sample sizes and time needed to run robust experiments.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Involve your engineering team early too.&lt;/strong&gt; Another important partnership is obviously the engineering team who are responsible for both implementing the different features and instrumentation to measure the experiment. Involving them as early as possible as to the parts of the experience that may vary will help them to build them a flexible framework for A/B testing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;bonus-learning-before-i-go&quot;&gt;Bonus learning before I go&lt;/h1&gt;
+&lt;p&gt;One final learning is not about the A/B test method itself, but about people we design for that came from these variant tests: there’s nothing wrong with providing guidance. I don’t really like the term “user education” or “onboarding” because it is a little condescending (the implication is that the onus is on people to learn how to get on board with this awesome product). User onboarding is actually an opportunity for us as designers to provide persuasive and clear communication, explaining to our newcomer editors what the value is for them to make contributions to Wikipedia in this way.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading! You can read more details about the Growth team’s variant testing on the &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth/Personalized_first_day/Variant_testing&quot; target=&quot;_blank&quot;&gt;project page&lt;/a&gt;, or about all of our initiatives for bringing new editors to Wikipedia on our &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth&quot; target=&quot;_blank&quot;&gt;team page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks Marshall Miller, Morten Warncke-Wang, and Matthew Williams for your feedback, editing help, and additional insights into A/B testing.&lt;/em&gt;&lt;/p&gt;
+
+&lt;footer&gt;
+&lt;p id=&quot;note-1&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-1&quot;&gt;[1]&lt;/a&gt;Details about “Privacy Conscious A/B testing for anonymous readers” can be read &lt;a href=&quot;https://meta.wikimedia.org/wiki/Research:Privacy-conscious_AB_testing_at_Wikimedia_Foundation&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p id=&quot;note-2&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-2&quot;&gt;[2]&lt;/a&gt;Phabricator task with more details of the implementation &lt;a href=&quot;https://phabricator.wikimedia.org/T246533&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt; https://phabricator.wikimedia.org/T246533 &lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p id=&quot;note-3&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-3&quot;&gt;[3]&lt;/a&gt;&lt;a href=&quot;https://www.nngroup.com/articles/putting-ab-testing-in-its-place/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;https://www.nngroup.com/articles/putting-ab-testing-in-its-place/&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/footer&gt;</content><author><name></name></author><summary type="html">How we used variant testing in designs for new editors on Wikipedia.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/designing-experiments/header.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/designing-experiments/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Designing Wikifunctions, brick by brick.</title><link href="https://design.wikimedia.org/blog/2022/03/14/wikifunctions.html" rel="alternate" type="text/html" title="Designing Wikifunctions, brick by brick." /><published>2022-03-14T07:30:00+00:00</published><updated>2022-03-14T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/03/14/wikifunctions</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/03/14/wikifunctions.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://www.aishwaryavardhana.com&quot;&gt;Aishwarya Vardhana&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;what-is-wikifunctions&quot;&gt;What is Wikifunctions&lt;/h1&gt;
 
@@ -1351,131 +1470,4 @@ Cover image by Rizzelli Stefania. Taken from &lt;a href=&quot;https://commons.wi
 
 &lt;p id=&quot;note-8&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-8&quot;&gt;[8]&lt;/a&gt;Some of you may be flummoxed that it is a necessary step at all to encourage the different communities to adopt our features. This is one of the interesting things about designing for Wikipedia! Communities have the option to not adopt the features we create, literally being able to change or turn off features if their particular community has not reached consensus. This is what makes developing trust and collaboration particularly vital, and also helps explain our slower pace of change.
 &lt;/small&gt;&lt;/p&gt;
-&lt;/footer&gt;</content><author><name></name></author><summary type="html">Reflections on a multi-year effort now bearing fruit</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/nurturing-newbies/isolated-food-flours.jpeg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/nurturing-newbies/isolated-food-flours.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Bringing Wikipedia to the homescreen on iOS</title><link href="https://design.wikimedia.org/blog/2021/04/26/bringing-wikipedia-to-the-homescreen-on-ios.html" rel="alternate" type="text/html" title="Bringing Wikipedia to the homescreen on iOS" /><published>2021-04-26T00:00:00+00:00</published><updated>2021-04-26T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/04/26/bringing-wikipedia-to-the-homescreen-on-ios</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/04/26/bringing-wikipedia-to-the-homescreen-on-ios.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;http://carolynlimadeo.com/&quot;&gt;Carolyn Li-Madeo&lt;/a&gt; and &lt;a href=&quot;https://deepakmantena.com/&quot;&gt;Deepak Mantena&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;When Apple introduced an update to &lt;a href=&quot;https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/widgets&quot;&gt;widgets&lt;/a&gt; with iOS 14, the Wikipedia iOS team was excited to take the opportunity to rethink our own. With the ability to place widgets right on the home screen, the team was curious about how we could highlight Wikipedia content in a way that was visually engaging, glanceable and up-to-date. For our first suite of home screen widgets, we built off of elements from the app’s Explore Feed to design and build three new widgets for iOS 14: On this day, Picture of the day and Top read on Wikipedia.&lt;/p&gt;
-
-&lt;p&gt;In this blog post, we’ll share some of our widget building process – from design to implementation.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/wikipedia-widget/wikipedia-ios-widgets.png&quot; alt=&quot;Screenshot of various iOS widgets&quot; /&gt;
-  &lt;figcaption&gt;Widget designs we explored throughout our product process&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&quot;design-principles-for-the-wikipedia-ios-widgets&quot;&gt;Design principles for the Wikipedia iOS widgets&lt;/h1&gt;
-
-&lt;p&gt;The iOS team defined the following design principles at the start of the project, which helped us to decide what features to highlight in our new widgets as well as to prioritize features like dark mode and supporting all three sizes for each of our widgets. These principles also guided the visual and interaction design of the widgets.&lt;/p&gt;
-
-&lt;h2 id=&quot;content-first&quot;&gt;Content first&lt;/h2&gt;
-&lt;p&gt;This design principle comes from the &lt;a href=&quot;https://design.wikimedia.org/style-guide/design-principles.html#trustworthy-yet-joyful&quot;&gt;Wikimedia Design Style Guide&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;People come to Wikimedia projects for their content. Our solutions should help to facilitate its creation, consumption, and sharing — without getting in the way. Our content (facts, images, quotes, etc.) is our most representative element, and needs to be emphasized in our solutions.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;When it came to applying this principle to our widgets, we used this guidance to place a strong focus on the beautiful images and community written content in our widgets. Great encyclopedic content is why many people love Wikipedia and we wanted to ensure that our designs placed Wikipedia content front and center, with other design elements like graphs and headings taking a supporting role.&lt;/p&gt;
-
-&lt;h2 id=&quot;focused&quot;&gt;Focused&lt;/h2&gt;
-&lt;p&gt;Home screens can easily become cluttered or distracting. With so many different apps, widgets and notifications pulling readers in different directions each time that they open their phone, we didn’t want to add to the noise or create unnecessary friction. We aimed to design widgets that were beautiful, glanceable and focused on a single element or content type from Wikipedia.&lt;/p&gt;
-
-&lt;h2 id=&quot;dynamic&quot;&gt;Dynamic&lt;/h2&gt;
-&lt;p&gt;The Wikimedia projects are constantly changing and evolving. The projects are shaped by volunteer contributors from across the world. Readers also make their mark on Wikipedia, by following their unique interests and learning more about current events. With this in mind we want to highlight and celebrate the liveliness of Wikipedia with designs that reflect the dynamic nature of the Wikimedia projects.&lt;/p&gt;
-
-&lt;h2 id=&quot;customizable&quot;&gt;Customizable&lt;/h2&gt;
-&lt;p&gt;Widgets can come in three sizes (small, medium and large) and two reading themes (light and dark). We want to ensure that our readers can access the information that they are interested in, in a layout and theme that works well for them. Building off of the frameworks provided by Apple, we want to ensure that people can read comfortably (and in their preferred language, when available), regardless of the time of day or night.&lt;/p&gt;
-
-&lt;h1 id=&quot;designing-the-wikipedia-ios-widgets&quot;&gt;Designing the Wikipedia iOS widgets&lt;/h1&gt;
-
-&lt;p&gt;When it came time to begin designing our widgets, we looked to the &lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2020/10103/&quot;&gt;WWDC 2020 talk on designing widgets&lt;/a&gt; and the information available through &lt;a href=&quot;https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/widgets&quot;&gt;Apple’s Human Interface Guidelines&lt;/a&gt;. We wanted to ensure that whatever widgets we designed would adhere not only to our defined design principles but also to Apple’s design guidelines.&lt;/p&gt;
-
-&lt;p&gt;Some key takeaways from Apple’s guidelines were:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Utilize a standard margin of 16pts for comfortable reading and design consistency.&lt;/li&gt;
-  &lt;li&gt;Focus on highlighting content that will change often to avoid widgets becoming stale.&lt;/li&gt;
-  &lt;li&gt;Create designs for both light and dark mode, or focus on creating designs that will work in both reading modes.&lt;/li&gt;
-  &lt;li&gt;Increase information with each widget size. Larger widgets should contain more information than their size small counterparts.&lt;/li&gt;
-  &lt;li&gt;SF Pro should be used over custom fonts so that widgets look at home with widgets from other apps.&lt;/li&gt;
-  &lt;li&gt;Remember that the associated app’s name will appear under each widget, so it isn’t necessary to include app icons or  app names on the widget itself unless the widget is related to a content aggregator.&lt;/li&gt;
-  &lt;li&gt;Shapes inside of a widget should match the corner radius of the widget.&lt;/li&gt;
-  &lt;li&gt;Be mindful of how many deep links each widget size supports. As small widgets only support a single deep link, while there may be room to include more information, small widgets will only be able to link to a single location.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-We utilized the &lt;a href=&quot;https://developer.apple.com/design/resources/&quot;&gt;templates provided in the Human Interface Guidelines&lt;/a&gt; to jumpstart the sketching process.&lt;/p&gt;
-
-&lt;h2 id=&quot;designing-the-picture-of-the-day-widget&quot;&gt;Designing the Picture of the day widget&lt;/h2&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/wikipedia-widget/wikipedia-picture-of-the-day-widget.png&quot; alt=&quot;Screenshot of the picture of the day widget&quot; /&gt;
-  &lt;figcaption&gt;
-    The Picture of the day widget features beautiful, hi-res imagery from Wikimedia Commons&lt;br /&gt;
-    &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Vulpes_vulpes_Mallnitz_01.jpg?fastcci_from=2194179&amp;amp;c1=2194179&amp;amp;c2=3943817&amp;amp;d1=15&amp;amp;d2=0&amp;amp;s=200&quot;&gt;Vulpes vulpes image&lt;/a&gt; by &lt;a href=&quot;https://commons.wikimedia.org/wiki/User:Uoaei1&quot;&gt;Uoaei1&lt;/a&gt;
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The first widget we designed was the Picture of the day widget. We wanted to start with something that would be easy to implement but also visually striking. Every day, the &lt;a href=&quot;https://commons.wikimedia.org/wiki/Main_Page&quot;&gt;Wikimedia Commons&lt;/a&gt; community selects a freely usable image to be the ‘Picture of the day.’ These high-resolution images range from composite images of &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Acropoclipse.jpg&quot;&gt;lunar eclipses&lt;/a&gt; to &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Glaciar_Margerie,_Parque_Nacional_Bah%C3%ADa_del_Glaciar,_Alaska,_Estados_Unidos,_2017-08-19,_DD_33.jpg&quot;&gt;striking landscapes&lt;/a&gt; from &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Wildpark_--_2015_--_8894-8.jpg&quot;&gt;around the world&lt;/a&gt; (and much more).&lt;/p&gt;
-
-&lt;p&gt;When designing this widget we wanted to make sure that the beautiful images were given as much room as possible, with other necessary information (like copyright and the widget title) coming second. This widget really embodies our design principle of ‘Content first’ by placing an emphasis on imagery over secondary information. When designing this widget, we also had to consider how cropping might affect different aspect ratios and photo subjects. With each increase in widget size, more of the image is shown and on the largest size the first three lines of the image description are also displayed. Tapping on the widget in any size deep links you into a full screen view of the featured image in the app.&lt;/p&gt;
-
-&lt;p&gt;For this design, we did not make separate light and dark mode designs as the content is full bleed and we typically display description text over a dark background in the app.&lt;/p&gt;
-
-&lt;h2 id=&quot;designing-the-on-this-day-widget&quot;&gt;Designing the On this day widget&lt;/h2&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/wikipedia-widget/wikipedia-on-this-day-widget.png&quot; alt=&quot;Screenshot of on this day widget&quot; /&gt;
-  &lt;figcaption&gt;
-    The On this day widget highlights an event that occurred on this day in history
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We love helping to ignite new &lt;a href=&quot;https://en.wikipedia.org/wiki/Wiki_rabbit_hole&quot;&gt;rabbit holes&lt;/a&gt; for our readers, so we created a widget that would change each day and encourage readers to check out an article they might not have read before.&lt;/p&gt;
-
-&lt;p&gt;The design of this widget was based off of the ‘On this day’ card from the app’s Explore feed. Both the widget and the Explore feed card highlight the work of Wikipedia’s volunteer editors, who &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Selected_anniversaries&quot;&gt;compile and annotate lists of important events throughout history&lt;/a&gt; for each day of the year.&lt;/p&gt;
-
-&lt;p&gt;When considering how to adapt this feature from the app to the three widget sizes, we began first with the largest widget size. The largest widget size allowed us to include multiple tap targets (linking directly to the associated article or to a timeline view of the day’s events) and to include a splash of typography that illustrates the day’s date and date range. Including the timeline element also helped to create a sense of continuity between the widget and the existing feature on the app which utilizes the same timeline design. With the smaller widgets we focused more on the event text (removing the card representing the related article) and utilized a single tap target for both of these sizes.&lt;/p&gt;
-
-&lt;p&gt;As the feature is already available on the app in &lt;a href=&quot;https://diff.wikimedia.org/2017/12/04/ios-app-dark-theme/&quot;&gt;our four reading themes&lt;/a&gt;, it was easy to support both light and dark modes for this widget.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/wikipedia-widget/wikipedia-on-this-day-widget-changes.png&quot; alt=&quot;Screenshot of changes made&quot; /&gt;
-  &lt;figcaption&gt;
-    Changes made after receiving feedback from designers at Apple
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;After completing a first draft of our widgets, we received some very helpful feedback from the designers at Apple, who suggested we move the puck on the timeline up in order to better mimic the widget’s corner radius. It was a change of just a few pixels, but really helped to balance the visual design of the widgets and we were super grateful to have their feedback.&lt;/p&gt;
-
-&lt;h2 id=&quot;designing-the-top-read-widget&quot;&gt;Designing the Top read widget&lt;/h2&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/wikipedia-widget/wikipedia-top-read-widget.png&quot; alt=&quot;Screenshot of the top read widget&quot; /&gt;
-  &lt;figcaption&gt;
-    The Top read widget highlights which articles are popular in your language’s Wikipedia
-  &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Seeing what the world is reading on Wikipedia is a constant source of fascination for many readers and editors (ourselves included!). We had previously supported a Top read widget in the older iOS style and were glad to have the time to be able to update this widget and bring it to the home screen.&lt;/p&gt;
-
-&lt;p&gt;One of the first considerations with this widget was how to display articles that might not have an associated image, without needing to use a placeholder image. We wanted to avoid placeholder images as they don’t include relevant, encyclopedic content and can be repetitive if reproduced multiple times in a list. This was most important for the smallest size widget which only has space to link to one article. For the small widget with an available image we went with a full bleed image with a small spark map representing the popularity of the article over the past week. This sparkline was then enlarged and used as the primary imagery for articles that did not have an associated image. The sparklines were also included in the largest widget size, where we had just enough room to fit the top four articles, their associated sparklines and their title descriptions. For the medium sized widget we wanted to ensure that we could show more articles than were available on the small widget, so we focused on presenting two articles without their sparklines vs. one article with more meta information than we could show on the small widget size.&lt;/p&gt;
-
-&lt;p&gt;This widget was also quite easy to translate into both light and dark designs as we were able to utilize our existing color palettes, which were designed to share the green used in the sparklines.&lt;/p&gt;
-
-&lt;h2 id=&quot;building-the-widgets&quot;&gt;Building the widgets&lt;/h2&gt;
-
-&lt;p&gt;These new widgets also gave the engineering team an opportunity to experiment with new platform technologies. The widgets are implemented using &lt;a href=&quot;https://developer.apple.com/xcode/swiftui&quot;&gt;SwiftUI&lt;/a&gt; – Apple’s new user interface toolkit that aims to help bridge the gap between design and implementation. Converting the Top read sparkline we currently use in the app to SwiftUI provided valuable practical experience. It was encouraging to see potentially complex interface elements translate elegantly to the new framework.&lt;/p&gt;
-
-&lt;p&gt;Engineering work began during the early betas of iOS 14. The biggest implementation challenge we faced was using the unfinished development tools. The &lt;a href=&quot;https://en.wikipedia.org/wiki/Debugger&quot;&gt;debugger&lt;/a&gt;, a tool used during development to examine the state of running widgets, often failed to work at all. Another challenge we encountered was balancing the expectation of always updated widget data with being considerate of the device’s battery life. This remains something we’re interested in refining – &lt;a href=&quot;http://github.com/wikimedia/wikipedia-ios&quot;&gt;contributions are always welcome&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h1&gt;
-
-&lt;h2 id=&quot;increased-multilingual-support&quot;&gt;Increased multilingual support&lt;/h2&gt;
-&lt;p&gt;Currently the widgets utilize each reader’s primary language as set in app settings. We would like to provide a way for multilingual readers to set a language preference on a per-widget basis, which would enable readers to keep an eye on what articles are trending on multiple Wikipedias or see what was happening on this day in history across the world.&lt;/p&gt;
-
-&lt;h2 id=&quot;more-dynamic-on-this-day-widget&quot;&gt;More dynamic On this day widget&lt;/h2&gt;
-&lt;p&gt;The On this day widget currently updates once a day and highlights a single event each day. In the future we would like to make this widget more dynamic by featuring multiple events each day.&lt;/p&gt;
-
-&lt;h2 id=&quot;future-widget-ideas&quot;&gt;Future widget ideas&lt;/h2&gt;
-&lt;p&gt;Due to time constraints we were unable to build all of the widgets that we dreamed up. In the future we would love to update three of our older style widgets: Today’s featured article, In the news and Continue reading. Additionally we had some ideas around a widget that would enable you to jump straight into exploring Wikipedia with deep links into features like randomizer or reading lists. Finally, we had designed a map based widget that built off of our Places feature and would have enabled readers to quickly locate and read Wikipedia articles about landmarks near them.&lt;/p&gt;
-
-&lt;h2 id=&quot;join-us-in-developing-and-designing-new-widgets&quot;&gt;Join us in developing and designing new widgets!&lt;/h2&gt;
-&lt;p&gt;The &lt;a href=&quot;https://github.com/wikimedia/wikipedia-ios&quot;&gt;Wikipedia iOS app is open source&lt;/a&gt; and contributions are always welcome! If you are interested in &lt;a href=&quot;https://phabricator.wikimedia.org/T257370&quot;&gt;developing one of our already designed widgets&lt;/a&gt; or if you have an idea for something new, please do reach out! You can follow along with the team’s work on &lt;a href=&quot;https://phabricator.wikimedia.org/project/view/782/&quot;&gt;Phabricator&lt;/a&gt; and file design or development tickets there, or feel free to contribute to the project on &lt;a href=&quot;https://github.com/wikimedia/wikipedia-ios&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Thanks to Lucy Blackwell, Rita Ho, Robin Schoenbaechler, Matt Cleinman and Toni Sevener for editing help. Thank you to Deepak Mantena for writing the ‘Building the widgets’ section.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">How we designed and built our iOS 14 widgets</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-widget/wikipedia-ios-widgets-lead.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-widget/wikipedia-ios-widgets-lead.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/footer&gt;</content><author><name></name></author><summary type="html">Reflections on a multi-year effort now bearing fruit</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/nurturing-newbies/isolated-food-flours.jpeg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/nurturing-newbies/isolated-food-flours.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
