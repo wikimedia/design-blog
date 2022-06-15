@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-04-06T17:26:41+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Designing variant experiments is as simple as A/B. See?</title><link href="https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments.html" rel="alternate" type="text/html" title="Designing variant experiments is as simple as A/B. See?" /><published>2022-04-04T07:30:00+00:00</published><updated>2022-04-04T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://medium.com/@reetssydney&quot;&gt;Rita Ho&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-06-17T17:17:35+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Designing variant experiments is as simple as A/B. See?</title><link href="https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments.html" rel="alternate" type="text/html" title="Designing variant experiments is as simple as A/B. See?" /><published>2022-04-04T07:30:00+00:00</published><updated>2022-04-04T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://medium.com/@reetssydney&quot;&gt;Rita Ho&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;As hinted at in the name, the purpose of the Wikimedia Foundation’s &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth&quot; target=&quot;_blank&quot;&gt;Growth team&lt;/a&gt; is to grow the number of new people who come and make a first edit on Wikipedia, and to keep more of them around (a.k.a., “editor retention”).&lt;/p&gt;
+&lt;p&gt;As hinted at in the name, the purpose of the Wikimedia Foundation’s &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth&quot; target=&quot;_blank&quot;&gt;Growth team&lt;/a&gt; is to grow the number of new people who come and make a first edit on Wikipedia, and to keep more of them around (a.k.a. “editor retention”).&lt;/p&gt;
 
 &lt;p&gt;There is an element of teaching and persuasion involved, since we need to convey to the majority of people extremely familiar with using Wikipedia one way (reading and consuming information) that in fact they should consider using it quite differently (participating in writing and changing the information), and then guiding them how to use it in this brand new way. It’s like telling someone who has eaten eggs their whole life that actually, the egg shells can be eaten as a calcium supplement too, if properly prepared (&lt;a href=&quot;https://en.wikipedia.org/wiki/Egg_as_food#cite_note-31&quot; target=&quot;_blank&quot;&gt;it’s true&lt;/a&gt;).&lt;/p&gt;
 
@@ -796,8 +796,8 @@ Wikimedia Foundation’s apps are an essential piece to meet our &lt;a href=&quo
 
 &lt;div class=&quot;columns&quot;&gt;
   &lt;figure class=&quot;third-width&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/orientation-android.png&quot; alt=&quot;The 'More' navigation for Wikipedia on Android is designed to maintain the user’s context.&quot; /&gt;
-    &lt;figcaption&gt;The 'More' navigation for Wikipedia on Android is designed to maintain the user’s context.&lt;/figcaption&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/orientation-android.png&quot; alt=&quot;The &apos;More&apos; navigation for Wikipedia on Android is designed to maintain the user’s context.&quot; /&gt;
+    &lt;figcaption&gt;The &apos;More&apos; navigation for Wikipedia on Android is designed to maintain the user’s context.&lt;/figcaption&gt;
   &lt;/figure&gt;
   &lt;figure class=&quot;third-width&quot;&gt;
     &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/orientation-ios.png&quot; alt=&quot;The off-canvas menu on Wikipedia for iOS is one tap away from anywhere in the app.&quot; /&gt;
@@ -805,7 +805,7 @@ Wikimedia Foundation’s apps are an essential piece to meet our &lt;a href=&quo
   &lt;/figure&gt;
   &lt;figure class=&quot;third-width&quot;&gt;
     &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/orientation-kaios.png&quot; alt=&quot;Trending article list for readers to discover regionally relevant content. &quot; /&gt;
-    &lt;figcaption&gt;The 'Options' menu lets readers easily navigate an article. It avoids unnecessary key presses.&lt;/figcaption&gt;
+    &lt;figcaption&gt;The &apos;Options&apos; menu lets readers easily navigate an article. It avoids unnecessary key presses.&lt;/figcaption&gt;
   &lt;/figure&gt;
 &lt;/div&gt;
 
@@ -815,8 +815,8 @@ Wikimedia Foundation’s apps are an essential piece to meet our &lt;a href=&quo
 
 &lt;div class=&quot;columns&quot;&gt;
   &lt;figure class=&quot;half-width centered&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/emotion-android.png&quot; alt=&quot;The 'Thanks' interaction in the Wikipedia for Android app&quot; /&gt;
-    &lt;figcaption&gt;The 'Thanks' interaction in the Wikipedia for Android app&lt;/figcaption&gt;
+    &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/emotion-android.png&quot; alt=&quot;The &apos;Thanks&apos; interaction in the Wikipedia for Android app&quot; /&gt;
+    &lt;figcaption&gt;The &apos;Thanks&apos; interaction in the Wikipedia for Android app&lt;/figcaption&gt;
   &lt;/figure&gt;
   &lt;figure class=&quot;half-width centered&quot;&gt;
     &lt;img src=&quot;/blog/assets/uploads/wikipedia-and-apps-a-love-story/emotion-ios.png&quot; alt=&quot;The onboarding experience in the Wikipedia for iOS app educates and resonates emotionally&quot; /&gt;
@@ -1308,7 +1308,7 @@ These insights from our research, combined with our own experiences and frustrat
 Currently the largest Wikipedia language is English, with ~6.3 million articles&lt;sup&gt;&lt;a href=&quot;#note-3&quot; id=&quot;ref-3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;. Contrast this with the Hindi version (the 4th most spoken first-language, just behind English&lt;sup&gt;&lt;a href=&quot;#note-4&quot; id=&quot;ref-4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt;) with ~147K articles&lt;sup&gt;&lt;a href=&quot;#note-5&quot; id=&quot;ref-5&quot;&gt;[5]&lt;/a&gt;&lt;/sup&gt;. This highlights the many knowledge gaps that exist on Wikipedia – and how it is a massive barrier to information access for those who don’t know English. To continue on the case of the canelé, (as of writing) there is no article about the deliciously rich heritage of these pastries documented on Hindi Wikipedia at all. Or to give a more ‘serious’ example of the knowledge gap (though one would argue pastries are a culturally significant item), the Hindi edition also lacks biographies for prominent figures like Nobel laureate &lt;a href=&quot;https://en.wikipedia.org/wiki/Ir%C3%A8ne_Joliot-Curie&quot;&gt;Irène Joliot-Curie&lt;/a&gt;, or conservationist &lt;a href=&quot;https://en.wikipedia.org/wiki/Dian_Fossey&quot;&gt;Dian Fossey&lt;/a&gt;.&lt;/p&gt;
 
 &lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/irene-screenshot.png&quot; alt=&quot;Screenshot of Iréne Joliot-Curie's English Wikipedia page&quot; /&gt;
+  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/irene-screenshot.png&quot; alt=&quot;Screenshot of Iréne Joliot-Curie&apos;s English Wikipedia page&quot; /&gt;
   &lt;figcaption&gt; Screenshot of “Irène Joliot-Curie” from &lt;a href=&quot;https://en.wikipedia.org/wiki/Irène_Joliot-Curie&quot;&gt;English Wikipedia&lt;/a&gt; (2021) with a pop-up dialog on the bottom left with a message that the article does not yet exist in Hindi Wikipedia. | Accessed 2021-05-18 | text CC-BY-SA-3.0 | ™ Wikipedia logo | Other media in this image may be subject to other terms.
 &lt;/figcaption&gt;
 &lt;/figure&gt;
