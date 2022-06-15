@@ -1,4 +1,355 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-06-17T17:17:35+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Designing variant experiments is as simple as A/B. See?</title><link href="https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments.html" rel="alternate" type="text/html" title="Designing variant experiments is as simple as A/B. See?" /><published>2022-04-04T07:30:00+00:00</published><updated>2022-04-04T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://medium.com/@reetssydney&quot;&gt;Rita Ho&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-06-20T16:44:19+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Hey, check out this egg-laying wool-milk-pig: said no one ever</title><link href="https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig.html" rel="alternate" type="text/html" title="Hey, check out this egg-laying wool-milk-pig: said no one ever" /><published>2022-06-14T07:30:00+00:00</published><updated>2022-06-14T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://twitter.com/scblr&quot;&gt;Robin Schoenbaechler&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://twitter.com/itsjaztanner&quot;&gt;Jazmin Tanner&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Over the past year, the Wikimedia Foundation Android team has focused on &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android/Communication&quot;&gt;improving the communications experience&lt;/a&gt; in the Wikipedia Android app. Asynchronous collaboration is a core component of the Wikipedia editing experience, and the lower the entry barrier to editing, the more diverse the content will be for our 14 projects across 300 languages. This diversity of content and collaborators is core to the &lt;a href=&quot;https://meta.wikimedia.org/wiki/Movement_Strategy&quot;&gt;movement strategy&lt;/a&gt;, which focuses on knowledge equity and knowledge as a service. The movement strategy brings us closer to ensuring our projects represent the sum of all knowledge.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;As the organization focuses on knowledge equity, the Product and Technology departments have worked on a&lt;/strong&gt; &lt;a href=&quot;https://medium.com/freely-sharing-the-sum-of-all-knowledge/the-journey-to-make-wikipedias-technology-more-equitable-152321df1366&quot;&gt;&lt;strong&gt;framework for inclusive product development&lt;/strong&gt;&lt;/a&gt;. To ensure the framework was reflective of the varying scope and team composition of our development teams, seven Wikimedia Foundation teams signed up to test the playbook and provide feedback. The feedback would serve as an input for V2 of the playbook in our framework. With our team’s goal of reducing the barrier to communication and collaboration in the Wikipedia Android app and being very &lt;a href=&quot;https://diff.wikimedia.org/2022/01/21/accessibility-support-in-the-wikipedia-android-app/&quot;&gt;intentional about accessibility&lt;/a&gt;, we were a logical test team for the playbook. We also recognized there would be a lot to balance as we worked towards this goal.&lt;/p&gt;
+
+&lt;p&gt;Although the original request to improve communications in the apps came from experienced members of our community that largely wrote in English, we wanted to be very intentional about partnering with members of the community who haven’t been historically centered in our projects. Depending on the development team and platform the partner communities could look different. In our context, the identified partner community members consisted of women and non-binary editors on Japanese Wikipedia, French and Arabic editors in Mali, Egypt, Morocco, and DR Congo, Hindi and Indonesian Wikipedia editors, English Wikipedia editors in Nigeria and visually impaired English Wikipedia editors in India. You can read more about our process in selecting these partner communities &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android/2021Roadmap?tableofcontents=0&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-egg-laying-wool-milk-pig-for-android&quot;&gt;The egg-laying wool-milk-pig for Android&lt;/h2&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/1-eierlegende-wollmichsau.webp&quot; alt=&quot;Eierlegende Wollmilchsau&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Wollmilchsau.webp&quot;&gt;The “Eierlegende Wollmilchsau”&lt;/a&gt;
+ | By Georg Mittenecker
+ | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/2.5/&quot;&gt;CC BY-SA 2.5&lt;/a&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;audio&quot;&gt;
+	&lt;audio src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/die-eierlegende-wollmilchsau.m4a&quot; alt=&quot;Word pronunciation&quot; controls=&quot;&quot;&gt;
+	&lt;/audio&gt;
+
+	
+	&lt;figcaption&gt;Listen the pronunciation&lt;/figcaption&gt;
+	
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;In German, there’s a popular idiom of the “&lt;a href=&quot;https://de.wikipedia.org/wiki/Eierlegende_Wollmilchsau&quot;&gt;Eierlegende Wollmilchsau&lt;/a&gt;”.&lt;/strong&gt; It roughly translates to an egg-laying wool-milk-pig. The phrase describes an imaginary animal that combines unique characteristics of some of the most renowned animal species: chicken (lay eggs), sheep (provide wool), cow (give milk), and pig (meat).&lt;/p&gt;
+
+&lt;p&gt;This idiom encapsulates what we are trying to achieve; a seemingly unachievable and perfect outcome of a product for diverse user needs: all the benefits, no drawbacks.&lt;/p&gt;
+
+&lt;p&gt;This article shares the steps we took to develop a design approach that reflects the ideal the egg-laying wool-milk-pig represents. When you finish reading, we hope you come away with the following lessons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The importance of &lt;strong&gt;designing with people&lt;/strong&gt; instead of for them&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Understanding when to focus and when to see the big picture&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;User Segmentation: Meeting audiences where they are&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Leveraging Data: Data doesn’t show where to go; it shows where you are&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Focus Mode: Adding capabilities without distraction&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Customization as a means to include:&lt;/strong&gt; Optimizing the article experience based on different user goals&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;we-shape-our-tools-thereafter-our-tools-shape-us&quot;&gt;“We shape our tools, thereafter our tools shape us”&lt;/h3&gt;
+
+&lt;p&gt;This quote by &lt;a href=&quot;https://en.wikipedia.org/wiki/Marshall_McLuhan&quot;&gt;Marshall McLuhan&lt;/a&gt; feels very true for Wikipedia. Here’s why: When we &lt;a href=&quot;https://uxdesign.cc/in-search-of-the-perfect-search-for-wikipedia-136f86ac6168&quot;&gt;improved searching for articles&lt;/a&gt;, we realized that people use Wikipedia in unique ways. Use cases and opinions for those who regularly use the Wikipedia app vary substantially. This &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android/Communication/UsertestingJuly2021?tableofcontents=0#Results&quot;&gt;difference of perspectives&lt;/a&gt; even rang true when learning from our target audiences what their communication preferences were:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Editors&lt;/strong&gt; see a need for more editing capabilities:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The only missing feature is providing notifications like on the website”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Readers&lt;/strong&gt; love to read articles:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Why would I need Wikipedia notifications? I don’t even have a login!”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Wikipedians&lt;/strong&gt; long for missing key features:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Please make it possible to access talk pages and edit histories.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;And others&lt;/strong&gt; simply prefer the Wikipedia web experience:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Functionally very similar to the web browser experience, if not less intuitive.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is just a tiny sample of the sometimes contradictory feedback we receive from people using our app primarily or in conjunction with other platforms. However, these examples exemplify that qualitative feedback points us in multiple directions, especially when we weigh the maturity of a wiki. So, when user feedback pulls us in multiple directions, how do we decide where to go?&lt;/p&gt;
+
+&lt;p&gt;It could be easy to rely on the intuition of the team. However, as we learned from the Inclusive Product Development framework, even with a globally dispersed, fully remote team that aims to live up to the organizational &lt;a href=&quot;https://design.wikimedia.org/blog/2022/01/10/surfacing-and-embracing-diversity-within-your-team.html&quot;&gt;goal of embracing diversity&lt;/a&gt;, we must be wary of introducing our biases into the product and strive to be inclusive of these different audience goals.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-doesnt-show-where-to-go-it-shows-where-you-are&quot;&gt;Data doesn’t show where to go, it shows where you are&lt;/h3&gt;
+
+&lt;p&gt;As we delve deeper into our quantitative data, there’s evidence of commonalities amongst different cultures, use cases, and needs. Our data scientist, Shay Nowick, was able to provide the insight that &lt;a href=&quot;https://analytics.wikimedia.org/published/reports/wikipedia-android-app/metrics/2021-03.html&quot;&gt;62%&lt;/a&gt; of those that opt-in to share anonymized data visit the article view most frequently in the app.&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/2-article-view.webp&quot; alt=&quot;Article View&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+The article view is the most visited screen in the app.
+
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This insight seemed logical considering the Wikipedia Android app was initially created as a “readers-first” tool. It always had editing capabilities, but the editing experience was historically limited, had a high participation barrier and resulted in a low edit count compared to other platforms.&lt;/p&gt;
+
+&lt;h2 id=&quot;focus-areas-to-create-the-egg-laying-wool-milk-pig&quot;&gt;Focus areas to create the egg-laying wool-milk-pig&lt;/h2&gt;
+
+&lt;h3 id=&quot;balancing-reading-and-editing&quot;&gt;Balancing reading and editing&lt;/h3&gt;
+
+&lt;p&gt;In 2019, the &lt;a href=&quot;https://diff.wikimedia.org/2021/11/30/wikipedia-and-apps-a-love-story/&quot;&gt;“readers first” strategy&lt;/a&gt; shifted from full-article editing to explore the concept of micro contributions with the introduction of a feature called suggested edits. Micro contributions aim to lower the barrier to contributing by introducing an alternative to longform writing.&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/3-suggested-edits.webp&quot; alt=&quot;Suggested Edits&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+Suggested edits present opportunities for small but vital contributions to Wikipedia. We are aiming to raise edit awareness and make contributing more accessible.
+
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In addition, we identified it as gentle onboarding for new editors, and creating new forms of content. As this capability was rolled out, the visibility and editing calls to action (CTA) were intentionally made prominent on the home page toolbar and in the frequently visited article view, shifting the UI away from the “readers first” experience.&lt;/p&gt;
+
+&lt;p&gt;However, this change could ultimately distract someone who just had the goal of reading as you can see in the example below:&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/4-edit-calls.webp&quot; alt=&quot;Edit calls&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+Multiple edit calls to action distract from reading the article.
+
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Data shows that the edit asks were somewhat effective in encouraging readers to add missing article information. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+ ADD ARTICLE DESCRIPTION&lt;/code&gt; button alone is the source of almost a fourth of all edits (~23%) made in the Wikipedia Android app. Adding the CTAs was a deliberate strategic move to encourage editing, and it seemed to be effective. Despite the distracting nature, hiding them for all people at all times was not an option.&lt;/p&gt;
+
+&lt;p&gt;But to the point someone raised about not always wanting to see editing features when they’re in the mood to read, how could we accommodate them?&lt;/p&gt;
+
+&lt;p&gt;In addition to not wanting to distract with too many editing call to actions, a community member left the following feedback on the &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.wikipedia&quot;&gt;Google Play&lt;/a&gt; store which made us question the article’s bottom toolbar:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Why have you taken away the ability to go full screen? Why do we have to see the bottom toolbar all the time?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I want the option to hide the bottom bar as I scroll down. Thank you.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/5-toolbar.webp&quot; alt=&quot;Toolbar&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+The article’s bottom toolbar stays visible when reading and scrolling.
+
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Usability tests from three years ago gave us the insight that some users preferred seeing the bottom toolbar at all times or struggled to find features when the toolbar disappeared.. For example one user shared:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’m deleting the app because it doesn’t support find in page”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The article most certainly did support Find in page, we call it “Find in article” and it was located in the bottom toolbar that formerly disappeared on scroll.&lt;/p&gt;
+
+&lt;h3 id=&quot;reading-distraction-free&quot;&gt;Reading distraction-free&lt;/h3&gt;
+
+&lt;p&gt;The insights mentioned above, paired with our desire to introduce more prominent editing features, like a prominent icon for talk pages to make it more discoverable, made our interest in honoring some explicit requests from the community to add a reading focus mode that much more urgent.&lt;/p&gt;
+
+&lt;p&gt;We chose to put the reading focus mode toggle into “Theme” because it’s related to existing preferences like font size or family. When reading focus mode is enabled, CTAs disappear, and the article becomes full screen on scroll, meaning the top and bottom toolbars disappear; limiting distractions while reading.&lt;/p&gt;
+
+&lt;p&gt;There was a concern within the team that users would have trouble remembering how to access editing features again once reading focus mode was enabled. To ensure we could overcome this obstacle we conducted usability testing with our partner communities.&lt;/p&gt;
+
+&lt;p&gt;Instead of using a clickable design prototype, our developers created a working prototype that our participants could download:&lt;/p&gt;
+
+&lt;figure class=&quot;video&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/6-prototype.webm&quot; alt=&quot;Prototype&quot; controls=&quot;&quot;&gt;
+	&lt;/video&gt;
+
+	
+	&lt;figcaption&gt;Not only were people able to successfully disable the feature if they wanted to edit, they provided other positive insights as well.&lt;/figcaption&gt;
+	
+&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s better, the full-screen mode makes it easier to read, there’s nothing that bothers me!” &lt;em&gt;– Usability test participant, Arabic Wikipedia reader&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“This reading focus mode is really helpful, excludes all unwanted options, it makes the page more comfortable to read” &lt;em&gt;– Usability test participant, Hindi Wikipedia reader&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s a good feature as the majority of us are here to read articles. It’s a good function to have to limit distractions.” &lt;em&gt;– Usability test participant, Japanese Wikipedia reader&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;These insights gave us the confidence to release the feature to production and enhance discoverability. Check out the &lt;a href=&quot;https://www.notion.so/Usability-testing-Android-Feb-2022-Analysis-c1b536068b78486e80da99c4e0461829&quot;&gt;detailed analysis&lt;/a&gt; to dig deeper into our findings.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reading focus mode was also a success from a quantitative perspective.&lt;/strong&gt; &lt;strong&gt;After its release, 80% of all people discovering and interacting with the feature kept it as their default preference.&lt;/strong&gt; We did consider making this feature a default experience, but wanted to ensure users knew they could edit, and for that reason we will continue to have reading focus mode disabled by default.&lt;/p&gt;
+
+&lt;h3 id=&quot;customizing-the-experience&quot;&gt;Customizing the experience&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Reading focus mode was not the only feature where we aimed to strike the right balance between the needs of readers and editors.&lt;/strong&gt; As we added more features to the app, our overflow menu grew, and we noticed &lt;a href=&quot;https://www.notion.so/Analysis-experienced-users-c78408250c5241da9cf1df9efb036cc6&quot;&gt;users asking for features&lt;/a&gt; that existed but were hidden in the overflow menu:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Doesn’t allow you to read the page’s Edit history or Talk page. So practically only useful for reading, not editing.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It has good features like a menu option to switch between languages”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“No option to add to Watchlist, I don’t like the interface or look.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s missing categories.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Please add the capability to share an article’s URL.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Depending on the maturity of the wiki, the audience, and user goals, the preferences for what links were available varied, which made it apparent that the next phase of our work before releasing new communication features needed to take a closer look at shortcut usage in the bottom toolbar and the top menu:&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/7-research-data.webp&quot; alt=&quot;Research Data&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+Our data informed us that the bottom toolbar and top menu usage ranking were as follows: 1. Contents (61.22%) 2. Language (17.57%) 3. Save (8.95%) 4. Find in article (5.76%) 5. Theme (3.03%) 6. Share (2.19%) 7. Explore (0.47%) 8. New tab (0.33%) 9. Categories (0.16%) 10. Edit history (0.16%) 11. Talk page (0.12%) 12. Watch (0.04%). Note that newer features, and features hidden in the overflow menu were clicked less often.
+
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Designing for people’s preferences while keeping the experience focused challenged us, but is becoming more of an industry standard with the launch of &lt;a href=&quot;https://material.io/blog/announcing-material-you&quot;&gt;Material You&lt;/a&gt;.&lt;/strong&gt; Relatedly, one of our approaches to toolbar customization was inspired by Google Chrome. We explored the idea of adding all items to the top menu.&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/8-actions-destinations.webp&quot; alt=&quot;Actions and Destinations&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+Access to the actions and destinations in Chrome on Android.
+
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We asked ourselves if putting all options into one place is considered good or bad information architecture and found the answer in existing research. &lt;strong&gt;&lt;a href=&quot;https://www.nngroup.com/articles/hamburger-menus/&quot;&gt;Hiding interface elements reduces their usage&lt;/a&gt; as they are less discoverable.&lt;/strong&gt; We did not want actions related to the article to be less used, as our audience finds them helpful, so we continued with having shortcuts in the bottom toolbar.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-the-egg-laying-wool-milk-pig-came-to-life&quot;&gt;How the-egg-laying wool-milk-pig came to life&lt;/h2&gt;
+
+&lt;h3 id=&quot;prototyping-the-first-version&quot;&gt;Prototyping the first version&lt;/h3&gt;
+
+&lt;p&gt;We landed on letting people customize their shortcuts in the bottom toolbar, and developed several prototypes to test which approach best achieved our goal.&lt;/p&gt;
+
+&lt;p&gt;We learned that people had difficulties discovering the “Customize toolbar” feature within the “Theme” shortcut, trouble discovering where items that were moved out of the toolbar and into the overflow menu were placed and issues dragging and dropping items, a gesture we incorrectly assumed would be intuitive. This implored us to have a closer look and ensure our drag and drop movements met Web Accessibility Guidelines(&lt;a href=&quot;https://www.boia.org/blog/how-drag-and-drop-movements-affect-web-accessibility&quot;&gt;WCAG&lt;/a&gt;).&lt;/p&gt;
+
+&lt;figure class=&quot;video&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/10-customizable-toolbar.webm&quot; alt=&quot;Customizable Toolbar&quot; controls=&quot;&quot;&gt;
+	&lt;/video&gt;
+
+	
+	&lt;figcaption&gt;The original design for the customizable toolbar had usability shortcomings. Participants ignored the blue tooltip for discovery and couldn&apos;t drag and drop.&lt;/figcaption&gt;
+	
+&lt;/figure&gt;
+
+&lt;p&gt;To address the discoverability issues we added onboarding tooltips, even with this addition, users were struggling to find the feature and effectively scrolled past it making it disappear. You can read our &lt;a href=&quot;https://phabricator.wikimedia.org/T298978&quot;&gt;analysis&lt;/a&gt; for full details.&lt;/p&gt;
+
+&lt;h3 id=&quot;testing-discarding-and-iterating&quot;&gt;Testing, discarding, and iterating&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;We now faced a real example from the inclusive product development playbook of having to choose equity over speed.&lt;/strong&gt; After sharing the results with our communities and collaborating with other Wikimedia Foundation teams like the &lt;a href=&quot;https://www.mediawiki.org/wiki/Design&quot;&gt;design team&lt;/a&gt;, we created two iterations of the original design:&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/11-variants.webp&quot; alt=&quot;Variants&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+Variant A featured a ‘More’ menu item in the bottom toolbar alongside four shortcuts that could be customized. Variant B used the top menu as the entry point to customization, leaving the bottom toolbar largely unchanged.
+
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The goal was to determine which of the two versions participants preferred, why they preferred it, if there were differences amongst language preferences and if the participant would use the feature. Both variants featured:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;A persistent tooltip that only disappears when pressing the newly added ‘GOT IT’ button.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In partnership with UX copywriter Jacqui Clydesdale, we created default helper tooltips to explain the drag and drop function.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Simplified language (e.g., ‘shortcuts’ instead of ‘links’), to ensure terminology was accessible .&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After doing one more round of usability tests, we gathered feedback on the two variants from ten Arabic, Hindi, Japanese, Indonesian, and French-speaking participants. The results were almost evenly split, so we could not take a majority wins approach. It was evident that both variants were drastic improvements when it came to discoverability and usability. With no clear winner between the two variants we took into consideration Google material design guidance, and considered which change would be less jarring for our existing audiences. This led us to move forward with variant B. The reactions to the updates in &lt;strong&gt;variant B were&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s awesome, it was easy to understand and find.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The design is very good, I haven’t seen this anywhere else.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’d use the feature 2-3 times and think it’d improve the experience.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It’s a very good feature for people who use Wikipedia daily.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“There’s one more shortcut in the bottom toolbar, a lot of people have a habit of clicking the top menu to look for things.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Although we chose our path forward between the two variants, there were still issues that were exposed in usability testing that we found important to address before a full roll out could occur.&lt;/p&gt;
+
+&lt;h3 id=&quot;designing-cross-cultural&quot;&gt;Designing cross-cultural&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;As we mentioned above, we aimed to partner with very specific audiences. When conducting usability testing it was important to test with our partner community in their native languages.&lt;/strong&gt; Building real installable app versions in Android’s file format &lt;a href=&quot;https://en.wikipedia.org/wiki/Apk_(file_format)&quot;&gt;apk&lt;/a&gt; made the difference. &lt;strong&gt;Due to testing working app versions, we identified various localization issues, and prioritized solving them before release&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Within the Wikimedia Foundation it is customary to use an open-source translation service in partnership with our community called &lt;a href=&quot;https://translatewiki.net/&quot;&gt;translatewiki.net&lt;/a&gt;. The project, made available by &lt;a href=&quot;https://en.wikipedia.org/wiki/Translatewiki.net&quot;&gt;Niklas Laxström&lt;/a&gt;, is sensitive to the unique vocabulary used on Wikipedia and is able to consider nuances that machine translation doesn’t always capture. However, because it is community sourced, we do have to take our time in waiting for the translations to come through, or even reaching out for support before launching usability testing.&lt;/p&gt;
+
+&lt;p&gt;Notably, a third of our readers access Wikipedia in multiple languages. As usability test participants were bilingual too, we noticed that people’s device and app language differed. This is not necessarily bad, as it leads to observing even more diverse forms of use. However, for our purposes we deliberately wanted to test in Arabic, Hindi, Indonesian, Japanese, and French, so we asked people to set their device language at the beginning of the test.&lt;/p&gt;
+
+&lt;p&gt;This step was very important because it exposed bugs and unexpected behaviors for right-to-left (RTL) environments earlier than waiting for users to alert us via the app store. Namely, when conducting usability testing, we observed glaring bugs with the direction of typography, icons, and images in RTL that needed to be corrected prior to release.&lt;/p&gt;
+
+&lt;p&gt;With the support of our Product and Technology leadership to build for equity over speed, conducting design research in regions and languages beyond the English-speaking community will continue to be our team’s default. As will it continue to be our team’s default to prioritize fixing potential localization challenges and improving accessibility across cultures, languages, abilities, interests and backgrounds.&lt;/p&gt;
+
+&lt;p&gt;While an egg-laying wool-milk pig does not exist in nature, we have the unique opportunity to design the closest ideal in a digital product. And, by fulfilling one user group’s needs, tremendous advantages will inevitably present itself in serving the needs of others.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We are committed to equitably&lt;/strong&gt; &lt;strong&gt;&lt;a href=&quot;https://design.wikimedia.org/blog/2020/05/21/improve-ux-for-everyone.html&quot;&gt;design with everyone&lt;/a&gt; and modify the proverbial table to include as many as possible — and we think you should too&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/12-diversity-white-bg.webp&quot; alt=&quot;Diversity White BG&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;p&gt;All the features mentioned in this article are now available in the official &lt;a href=&quot;https://play.google.com/store/apps/details?id=org.wikipedia&quot;&gt;Wikipedia for Android app on Google Play&lt;/a&gt;. Our team is working on many more exciting features to offer all the advantages and satisfy (most of) our user’s sophisticated and sometimes even contradictory needs in the near future.&lt;/p&gt;
+
+&lt;p&gt;Follow &lt;a href=&quot;https://twitter.com/WikimediaMobile&quot;&gt;@WikipediaMobile&lt;/a&gt; on Twitter for the latest news related to Wikipedia apps. If you don’t want to miss the latest design changes to Wikipedia, follow &lt;a href=&quot;https://twitter.com/WikimediaDesign&quot;&gt;@WikimediaDesign&lt;/a&gt;. Please let us know what you think about the updates in the comments below, on &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps&quot;&gt;MediaWiki&lt;/a&gt; or &lt;a href=&quot;mailto:android@wikimedia.org&quot;&gt;email&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to Matt Cleinman, Shay Nowick, Matthew Williams, Carolyn Li-Madeo, Johan Jönsson, Lucy Blackwell, Sam Patton, Rita Ho, and Jess Klein for their contributions to this article.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">How designing for customization leads to inclusion on Wikipedia.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/egg-laying-wool-milk-pig/0-diversity-black-bg.webp" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/egg-laying-wool-milk-pig/0-diversity-black-bg.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Designing variant experiments is as simple as A/B. See?</title><link href="https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments.html" rel="alternate" type="text/html" title="Designing variant experiments is as simple as A/B. See?" /><published>2022-04-04T07:30:00+00:00</published><updated>2022-04-04T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/04/04/designing-variant-experiments.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://medium.com/@reetssydney&quot;&gt;Rita Ho&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;As hinted at in the name, the purpose of the Wikimedia Foundation’s &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth&quot; target=&quot;_blank&quot;&gt;Growth team&lt;/a&gt; is to grow the number of new people who come and make a first edit on Wikipedia, and to keep more of them around (a.k.a. “editor retention”).&lt;/p&gt;
 
@@ -1287,187 +1638,4 @@ These insights from our research, combined with our own experiences and frustrat
 &lt;p id=&quot;note-2&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-2&quot;&gt;[2]&lt;/a&gt;&lt;a href=&quot;https://pageviews.toolforge.org/siteviews/?platform=all-access&amp;amp;source=pageviews&amp;amp;agent=user&amp;amp;range=latest-20&amp;amp;sites=commons.wikimedia.org&quot;&gt;https://pageviews.toolforge.org/siteviews/?platform=all-access&amp;amp;source=pageviews&amp;amp;agent=user&amp;amp;range=latest-20&amp;amp;sites=commons.wikimedia.org&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
 
 &lt;p id=&quot;note-3&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-3&quot;&gt;[3]&lt;/a&gt;&lt;a href=&quot;https://pageviews.toolforge.org/siteviews/?platform=mobile-web&amp;amp;source=pageviews&amp;amp;agent=user&amp;amp;range=latest-20&amp;amp;sites=commons.wikimedia.org&quot;&gt;https://pageviews.toolforge.org/siteviews/?platform=mobile-web&amp;amp;source=pageviews&amp;amp;agent=user&amp;amp;range=latest-20&amp;amp;sites=commons.wikimedia.org&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/footer&gt;</content><author><name></name></author><summary type="html">The new search experience on Wikimedia Commons</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/Search_on_Wikimedia_Commons.jpg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/Search_on_Wikimedia_Commons.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Nurturing newbies: Growing Wikipedia contributors by Design</title><link href="https://design.wikimedia.org/blog/2021/06/12/growing-wikipedia-by-design.html" rel="alternate" type="text/html" title="Nurturing newbies: Growing Wikipedia contributors by Design" /><published>2021-06-12T00:00:00+00:00</published><updated>2021-06-12T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/06/12/growing-wikipedia-by-design</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/06/12/growing-wikipedia-by-design.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://medium.com/@reetssydney&quot;&gt;Rita Ho&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;When the average person hears that I’m the designer on the Growth team for Wikipedia, there’s a common misconception that it’s about growing the number of readers, the more commonly thought of “Wikipedia user”.  However, our team was formed almost three years ago with a different challenge and audience as our focus. This article aims to tell the six-part story of how and why we started this team, and all the failures, learnings, and  successes we’ve had since.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Identify the problem&lt;/li&gt;
-  &lt;li&gt;Plant the seeds for Growth: Research&lt;/li&gt;
-  &lt;li&gt;The set up: Team process &amp;amp; principles&lt;/li&gt;
-  &lt;li&gt;Design experiments 1, 2, and 3: Down, up, and up&lt;/li&gt;
-  &lt;li&gt;Now what? Doubling down and scaling up&lt;/li&gt;
-  &lt;li&gt;What’s next&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;1-identify-the-problem&quot;&gt;1. Identify the problem&lt;/h1&gt;
-
-&lt;p&gt;While it’s commonly known that Wikipedia is a multilingual project, one thing that may be surprising is how much variation there is between articles on the same topic in different languages. For example, the &lt;a href=&quot;https://fr.wikipedia.org/wiki/Canel%C3%A9&quot;&gt;French canelé article&lt;/a&gt; has a fairly different history on the origins for the small pastries than its &lt;a href=&quot;https://en.wikipedia.org/wiki/Canel%C3%A9&quot;&gt;English version&lt;/a&gt;&lt;sup&gt;&lt;a href=&quot;#note-1&quot; id=&quot;ref-1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;. This is because each article version is written by its own community of editors, not machine translated&lt;sup&gt;&lt;a href=&quot;#note-2&quot; id=&quot;ref-2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;. The diversity and breadth of content across around 300 languages is awesome, but it also presents a challenge:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How might we grow knowledge across all languages?&lt;/strong&gt;&lt;br /&gt;
-Currently the largest Wikipedia language is English, with ~6.3 million articles&lt;sup&gt;&lt;a href=&quot;#note-3&quot; id=&quot;ref-3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;. Contrast this with the Hindi version (the 4th most spoken first-language, just behind English&lt;sup&gt;&lt;a href=&quot;#note-4&quot; id=&quot;ref-4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt;) with ~147K articles&lt;sup&gt;&lt;a href=&quot;#note-5&quot; id=&quot;ref-5&quot;&gt;[5]&lt;/a&gt;&lt;/sup&gt;. This highlights the many knowledge gaps that exist on Wikipedia – and how it is a massive barrier to information access for those who don’t know English. To continue on the case of the canelé, (as of writing) there is no article about the deliciously rich heritage of these pastries documented on Hindi Wikipedia at all. Or to give a more ‘serious’ example of the knowledge gap (though one would argue pastries are a culturally significant item), the Hindi edition also lacks biographies for prominent figures like Nobel laureate &lt;a href=&quot;https://en.wikipedia.org/wiki/Ir%C3%A8ne_Joliot-Curie&quot;&gt;Irène Joliot-Curie&lt;/a&gt;, or conservationist &lt;a href=&quot;https://en.wikipedia.org/wiki/Dian_Fossey&quot;&gt;Dian Fossey&lt;/a&gt;.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/irene-screenshot.png&quot; alt=&quot;Screenshot of Iréne Joliot-Curie&apos;s English Wikipedia page&quot; /&gt;
-  &lt;figcaption&gt; Screenshot of “Irène Joliot-Curie” from &lt;a href=&quot;https://en.wikipedia.org/wiki/Irène_Joliot-Curie&quot;&gt;English Wikipedia&lt;/a&gt; (2021) with a pop-up dialog on the bottom left with a message that the article does not yet exist in Hindi Wikipedia. | Accessed 2021-05-18 | text CC-BY-SA-3.0 | ™ Wikipedia logo | Other media in this image may be subject to other terms.
-&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The Wikimedia Foundation’s &lt;a href=&quot;https://wikimediafoundation.org/about/vision/&quot;&gt;vision&lt;/a&gt; is to ensure that every single human being can freely share in the world’s knowledge, which can only be accomplished if more people contribute to that corpus of knowledge across all languages. Unfortunately Wikipedia has seen the number of contributors (a.k.a. editors) either stagnate or shrink over the years, and struggle to attract and retain new folks. A notable metric is that around 94% of first time editors don’t ever stick around to make a second edit&lt;sup&gt;&lt;a href=&quot;#note-6&quot; id=&quot;ref-6&quot;&gt;[6]&lt;/a&gt;&lt;/sup&gt;. The Growth team was formed at the Wikimedia Foundation in July 2018 to directly address this problem. There need to be significant increases in the number of contributors  as well as a more diverse contributor pool in order to supply knowledge that is relevant to everyone in the world.&lt;/p&gt;
-
-&lt;p&gt;With this in mind, the Growth team’s objective is to:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Increase contributor &lt;strong&gt;activation&lt;/strong&gt; (people who make a first edit)&lt;/li&gt;
-  &lt;li&gt;Increase contributor &lt;strong&gt;retention&lt;/strong&gt; (people who come back another day to make subsequent edits)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;We have also concentrated on working with smaller-to-medium sized Wikipedias to help promote the diversity of the contributors (rather than the larger, established language Wikipedias who tend to be an established homogenous group).&lt;/p&gt;
-
-&lt;h1 id=&quot;2-planting-the-seeds-for-growth-research&quot;&gt;2. Planting the seeds for Growth: Research&lt;/h1&gt;
-
-&lt;p&gt;The inception of our work actually began a year earlier with the “&lt;a href=&quot;https://www.mediawiki.org/wiki/New_Editor_Experiences&quot;&gt;New Editor Experiences&lt;/a&gt;” research project in 2017. This was a foundational research project aimed at learning as much as possible about new editors in Korean and Czech Wikipedias – two languages chosen as representative of many smaller Wikipedias. The project was conducted not only in collaboration with a research partner Reboot, but also with Wikipedians in Korea and Czech, with a “Community ambassador” role created for a long-term active member in each language, to encourage their communities’ participation in the project. In all, 64 interviews were conducted in Korea and Czechia to draw out a number of important insights about new editors.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/new-editor-research.png&quot; alt=&quot;Screenshot of a page of the new editors experiences research.&quot; /&gt;
-  &lt;figcaption&gt;Left: &lt;a href=&quot;https://meta.wikimedia.org/w/index.php?title=File:New_Editor_Experiences_summary_of_findings,_August_2017.pdf&amp;amp;page=12&quot;&gt;New Editor Experiences summary of findings, August 2017 - Page 12&lt;/a&gt; | By Reboot and the Wikimedia Foundation | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC-BY-SA 4.0&lt;/a&gt; || Right: &lt;a href=&quot;https://meta.wikimedia.org/wiki/File:New_Editor_Experiences_user_personas,_August_2017.pdf&quot;&gt;New Editor Experiences user personas, August 2017 - Page 1&lt;/a&gt; | By Reboot and the Wikimedia Foundation | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC-BY-SA 4.0&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;One of the outcomes of the research was identifying that contributors have very different motivations for editing (represented in the personas). Despite their differences, all these newcomer personas encountered one or more of these key barriers to editing:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Technical barrier (e.g. How do I write in code?)&lt;/strong&gt; – Newcomers have trouble finding and using editing tools.  A lot of our editing tools can seem too overwhelmingly open-ended and complex for them to know where to even start.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Conceptual barrier (e.g. What is “notability”?)&lt;/strong&gt; – How do they write the “Wikipedia way”? What does it mean when their subject is not notable enough? What is NPOV?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Cultural (e.g. Why are people so mean?)&lt;/strong&gt; – Newcomers are often unaware of the collaborative effort involved in writing Wikipedia. In turn, they can’t easily become part of the “community” of established and active editors, because they don’t know it exists. And for many, their first interaction is not positive because it’s someone telling them they did something wrong, or reverting their edit.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/new-editors-barriers.png&quot; alt=&quot;Illustration showing three icons - no wikitext, warning sign and a sad message emoji&quot; /&gt;
-  &lt;figcaption&gt;Illustration of the three key barriers (Technical, Conceptual, and Cultural) newcomers face when editing Wikipedia. By Rita Ho | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0&quot;&gt;CC BY-SA 4.0&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Besides the different newcomer needs, motivations, and challenges being surfaced, the research concluded with a number of recommendations. This was where the Growth team came into the picture, as it was formed to take action on these recommendations.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Our aim was to experiment with design interventions to drive increases in activation and retention of newcomers.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;3-the-set-up-team-process-and-principles&quot;&gt;3. The set up: Team process and principles&lt;/h1&gt;
-
-&lt;p&gt;Vanilla Ice once sang, “&lt;a href=&quot;https://en.wikipedia.org/wiki/Ice_Ice_Baby&quot;&gt;Stop, collaborate and listen&lt;/a&gt;”. Our team works according to similar principles, but in a different order.&lt;/p&gt;
-
-&lt;h2 id=&quot;1-collaborate-in-the-open&quot;&gt;1. Collaborate in the open&lt;/h2&gt;
-&lt;p&gt;Modelling on the success of the New Editor Experiences research approach, a core part of our process is to ensure close communication and collaboration with the communities in which we work. The first thing we did when the team was formed was to partner with four “pilot” languages (Korean, Czech, Arabic, and Vietnamese) that we would collaborate with in controlled experiments. In addition to the team’s Community Relations Specialist (a liaison between Wikimedia product teams and volunteer community members), we created a “Community Ambassador” role for each pilot language – a representative who helps us to collaborate with their respective members on a range of tasks such as translation, communicating our progress, and recruiting others to participate in our project.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/growth-team-wikipedias-logo.png&quot; alt=&quot;Logos of the Growth team and pilot wikis&quot; /&gt;
-  &lt;figcaption&gt;Top: &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Growth_team_logo_-_en.svg&quot;&gt;Growth team logo - en&lt;/a&gt; | By Rita Ho | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0&quot;&gt;CC BY-SA 4.0&lt;/a&gt;  || Bottom (left to right): &lt;a href=&quot;https://commons.wikimedia.org/wiki/Wikipedia/2.0#SVG&quot;&gt;Wikipedia logo 2.0&lt;/a&gt; for &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2-ar.svg&quot;&gt;Arabic&lt;/a&gt;, &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2-cs.svg&quot;&gt;Czech&lt;/a&gt;, &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2-ko.svg&quot;&gt;Korean&lt;/a&gt;, and &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Wikipedia-logo-v2-vi.svg&quot;&gt;Vietnamese&lt;/a&gt; | By Wikimedia Foundation &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/3.0&quot;&gt;CC BY-SA 3.0&lt;/a&gt; (™ Wikipedia logo)&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Notably, not only do we collaborate with our communities, but because it’s Wikipedia – anyone can be a part of the community – so we work in the public. We post in-progress designs and engineering updates that anyone interested can react to and give feedback.&lt;/p&gt;
-
-&lt;h2 id=&quot;2-listen&quot;&gt;2. Listen&lt;/h2&gt;
-&lt;p&gt;We listen to all the feedback coming back on our work, from usability testing on early stage designs through to analysing data from our released experiments in order to decide how to improve. We also listen to our community partners, and try to ensure there is sufficient flexibility and adaptability in designs to work for different groups.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-stop-if-its-not-working&quot;&gt;3. Stop (if it’s not working)&lt;/h2&gt;
-&lt;p&gt;A very important work principle we try to keep in mind is that experiments fail. When we see something is not working, we try to make a clean stop and take learnings from that failure to make the next experiment better.&lt;/p&gt;
-
-&lt;p&gt;Of course, nested in this last principle is making sure we are measuring results rigorously, and running &lt;a href=&quot;https://en.wikipedia.org/wiki/Treatment_and_control_groups&quot;&gt;controlled experiments&lt;/a&gt; for everything we try.&lt;/p&gt;
-
-&lt;h1 id=&quot;4-design-experiments-1-2-and-3-down-up-and-up&quot;&gt;4. Design experiments 1, 2, and 3: Down, up, and up&lt;/h1&gt;
-
-&lt;p&gt;To illustrate our process and journey, I’d like to talk about three key experiments our team has worked on based on major recommendations from the design research.&lt;/p&gt;
-
-&lt;h2 id=&quot;1-help-panel-a-helpful-failure&quot;&gt;#1 Help panel: A helpful failure&lt;/h2&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/growth-help-panel.png&quot; alt=&quot;Screenshots of the help panel&quot; /&gt;
-  &lt;figcaption&gt;Screenshots of the Help panel open over the “Hamlet” article from four Wikipedia languages (left to right: Arabic, Czech, Korean, and Vietnamese). | Text from Wikimedia projects are &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC-BY-SA-3.0&lt;/a&gt;.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;One of our first experiments was based on research recommendations for better &lt;strong&gt;in-context help&lt;/strong&gt; (small doses of help relevant to the activity being done at that moment), as well as &lt;strong&gt;human-to-human help&lt;/strong&gt; (providing a real connection to a friendly person in the community). In a nutshell, the feature was a help panel tool available to newcomers when they opened an article for editing, and allowed them to search and/or ask questions to experienced users about how to edit.&lt;/p&gt;
-
-&lt;p&gt;In order for this design to work in practice, not only did we consult with all our pilot wikis for buy-in on the idea, via our ambassadors, but we needed these very experienced editors from each language to sign up to answer questions. So community engagement was doubly important for this experiment.&lt;/p&gt;
-
-&lt;p&gt;The engagement with the help panel was quite high&lt;sup&gt;&lt;a href=&quot;#note-7&quot; id=&quot;ref-7&quot;&gt;[7]&lt;/a&gt;&lt;/sup&gt; considering its ancillary placement and function, so we considered it a positive sign that newcomers want in-context and human help.  An interesting tidbit was that there were cultural differences in the usage, where Koreans asked very few questions compared to the other pilot wikis. However, per our “Stop if it’s not working” principle, we ultimately didn’t see any change in more people starting to edit or being retained, so we paused further iteration and went to try a different idea.&lt;/p&gt;
-
-&lt;h2 id=&quot;2-newcomer-homepage-a-welcoming-place&quot;&gt;#2 Newcomer homepage: A welcoming place&lt;/h2&gt;
-&lt;p&gt;The Newcomer homepage was the second project built as a result of  the usability testing of our earlier work, where we noticed a lot of test participants expected a dashboard or some homepage to orient themselves.&lt;/p&gt;
-
-&lt;p&gt;So we created this “newcomer homepage” that gives them that clear place to start.&lt;/p&gt;
-
-&lt;p&gt;In its first iteration, it contained a few different modules that help someone learn about editing, encourage them to create a user page, and seek help from both the help desk or from a specific experienced editor assigned as their mentor.&lt;/p&gt;
-
-&lt;p&gt;It was encouraging to see people engaging with this page and returning to it on multiple days to take different actions. One of our most important observations was that the most popular button was for creating a “user page”, which is like a user profile in which newcomers can identify themselves to others.  The engagement with this button gave us a very strong signal that newcomers will start contributing if given a call-to-action.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/interaction-percentage.png&quot; alt=&quot;Screenshot showing interaction percentages&quot; /&gt;
-  &lt;figcaption&gt;Image is a derivative of &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Homepage_mockup_2019-04-24.png&quot;&gt;Homepage mockup 2019-04-24&lt;/a&gt;, by Alessandro Contini, used under &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0&quot;&gt;CC BY-SA 4.0&lt;/a&gt;, with percentage values added to indicate the different amount of interactions from newcomers on various parts of the homepage, showing the “create user page” call to action as having the highest percent of clicks. This image is licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0&quot;&gt;CC BY-SA 4.0&lt;/a&gt; [Rita Ho].&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;3-newcomer-tasks-suggestions-to-get-started&quot;&gt;#3 Newcomer tasks: Suggestions to get started&lt;/h2&gt;
-&lt;p&gt;A natural next step after seeing newcomers interacting and seeking out editing actions on the newcomer homepage was to give them opportunities to edit actual Wikipedia articles. We did this in the form of newcomer task recommendations, a feature we call “Suggested edits” on the homepage.&lt;/p&gt;
-
-&lt;p&gt;Based on foundational research and cumulative feedback from previous experiments, we knew that many newcomers either arrive with a very challenging edit in mind (e.g., write a new article from scratch) from which failure becomes a demoralising dead-end, or else they don’t have any edits in mind at all, and never find their footing as contributors. The “Suggested edits” module offers tasks ranging from easy tasks (like copyediting or adding links), to harder tasks (like adding citations or expanding articles) that newcomers can filter to based on their specific interests (e.g., copyedit articles about “Food and drink”). This feature is intended to cater to both groups – a clear way to start editing for those who don’t know what they want to do, and for those who do have a difficult edit in mind, it provides a learning pathway to build up their skills first.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/suggested-edit-mobile.png&quot; alt=&quot;Screenshots of Suggested edits on mobile&quot; /&gt;
-  &lt;figcaption&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Suggested_edits_-_sample_mobile_screens.png&quot;&gt;Suggested edits - sample mobile screens&lt;/a&gt; | By RHo (WMF) | &lt;a href=&quot;https://creativecommons.org/licenses/by/4.0/&quot;&gt;CC BY 4.0&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Since its launch, and as we added more editing guidance and improvements to the homepage design over multiple iterations and variant tests (a subject for another post), we’ve seen steady increases in edits and number of editors using it. In other words, the release of this experimental feature saw us succeed in increasing editor activation and retention. 🙌 🙌&lt;/p&gt;
-
-&lt;h1 id=&quot;5-now-what--doubling-down-and-scaling-up&quot;&gt;5. Now what?  Doubling down and scaling up&lt;/h1&gt;
-&lt;p&gt;The success we saw in the pilot languages meant that we are able to work on the next great problem to solve: how can we scale up and encourage all the other Wikipedias to adopt our features?&lt;sup&gt;&lt;a href=&quot;#note-8&quot; id=&quot;ref-8&quot;&gt;[8]&lt;/a&gt;&lt;/sup&gt; Luckily, one of the benefits of working in this somewhat slow-and-steady approach is that as the team consults with the different language communities, we’ve got a lot of supporting data and built up a lot of trust from collaborating with our pilot communities which has helped encourage many language communities to sign up. To date, we’ve added the features to 35 Wikipedias, which, when accounting for the relative sizes of the languages, amounting to nearly half (42% to be exact) of all newcomers to Wikipedia.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/nurturing-newbies/languages-with-growth-features.png&quot; alt=&quot;List of languages where growth features are enabled&quot; /&gt;
-  &lt;figcaption&gt;Illustration showing that the 35 Wikipedia languages which currently have the Growth team’s newcomer features accounts for nearly half of all newcomers (new accounts) on Wikipedia. | By Rita Ho CC BY-SA 4.0, Wikimedia Foundation CC BY-SA 3.0 (™ Wikipedia logo)&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Reflecting on the time it has taken from the initial failed experiment with the help panel to the modest success we’ve had so far in increasing new contributors, these were my biggest realisations about what it is to design with and for the open community of communities that is Wikipedia.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Importance of collaborating with communities for adoption &amp;amp; understanding.&lt;/strong&gt; Collaborating with our communities is paramount for trust, acceptance, and improved user experience&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Experimenting with an open mind&lt;/strong&gt; (and being ready to fail with a next plan).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;There’s no one size fits all for everyone.&lt;/strong&gt; Accepting that actually, there is no perfect design for everyone. Seeing how different cultures and languages react to and use the same design differently has made me realise the importance of allowing a degree of customization, to empower different communities to figure out what’s best for them.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Change takes time and perseverance&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;6-whats-next&quot;&gt;6. What’s next?&lt;/h1&gt;
-
-&lt;p&gt;We’ve now established a good cadence to our experiment-and-scale-up-on-success approach, and as the Growth team features become available on more Wikipedias, our ultimate goal is that one day these will no longer be experiments but a core part of welcoming editors to the Wikipedia community. So, mission accomplished right?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thankfully, my job as a designer is not done here.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;You may have noticed that all the design interventions so far have been about trying to get newcomers to succeed by giving them access to help and suggestions to edit using the existing editing interface. At the moment, if someone selects a suggested edit to “copy edit” an article, they don’t receive any specific pointers about what part of the article needs help with fixing spelling or grammar. Our newcomers still need to know which of the many editing tools they should be using, and will often need to ask for more guidance. And that’s what instigated our team’s latest design exploration: &lt;strong&gt;Structured tasks.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The idea is that instead of guiding people through the current complex, open-ended editing UI, we create new, easier ways to edit. And we will do this by breaking down editing tasks you can do on Wikipedia into a series of single smaller steps or “structured tasks” instead. Something that newcomers can quickly and easily accomplish.&lt;/p&gt;
-
-&lt;p&gt;The very first structured task that we have designed is to review suggestions by an algorithm to make words in a Wikipedia article link to other articles, and we are again approaching this by seeing how this new task type is working firstly for our pilot Wikipedias by the start of June 2021. I’m anxiously optimistic about  how this next experiment goes, fodder for  another post, but until then (and until there’s time for another blog post), you can learn more about our work on our &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth&quot;&gt;team page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;&lt;em&gt;
-Cover image by Rizzelli Stefania. Taken from &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:MUFFE_E_LIEVITI_ISOLATI_NELLE_FARINE_ALIMENTARI.jpg&quot;&gt;Commons&lt;/a&gt;, licensed under &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/deed.en&quot;&gt;CC-BY-SA-4.0&lt;/a&gt;.
-&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Thanks Marshall Miller, Jessica Klein, and Margeigh Novotny for your feedback and editing help.&lt;/em&gt;&lt;/p&gt;
-
-&lt;footer&gt;
-&lt;p id=&quot;note-1&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-1&quot;&gt;[1]&lt;/a&gt;Digression: As of 2021-05-17, the French version of the Canelé article talks about its creation being connected to wine production in the Bordeaux region: since only egg whites were used in the “fining” wine process, the excess egg yolks were used in canelé-making. This is contrasted with the English article which focuses on the origins of the name, and is much more circumspect about its origins.
-&lt;/small&gt;&lt;/p&gt;
-
-&lt;p id=&quot;note-2&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-2&quot;&gt;[2]&lt;/a&gt;Wikipedia does, however, also offer a pretty great &lt;a href=&quot;https://www.mediawiki.org/wiki/Content_translation&quot;&gt;Content Translation&lt;/a&gt; tool that helps multilingual people translate articles into different languages they know.&lt;/small&gt;&lt;/p&gt;
-
-&lt;p id=&quot;note-3&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-3&quot;&gt;[3]&lt;/a&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia&quot;&gt;https://en.wikipedia.org/wiki/Wikipedia &lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p id=&quot;note-4&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-4&quot;&gt;[4]&lt;/a&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers&quot;&gt;https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p id=&quot;note-5&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-5&quot;&gt;[5]&lt;/a&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Hindi_Wikipedia&quot;&gt;https://en.wikipedia.org/wiki/Hindi_Wikipedia&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p id=&quot;note-6&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-6&quot;&gt;[6]&lt;/a&gt; Ripstra, A. &amp;amp; Quinn, N. (2018). “New Editor Experiences, Wikimania 2018” [PDF Presentation]. Slides 4-5. Available at &lt;a href=&quot;https://wikimania2018.wikimedia.org/wiki/File:New_Editor_Experiences,_Wikimania_2018.pdf&quot;&gt;https://wikimania2018.wikimedia.org/wiki/File:New_Editor_Experiences,_Wikimania_2018.pdf&lt;/a&gt; (Accessed 2021-05-18)
-&lt;/small&gt;&lt;/p&gt;
-
-&lt;p id=&quot;note-7&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-7&quot;&gt;[7]&lt;/a&gt; 13-29% of newcomers opened the help panel. Of those, 43-59% took some action.&lt;/small&gt;&lt;/p&gt;
-
-&lt;p id=&quot;note-8&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-8&quot;&gt;[8]&lt;/a&gt;Some of you may be flummoxed that it is a necessary step at all to encourage the different communities to adopt our features. This is one of the interesting things about designing for Wikipedia! Communities have the option to not adopt the features we create, literally being able to change or turn off features if their particular community has not reached consensus. This is what makes developing trust and collaboration particularly vital, and also helps explain our slower pace of change.
-&lt;/small&gt;&lt;/p&gt;
-&lt;/footer&gt;</content><author><name></name></author><summary type="html">Reflections on a multi-year effort now bearing fruit</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/nurturing-newbies/isolated-food-flours.jpeg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/nurturing-newbies/isolated-food-flours.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/footer&gt;</content><author><name></name></author><summary type="html">The new search experience on Wikimedia Commons</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/Search_on_Wikimedia_Commons.jpg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/Search_on_Wikimedia_Commons.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

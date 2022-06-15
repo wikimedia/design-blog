@@ -1,0 +1,20 @@
+{% capture src %}/assets/uploads/{{ page.id | slice: 12, 1000 }}/{{ include.src }}{% endcapture %}
+
+{% if include.license %}{% assign license = site.data.licenses[include.license] %}{% endif %}
+
+{% capture caption %}
+{% if include.href %}<a href="{{ include.href }}">{{ include.caption }}</a>{% else %}{{ include.caption }}{% endif %}
+{% if include.author  %} | By {{ include.author }}{% endif %}
+{% if include.license %} | <a href="{{ license.url }}">{{ license.name }}</a>{% endif %}
+{% endcapture %}
+
+<figure class="image">
+	<img
+		src="{{ src | relative_url }}"
+		{% if include.alt %}alt="{{ include.alt }}"{% endif %}
+		loading="lazy"
+		width="720"
+	>
+
+	{% if include.caption %}<figcaption>{{ caption }}</figcaption>{% endif %}
+</figure>

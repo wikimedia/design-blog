@@ -4,5 +4,6 @@
 /.sass-cache/
 /_dev/
 /vendor/
+assets/uploads/*/src/*
 .DS_Store
 **/.DS_Store
