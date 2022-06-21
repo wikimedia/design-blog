@@ -113,18 +113,6 @@ table, th, td {
   margin: 0 auto;
 }
 
-figure.image > img,
-figure.video > video {
-	display: block;
-	max-height: 50vh;
-	margin: 1.6rem auto;
-}
-
-figure.audio {
-	width: fit-content;
-	margin: 1.6rem auto;
-}
-
 .pagination {
   text-align: center;
 }
@@ -141,4 +129,18 @@ figure.audio {
   .banner__content {
     padding-top: 3rem;
   }
+}
+
+/* CUSTOM */
+
+figure.image > img,
+figure.video > video {
+	display: block;
+	max-height: 50vh;
+	margin: 1em auto;
+}
+
+figure.audio {
+	width: fit-content;
+	margin: 1em auto;
 }
