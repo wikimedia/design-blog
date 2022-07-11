@@ -1,6 +1,6 @@
 {% capture src %}/assets/uploads/{{ page.id | slice: 12, 1000 }}/{{ include.src }}{% endcapture %}
 
-<figure class="video">
+<figure class="figure--video">
 	<video
 		src="{{ src | relative_url}}"
 		{% if include.alt %}alt="{{ include.alt }}"{% endif %}

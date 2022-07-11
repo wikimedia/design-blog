@@ -8,7 +8,7 @@
 {% if include.license %} | <a href="{{ license.url }}">{{ license.name }}</a>{% endif %}
 {% endcapture %}
 
-<figure class="image">
+<figure class="figure--image">
 	<img
 		src="{{ src | relative_url }}"
 		{% if include.alt %}alt="{{ include.alt }}"{% endif %}
