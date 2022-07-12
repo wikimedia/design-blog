@@ -16,5 +16,5 @@
 		width="720"
 	>
 
-	{% if include.caption %}<figcaption>{{ caption }}</figcaption>{% endif %}
+	{% if include.caption %}<figcaption>{{ caption | markdownify }}</figcaption>{% endif %}
 </figure>
