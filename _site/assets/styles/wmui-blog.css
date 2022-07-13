@@ -131,16 +131,14 @@ table, th, td {
   }
 }
 
-/* CUSTOM */
-
-figure.image > img,
-figure.video > video {
+.figure--image > img,
+.figure--video > video {
 	display: block;
 	max-height: 50vh;
-	margin: 1em auto;
+	margin: 1.6rem auto;
 }
 
-figure.audio {
+.figure--audio {
 	width: fit-content;
-	margin: 1em auto;
+	margin: 1.6rem auto;
 }

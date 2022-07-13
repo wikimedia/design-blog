@@ -131,8 +131,6 @@ table, th, td {
   }
 }
 
-/* CUSTOM */
-
 .figure--image > img,
 .figure--video > video {
 	display: block;

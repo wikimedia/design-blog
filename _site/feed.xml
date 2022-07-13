@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-06-21T17:48:45+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Hey, check out this egg-laying wool-milk-pig: said no one ever</title><link href="https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig.html" rel="alternate" type="text/html" title="Hey, check out this egg-laying wool-milk-pig: said no one ever" /><published>2022-06-14T07:30:00+00:00</published><updated>2022-06-14T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://twitter.com/scblr&quot;&gt;Robin Schoenbaechler&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://twitter.com/itsjaztanner&quot;&gt;Jazmin Tanner&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-07-13T01:34:35+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Hey, check out this egg-laying wool-milk-pig: said no one ever</title><link href="https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig.html" rel="alternate" type="text/html" title="Hey, check out this egg-laying wool-milk-pig: said no one ever" /><published>2022-06-14T07:30:00+00:00</published><updated>2022-06-14T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://twitter.com/scblr&quot;&gt;Robin Schoenbaechler&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://twitter.com/itsjaztanner&quot;&gt;Jazmin Tanner&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Over the past year, the Wikimedia Foundation Android team has focused on &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android/Communication&quot;&gt;improving the communications experience&lt;/a&gt; in the Wikipedia Android app. Asynchronous collaboration is a core component of the Wikipedia editing experience, and the lower the entry barrier to editing, the more diverse the content will be for our 14 projects across 300 languages. This diversity of content and collaborators is core to the &lt;a href=&quot;https://meta.wikimedia.org/wiki/Movement_Strategy&quot;&gt;movement strategy&lt;/a&gt;, which focuses on knowledge equity and knowledge as a service. The movement strategy brings us closer to ensuring our projects represent the sum of all knowledge.&lt;/p&gt;
 
@@ -8,7 +8,7 @@
 
 &lt;h2 id=&quot;the-egg-laying-wool-milk-pig-for-android&quot;&gt;The egg-laying wool-milk-pig for Android&lt;/h2&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;figure--image&quot;&gt;
 	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/1-eierlegende-wollmichsau.webp&quot; alt=&quot;Eierlegende Wollmilchsau&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
 
 	&lt;figcaption&gt;
@@ -18,7 +18,7 @@
 &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure class=&quot;audio&quot;&gt;
+&lt;figure class=&quot;figure--audio&quot;&gt;
 	&lt;audio src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/die-eierlegende-wollmilchsau.m4a&quot; alt=&quot;Word pronunciation&quot; controls=&quot;&quot;&gt;
 	&lt;/audio&gt;
 
@@ -93,7 +93,7 @@
 
 &lt;p&gt;As we delve deeper into our quantitative data, there’s evidence of commonalities amongst different cultures, use cases, and needs. Our data scientist, Shay Nowick, was able to provide the insight that &lt;a href=&quot;https://analytics.wikimedia.org/published/reports/wikipedia-android-app/metrics/2021-03.html&quot;&gt;62%&lt;/a&gt; of those that opt-in to share anonymized data visit the article view most frequently in the app.&lt;/p&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;figure--image&quot;&gt;
 	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/2-article-view.webp&quot; alt=&quot;Article View&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
 
 	&lt;figcaption&gt;
@@ -111,7 +111,7 @@ The article view is the most visited screen in the app.
 
 &lt;p&gt;In 2019, the &lt;a href=&quot;https://diff.wikimedia.org/2021/11/30/wikipedia-and-apps-a-love-story/&quot;&gt;“readers first” strategy&lt;/a&gt; shifted from full-article editing to explore the concept of micro contributions with the introduction of a feature called suggested edits. Micro contributions aim to lower the barrier to contributing by introducing an alternative to longform writing.&lt;/p&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;figure--image&quot;&gt;
 	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/3-suggested-edits.webp&quot; alt=&quot;Suggested Edits&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
 
 	&lt;figcaption&gt;
@@ -125,7 +125,7 @@ Suggested edits present opportunities for small but vital contributions to Wikip
 
 &lt;p&gt;However, this change could ultimately distract someone who just had the goal of reading as you can see in the example below:&lt;/p&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;figure--image&quot;&gt;
 	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/4-edit-calls.webp&quot; alt=&quot;Edit calls&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
 
 	&lt;figcaption&gt;
@@ -149,7 +149,7 @@ Multiple edit calls to action distract from reading the article.
   &lt;p&gt;“I want the option to hide the bottom bar as I scroll down. Thank you.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;figure--image&quot;&gt;
 	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/5-toolbar.webp&quot; alt=&quot;Toolbar&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
 
 	&lt;figcaption&gt;
@@ -177,7 +177,7 @@ The article’s bottom toolbar stays visible when reading and scrolling.
 
 &lt;p&gt;Instead of using a clickable design prototype, our developers created a working prototype that our participants could download:&lt;/p&gt;
 
-&lt;figure class=&quot;video&quot;&gt;
+&lt;figure class=&quot;figure--video&quot;&gt;
 	&lt;video src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/6-prototype.webm&quot; alt=&quot;Prototype&quot; controls=&quot;&quot;&gt;
 	&lt;/video&gt;
 
@@ -228,7 +228,7 @@ The article’s bottom toolbar stays visible when reading and scrolling.
 
 &lt;p&gt;Depending on the maturity of the wiki, the audience, and user goals, the preferences for what links were available varied, which made it apparent that the next phase of our work before releasing new communication features needed to take a closer look at shortcut usage in the bottom toolbar and the top menu:&lt;/p&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;figure--image&quot;&gt;
 	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/7-research-data.webp&quot; alt=&quot;Research Data&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
 
 	&lt;figcaption&gt;
@@ -240,7 +240,7 @@ Our data informed us that the bottom toolbar and top menu usage ranking were as 
 
 &lt;p&gt;&lt;strong&gt;Designing for people’s preferences while keeping the experience focused challenged us, but is becoming more of an industry standard with the launch of &lt;a href=&quot;https://material.io/blog/announcing-material-you&quot;&gt;Material You&lt;/a&gt;.&lt;/strong&gt; Relatedly, one of our approaches to toolbar customization was inspired by Google Chrome. We explored the idea of adding all items to the top menu.&lt;/p&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;figure--image&quot;&gt;
 	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/8-actions-destinations.webp&quot; alt=&quot;Actions and Destinations&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
 
 	&lt;figcaption&gt;
@@ -260,7 +260,7 @@ Access to the actions and destinations in Chrome on Android.
 
 &lt;p&gt;We learned that people had difficulties discovering the “Customize toolbar” feature within the “Theme” shortcut, trouble discovering where items that were moved out of the toolbar and into the overflow menu were placed and issues dragging and dropping items, a gesture we incorrectly assumed would be intuitive. This implored us to have a closer look and ensure our drag and drop movements met Web Accessibility Guidelines(&lt;a href=&quot;https://www.boia.org/blog/how-drag-and-drop-movements-affect-web-accessibility&quot;&gt;WCAG&lt;/a&gt;).&lt;/p&gt;
 
-&lt;figure class=&quot;video&quot;&gt;
+&lt;figure class=&quot;figure--video&quot;&gt;
 	&lt;video src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/10-customizable-toolbar.webm&quot; alt=&quot;Customizable Toolbar&quot; controls=&quot;&quot;&gt;
 	&lt;/video&gt;
 
@@ -275,7 +275,7 @@ Access to the actions and destinations in Chrome on Android.
 
 &lt;p&gt;&lt;strong&gt;We now faced a real example from the inclusive product development playbook of having to choose equity over speed.&lt;/strong&gt; After sharing the results with our communities and collaborating with other Wikimedia Foundation teams like the &lt;a href=&quot;https://www.mediawiki.org/wiki/Design&quot;&gt;design team&lt;/a&gt;, we created two iterations of the original design:&lt;/p&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;figure--image&quot;&gt;
 	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/11-variants.webp&quot; alt=&quot;Variants&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
 
 	&lt;figcaption&gt;
@@ -339,7 +339,7 @@ Variant A featured a ‘More’ menu item in the bottom toolbar alongside four s
 
 &lt;p&gt;&lt;strong&gt;We are committed to equitably&lt;/strong&gt; &lt;strong&gt;&lt;a href=&quot;https://design.wikimedia.org/blog/2020/05/21/improve-ux-for-everyone.html&quot;&gt;design with everyone&lt;/a&gt; and modify the proverbial table to include as many as possible — and we think you should too&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;figure class=&quot;image&quot;&gt;
+&lt;figure class=&quot;figure--image&quot;&gt;
 	&lt;img src=&quot;/blog/assets/uploads/egg-laying-wool-milk-pig/12-diversity-white-bg.webp&quot; alt=&quot;Diversity White BG&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
 
 	
