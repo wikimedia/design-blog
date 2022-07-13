@@ -30,3 +30,9 @@ in order to show the latest output.
   ```
   bundle exec jekyll build -d _site/
   ```
+
+### Ignored assets
+Jekyll ignores files and directories that are prefixed by `_` and everything else is copied to `_site`.
+
+`_src` directories inside `assets/` contain source assets used to generate the assets that go on the site.
+
