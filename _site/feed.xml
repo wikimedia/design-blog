@@ -1,4 +1,257 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-07-25T19:24:08+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Hey, check out this egg-laying wool-milk-pig: said no one ever</title><link href="https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig.html" rel="alternate" type="text/html" title="Hey, check out this egg-laying wool-milk-pig: said no one ever" /><published>2022-06-14T07:30:00+00:00</published><updated>2022-06-14T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://twitter.com/scblr&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Robin Schoenbaechler&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://twitter.com/itsjaztanner&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Jazmin Tanner&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-07-25T23:09:44+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Entering the Wikimedia universe: starting with a design internship</title><link href="https://design.wikimedia.org/blog/2022/07/12/entering-wikimedia-universe.html" rel="alternate" type="text/html" title="Entering the Wikimedia universe: starting with a design internship" /><published>2022-07-12T00:00:00+00:00</published><updated>2022-07-12T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/07/12/entering-wikimedia-universe</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/07/12/entering-wikimedia-universe.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://www.linkedin.com/in/olgatichonova&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Olga Tichonova&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Universe image adapted from Alexander Meleg, &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/3.0&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;CC BY-SA 3.0&lt;/a&gt;, via Wikimedia Commons&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Trying to find a job during the peak of the pandemic as a junior UX designer was a grueling process, but after months of applying, I was given the opportunity to start a 9-month internship at the Wikimedia Foundation. There are a limited number of junior design positions out there that allow new designers to gain the experience required to propel their careers forward. This blog post is intended to share insights from my experience, specifically in these areas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The application process&lt;/li&gt;
+  &lt;li&gt;Design at the Wikimedia Foundation&lt;/li&gt;
+  &lt;li&gt;Summary of the Growth project&lt;/li&gt;
+  &lt;li&gt;Summary of the Editing project&lt;/li&gt;
+  &lt;li&gt;Summary of the iOS work&lt;/li&gt;
+  &lt;li&gt;What’s next?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;the-application-process&quot;&gt;The application process&lt;/h3&gt;
+
+&lt;p&gt;I was applying to purpose-driven organizations because my personal values most closely align with workplaces that aim to have a positive social impact. I was interested in working at the Wikimedia Foundation because I have been a supporter of their mission and have learned about their impact through commons, peer-to-peer, and Transition Design literature. Hence, I decided to apply for a UX Design role there, and to my surprise, I was invited to interview for the position a couple of weeks later.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-interview-process&quot;&gt;The interview process&lt;/h3&gt;
+
+&lt;p&gt;The interview flew by and the hiring manager shared that there were many strong candidates that applied for this role. Generally, the Foundation has only one designer per product team so they hire designers with more experience. She mentioned that there might be an internship program later on but currently there was none. I did not get the UX Designer role that I applied for, but weeks later they reached out and offered me an internship role. Due to the pandemic, they needed someone to help out on the Design team. Since this position didn’t exist in the past, the management didn’t have a clear vision of how I would spend my time, but they offered me to work on a couple of teams and participate in the Foundation’s organizational meetings and events. I accepted the role right away.&lt;/p&gt;
+
+&lt;h3 id=&quot;internship-overview&quot;&gt;Internship overview&lt;/h3&gt;
+
+&lt;p&gt;During the nine months, I rotated through three different teams, which included &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth#Objective&quot;&gt;Growth&lt;/a&gt;, &lt;a href=&quot;https://www.mediawiki.org/wiki/Editing_team&quot;&gt;Editing&lt;/a&gt;, and &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/iOS&quot;&gt;iOS&lt;/a&gt;, where I took over small projects parallel to the team’s main work. Spending time with more than one team allowed me to observe different team processes and work on a variety of deliverables. I was also able to attend all of the design team meetings, product pre-release demos and take part in Wikimedia-wide events.&lt;/p&gt;
+
+&lt;p&gt;The Foundation is a fully remote, nonprofit organization that has a very welcoming, engaging, and collaborative environment. The design team is distributed across a number of projects and time zones, but the whole team meets on a weekly basis, which allows the designers to share their work, discuss relevant topics and get valuable feedback from one another.&lt;/p&gt;
+
+&lt;h2 id=&quot;work-on-the-growth-team&quot;&gt;Work on the Growth team&lt;/h2&gt;
+
+&lt;p&gt;The first 4 months of the internship I spent on the &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth#Objective&quot;&gt;Growth team&lt;/a&gt; working on a &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth/Mentor_dashboard?languageinheader=1&amp;amp;useskinversion=2&quot;&gt;mentorship dashboard&lt;/a&gt;. The team generally focuses on developing software that can help engage new contributors, especially those in mid-size Wikipedia projects. Engagement over the years has decreased because new contributors need to learn technical and cultural skills to start contributing to Wikipedia, and it is not always straightforward to acquire these skills. The team has previously built a &lt;a href=&quot;https://www.mediawiki.org/wiki/Growth/Personalized_first_day/Newcomer_homepage&quot;&gt;newcomer homepage&lt;/a&gt;, which is a primary feature in the team’s core objective to improve newcomer retention. The newcomer homepage has a range of modules, one of which is the mentor module where the newcomer can reach out to an experienced editor with questions or concerns. Currently, the mentors don’t know anything about their mentees until the mentee reaches out to them. I was assigned to improve the mentor experience, which included understanding the mentor’s needs and frustrations and designing a dashboard that would allow them to be more proactive in their mentorship role.&lt;/p&gt;
+
+&lt;h3 id=&quot;support&quot;&gt;Support&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Throughout the project I had support and guidance from the designer on the Growth team, who met with me on a weekly basis and gave me feedback on my process and designs. These meetings kept me on track and helped me plan out my weeks.&lt;/li&gt;
+  &lt;li&gt;Additionally, I met with the project manager on a biweekly basis where we discussed timelines and other milestones like presenting research to the team.&lt;/li&gt;
+  &lt;li&gt;Later in the process, I had weekly meetings with the engineer who worked on the project with me and was a great support throughout my time on the team.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;discovery-phase&quot;&gt;Discovery phase&lt;/h3&gt;
+
+&lt;p&gt;I began with exploring the problem space by studying mentorship, existing Wikipedia projects, and external mentoring platforms. The research helped me get accustomed to the Wikipedia-scape, but I still knew little about mentorship on the platform. Therefore, I decided to conduct interviews with mentors on wikis to which the Growth features have been deployed and talk with mentors on Russian, Ukrainian, Arabic, Vietnamese, Czech, Hungarian and French wikis.&lt;/p&gt;
+
+&lt;p&gt;The research goals for the interviews were to:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Understand the general profile of a mentor&lt;/li&gt;
+  &lt;li&gt;Understand the mentor’s motivations and attitudes regarding mentoring&lt;/li&gt;
+  &lt;li&gt;Understand processes &amp;amp; behaviors&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;the-interviews&quot;&gt;The interviews&lt;/h3&gt;
+
+&lt;p&gt;After transcribing and consolidating the interviews I learned that there was a continual thread that linked the mentors: their willingness and patience to teach and help newcomers. Almost every mentor I interviewed had a good experience with a mentor figure when they first started editing Wikipedia and many of the mentors were motivated by this. Most importantly I got to understand what these mentors would like to have in their dashboard:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An overview of their mentee list and mentee contributions.&lt;/li&gt;
+  &lt;li&gt;Template answers for the most frequently asked newcomer questions&lt;/li&gt;
+  &lt;li&gt;Better mentor-mentee related notifications&lt;/li&gt;
+  &lt;li&gt;Better support and training for mentors&lt;/li&gt;
+  &lt;li&gt;For mentees and mentors to be matched by interest or demographic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;defining-and-visual-design-phase&quot;&gt;Defining and Visual Design Phase&lt;/h3&gt;
+
+&lt;p&gt;Based on that information I proceeded to design modules that would showcase information that would help mentors communicate with their mentees, motivate them and help them be better in their roles. It was important to consider the existing workflows of experienced editors and ensure that the dashboard was not a hindrance to them. I designed the following six modules for the first version of the dashboard:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Mentees overview - a module where mentors can view information about the newcomers that were assigned to them.&lt;/li&gt;
+  &lt;li&gt;Settings - dashboard settings where the mentor has an overview of their current status and the welcome message the newcomers see&lt;/li&gt;
+  &lt;li&gt;Unanswered questions - a space where mentors have access to questions they haven’t yet answered from their mentees.&lt;/li&gt;
+  &lt;li&gt;Replies to FAQs - the mentors own saved answers that they can reuse when answering mentees’ questions.&lt;/li&gt;
+  &lt;li&gt;Your impact - this would show the number of contributions their mentees have made, thanks they have received and total questions the mentor has answered.&lt;/li&gt;
+  &lt;li&gt;Resources - is a module that holds the most useful links to resources a new mentor might need.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/entering-wikimedia-universe/image2.webp&quot; alt=&quot;Proposed modules&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+&lt;p&gt;All 9 of the proposed modules for the mentor dashboard.&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;reviewing-the-designs&quot;&gt;Reviewing the designs&lt;/h3&gt;
+
+&lt;p&gt;The designs were reviewed by the Growth team and discussed at the design team’s weekly design review. The feedback that followed was incorporated into the mockups. Receiving feedback from the other designers was an excellent way to improve my work and it was one of the main ways that I was able to continuously learn. Additionally, the presentations by other designers were a great source of learning and inspiration.&lt;/p&gt;
+
+&lt;h3 id=&quot;development-phase&quot;&gt;Development Phase&lt;/h3&gt;
+
+&lt;p&gt;I worked closely with an engineer to build out the top 3 modules for the first version of the dashboard, which was then tested with the community. The modules included the mentee overview, settings and resources. Once the modules were almost ready I ran a moderated remote usability test with the goal of identifying opportunities for usability improvements related to placement, priority, navigation, and orientation. I also wanted to test whether the V1 of the dashboard had met the mentor’s expectations and see what a V2 version should prioritize. The key findings included:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Everyone quickly located the dashboard and the participants found the ‘mentee overview’ to be important. However, they didn’t find the module as functional as others. They wanted further ability to interact with the table.&lt;/li&gt;
+  &lt;li&gt;According to the mentors, the second version of the dashboard should include further modules such as, ‘unanswered questions’, ‘replies to FAQs’ and the ‘impact module’.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lessons-learned&quot;&gt;Lessons learned&lt;/h3&gt;
+
+&lt;p&gt;Biggest learnings and takeaways from the Growth team project:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Experience working on a constantly evolving, iterative project.&lt;/li&gt;
+  &lt;li&gt;Took part in team discussions about their ongoing projects and processes.&lt;/li&gt;
+  &lt;li&gt;Learned about ways the product teams deploy projects and disseminate information amongst other teams.&lt;/li&gt;
+  &lt;li&gt;Learned how to work with the community.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Daily skills and processes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Got in the habit of documenting all of my work to ensure that the information can be easily shared among other teams and the Wikimedia community.&lt;/li&gt;
+  &lt;li&gt;Ran moderated usability testing.&lt;/li&gt;
+  &lt;li&gt;Learned about design systems and got more comfortable using the component library.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;work-on-the-editing-team&quot;&gt;Work on the Editing team&lt;/h2&gt;
+
+&lt;p&gt;For the second part of the internship, I spent time with the &lt;a href=&quot;https://www.mediawiki.org/wiki/Editing_team&quot;&gt;Editing team&lt;/a&gt; which works on editing tools across projects and improves the editor’s ability to contribute to Wikimedia projects. My project revolved around researching and exploring a tool that would help new contributors become more successful at publishing edits that adhere to Wikipedia’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Policies_and_guidelines&quot;&gt;policies and guidelines&lt;/a&gt;. Currently, many new contributors’ first edits get &lt;a href=&quot;https://en.wikipedia.org/wiki/Help:Reverting#:~:text=On%20Wikipedia%2C%20reverting%20means%20undoing,but%20leaving%20other%20contributions%20intact.&quot;&gt;reverted&lt;/a&gt; at Wikipedia because newcomers are not aware of existing policies and guidelines. Having their edits reverted demotivates the newcomers from making further edits and lowers newcomer retention. Hence, the tool could:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make contributors aware when their edits defy existing policies or guidelines before they publish their edits&lt;/li&gt;
+  &lt;li&gt;Help to educate newcomers about policies and guidelines&lt;/li&gt;
+  &lt;li&gt;Diminish the frequency of the newcomer’s first edits being reverted&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;support-1&quot;&gt;Support&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Similarly to the Growth team, I met with the Editing teams designer on a weekly basis&lt;/li&gt;
+  &lt;li&gt;In this team I had a set of deliverables that were determined by the project manager and designer with whom I met multiple times to discuss and present these deliverables&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;discovery-phase-1&quot;&gt;Discovery phase&lt;/h3&gt;
+
+&lt;p&gt;The first phase of the project included putting together a research report that would identify the known and unknown areas of the problem space. The research included information such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The newcomer editing experience&lt;/li&gt;
+  &lt;li&gt;Ways experienced contributors interact with newcomers&lt;/li&gt;
+  &lt;li&gt;The history of policies and guidelines at Wikipedia&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;During the initial research, I learned about the evolution of the policy space at Wikipedia. Writing articles for Wikipedia was an iterative, inclusive and collaborative process where editors could co-create content. As the size of Wikipedia grew, one of its strongest criticisms was that it was an unreliable resource. Over time, community members have made quality control one of the wikis primary focuses. In light of making the information more reliable, the number of policies and guidelines has increased over the years. There are now more policies and guidelines than ever before, they have become complex and are cited much more frequently by editors as a means to support their activity on Wikipedia.&lt;/p&gt;
+
+&lt;p&gt;The team spoke about choosing one policy and using it as a way to help guide the project, it would serve as the policy to showcase the potential editing tool. After consideration, I decided to focus on &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Verifiability&quot;&gt;verifiability&lt;/a&gt;, as it is one of the most important policies for newcomers to be aware of. Since Wikipedia is an online encyclopedia, its content must stem from reliable sources, and therefore defying the verifiability policy while editing will ensure that the editors’ contributions will be &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Reverting&quot;&gt;reverted&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Deletion_policy&quot;&gt;deleted&lt;/a&gt;.
+During the next phase of the project, I did a &lt;a href=&quot;https://www.figma.com/file/YpABXIwc1OfvOW0sCycQka/Editing-policy-project%3A-Comparative-analysis?node-id=0%3A1&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;comparative analysis&lt;/a&gt; of Wikipedia projects as well as external platforms and apps whose objectives were to help teach contributors a specific skill set. I looked mainly at:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Grammar correction apps/writing apps&lt;/li&gt;
+  &lt;li&gt;Education apps and extensions&lt;/li&gt;
+  &lt;li&gt;Existing Wikipedia projects&lt;/li&gt;
+  &lt;li&gt;Gamification methods&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This aided in narrowing the ways the editing tool could be displayed.&lt;/p&gt;
+
+&lt;h3 id=&quot;defining-phase-and-the-visual-design-phase&quot;&gt;Defining phase and the visual design phase&lt;/h3&gt;
+
+&lt;p&gt;This was a difficult phase of the project. With so much valuable information and perhaps more questions than when I had started, I took the first stab at designing the editing tool. The editing tool is a feature that contributors would be able to use to see areas in the text that defied the verifiability policy. For instance, the tool would suggest placing citations in certain areas and it would highlight titles that need to be linked. Additionally, the tool would allow users to quickly access resources about verifiability.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/entering-wikimedia-universe/image5.webp&quot; alt=&quot;Recommendations in side panel&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+&lt;p&gt;A version of the &lt;a href=&quot;https://www.figma.com/file/HDIb51f195EZKZTpDLR5kM/Editing-Project%3A-Policy-Check-Mockups%3A-V1?node-id=0%3A1&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Policy Check&lt;/a&gt; with all recommendations and content located in a side panel.&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/entering-wikimedia-universe/image3.webp&quot; alt=&quot;Inline recommendations&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+&lt;p&gt;Another version of the &lt;a href=&quot;https://www.figma.com/file/HDIb51f195EZKZTpDLR5kM/Editing-Project%3A-Policy-Check-Mockups%3A-V1?node-id=0%3A1&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Policy Check&lt;/a&gt; where recommendations appear inline with the text&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;presenting-at-wikimania&quot;&gt;Presenting at Wikimania&lt;/h3&gt;
+
+&lt;p&gt;Through the editing team, I was able to present the editing tool project at &lt;a href=&quot;https://wikimania.wikimedia.org/wiki/Wikimania&quot;&gt;Wikimania 2021&lt;/a&gt;. I presented with other volunteers in a talk called ‘&lt;a href=&quot;https://www.youtube.com/watch?v=QUhhdgF_1RI&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Editing the Wiki Way: software and future of editing&lt;/a&gt;’. I was able to meet numerous committed community members that are passionate about various projects and discuss the future of editing with them.&lt;/p&gt;
+
+&lt;h3 id=&quot;lessons-learned-1&quot;&gt;Lessons learned&lt;/h3&gt;
+
+&lt;p&gt;Biggest learnings and takeaways from the Editing teams project:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gained experience working on a research-heavy project&lt;/li&gt;
+  &lt;li&gt;Took part in team discussions about their ongoing projects and understood the processes and how these are similar/different to the Growths team.&lt;/li&gt;
+  &lt;li&gt;Learned a lot about policies and guidelines on Wikipedia.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;daily-skills-and-processes&quot;&gt;Daily skills and processes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Put together a research report&lt;/li&gt;
+  &lt;li&gt;Gained practice presenting my process and artifacts to a multitude of people.&lt;/li&gt;
+  &lt;li&gt;Became more comfortable using Miro diagrams.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;work-on-the-ios-team&quot;&gt;Work on the iOS team&lt;/h2&gt;
+
+&lt;p&gt;The final and shortest stretch of the internship was with the &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/iOS&quot;&gt;iOS team&lt;/a&gt;. They are part of the &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps&quot;&gt;Wikimedia Apps project&lt;/a&gt; together with the &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android&quot;&gt;Android team&lt;/a&gt;. The apps teams are historically considered to be more experimental, in part because they have lower user traffic than the desktop and mobile versions of Wikipedia and are used more by readers rather than power editors, who generally engage differently with existing features. It was very interesting to learn a completely new set of processes and to get accustomed to using the apps style guide and a slightly different product altogether.&lt;/p&gt;
+
+&lt;h3 id=&quot;support-2&quot;&gt;Support&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In the iOS team I also met with the designer on a weekly basis and had meetings with the project manager every 2-3 weeks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tasks&quot;&gt;Tasks&lt;/h3&gt;
+
+&lt;p&gt;The team was working on a notification center during my time there and I was tasked to complete a set of audits, do research, and do smaller design tasks that would be helpful in the future. I really appreciated that the team prioritizes designing and developing for a variety of accessibility needs. This is made possible by &lt;a href=&quot;https://developer.apple.com/swift/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Swift&lt;/a&gt;, Apple’s native programming language, which allows one to easily create products that give support to those who might be, for example, visually impaired. Through the variety of deliverables, I was able to engage with different parts of the app and learn more about another pocket of the wiki-verse.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/entering-wikimedia-universe/image1.webp&quot; alt=&quot;Warning explorations mobile banner&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+&lt;p&gt;One of the first tasks I worked on - the iOS mobile banner warning explorations. We ultimately chose the middle option where the warning has a background color and is inline with the text.&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;lessons-learned-2&quot;&gt;Lessons learned&lt;/h3&gt;
+
+&lt;p&gt;Biggest learnings and takeaways from the time spent on the iOS team&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Designing for iPad&lt;/li&gt;
+  &lt;li&gt;Learned more about Apple’s accessibility support&lt;/li&gt;
+  &lt;li&gt;Learned about iOS UI and deployment processes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Daily skills and processes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Learned about the iOS team’s design &amp;amp; engineering processes&lt;/li&gt;
+  &lt;li&gt;Became comfortable doing design audits&lt;/li&gt;
+  &lt;li&gt;Got to know Apple’s Human Interface Guidelines in greater detail&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
+
+&lt;p&gt;I could not have wished for a better internship experience! The 9 months were incredibly diverse, challenging, and fun. I was supported throughout by amazing designers, project managers, engineers, and numerous different team members from the Growth, Editing, and iOS teams, who worked with me to improve my skill set as a designer and helped me find my footing in the wiki-verse.&lt;/p&gt;
+
+&lt;p&gt;Since my internship, I have been offered the opportunity to join the iOS team full-time. The design team is interested in creating more formal internship opportunities for junior designers. This year they have welcomed two new interns to the Design team, and hopefully there will be more internship positions available in the future.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you to Lucy Blackwell, Rita Ho, Jess Klein and Carolyn Li-Madeo for this opportunity, as well as your support and feedback!&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The projects, the processes, and the main learnings from a 9-month design internship at the Wikimedia Foundation.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/entering-wikimedia-universe/image4.webp" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/entering-wikimedia-universe/image4.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hey, check out this egg-laying wool-milk-pig: said no one ever</title><link href="https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig.html" rel="alternate" type="text/html" title="Hey, check out this egg-laying wool-milk-pig: said no one ever" /><published>2022-06-14T07:30:00+00:00</published><updated>2022-06-14T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/06/14/egg-laying-wool-milk-pig.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://twitter.com/scblr&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Robin Schoenbaechler&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://twitter.com/itsjaztanner&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Jazmin Tanner&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Over the past year, the Wikimedia Foundation Android team has focused on &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android/Communication&quot;&gt;improving the communications experience&lt;/a&gt; in the Wikipedia Android app. Asynchronous collaboration is a core component of the Wikipedia editing experience, and the lower the entry barrier to editing, the more diverse the content will be for our 14 projects across 300 languages. This diversity of content and collaborators is core to the &lt;a href=&quot;https://meta.wikimedia.org/wiki/Movement_Strategy&quot;&gt;movement strategy&lt;/a&gt;, which focuses on knowledge equity and knowledge as a service. The movement strategy brings us closer to ensuring our projects represent the sum of all knowledge.&lt;/p&gt;
 
@@ -1515,120 +1768,4 @@ These insights from our research, combined with our own experiences and frustrat
 &lt;p id=&quot;note-2&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-2&quot;&gt;[2]&lt;/a&gt;&lt;a href=&quot;https://www.mediawiki.org/wiki/File:Understanding_KaiOS_users_in_India_-_Report.pdf
 &quot;&gt;https://www.mediawiki.org/wiki/File:Understanding_KaiOS_users_in_India_-_Report.pdf
 &lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/footer&gt;</content><author><name></name></author><summary type="html">The Inuka team at Wikimedia Foundation decided to improve the Wikipedia reading experience on feature phones to accommodate the unique needs and preferences of historically underrepresented users</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/improving-reading-experience/improving-reading-experience.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/improving-reading-experience/improving-reading-experience.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Improving search on Wikimedia Commons</title><link href="https://design.wikimedia.org/blog/2021/08/12/media-search.html" rel="alternate" type="text/html" title="Improving search on Wikimedia Commons" /><published>2021-08-12T07:30:00+00:00</published><updated>2021-08-12T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/08/12/media-search</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/08/12/media-search.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://twitter.com/derrellwilliams&quot;&gt;Matthew Williams&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Many people don’t realize that along with Wikipedia, the &lt;a href=&quot;https://wikimediafoundation.org/&quot;&gt;Wikimedia Foundation&lt;/a&gt; hosts a number of other projects, ranging from reference projects like &lt;a href=&quot;https://en.wiktionary.org/wiki/Wiktionary:Main_Page&quot;&gt;Wiktionary&lt;/a&gt; to software projects like &lt;a href=&quot;https://www.mediawiki.org/wiki/MediaWiki&quot;&gt;MediaWiki&lt;/a&gt;. These projects belong to everyone and like Wikipedia, are free to use to further our goal of providing the essential infrastructure for free knowledge &lt;a href=&quot;https://commons.wikimedia.org/wiki/Main_Page&quot;&gt;Wikimedia Commons&lt;/a&gt; is one of these projects and is the world’s largest free-to-use library of illustrations, photos, drawings, videos, and music. Wikimedia Commons hosts more than 71 million freely usable media files&lt;sup&gt;&lt;a href=&quot;#note-1&quot; id=&quot;ref-1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; to which anyone can contribute. It also hosts and organizes a majority of the media you encounter on Wikipedia.&lt;/p&gt;
-
-&lt;p&gt;Recently, one of the tasks of the structured data team, a cross-functional product team at the Wikimedia Foundation, was to focus on how to improve the search experience on Wikimedia Commons to better surface all of the media files contributed by people from around the world. One of the key tenets of this work was making the experience less intimidating, in particular to those not familiar with Wikimedia Commons. Being able to support a wide range of use-cases, from power users like museums digitizing their photography collection to a high school student using Wikimedia Commons for the first time to find free usable media to complete a science project, was critical to building a successful search experience.&lt;/p&gt;
-
-&lt;p&gt;One obvious area the team focused on was ways to improve search accuracy since it doesn’t matter what you do with the presentation if the actual results aren’t mapping to the expectations of the searcher. However, this article, being written by the designer on the team, will be focused on the work that was done to ensure a much better experience that was created to complement these improved search results.&lt;/p&gt;
-
-&lt;p&gt;When the average person hears that I’m the designer on the Growth team for Wikipedia, there’s a common misconception that it’s about growing the number of readers, the more commonly thought of “Wikipedia user”. However, our team was formed almost three years ago with a different challenge and audience as our focus. This article aims to tell the six-part story of how and why we started this team, and all the failures, learnings, and successes we’ve had since.&lt;/p&gt;
-
-&lt;h1 id=&quot;baseline-research&quot;&gt;Baseline research&lt;/h1&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/Special_Search_on_Commons.jpeg&quot; alt=&quot;Special Search on Commons&quot; /&gt;
-  &lt;figcaption&gt;Largely untouched in its 17-year history, a screenshot of search on Wikimedia Commons before we started this project. | &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Special_Search_on_Commons.jpg&quot;&gt;Special Search on Commons&lt;/a&gt; | Public Domain&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We kicked this project off with a round of research to get a more honest understanding of the strengths and weaknesses of search on Wikimedia Commons. With only a few quotes from the participants of this research, you can see what we were up against:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;There is so much text and details, it was hard to find what I was looking for.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It was frustrating to find all of the advanced search options, I figured it out after a while but didn’t expect to find them where I did.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It doesn’t feel like a very nice display of results…difficult to see the details and evaluate the results with such small images.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It feels complicated and the images are hard to see.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It’s extra work to  navigate back and forth between the file page and search to get everything I need.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I don’t trust it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;As you can read, there was room for improvement. We needed to make the search experience more familiar and easy to use. Image search on the web is not a novel problem but the uniqueness of search on Wikimedia Commons was detrimental to casual users and those not intimately familiar with the project. With over 3 million daily page views&lt;sup&gt;&lt;a href=&quot;#note-2&quot; id=&quot;ref-2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; on Wikimedia Commons, it’s more than obvious we needed to build a tool that made sense to everyone and aligned closer to their expectations.&lt;/p&gt;
-
-&lt;p&gt;We also knew that our most passionate contributors to the Wikimedia Commons project needed certain features and tools to help with their work. Would it be possible to make an experience that both catered to those unfamiliar with Wikimedia Commons and those that use it every day?&lt;/p&gt;
-
-&lt;h2 id=&quot;creating-a-more-functional-and-familiar-interface&quot;&gt;Creating a more functional and familiar interface&lt;/h2&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/Search_on_Wikimedia_Commons.jpg&quot; alt=&quot;A screenshot of the search experience on Wikimedia Commons&quot; /&gt;
-  &lt;figcaption&gt;Upon clicking of a result, you can see more information in a “quick view panel” | &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Search_on_Wikimedia_Commons.jpg&quot;&gt;Search on Wikimedia Commons with Quick View&lt;/a&gt; | By Matthew Williams | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/deed.en&quot;&gt;CC BY-SA 4.0&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;After working through a myriad of wireframes, ideas, and approaches with the team, we began to arrive at some key areas we were going to focus on. One of the more visually obvious changes we started with was moving towards a grid layout that more effectively uses the space and highlights the media shown. Even with images around twice as large, we are able to show around three times as many results before needing to scroll. With as many results as we have, this helped users more quickly parse what Wikimedia Commons has to offer. Other interface improvements included surfacing all the different media types available upfront, making filters easier to find and use, and adding more information to a “quick view panel” upon clicking to eliminate the need to leave the page as often.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/Media_Search_and_Other_File_Types.jpeg&quot; alt=&quot;Screenshots of Media Search while searching for other file types&quot; /&gt;
-  &lt;figcaption&gt;Examples of the different search experiences per file type | &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Media_Search_and_Other_File_Types.jpg&quot;&gt;Media Search and Other File Types.jpg&lt;/a&gt; | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/deed.en&quot;&gt;CC BY-SA 4.0&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We also separated the different types of media files into tabs. It became clear throughout the conversations with research participants that combining all file types into one result set was overwhelming, especially when the majority of visitors just wanted to search for images.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/Media_Search_on_Mobile_Web.jpeg&quot; alt=&quot;Screenshots of the search experience of Commons on Mobile Web&quot; /&gt;
-  &lt;figcaption&gt;Screenshot of the new search on Wikimedia Commons on mobile web | &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:Media_Search_on_Mobile_Web.jpg&quot;&gt;Media Search on Mobile Web&lt;/a&gt; | &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/deed.en&quot;&gt;CC BY-SA 4.0&lt;/a&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;With 30% of all Wikimedia Commons usage&lt;sup&gt;&lt;a href=&quot;#note-3&quot; id=&quot;ref-3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt; on mobile web, we also wanted to make sure that all of these improvements were considered and easy to use on a mobile device.&lt;/p&gt;
-
-&lt;h2 id=&quot;community-input&quot;&gt;Community Input&lt;/h2&gt;
-
-&lt;p&gt;It was clear from research and usability studies that we were making progress with those less familiar with Wikimedia Commons, but what about those who use it the most frequently, like the countless contributors and volunteers, galleries, libraries, and museums?&lt;/p&gt;
-
-&lt;p&gt;This new search experience was designed and built with these communities’ involvement from the ground up, with Wikimedia Commons contributors involved from conception and design to prototyping to the final push for feature completion prior to launch. The team planned a robust feedback cycle for sharing, bringing in information, iterating, and communicating with the community.&lt;/p&gt;
-
-&lt;p&gt;Community involvement began in May 2020 with sharing the ideas and designs, and by June the community was using a prototype. Over the next nine months, the development team would go through six distinct feedback cycles, with a total of 24 community members participating and leaving detailed ideas, comments, concerns, and questions to improve the product.&lt;/p&gt;
-
-&lt;p&gt;Initial feedback was positive and helped us refine many aspects of the new experience. For example, one of the many pieces of useful feedback was a request for a filter that was able to search specifically for images that had received an assessment. Assessments are a system that the community has created to recognize important contributions across Wikimedia Commons, with groupings such as featured pictures, valued images, quality images, and picture of the day. This filter in particular was an excellent suggestion that we were able to implement that really sets Wikimedia Commons apart from other image searching tools with its human-powered curation at scale.&lt;/p&gt;
-
-&lt;h1 id=&quot;results&quot;&gt;Results&lt;/h1&gt;
-&lt;p&gt;After making significant progress, we completed a wide array of usability tests to understand if the answers and changes we had applied from the initial baseline research were actually improving the experience. Here are some of the quotes from those interviews:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Much clearer and simpler to use. I prefer this version because the images are bigger. There were so many details in the old search that it was hard to see what was going on.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It is comparatively much simpler and clearer to understand, with less space wasted in this format.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It feels easier because it requires less clicking and the options are more visible. It also had more images to see at once.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It is more intuitive, user friendly and easier to navigate&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This feels much easier to operate and it is comfortable to use. It was much simpler in style.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;We also conducted a survey in late December 2020/early January 2021, asking users directly if they had a preference for the new search experience or legacy search. We received 40 responses, again showing a preference for the new search.&lt;/p&gt;
-
-&lt;p&gt;Using the evidence from that research and analysis, as well as the qualitative and quantitative feedback from the community, we decided to make this new search experience the default search on Wikimedia Commons.&lt;/p&gt;
-
-&lt;p&gt;With this update, we hope to have made finding and discovering this amazing treasure trove of freely usable media on the internet just a bit easier while honoring all of the hard work and contributions people around the world have made to Wikimedia Commons.&lt;/p&gt;
-
-&lt;footer&gt;
-&lt;p id=&quot;note-1&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-1&quot;&gt;[1]&lt;/a&gt;&lt;a href=&quot;https://commons.wikimedia.org/wiki/Special:Statistics&quot;&gt;https://commons.wikimedia.org/wiki/Special:Statistics&lt;/a&gt;
-&lt;/small&gt;&lt;/p&gt;
-
-&lt;p id=&quot;note-2&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-2&quot;&gt;[2]&lt;/a&gt;&lt;a href=&quot;https://pageviews.toolforge.org/siteviews/?platform=all-access&amp;amp;source=pageviews&amp;amp;agent=user&amp;amp;range=latest-20&amp;amp;sites=commons.wikimedia.org&quot;&gt;https://pageviews.toolforge.org/siteviews/?platform=all-access&amp;amp;source=pageviews&amp;amp;agent=user&amp;amp;range=latest-20&amp;amp;sites=commons.wikimedia.org&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p id=&quot;note-3&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-3&quot;&gt;[3]&lt;/a&gt;&lt;a href=&quot;https://pageviews.toolforge.org/siteviews/?platform=mobile-web&amp;amp;source=pageviews&amp;amp;agent=user&amp;amp;range=latest-20&amp;amp;sites=commons.wikimedia.org&quot;&gt;https://pageviews.toolforge.org/siteviews/?platform=mobile-web&amp;amp;source=pageviews&amp;amp;agent=user&amp;amp;range=latest-20&amp;amp;sites=commons.wikimedia.org&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/footer&gt;</content><author><name></name></author><summary type="html">The new search experience on Wikimedia Commons</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/Search_on_Wikimedia_Commons.jpg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/Search_on_Wikimedia_Commons.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/footer&gt;</content><author><name></name></author><summary type="html">The Inuka team at Wikimedia Foundation decided to improve the Wikipedia reading experience on feature phones to accommodate the unique needs and preferences of historically underrepresented users</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/improving-reading-experience/improving-reading-experience.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/improving-reading-experience/improving-reading-experience.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
