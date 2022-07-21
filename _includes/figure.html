@@ -5,7 +5,7 @@
 {% capture caption %}
 {% if include.href %}<a href="{{ include.href }}">{{ include.caption }}</a>{% else %}{{ include.caption }}{% endif %}
 {% if include.author  %} | By {{ include.author }}{% endif %}
-{% if include.license %} | <a href="{{ license.url }}">{{ license.name }}</a>{% endif %}
+{% if include.license %} | <a href="{{ license.url }}" target="_blank" rel="nofollow">{{ license.name }}</a>{% endif %}
 {% endcapture %}
 
 <figure class="figure--image">

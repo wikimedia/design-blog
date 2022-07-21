@@ -68,6 +68,14 @@ table, th, td {
   margin-bottom: 2rem;
 }
 
+.post__content figcaption > p {
+	margin: inherit;
+	font-size: inherit;
+	font-family: inherit;
+	letter-spacing: inherit;
+	color: inherit;
+}
+
 .banner {
   display: flex;
   margin-bottom: 12rem;

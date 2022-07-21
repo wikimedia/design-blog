@@ -6,11 +6,11 @@ excerpt: How designing for customization leads to inclusion on Wikipedia.
 date: 2022-06-14T07:30:00.585Z
 ---
 
-_By [Robin Schoenbaechler](https://twitter.com/scblr) & [Jazmin Tanner](https://twitter.com/itsjaztanner)_
+_By [Robin Schoenbaechler](https://twitter.com/scblr){:target="_blank" rel="nofollow"} & [Jazmin Tanner](https://twitter.com/itsjaztanner){:target="_blank" rel="nofollow"}_
 
 Over the past year, the Wikimedia Foundation Android team has focused on [improving the communications experience](https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android/Communication) in the Wikipedia Android app. Asynchronous collaboration is a core component of the Wikipedia editing experience, and the lower the entry barrier to editing, the more diverse the content will be for our 14 projects across 300 languages. This diversity of content and collaborators is core to the [movement strategy](https://meta.wikimedia.org/wiki/Movement_Strategy), which focuses on knowledge equity and knowledge as a service. The movement strategy brings us closer to ensuring our projects represent the sum of all knowledge.
 
-**As the organization focuses on knowledge equity, the Product and Technology departments have worked on a** [**framework for inclusive product development**](https://medium.com/freely-sharing-the-sum-of-all-knowledge/the-journey-to-make-wikipedias-technology-more-equitable-152321df1366). To ensure the framework was reflective of the varying scope and team composition of our development teams, seven Wikimedia Foundation teams signed up to test the playbook and provide feedback. The feedback would serve as an input for V2 of the playbook in our framework. With our team’s goal of reducing the barrier to communication and collaboration in the Wikipedia Android app and being very [intentional about accessibility](https://diff.wikimedia.org/2022/01/21/accessibility-support-in-the-wikipedia-android-app/), we were a logical test team for the playbook. We also recognized there would be a lot to balance as we worked towards this goal.
+**As the organization focuses on knowledge equity, the Product and Technology departments have worked on a** [**framework for inclusive product development**](https://medium.com/freely-sharing-the-sum-of-all-knowledge/the-journey-to-make-wikipedias-technology-more-equitable-152321df1366){:target="_blank" rel="nofollow"}. To ensure the framework was reflective of the varying scope and team composition of our development teams, seven Wikimedia Foundation teams signed up to test the playbook and provide feedback. The feedback would serve as an input for V2 of the playbook in our framework. With our team’s goal of reducing the barrier to communication and collaboration in the Wikipedia Android app and being very [intentional about accessibility](https://diff.wikimedia.org/2022/01/21/accessibility-support-in-the-wikipedia-android-app/), we were a logical test team for the playbook. We also recognized there would be a lot to balance as we worked towards this goal.
 
 Although the original request to improve communications in the apps came from experienced members of our community that largely wrote in English, we wanted to be very intentional about partnering with members of the community who haven’t been historically centered in our projects. Depending on the development team and platform the partner communities could look different. In our context, the identified partner community members consisted of women and non-binary editors on Japanese Wikipedia, French and Arabic editors in Mali, Egypt, Morocco, and DR Congo, Hindi and Indonesian Wikipedia editors, English Wikipedia editors in Nigeria and visually impaired English Wikipedia editors in India. You can read more about our process in selecting these partner communities [here](https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android/2021Roadmap?tableofcontents=0).
 
@@ -51,7 +51,7 @@ This article shares the steps we took to develop a design approach that reflects
 
 ### “We shape our tools, thereafter our tools shape us”
 
-This quote by [Marshall McLuhan](https://en.wikipedia.org/wiki/Marshall_McLuhan) feels very true for Wikipedia. Here’s why: When we [improved searching for articles](https://uxdesign.cc/in-search-of-the-perfect-search-for-wikipedia-136f86ac6168), we realized that people use Wikipedia in unique ways. Use cases and opinions for those who regularly use the Wikipedia app vary substantially. This [difference of perspectives](https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android/Communication/UsertestingJuly2021?tableofcontents=0#Results) even rang true when learning from our target audiences what their communication preferences were:
+This quote by [Marshall McLuhan](https://en.wikipedia.org/wiki/Marshall_McLuhan) feels very true for Wikipedia. Here’s why: When we [improved searching for articles](https://uxdesign.cc/in-search-of-the-perfect-search-for-wikipedia-136f86ac6168){:target="_blank" rel="nofollow"}, we realized that people use Wikipedia in unique ways. Use cases and opinions for those who regularly use the Wikipedia app vary substantially. This [difference of perspectives](https://www.mediawiki.org/wiki/Wikimedia_Apps/Team/Android/Communication/UsertestingJuly2021?tableofcontents=0#Results) even rang true when learning from our target audiences what their communication preferences were:
 
 **Editors** see a need for more editing capabilities:
 
@@ -111,7 +111,7 @@ Data shows that the edit asks were somewhat effective in encouraging readers to 
 
 But to the point someone raised about not always wanting to see editing features when they’re in the mood to read, how could we accommodate them?
 
-In addition to not wanting to distract with too many editing call to actions, a community member left the following feedback on the [Google Play](https://play.google.com/store/apps/details?id=org.wikipedia) store which made us question the article’s bottom toolbar:
+In addition to not wanting to distract with too many editing call to actions, a community member left the following feedback on the [Google Play](https://play.google.com/store/apps/details?id=org.wikipedia){:target="_blank" rel="nofollow"} store which made us question the article’s bottom toolbar:
 
 > “Why have you taken away the ability to go full screen? Why do we have to see the bottom toolbar all the time?”
 
@@ -151,13 +151,13 @@ Instead of using a clickable design prototype, our developers created a working 
 
 > “It’s a good feature as the majority of us are here to read articles. It’s a good function to have to limit distractions.” *– Usability test participant, Japanese Wikipedia reader*
 
-These insights gave us the confidence to release the feature to production and enhance discoverability. Check out the [detailed analysis](https://www.notion.so/Usability-testing-Android-Feb-2022-Analysis-c1b536068b78486e80da99c4e0461829) to dig deeper into our findings.
+These insights gave us the confidence to release the feature to production and enhance discoverability. Check out the [detailed analysis](https://www.notion.so/Usability-testing-Android-Feb-2022-Analysis-c1b536068b78486e80da99c4e0461829){:target="_blank" rel="nofollow"} to dig deeper into our findings.
 
 **Reading focus mode was also a success from a quantitative perspective.** **After its release, 80% of all people discovering and interacting with the feature kept it as their default preference.** We did consider making this feature a default experience, but wanted to ensure users knew they could edit, and for that reason we will continue to have reading focus mode disabled by default.
 
 ### Customizing the experience
 
-**Reading focus mode was not the only feature where we aimed to strike the right balance between the needs of readers and editors.** As we added more features to the app, our overflow menu grew, and we noticed [users asking for features](https://www.notion.so/Analysis-experienced-users-c78408250c5241da9cf1df9efb036cc6) that existed but were hidden in the overflow menu:
+**Reading focus mode was not the only feature where we aimed to strike the right balance between the needs of readers and editors.** As we added more features to the app, our overflow menu grew, and we noticed [users asking for features](https://www.notion.so/Analysis-experienced-users-c78408250c5241da9cf1df9efb036cc6){:target="_blank" rel="nofollow"} that existed but were hidden in the overflow menu:
 
 > “Doesn't allow you to read the page's Edit history or Talk page. So practically only useful for reading, not editing.”
 
@@ -177,7 +177,7 @@ Depending on the maturity of the wiki, the audience, and user goals, the prefere
   caption="Our data informed us that the bottom toolbar and top menu usage ranking were as follows: 1. Contents (61.22%) 2. Language (17.57%) 3. Save (8.95%) 4. Find in article (5.76%) 5. Theme (3.03%) 6. Share (2.19%) 7. Explore (0.47%) 8. New tab (0.33%) 9. Categories (0.16%) 10. Edit history (0.16%) 11. Talk page (0.12%) 12. Watch (0.04%). Note that newer features, and features hidden in the overflow menu were clicked less often."
 %}
 
-**Designing for people’s preferences while keeping the experience focused challenged us, but is becoming more of an industry standard with the launch of [Material You](https://material.io/blog/announcing-material-you).** Relatedly, one of our approaches to toolbar customization was inspired by Google Chrome. We explored the idea of adding all items to the top menu.
+**Designing for people’s preferences while keeping the experience focused challenged us, but is becoming more of an industry standard with the launch of [Material You](https://material.io/blog/announcing-material-you){:target="_blank" rel="nofollow"}.** Relatedly, one of our approaches to toolbar customization was inspired by Google Chrome. We explored the idea of adding all items to the top menu.
 
 {% include figure.html
   src="8-actions-destinations.webp"
@@ -185,7 +185,7 @@ Depending on the maturity of the wiki, the audience, and user goals, the prefere
   caption="Access to the actions and destinations in Chrome on Android."
 %}
 
-We asked ourselves if putting all options into one place is considered good or bad information architecture and found the answer in existing research. **[Hiding interface elements reduces their usage](https://www.nngroup.com/articles/hamburger-menus/) as they are less discoverable.** We did not want actions related to the article to be less used, as our audience finds them helpful, so we continued with having shortcuts in the bottom toolbar.
+We asked ourselves if putting all options into one place is considered good or bad information architecture and found the answer in existing research. **[Hiding interface elements reduces their usage](https://www.nngroup.com/articles/hamburger-menus/){:target="_blank" rel="nofollow"} as they are less discoverable.** We did not want actions related to the article to be less used, as our audience finds them helpful, so we continued with having shortcuts in the bottom toolbar.
 
 ## How the-egg-laying wool-milk-pig came to life
 
@@ -193,7 +193,7 @@ We asked ourselves if putting all options into one place is considered good or b
 
 We landed on letting people customize their shortcuts in the bottom toolbar, and developed several prototypes to test which approach best achieved our goal.
 
-We learned that people had difficulties discovering the “Customize toolbar” feature within the “Theme” shortcut, trouble discovering where items that were moved out of the toolbar and into the overflow menu were placed and issues dragging and dropping items, a gesture we incorrectly assumed would be intuitive. This implored us to have a closer look and ensure our drag and drop movements met Web Accessibility Guidelines([WCAG](https://www.boia.org/blog/how-drag-and-drop-movements-affect-web-accessibility)).
+We learned that people had difficulties discovering the “Customize toolbar” feature within the “Theme” shortcut, trouble discovering where items that were moved out of the toolbar and into the overflow menu were placed and issues dragging and dropping items, a gesture we incorrectly assumed would be intuitive. This implored us to have a closer look and ensure our drag and drop movements met Web Accessibility Guidelines([WCAG](https://www.boia.org/blog/how-drag-and-drop-movements-affect-web-accessibility){:target="_blank" rel="nofollow"}).
 
 {% include video.html
   src="10-customizable-toolbar.webm"
@@ -256,8 +256,8 @@ While an egg-laying wool-milk pig does not exist in nature, we have the unique o
   alt="Diversity White BG"
 %}
 
-All the features mentioned in this article are now available in the official [Wikipedia for Android app on Google Play](https://play.google.com/store/apps/details?id=org.wikipedia). Our team is working on many more exciting features to offer all the advantages and satisfy (most of) our user’s sophisticated and sometimes even contradictory needs in the near future.
+All the features mentioned in this article are now available in the official [Wikipedia for Android app on Google Play](https://play.google.com/store/apps/details?id=org.wikipedia){:target="_blank" rel="nofollow"}. Our team is working on many more exciting features to offer all the advantages and satisfy (most of) our user’s sophisticated and sometimes even contradictory needs in the near future.
 
-Follow [@WikipediaMobile](https://twitter.com/WikimediaMobile) on Twitter for the latest news related to Wikipedia apps. If you don’t want to miss the latest design changes to Wikipedia, follow [@WikimediaDesign](https://twitter.com/WikimediaDesign). Please let us know what you think about the updates in the comments below, on [MediaWiki](https://www.mediawiki.org/wiki/Wikimedia_Apps) or [email](mailto:android@wikimedia.org).
+Follow [@WikipediaMobile](https://twitter.com/WikimediaMobile){:target="_blank" rel="nofollow"} on Twitter for the latest news related to Wikipedia apps. If you don’t want to miss the latest design changes to Wikipedia, follow [@WikimediaDesign](https://twitter.com/WikimediaDesign){:target="_blank" rel="nofollow"}. Please let us know what you think about the updates in the comments below, on [MediaWiki](https://www.mediawiki.org/wiki/Wikimedia_Apps) or [email](mailto:android@wikimedia.org).
 
 *Thanks to Matt Cleinman, Shay Nowick, Matthew Williams, Carolyn Li-Madeo, Johan Jönsson, Lucy Blackwell, Sam Patton, Rita Ho, and Jess Klein for their contributions to this article.*
