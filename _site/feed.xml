@@ -1,4 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-07-25T23:09:44+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Entering the Wikimedia universe: starting with a design internship</title><link href="https://design.wikimedia.org/blog/2022/07/12/entering-wikimedia-universe.html" rel="alternate" type="text/html" title="Entering the Wikimedia universe: starting with a design internship" /><published>2022-07-12T00:00:00+00:00</published><updated>2022-07-12T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/07/12/entering-wikimedia-universe</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/07/12/entering-wikimedia-universe.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://www.linkedin.com/in/olgatichonova&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Olga Tichonova&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-11-02T20:00:25+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Solving gendered-harassment: a feminist framework for creating safety on Wikipedia</title><link href="https://design.wikimedia.org/blog/2022/11/02/gendered-harassment-wikipedia.html" rel="alternate" type="text/html" title="Solving gendered-harassment: a feminist framework for creating safety on Wikipedia" /><published>2022-11-02T00:00:00+00:00</published><updated>2022-11-02T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/11/02/gendered-harassment-wikipedia</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/11/02/gendered-harassment-wikipedia.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://aishwaryavardhana.medium.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Aishwarya Vardhana&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;My product team, Trust and Safety Tools, has been tasked with building a system for people to safely report harassment on Wikipedia.&lt;sup id=&quot;fnref:code-of-conduct&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:code-of-conduct&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; As a woman my instinct was to first ask, how does harassment affect women on the platform? What about other people who are targeted based on their gender identity? Knowing that the internet is rampant with sexist, homophobic, and transphobic rhetoric, what could our team do to make a small difference in this complex space?&lt;/p&gt;
+
+&lt;h2 id=&quot;understanding-the-problem&quot;&gt;Understanding the problem&lt;/h2&gt;
+
+&lt;p&gt;I’m a designer, and I follow a design process, therefore my first question is to ask, how well do we understand the problem of gender-based harassment? Who experiences it and in what form is the harassment? What do targets of gendered-harassment do about it? What do these “users” (to use product-speak) need? What are their goals and motivations? If we were to create personas for them, what would they be?&lt;/p&gt;
+
+&lt;p&gt;In order to answer these questions we, of course, need to do user research. However, in order for this research to be properly contextualized, it needs to be parsed through a feminist lens. Here we push up against the limitations of the individual designer. To design for complex, sociocultural scenarios, I believe a designer needs to be fluent in sociology and the disciplines it spawns, such as the study of race, gender, class, and religion. You see, when analyzed in a vacuum, gendered-harassment is easily misunderstood as “bad actors misbehaving”. However, if one understands the mechanics of patriarchy, one is able to see how gendered-harassment is the byproduct of a misogynistic culture. I, as the designer, don’t need to be an expert in sociology, but I need to know who to talk to, to appropriately understand the problem space. As I proceed with this project, I will be doing exactly that!&lt;/p&gt;
+
+&lt;p&gt;A disproportionate number of editors who experience harassment on Wikipedia are women and/or identify as &lt;a href=&quot;https://en.wikipedia.org/wiki/LGBT&quot;&gt;LGBTQIA+&lt;/a&gt;. They are vulnerable to harassment in the form of name calling, discrimination, stalking, trolling/flaming, and threats of violence.&lt;sup id=&quot;fnref:harassment-survey&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:harassment-survey&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;First, we need to understand and accept that we have a cultural problem on our hands, and cultural problems are not easy to fix. They require intervention and prevention, such as inclusion training, protections for the vulnerable, accountability for those who inflict harm, and strong, egalitarian values embodied by leadership. So, before my team begins this work I would just like to say, no singular product can solve gendered-harassment.&lt;/p&gt;
+
+&lt;p&gt;However, solving gendered-harassment can and should be prioritized, and not an afterthought which is why I’m writing this blog post and would like to drive this work forward.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-this-matters&quot;&gt;Why this matters&lt;/h2&gt;
+
+&lt;p&gt;Solving gendered-harassment is not only a moral imperative, it is central to the mission of the Wikimedia Foundation. When editors are harassed they stop contributing, and we will never reach our vision of free knowledge without equitable participation from folks of all genders.&lt;/p&gt;
+
+&lt;p&gt;To quote Professor Jessica Wade’s &lt;a href=&quot;https://www.youtube.com/watch?v=PUpOqdB6RDU&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;TEDxWomen London 2018&lt;/a&gt; talk, a Wikimedian herself and voice for diversity in science, “…the majority of history has been written by men, about men, for other men … and the majority of content on Wikipedia is written by white men in America.” Professor Wade, and many other community members, are working to recruit more women to edit Wikipedia, but we must also ask, why aren’t more women organically evangelizing or joining Wikipedia? Once they join, what is their experience like? Do they stay? Do they encourage more women to join? Why or why not? Is the editing community an inviting, welcoming, and friendly space for women?&lt;/p&gt;
+
+&lt;p&gt;Simply put, it is not enough to acquire women who edit, we must retain them.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-communitys-efforts&quot;&gt;The community’s efforts&lt;/h2&gt;
+
+&lt;p&gt;For many years various Wikipedia community members have asked for improvements to reporting systems, specifically to protect women and LGBTQIA+ editors. &lt;a href=&quot;https://meta.wikimedia.org/wiki/User:Paisleypeach&quot;&gt;Daniellagreen&lt;/a&gt; proposed a way to &lt;a href=&quot;https://meta.wikimedia.org/wiki/Grants:IdeaLab/End_Sexism_and_Intolerance_on_Wikipedia&quot;&gt;end sexism and intolerance on Wikipedia&lt;/a&gt;. Wikimedian-in-residence &lt;a href=&quot;https://meta.wikimedia.org/wiki/User:Bluerasberry&quot;&gt;blueraspberry&lt;/a&gt; sketched the basics of a &lt;a href=&quot;https://meta.wikimedia.org/wiki/Grants:IdeaLab/Centralised_harassment_reporting_and_referral_service&quot;&gt;centralized harassment reporting and referral service&lt;/a&gt;. User &lt;a href=&quot;https://meta.wikimedia.org/wiki/Grants:IdeaLab/Require_Apologies&quot;&gt;beauxlieux&lt;/a&gt; centered ‘&lt;a href=&quot;https://meta.wikimedia.org/wiki/Grants:IdeaLab/Require_Apologies&quot;&gt;apologies&lt;/a&gt;’ in their suggestion for how to make Wikipedia a kinder and more civil place. Editors &lt;a href=&quot;https://meta.wikimedia.org/wiki/User:QEDK&quot;&gt;QEDK&lt;/a&gt; and &lt;a href=&quot;https://meta.wikimedia.org/wiki/User:Djembayz&quot;&gt;Djembayz&lt;/a&gt; teamed up to propose a whole suite of reporting tools and best practices specifically for addressing gender concerns such as “have moderators who are trained to understand the reality of women’s safety needs’’. One of my favorites is by Wikimedian and sociologist &lt;a href=&quot;https://meta.wikimedia.org/wiki/User:Radfordj&quot;&gt;radfordj&lt;/a&gt; who derived inspiration from the U.S. Women’s Rights movement in the 60s and 70s, and proposed a consciousness raising-style &lt;a href=&quot;https://meta.wikimedia.org/wiki/Grants:IdeaLab/A_Consciousness_Raising_Repository&quot;&gt;repository&lt;/a&gt; to document and elevate the stories of traditionally marginalized groups, in the hope that this data can be used to understand and mitigate marginalization.&lt;/p&gt;
+
+&lt;p&gt;Online gender-based harassment is not a new phenomena or a simple problem to fix. A few infamous examples include &lt;a href=&quot;https://feministfrequency.com/2012/06/10/harassment-and-misogyny-via-wikipedia/&quot;&gt;Harassment via Wikipedia Vandalism – Feminist Frequency&lt;/a&gt;, &lt;a href=&quot;https://www.slideshare.net/syeo/women-and-wikipedia-panel-discussion&quot;&gt;Women and Wikipedia: Perspectives on the gender gap, harassment, and the Gamergate controversy&lt;/a&gt;, &lt;a href=&quot;https://www.zdnet.com/article/quoras-misogyny-problem-a-cautionary-tale/&quot;&gt;Quora’s misogyny problem: A cautionary tale | ZDNET&lt;/a&gt;, and a woman-volunteer bringing &lt;a href=&quot;https://www.google.com/url?q=https://en.wikipedia.org/w/index.php?title%3DUser_talk%253AJimbo_Wales%26oldid%3D680807651%23Tweet&amp;amp;sa=D&amp;amp;source=docs&amp;amp;ust=1666821146180537&amp;amp;usg=AOvVaw3MayTFyHy_vof9f-6e9Xyw&quot;&gt;a harassment issue straight to Jimmy Wales&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;demonstrating-the-use-of-a-feminist-lens&quot;&gt;Demonstrating the use of a feminist lens&lt;/h2&gt;
+
+&lt;p&gt;In this blog post, I want to demonstrate how to critically examine the existing ecosystem on Wikipedia through a feminist lens.&lt;/p&gt;
+
+&lt;p&gt;English Wikipedia has five foundational principles. &lt;sup id=&quot;fnref:five-pillars&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:five-pillars&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; One of these principles is about &lt;em&gt;conduct&lt;/em&gt; and the two values that underpin &lt;em&gt;conduct&lt;/em&gt; are “civility” and “assume good faith”.&lt;/p&gt;
+
+&lt;p&gt;For the sake of analysis let us assume a new, woman-identifying editor is harassed by a veteran male editor and searches for resources on Wikipedia. Below are the first four instructions she’s given. I have highlighted parts of the instructions which I find counterproductive to our shared goal of supporting targets of harassment.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;When dealing with incivility:&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;First of all, consider whether &lt;strong&gt;you and the other editor may simply have misunderstood&lt;/strong&gt; each other. &lt;strong&gt;Clarify, and ask for clarification.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Consider the possibility that &lt;strong&gt;something&lt;/strong&gt; &lt;strong&gt;you said or did&lt;/strong&gt; wrongly provoked a defensive, irritated or fed-up response. &lt;strong&gt;Be prepared to apologize for anything which you could/should have done better. (If an awful lot of people seem to be getting frustrated with you, the problem may be with you.)&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Even if you’re offended, &lt;strong&gt;be as calm and reasonable as possible in your response.&lt;/strong&gt; Until there is clear evidence to the contrary, &lt;strong&gt;assume that the offense was unintended.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In a case of ongoing incivility, first decide if anything needs to be done. &lt;strong&gt;Confronting someone over a minor incident – particularly if it turns out that you misinterpreted what they meant – may produce more stress and drama than the incident itself. Consider your own behavior, and, if you find you have been uncivil, apologize to them instead.&lt;/strong&gt; (&lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Civility&quot;&gt;civility documentation&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Steps 1-3 undermine the target’s emotions and her judgment. One could go so far as to make the argument that these instructions gaslight the target, by first asking her what &lt;em&gt;she&lt;/em&gt; did wrong. &lt;sup id=&quot;fnref:gaslighting&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:gaslighting&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The second core value is to “assume good faith”. &lt;sup id=&quot;fnref:assume-good-faith&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:assume-good-faith&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; Asking victims of harassment to assume good faith, when trust has been broken, places an unfair burden on them. This can lead to inequitable distributions of emotional labor and a higher rate of burnout. Other advice we give is to &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Harassment&quot;&gt;“first and foremost act calmly (even if difficult)”&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:No_personal_attacks&quot;&gt;“simply ignore it”&lt;/a&gt;, and to stay &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Staying_cool_when_the_editing_gets_hot&quot;&gt;cool when the editing gets hot&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I understand that our current policies are intended to be helpful. Wikipedia is written and run by volunteers with limited time, and these policies attempt to save volunteers time and emotional labor by asking people to resolve conflicts themselves. However, policies that don’t serve victims of gendered harassment ultimately create &lt;em&gt;more&lt;/em&gt; work for the responder.&lt;/p&gt;
+
+&lt;h2 id=&quot;using-the-inclusive-product-development-playbook&quot;&gt;Using the inclusive product development playbook&lt;/h2&gt;
+
+&lt;p&gt;Changing policies is out of scope for my team, Trust and Safety Tools. We are focused on designing a minimal viable product (MVP) for how someone will report harassment and what the responder will see on the other end. I am advocating that we prioritize solving for gendered-harassment, and reporters who are women or LGBTQIA+. With the rollout of the &lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Product/Inclusive_Product_Development#Background&quot;&gt;inclusive product development playbook&lt;/a&gt;, we have the tools and support to approach an old, systemic issue in a new way. &lt;sup id=&quot;fnref:inclusive-product-dev&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:inclusive-product-dev&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Our team is in the first phase of product development, also known as the STRATEGIZE phase. I’ve read through the playbook and grouped together a set of tasks pertaining to our audience:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Establish a baseline of current users and use cases, and opportunities for equity based on your context. Include existing research (internal and external) of the problem space you want to address.&lt;/p&gt;
+
+  &lt;p&gt;Be intentional and clear about who you will empower and engage with (have a clear why), and what that engagement will look like (target audience). If your answer is everyone, consider thinking about who you will engage with first for learning and then scale.&lt;/p&gt;
+
+  &lt;p&gt;Establish “Who are we leaving out?” and be clear if you will include those that are being left out in this iteration or in the future based on your baseline understanding of “established” audiences and “growth” audiences.&lt;/p&gt;
+
+  &lt;p&gt;When establishing objectives and key results, be specific about who you are serving, what assumptions you are making and how you will validate or challenge those assumptions.&lt;/p&gt;
+
+  &lt;p&gt;Clearly define what barriers and/or knowledge gaps you are aiming to address as well as what new opportunities you are planning to create for your target audience and why your team is uniquely positioned to do so.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Our challenge is to understand the pain points of women and LGBTQIA+ folks because a Wikipedia that is safer for the most vulnerable, is safer for all. Within our target audience, we should focus on those who are the least well-connected and influential within the community i.e. the newcomers. We will need to conduct user interviews to better understand who we are building for and speak with responders who have helped resolve or witnessed gendered-harassment. Given how complex and expansive this project is, it will be necessary to who we are &lt;em&gt;not&lt;/em&gt; designing for as well.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Establish what partners (internal and external) need to be brought into each phase and give them advance notice of the goal you intend to accomplish if not sooner. Advanced notice should occur as soon as you are aware you will need the team’s support, ideally at least a quarter in advance.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Some potential partners include mission aligned organizations such as &lt;a href=&quot;https://geekfeminism.fandom.com/wiki/Geek_Feminism_Wiki&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Geek Feminism Wiki&lt;/a&gt;, &lt;a href=&quot;https://wearebgc.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Black Girls Code&lt;/a&gt;, &lt;a href=&quot;https://pollicy.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Pollicy&lt;/a&gt;, &lt;a href=&quot;https://feministinternet.org/en&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Feminist Internet&lt;/a&gt;, &lt;a href=&quot;https://adainitiative.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Ada Initiative&lt;/a&gt;, &lt;a href=&quot;https://web.karisma.org.co/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Fundación Karisma&lt;/a&gt;, &lt;a href=&quot;https://cybercivilrights.org/about/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Cyber Civil Rights Inititiave&lt;/a&gt;, &lt;a href=&quot;https://genderit.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;GenderIT&lt;/a&gt;, &lt;a href=&quot;https://www.apc.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;APC&lt;/a&gt;, &lt;a href=&quot;http://thebachchaoproject.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;The Bachchao Project&lt;/a&gt;, &lt;a href=&quot;https://civiclaboratory.nl/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;CLEAR&lt;/a&gt;, and &lt;a href=&quot;https://iheartmob.org/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;HeartMob&lt;/a&gt;. For internal partnerships a few potential partners include the Global DEI team, the Trust and Safety legal department, and the inclusive product development working group.&lt;/p&gt;
+
+&lt;h2 id=&quot;anti-harassment-work-is-inclusion-work&quot;&gt;Anti-harassment work is inclusion work&lt;/h2&gt;
+
+&lt;p&gt;It is easy to identify the root cause of harassment to individual personalities e.g. “so and so is just a bully”. Harassment can indeed be random and isolated, but it is frequently about power. When women or LGBTQIA+ folks are targeted because of their gender-identity, it can be with the intention of systematically driving them away. This form of harassment is not interpersonal, it is ideological. If we didn’t view harassment in this way, a feminist way, we would be missing a very important insight about the problem space. &lt;sup id=&quot;fnref:feminist-principles-violence&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:feminist-principles-violence&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt; According to Valerie Aurora, ED of Ada Initiative, anti-harassment work is part of a successful diversity initiative. &lt;sup id=&quot;fnref:diversity-initiatives&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:diversity-initiatives&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;If we wish to retain and cultivate gender diversity on Wikipedia, we must design and build a reporting system that addresses the nuances of nonmale needs. This blog post is an analysis, a call to action, and just the beginning.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-in-touch&quot;&gt;Get in touch&lt;/h2&gt;
+
+&lt;p&gt;Please email me at &lt;a href=&quot;mailto:avardhana@wikimedia.org&quot;&gt;avardhana@wikimedia.org&lt;/a&gt; if you’d like to discuss this work further.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to Selene Yang, Bethany Schowengerdt, Lucy Blackwell, and Carolyn Li-Madeo for their thoughtful edits.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:code-of-conduct&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://meta.wikimedia.org/wiki/Universal_Code_of_Conduct/Revised_enforcement_guidelines#3.2_Recommendations_for_a_reporting_tool&quot;&gt;Universal Code of Conduct/Revised enforcement guidelines - Meta&lt;/a&gt; &lt;a href=&quot;#fnref:code-of-conduct&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:harassment-survey&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://meta.wikimedia.org/wiki/File:Harassment_Survey_2015_-_Results_Report.pdf&quot;&gt;File:Harassment Survey 2015 - Results Report.pdf - Wikimedia Commons&lt;/a&gt; &lt;a href=&quot;#fnref:harassment-survey&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:five-pillars&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Five_pillars&quot;&gt;Wikipedia:Five pillars&lt;/a&gt; &lt;a href=&quot;#fnref:five-pillars&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:gaslighting&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Gaslighting&quot;&gt;Gaslighting - Wikipedia&lt;/a&gt; &lt;a href=&quot;#fnref:gaslighting&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:assume-good-faith&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Assume_good_faith#Dealing_with_bad_faith&quot;&gt;Wikipedia:Assume good faith&lt;/a&gt; &lt;a href=&quot;#fnref:assume-good-faith&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:inclusive-product-dev&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.mediawiki.org/wiki/Wikimedia_Product/Inclusive_Product_Development#Background&quot;&gt;Wikimedia Product/Inclusive Product Development - MediaWiki&lt;/a&gt; &lt;a href=&quot;#fnref:inclusive-product-dev&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:feminist-principles-violence&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://feministinternet.org/en/principle/violence&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Violence | Feminist Principles of the Internet&lt;/a&gt; &lt;a href=&quot;#fnref:feminist-principles-violence&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:diversity-initiatives&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://commons.wikimedia.org/w/index.php?title=File:Successful_diversity_initiatives_in_open_tech_and_culture.pdf&amp;amp;page=13&quot;&gt;https://commons.wikimedia.org/w/index.php?title=File:Successful_diversity_initiatives_in_open_tech_and_culture.pdf&amp;amp;page=13&lt;/a&gt; &lt;a href=&quot;#fnref:diversity-initiatives&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">The Trust and Safety Tools team is designing a harassment reporting system for Wikipedia. I propose that we prioritize the needs of women, non-binary, trans, and queer users who experience gendered-harassment on the platform so that we retain gender diversity among our editors and make progress towards our mission of knowledge equity.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/gendered-harassment/image1.webp" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/gendered-harassment/image1.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Entering the Wikimedia universe: starting with a design internship</title><link href="https://design.wikimedia.org/blog/2022/07/12/entering-wikimedia-universe.html" rel="alternate" type="text/html" title="Entering the Wikimedia universe: starting with a design internship" /><published>2022-07-12T00:00:00+00:00</published><updated>2022-07-12T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/07/12/entering-wikimedia-universe</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/07/12/entering-wikimedia-universe.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://www.linkedin.com/in/olgatichonova&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Olga Tichonova&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Universe image adapted from Alexander Meleg, &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/3.0&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;CC BY-SA 3.0&lt;/a&gt;, via Wikimedia Commons&lt;/em&gt;&lt;/p&gt;
 
@@ -1610,162 +1739,4 @@ Wikimedia Foundation’s apps are an essential piece to meet our &lt;a href=&quo
 
 &lt;p&gt;&lt;em&gt;Cover image by Tristan J. Wilson. Taken from &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:TJDW_Stonehenge_20111107.tif&quot; target=&quot;_blank&quot;&gt;Commons&lt;/a&gt;, licensed under &lt;a href=&quot;https://creativecommons.org/publicdomain/zero/1.0/deed.en&quot; target=&quot;_blank&quot;&gt;CC0 1.0&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Thanks to Carolyn Li-Madeo, Rita Ho, Aida Ramirez, Jessica Klein &amp;amp; Niharika Kohli for your feedback and editing help.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Balancing the needs of patrollers and unregistered editors on the wikis</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/stonehenge.jpg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/stonehenge.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Improving the reading experience for smart feature phones</title><link href="https://design.wikimedia.org/blog/2021/09/23/improving-the-reading-experience-for-smart-feature-phones.html" rel="alternate" type="text/html" title="Improving the reading experience for smart feature phones" /><published>2021-09-23T07:30:00+00:00</published><updated>2021-09-23T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/09/23/improving-the-reading-experience-for-smart-feature-phones</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/09/23/improving-the-reading-experience-for-smart-feature-phones.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://twitter.com/baba786&quot;&gt;Sudhanshu Gautam&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Reading a Wikipedia article on a feature phone is time consuming. The article about Tiger might take 25-30 minutes to read on a smartphone; alternatively, it would take much longer to read on a feature phone. While smartphones are almost ubiquitous in some parts of the world, over 100M&lt;sup&gt;&lt;a href=&quot;#note-1&quot; id=&quot;ref-1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; people across the globe still use feature phones to connect to the internet.&lt;/p&gt;
-
-&lt;p&gt;Wikimedia has significant room to expand in emerging communities where access to inexpensive devices and cheap data is quickly growing. To help people overcome barriers to access free knowledge on our projects and be a trustworthy source of knowledge and information, the &lt;a href=&quot;https://www.mediawiki.org/wiki/Inuka_team&quot; target=&quot;_blank&quot;&gt;Inuka team&lt;/a&gt; at Wikimedia Foundation decided to improve the Wikipedia reading experience on feature phones to accommodate the unique needs and preferences of historically underrepresented users.&lt;/p&gt;
-
-&lt;h1 id=&quot;about-the-devices&quot;&gt;About the devices&lt;/h1&gt;
-
-&lt;p&gt;KaiOS, a mobile operating system based on HTML5 power these phones. It supports 4G/LTE, Wi-Fi, Bluetooth, and GPS. India is one of the biggest markets for KaiOS, where it powers Jiophone. These phones have limited computing capabilities, small displays, and most actions are performed using a keypad. Their low cost, combined with the ability to use apps like Google, Facebook, Youtube, etc., make them a top choice among first-time internet users.&lt;/p&gt;
-
-&lt;p&gt;On the phone, all actions are presented on a softkey panel linked to physical keys on the keypad. Most actions are performed using center, left, and right hardware keys.&lt;/p&gt;
-
-&lt;h1 id=&quot;design-process&quot;&gt;Design process&lt;/h1&gt;
-
-&lt;p&gt;Our team started using feature phones to familiarize ourselves with keypad-based interactions, challenges when using apps, impact of limited infrastructure on user experience, and how the Wikipedia reading experience feels. In parallel, we worked with &lt;a href=&quot;https://hureo.com/&quot; target=&quot;_blank&quot;&gt;Hureo&lt;/a&gt;, a user research firm based in India, to conduct foundational research&lt;sup&gt;&lt;a href=&quot;#note-2&quot; id=&quot;ref-2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; with 25 participants in different cities in India. Research aimed to learn about how they used these devices, their motivations to use them, their awareness of Wikipedia, and their experiences reading Wikipedia articles. These are some of the findings:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Smart features, durability, and good battery life at an affordable price are the main reasons to use feature phones.&lt;/li&gt;
-  &lt;li&gt;Primary usage is social media, entertainment, and look for information online.&lt;/li&gt;
-  &lt;li&gt;Wikipedia awareness is low. Informed users use it to read about famous people, entertainment, places to visit, etc.&lt;/li&gt;
-  &lt;li&gt;Reading a long Wikipedia article on its browser is quite laborious as typing and scrolling is difficult.&lt;/li&gt;
-  &lt;li&gt;Participants mentioned that the small font size required extra effort to read, and caused strain on their eyes.&lt;/li&gt;
-  &lt;li&gt;For quick navigation, users wished to have easy access to the table of contents, images, and other parts of articles.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-These insights from our research, combined with our own experiences and frustrations when reading Wikipedia articles on feature phones, indicated that we should try to provide a better reading experience for all of these people. These were the improvements we were interested in testing with users:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;An onboarding flow to define What Wikipedia is in simple language to users who may or may not have used it before.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;columns&quot;&gt;
-  &lt;figure&gt;
-    &lt;img src=&quot;/blog/assets/uploads/improving-reading-experience/brief-onboarding.png&quot; alt=&quot;Brief onboarding to share about Wikipedia, language diversity, and the volume of articles available.&quot; /&gt;
-    &lt;figcaption&gt;Brief onboarding to share about Wikipedia, language diversity, and the volume of articles available.&lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A “quick links panel” to directly access a section of an article, view images, or  read an article in different languages.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;columns&quot;&gt;
-  &lt;figure class=&quot;third-width centered&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/improving-reading-experience/quick-links.png&quot; alt=&quot;Quick links to access different parts of an article.&quot; /&gt;
-    &lt;figcaption&gt;Quick links to access different parts of an article.&lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Instead of continuous scrolling using the keypad while moving through an article, readers can read clear segments of a Wikipedia article on the small screen one page at a time.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;columns&quot;&gt; 
-  &lt;figure class=&quot;third-width centered&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/improving-reading-experience/page-navigation.gif&quot; alt=&quot;Animation showing page by page navigation on the Wikipedia app for KaiOS&quot; /&gt;
-    &lt;figcaption&gt;Animation showing page by page navigation on the Wikipedia app for KaiOS&lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Option to read an article in different text sizes.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/improving-reading-experience/change-article-text-size.jpg&quot; alt=&quot;Change article text size from options menu.&quot; /&gt;
-  &lt;figcaption&gt;Change article text size from options menu.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Option to use the app in different languages.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/improving-reading-experience/change-app-language.jpg&quot; alt=&quot;Change app language from settings menu.&quot; /&gt;
-  &lt;figcaption&gt;Change app language from settings menu.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;what-did-we-learn&quot;&gt;What did we learn?&lt;/h2&gt;
-
-&lt;p&gt;Due to the pandemic, conducting remote sessions in India was quite challenging as screen sharing is not directly supported by KaiOS. Luckily, all participants had access to smartphones either through their family members or friends. Twenty participants(12 Male, 8 Females) were recruited within the 20 to 40 years age group. Interviews were conducted in English, Hindi, Marathi, and Telugu to cover language diversity. Usability tasks involved installing the app, searching &amp;amp; reading an article of their choice, and any additional feedback to improve the app.&lt;/p&gt;
-&lt;div class=&quot;columns&quot;&gt;
-  &lt;figure class=&quot;half-width centered&quot;&gt;
-    &lt;img src=&quot;/blog/assets/uploads/improving-reading-experience/android-participant.jpg&quot; alt=&quot;A participant is using an android device to screen share on a zoom call.&quot; /&gt;
-    &lt;figcaption&gt;A participant is using an android device to screen share on a zoom call.&lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Summary of session learnings.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Users appreciated the ease of discovering articles in multiple languages and the simplicity of changing the app language.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I can change before searching only. I will use this feature because I can use it  whenever I want to read in Marathi. - User 12&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Users liked quick links to help them access different sections of an article, view images, and quickly access important facts.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is part of the same article. This is like a shortcut, so from here I can read any topic related to the article. - User 6&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Users were confused when certain articles were unavailable when they changed the app language to their regional language.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;When I search for ‘Dosa recipe in hindi’ using voice search I get the results, here maybe the information is available in English only and not Hindi. - User 10&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Users could not understand the icon used for quick facts and considered it a map icon.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I expected to see a map here, as the icon used for it was of a location. - User 11&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Most users did not read the onboarding descriptions as they mostly ignore that part in other apps too.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h1 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h1&gt;
-
-&lt;p&gt;The app was first released in India in September 2020 and was later released globally in December 2020. It has been downloaded over 2.5M times since its first release. In the next update, we are looking forward to improving article discovery and the overall reading experience. Improvements would include contextual onboarding to quickly start the app, a trending article list to find content beyond search functionality, and other minor changes to improve issues observed during usability sessions. Stay tuned for all the amazing work the Inuka team does to support new internet users in emerging markets.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/improving-reading-experience/contextual-onboarding.png&quot; alt=&quot;Tips section for Contextual onboarding.&quot; /&gt;
-  &lt;figcaption&gt;Tips section for Contextual onboarding.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/improving-reading-experience/trending-article-list.jpg&quot; alt=&quot; Trending article list for regional content discovery. &quot; /&gt;
-  &lt;figcaption&gt;Trending article list for regional content discovery. &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;em&gt;Thanks Angie Muigai, Prateek Saxena, Rita Ho, Nicolas Ayoub, Alex Hollender, and Aishwarya Vardhana for your feedback and editing help. A special thanks to Carolyn Li-Madeo, who did a fantastic job designing the app’s early experience.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;related-links&quot;&gt;Related links&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mediawiki.org/wiki/Wikipedia_for_KaiOS&quot;&gt;Wikipedia for KaiOS project page&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/wikimedia/wikipedia-kaios&quot;&gt;Wikipedia for kaiOS on Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://wikimedia.github.io/wikipedia-kaios/sim.html&quot;&gt;Wikipedia KaiOS app simulator&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.kaiostech.com/docs/&quot;&gt;KaiOS documentation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;footer&gt;
-&lt;br /&gt;
-&lt;p id=&quot;note-1&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-1&quot;&gt;[1]&lt;/a&gt;&lt;a href=&quot;https://www.kaiostech.com/kaios-2019-year-in-review/&quot;&gt;https://www.kaiostech.com/kaios-2019-year-in-review/&lt;/a&gt;
-&lt;/small&gt;&lt;/p&gt;
-
-&lt;p id=&quot;note-2&quot;&gt;&lt;small&gt;&lt;a href=&quot;#ref-2&quot;&gt;[2]&lt;/a&gt;&lt;a href=&quot;https://www.mediawiki.org/wiki/File:Understanding_KaiOS_users_in_India_-_Report.pdf
-&quot;&gt;https://www.mediawiki.org/wiki/File:Understanding_KaiOS_users_in_India_-_Report.pdf
-&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/footer&gt;</content><author><name></name></author><summary type="html">The Inuka team at Wikimedia Foundation decided to improve the Wikipedia reading experience on feature phones to accommodate the unique needs and preferences of historically underrepresented users</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/improving-reading-experience/improving-reading-experience.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/improving-reading-experience/improving-reading-experience.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;&lt;em&gt;Thanks to Carolyn Li-Madeo, Rita Ho, Aida Ramirez, Jessica Klein &amp;amp; Niharika Kohli for your feedback and editing help.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Balancing the needs of patrollers and unregistered editors on the wikis</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/stonehenge.jpg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/stonehenge.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
