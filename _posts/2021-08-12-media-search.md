@@ -14,8 +14,6 @@ Recently, one of the tasks of the structured data team, a cross-functional produ
 
 One obvious area the team focused on was ways to improve search accuracy since it doesn’t matter what you do with the presentation if the actual results aren’t mapping to the expectations of the searcher. However, this article, being written by the designer on the team, will be focused on the work that was done to ensure a much better experience that was created to complement these improved search results.
 
-When the average person hears that I’m the designer on the Growth team for Wikipedia, there’s a common misconception that it’s about growing the number of readers, the more commonly thought of “Wikipedia user”. However, our team was formed almost three years ago with a different challenge and audience as our focus. This article aims to tell the six-part story of how and why we started this team, and all the failures, learnings, and successes we’ve had since.
-
 # Baseline research
 
 <figure>
