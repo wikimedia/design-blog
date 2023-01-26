@@ -1,4 +1,351 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2022-11-29T15:43:25+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Solving gendered-harassment: a feminist framework for creating safety on Wikipedia</title><link href="https://design.wikimedia.org/blog/2022/11/02/gendered-harassment-wikipedia.html" rel="alternate" type="text/html" title="Solving gendered-harassment: a feminist framework for creating safety on Wikipedia" /><published>2022-11-02T00:00:00+00:00</published><updated>2022-11-02T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/11/02/gendered-harassment-wikipedia</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/11/02/gendered-harassment-wikipedia.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://aishwaryavardhana.medium.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Aishwarya Vardhana&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2023-01-26T02:30:00+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Designing a single grid system for all Wikimedia projects</title><link href="https://design.wikimedia.org/blog/2023/01/25/designing-single-grid-system.html" rel="alternate" type="text/html" title="Designing a single grid system for all Wikimedia projects" /><published>2023-01-25T00:00:00+00:00</published><updated>2023-01-25T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2023/01/25/designing-single-grid-system</id><content type="html" xml:base="https://design.wikimedia.org/blog/2023/01/25/designing-single-grid-system.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://uk.linkedin.com/in/kieran-mccann-0332057a&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Kieran McCann&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://es.linkedin.com/in/barmarcal&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Bárbara Martínez&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;By Kieran McCann&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;When I first started working at the Wikimedia Foundation I was surprised to discover that although our projects used some basic layouts, there was no underlying layout grid system. As a visual designer, who originally studied graphic design from a print perspective, this felt like an elementary part of our design toolkit was missing. Without a grid system, making decisions about where items should sit on the page, and maintaining visual consistency across multiple projects would be more challenging.&lt;/p&gt;
+
+&lt;p&gt;Maybe I shouldn’t have been surprised. Wikipedia launched in 2001 when the web, and certainly modern web design, was in its infancy. Since its launch there have been relatively few major design iterations. Indeed when I started in early 2021, the last release of a new ‘&lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Skin?&quot;&gt;skin&lt;/a&gt;’ – the template which changes the look and feel of a Wikipedia – was &lt;a href=&quot;https://www.mediawiki.org/wiki/Skin:Vector&quot;&gt;Vector&lt;/a&gt; (now called &lt;em&gt;Vector Legacy&lt;/em&gt;) which was deployed in 2010. Back then there were limited methods to apply layout grid systems on the web – both CSS Grid and Flexbox were still in the early stages of development and not well supported – so it is not surprising that a grid system was not implemented as part of this release. There were later &lt;a href=&quot;https://www.mediawiki.org/wiki/Requests_for_comment/Grid_system&quot;&gt;attempts to introduce a grid system&lt;/a&gt;, which was implemented to our Content Translation project, but to retrofit a grid to already existing projects would have been a major undertaking, so that grid was not applied globally.&lt;/p&gt;
+
+&lt;p&gt;Luckily, when I joined the Foundation, one of my first projects was working on the visual design for the &lt;a href=&quot;https://www.mediawiki.org/w/index.php?title=Reading/Web/Desktop_Improvement&quot;&gt;Desktop Improvements&lt;/a&gt; project. This would be our first major redesign of the web interface in twelve years and as such would be a rare opportunity to rethink how we approach layout across the wikis and, importantly, to develop a grid system.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-a-grid-system-and-why-do-we-need-one&quot;&gt;What is a grid system and why do we need one?&lt;/h3&gt;
+
+&lt;p&gt;A grid is a system for organising content within space – that could be a printed page, screen or  the built environment. A grid creates visual rhythm that helps us navigate space and content. To appreciate the importance of grids think about how you read a newspaper or walk around a city. You might not be particularly conscious of the grid but without it your ability to consume the content or find your way around would be much more difficult.&lt;/p&gt;
+
+&lt;p&gt;In terms of modern user interface design a grid system is particularly important in allowing us to create flexible but consistent layouts across the huge variety of screen sizes that people may be using. By using a fluid grid we can divide the page width into several equally sized and spaced columns. Page content is then placed in alignment with these columns and when the viewport expands/shrinks horizontally, these fluid grid columns will expand proportionally.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--video&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/ezgif.com-gif-maker_(6).webm&quot; alt=&quot;Grid System&quot; controls=&quot;&quot;&gt;
+	&lt;/video&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;p&gt;A grid system is also a valuable tool for the design team because it will allow us make design decisions based on a documented structure that we are all using, which in turn will help us to design more efficiently and consistently.&lt;/p&gt;
+
+&lt;h3 id=&quot;initial-proposal&quot;&gt;Initial proposal&lt;/h3&gt;
+
+&lt;p&gt;In my initial grid explorations as part of the Desktop Improvements project I quickly settled on using a 12-column grid for larger screen widths. The advantage of a 12-column grid is that it offers a wide range of column combinations to create both symmetrically balanced layouts and flexible, asymmetrical layouts. The latter is particularly useful for less standard compositions with different types of content, such as the dashboard format of the newcomer homepage.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/designing-single-grid-system/01_Initial-proposal_Desktop.webp&quot; alt=&quot;Initial proposal for large screens&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;p&gt;A 12-column grid, however, is only functional up to a certain screen width. Once the screen gets too narrow then single columns stop being a useful measure. I proposed to use different grids for the different breakpoints and devices (desktop, tablet, mobile) since at smaller screen sizes you need less layout flexibility.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/designing-single-grid-system/02_Initial-proposal_Tablet.webp&quot; alt=&quot;Initial proposal for small screens&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;p&gt;One of the added advantages of this proposed flexible grid is that it opened up the possibility of making the new skin we were working on more responsive to screen sizes.&lt;/p&gt;
+
+&lt;p&gt;This proposal was then tested with various layouts used across the Wikis and then passed over to Bárbara and the Design System team to turn it into a workable design tool.&lt;/p&gt;
+
+&lt;h2 id=&quot;defining-a-systematic-solution-for-the-grid&quot;&gt;Defining a systematic solution for the grid&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;By Bárbara Martínez&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;After drafting the initial proposal, the Design System team and I started working on the systematic solution for this grid in order to create a solution that scales to any current and future Wikimedia web project.&lt;/p&gt;
+
+&lt;h3 id=&quot;elements-to-fit-in-the-grid&quot;&gt;Elements to fit in the grid&lt;/h3&gt;
+
+&lt;p&gt;A systematic grid solution must include the following elements:&lt;/p&gt;
+
+&lt;h4 id=&quot;grid-elements&quot;&gt;Grid elements&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Grid columns:&lt;/strong&gt; vertical blocks are used to create and align the screen content. Breakpoints will determine the number of columns displayed in each screen size. The layout will be adapted to the available space on larger screens by using more grid columns. We will therefore use more grid columns on larger screens than on smaller ones.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Margins:&lt;/strong&gt; separation between grid columns and screen edges. In each breakpoint, margins might differ, and they could be fixed or scaled. We will use bigger margins on larger screens in order to create more space between the content and the screen edges.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gutters:&lt;/strong&gt; horizontal separation between the grid columns that help separate the content blocks on the page. Gutter width might be different in each breakpoint range and they will be bigger on large screens since they help to create more space between columns.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/designing-single-grid-system/Columns-margins-gutters.webp&quot; alt=&quot;Columns, margins and gutters&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/designing-single-grid-system/Breakpoints.webp&quot; alt=&quot;Breakpoints&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;breakpoints&quot;&gt;Breakpoints&lt;/h4&gt;
+
+&lt;p&gt;Breakpoints are the screen size ranges where the design fits certain characteristics. They are created to adapt the layout as well as possible to each screen size.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Breakpoints are decisive in the creation of the grid system since the grid elements will adapt to each breakpoint range.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For this reason, the following breakpoints were previously created:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Desktop Wide:&lt;/strong&gt; 1680px and larger screens&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Desktop:&lt;/strong&gt; 1120px - 1679px screens&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tablet:&lt;/strong&gt; 640px - 1119px screens&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile:&lt;/strong&gt; 320px - 639px screens&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;layouts&quot;&gt;Layouts&lt;/h4&gt;
+
+&lt;p&gt;Layouts define the content structure for each page. Layouts are created by placing blocks of content on the page, in order to create a template that can be reused on other pages. We will use each layout according to the design requirements.&lt;/p&gt;
+
+&lt;p&gt;After analyzing all the Wikimedia projects, we categorized the page content into 3 different layouts:&lt;/p&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/designing-single-grid-system/Layout_Left-Asymmetric_panels.webp&quot; alt=&quot;Screenshot of left panel layout (ToC) &quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+&lt;p&gt;Left panel layout (ToC)&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/designing-single-grid-system/Layout_No_panels.webp&quot; alt=&quot;Screenshot of layout without side panels &quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+&lt;p&gt;Layout without side panels&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/designing-single-grid-system/Layout_Full_width.webp&quot; alt=&quot;Screenshot of full width layout &quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+&lt;p&gt;Full width layout&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;problems-found-with-the-12-column-grid-on-desktop&quot;&gt;Problems found with the 12-column grid on desktop&lt;/h3&gt;
+
+&lt;p&gt;Although the 12-column grid is one of the most common grids used for desktop, it didn’t allow us to cover the main use cases of our product. After testing the 12-column grid with the most important Wikimedia projects (Wikipedia, Abstract Wikipedia, Wikimedia Commons, Special Search, Growth…) and layouts, we ran into some problems creating a systematic solution with this desktop grid.&lt;/p&gt;
+
+&lt;p&gt;We found a major issue to fix while &lt;a href=&quot;https://dsg-grid-2.web.app/cher&quot;&gt;testing the 12-column grid&lt;/a&gt; with the Wikipedia article content and the table of content (ToC). Based on previous research and user testing, we needed to cover some minimum and maximum widths for certain page elements. In order to ensure proper legibility, a max-width of 960px was required for the article content. Also, the ideal min-width for the ToC was 200-245px.&lt;/p&gt;
+
+&lt;p&gt;Trying to find the ideal margins and gutters in this 12-column grid for desktop was difficult. We either achieved the article content max-width or the ToC min-width, but never both at the same time. In most cases, the ToC was too narrow.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/designing-single-grid-system/12_columns_-_40px_margin_-_40_px_gutter.webp&quot; alt=&quot;40px margin - 40 px gutter&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+&lt;p&gt;40px margin - 40 px gutter&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/designing-single-grid-system/12_columns_-_32px_margin_-_24_px_gutter.webp&quot; alt=&quot;32px margin - 24 px gutter&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+&lt;p&gt;32px margin - 24 px gutter&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/designing-single-grid-system/12_columns_-_24px_margin_-_16px_gutter.webp&quot; alt=&quot;24px margin - 16px gutter&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	&lt;figcaption&gt;
+&lt;p&gt;24px margin - 16px gutter&lt;/p&gt;
+
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;figure--video&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/Cher.webm&quot; alt=&quot;Viewport resize&quot; controls=&quot;&quot;&gt;
+	&lt;/video&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;p&gt;The ToC was too narrow when placed in the first two grid columns (especially on screens below 1280px). This was something we needed to fix since the ToC is really important in our Wikimedia projects.&lt;/p&gt;
+
+&lt;p&gt;We tried to expand the width of the right panel from 2 to 3 grid columns. However, this solution did not meet our needs since the ToC went from being too narrow to too wide.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--video&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/12col_2-3_col.webm&quot; alt=&quot;2col vs 3col ToC&quot; controls=&quot;&quot;&gt;
+	&lt;/video&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;p&gt;Due to the wide columns of the 12-column grid, the width difference between a 2-column and 3-column ToC was too great.&lt;/p&gt;
+
+&lt;p&gt;We couldn’t find the perfect width for the right panel, either it was too narrow (2 columns) or it was too wide (3 columns).&lt;/p&gt;
+
+&lt;h3 id=&quot;solution-proposed-24-column-grid-for-desktop&quot;&gt;Solution proposed: 24-column grid for desktop&lt;/h3&gt;
+
+&lt;p&gt;As the 12-column grid was not working for our Wikimedia desktop use cases we decided to find another solution. After some explorations, we decided to use a 24-column grid for desktop instead.&lt;/p&gt;
+
+&lt;p&gt;The 24-column grid offers the following benefits:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The 24-column grid is just twice as many columns as the 12-column grid.&lt;/li&gt;
+  &lt;li&gt;The combination of columns is greater and allows us more flexibility when deciding the width of the side panels, as well as the central content.&lt;/li&gt;
+  &lt;li&gt;By combining 24 columns, we have greater flexibility when creating new layouts or updating existing ones.&lt;/li&gt;
+  &lt;li&gt;Users won’t notice the difference between a 12 or 24-column grid, since the grid columns are not visible to them in the interface. So a 12 or 24-column grid will be perceived as the same visual solution for them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;figure--video&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/24col-grid.webm&quot; alt=&quot;24col grid&quot; controls=&quot;&quot;&gt;
+	&lt;/video&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;testing-the-new-systematic-solution&quot;&gt;Testing the new systematic solution&lt;/h3&gt;
+
+&lt;p&gt;The 24-column grid was tested with different projects and use cases to make sure it would work for both our current real use cases and future possible use cases.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--video&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/ToC_24col.webm&quot; alt=&quot;24col grid resize&quot; controls=&quot;&quot;&gt;
+	&lt;/video&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;tested-with-article-content-and-toc&quot;&gt;Tested with article content and ToC&lt;/h4&gt;
+
+&lt;p&gt;We tested the table of contents and the article content with the 24-column grid in &lt;a href=&quot;https://dsg-grid-2.web.app/cher&quot;&gt;this prototype&lt;/a&gt; and they worked perfectly on large, medium, and small desktop sizes.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/designing-single-grid-system/Captura_de_Pantalla_2022-12-06_a_las_13.46.00.webp&quot; alt=&quot;Testing grid with other projects&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;tested-with-wikimedia-projects&quot;&gt;Tested with Wikimedia projects&lt;/h4&gt;
+
+&lt;p&gt;It was then tested with the most important Wikimedia projects to cover all current use cases.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--video&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/languages.webm&quot; alt=&quot;&quot; controls=&quot;&quot;&gt;
+	&lt;/video&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;tested-with-different-languages&quot;&gt;Tested with different languages&lt;/h4&gt;
+
+&lt;p&gt;As we work with more than 300 languages, we also tested the 24-column grid with many languages to check if it worked well with different scripts.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--video&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/TestingSolution_BaseFont.webm&quot; alt=&quot;Language test&quot; controls=&quot;&quot;&gt;
+	&lt;/video&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;tested-with-the-base-font&quot;&gt;Tested with the base font&lt;/h4&gt;
+
+&lt;p&gt;Our current base font is 14px for desktop. But we also tested the 24-column grid with a base font of 16px in case it changes in the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;final-grid-proposal&quot;&gt;Final grid proposal&lt;/h3&gt;
+
+&lt;p&gt;After testing this new solution with our different projects and use cases, we determined that the 24-column grid was the best solution. Our final solution was the following.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/designing-single-grid-system/Final_proposal.webp&quot; alt=&quot;Final grid proposal&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;desktop-wide&quot;&gt;Desktop Wide&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;1680px and larger screens&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;24 columns&lt;/li&gt;
+  &lt;li&gt;Margins: they scale according to the width of the screen&lt;/li&gt;
+  &lt;li&gt;Gutters 24px&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;desktop&quot;&gt;Desktop&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;1120px - 1679px screens&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;24 columns&lt;/li&gt;
+  &lt;li&gt;Margins: 32px to max content width, then they scale&lt;/li&gt;
+  &lt;li&gt;Gutters 24px&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;tablet&quot;&gt;Tablet&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;640px - 1119px screens&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;8 columns&lt;/li&gt;
+  &lt;li&gt;Margins: 24px&lt;/li&gt;
+  &lt;li&gt;Gutters: 24px&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;mobile&quot;&gt;Mobile&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;320px - 639px screens&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;4 columns&lt;/li&gt;
+  &lt;li&gt;Margins – 16px&lt;/li&gt;
+  &lt;li&gt;Gutters – 16px&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition to being the most appropriate solution for our desktop projects, the new grid will cover the 3 layouts we are currently using in production. The number of grid columns used varies in each layout and screen size.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/designing-single-grid-system/02_Layouts.webp&quot; alt=&quot;Layouts&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;p&gt;On desktop breakpoints (from 1120px screens onwards), side panels will be visible by default, while on tablet and mobile, they will be hidden. As a result, both the content of the page and the navigational menus will be wide enough for any screen size.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--video&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/Cher_resize.webm&quot; alt=&quot;Viewport resize&quot; controls=&quot;&quot;&gt;
+	&lt;/video&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;p&gt;Also, this new grid covers an endless number of design solutions on different screen sizes since the combination of columns is highly variable.&lt;/p&gt;
+
+&lt;figure class=&quot;figure--video&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/ezgif.com-gif-maker_(2).webm&quot; alt=&quot;Possible grid combinations&quot; controls=&quot;&quot;&gt;
+	&lt;/video&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;where-will-this-grid-be-used&quot;&gt;Where will this grid be used?&lt;/h3&gt;
+
+&lt;p&gt;This new grid will be applied to any new Wikimedia web project. So it will be applied in both &lt;a href=&quot;https://www.mediawiki.org/wiki/Skin:Vector/2022&quot;&gt;Vector 2022&lt;/a&gt; (desktop skin) and &lt;a href=&quot;https://www.mediawiki.org/wiki/Skin:Minerva_Neue&quot;&gt;Minerva&lt;/a&gt; (mobile skin). Due to this new grid system’s exclusive use in new projects, it won’t be used in &lt;a href=&quot;https://www.mediawiki.org/w/index.php?title=Skin:Vector&quot;&gt;Vector legacy&lt;/a&gt; (desktop legacy skin).&lt;/p&gt;
+
+&lt;figure class=&quot;figure--image&quot;&gt;
+	&lt;img src=&quot;/blog/assets/uploads/designing-single-grid-system/Where_will_this_grid_be_used.webp&quot; alt=&quot;Desktop and mobile views&quot; loading=&quot;lazy&quot; width=&quot;720&quot; /&gt;
+
+	
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;lessons-learned&quot;&gt;Lessons learned&lt;/h2&gt;
+
+&lt;p&gt;The most important lesson we learned after designing the new Wikimedia grid was to focus on what really worked for us, and not to worry about what is commonly used on other websites. Although a 12-column grid is one of the most common desktop grids, it didn’t suit our Wikimedia use cases, so we needed to evolve our approach.&lt;/p&gt;
+
+&lt;p&gt;It is important to adapt the final solution to what you really need for your project, even if your first iterations are based on lessons learned from something commonly used. Following lessons learned from other projects is worthless if this solution is not the right solution for you.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-in-touch&quot;&gt;&lt;strong&gt;Get in touch&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Thanks for reading! You can read more details about the &lt;a href=&quot;https://www.mediawiki.org/wiki/Design_Systems_Team&quot;&gt;Design Systems Team&lt;/a&gt; and all our current and future initiatives.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to Alex Hollender, Sarai Sanchez and Volker Eckl for your feedback and collaboration creating the new Wikimedia grid system. Thanks to Lucy Blackwell for the awesome review and feedback on this post.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">How we designed the grid and scaled it to use in any new Wikimedia design project</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/designing-single-grid-system/Cover2.webp" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/designing-single-grid-system/Cover2.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Solving gendered-harassment: a feminist framework for creating safety on Wikipedia</title><link href="https://design.wikimedia.org/blog/2022/11/02/gendered-harassment-wikipedia.html" rel="alternate" type="text/html" title="Solving gendered-harassment: a feminist framework for creating safety on Wikipedia" /><published>2022-11-02T00:00:00+00:00</published><updated>2022-11-02T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/11/02/gendered-harassment-wikipedia</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/11/02/gendered-harassment-wikipedia.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://aishwaryavardhana.medium.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Aishwarya Vardhana&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
@@ -1605,138 +1952,4 @@ Wikimedia Foundation’s apps are an essential piece to meet our &lt;a href=&quo
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;em&gt;Thanks to Lucy Blackwell, Jazmin Tanner &amp;amp; Josh Minor for their contributions.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Designing for mobile apps presents unique challenges and opportunities compared to traditional websites. Mobile apps run natively on a device and have access to system resources that are harder to access within a web based architecture.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-and-apps-a-love-story/header.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-and-apps-a-love-story/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Patrolling Unregistered Editors on Wikipedia</title><link href="https://design.wikimedia.org/blog/2021/11/17/patrolling-unregistered-editors-on-wikipedia.html" rel="alternate" type="text/html" title="Patrolling Unregistered Editors on Wikipedia" /><published>2021-11-17T07:30:00+00:00</published><updated>2021-11-17T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/11/17/patrolling-unregistered-editors-on-wikipedia</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/11/17/patrolling-unregistered-editors-on-wikipedia.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://prtksxna.com/&quot;&gt;Prateek Saxena&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;On most Wikipedias, you don’t need an account to make an edit. While there are benefits to making an account — such as a single place to see all communications, or a place to store articles that you’re interested in — there is no requirement to make one. This reduced barrier to entry means that people around the world can contribute to our projects — whether it’s a small typo fix or a new article — without ever having to make an account.&lt;/p&gt;
-
-&lt;p&gt;But, it also means that it’s easier to vandalize and make destructive edits to our projects. To counter this, our editors and administrators patrol edits made by registered and unregistered editors alike. These watchful editors are also known as &lt;em&gt;patrollers&lt;/em&gt;. To keep out bad faith edits from our projects, patrollers need to have an understanding of who is making the edits. In the case of unregistered editors though, the information that they rely on most is their &lt;a href=&quot;https://en.wikipedia.org/wiki/IP_address&quot; target=&quot;_blank&quot;&gt;IP address&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;An IP address is a unique address that is given to any device that is connected to a network like the Internet. When an unregistered user makes an edit, the change isn’t attributed to their name, but their device’s IP address instead. An IP address is like a home address, it cannot reveal your identity but one can deduce a lot about you by knowing where you live. So, what might seem to some as an &lt;em&gt;anonymous&lt;/em&gt; way of editing actually reveals more about them than a simple pseudonym would.&lt;/p&gt;
-
-&lt;p&gt;Patrollers copy these IP addresses into external &lt;a href=&quot;https://en.wikipedia.org/wiki/WHOIS&quot; target=&quot;_blank&quot;&gt;WHOIS tools&lt;/a&gt; to understand where the editor is coming from. These tools tell them information about where the editor might be and how they’re connecting to the Internet. To reduce the extra step of copy-pasting addresses, and providing a single place to get IP  information, the Anti-Harassment Tools team started work on an &lt;em&gt;IPInfo&lt;/em&gt; tool within Wikipedia. This tool would give our patrollers the needed information right where they need it — when analyzing an unregistered user’s contributions.&lt;/p&gt;
-
-&lt;h1 id=&quot;designing-ip-info&quot;&gt;Designing IP Info&lt;/h1&gt;
-
-&lt;h2 id=&quot;initial-research&quot;&gt;Initial Research&lt;/h2&gt;
-
-&lt;p&gt;First, we wanted to get a better understanding of the patrolling process and specifically how IP addresses are used while evaluating edits. To do this we conducted interviews with editors who often patrol our projects and asked them to show and talk us through their process. This gave us an overview of the different ways patrollers go about keeping our projects vandalism free. After a few rounds of feedback from design, research, engineers and Trust &amp;amp; Safety folks we had the following task model:&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/ip-info-risk-vs-usefulness-matrix-wikimedia-design.jpg&quot; alt=&quot;Task model for IP Patrolling on wikis.&quot; /&gt;
-  &lt;figcaption&gt;Task model for IP Patrolling on wikis. See &lt;a href=&quot;https://miro.com/app/board/o9J_lmUSH8s=/&quot; target=&quot;_blank&quot;&gt;Miro&lt;/a&gt; for a full view.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We understand now that IP patrolling usually starts from RecentChanges, an editor’s Watchlist, or from a page that the editor knows gets vandalized often. When looking at the edits of such a page the patroller first looks for clear red flags like edit flooding (lots of minor edits in a short amount of time), no edit summary, large deletions etc. They then look for more specific on-wiki information like if the IP has a talk page, if it has ever been blocked, and its global and local contributions.&lt;/p&gt;
-
-&lt;p&gt;Based on this initial fact-finding, patrollers decide if an IP is worth looking into further. If it is, they use external tools to find more information about the IP. They’re looking for details  like — location, proxy usage and organization that the IP might be linked to. This process is not completely accurate since different databases have different information on the same IP. Oftentimes, based on the location of the IP and the location of the tool the editors are using, the information provided might vary.&lt;/p&gt;
-
-&lt;p&gt;Finally, based on the information collected, patrollers decide which action would be most appropriate. Again, this decision takes into account various factors like the policies of that wiki, the scale of the collateral damage caused by a range block, consistency in editing patterns, etc.&lt;/p&gt;
-
-&lt;h2 id=&quot;mock-ups&quot;&gt;Mock-ups&lt;/h2&gt;
-
-&lt;p&gt;The patrollers need on-wiki information about the IP before they decide to investigate it, so, we decided to add a popup that shows block and contribution information. The popup would be accessible by clicking an information icon next to the IP address on pages like RecentChanges, Watchlist and History.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/ip-info-popup-wikimedia-design.png&quot; alt=&quot;The IP Info popup that’ll be accessible from pages like RecentChanges that patrollers monitor for edits.&quot; /&gt;
-  &lt;figcaption&gt;The IP Info popup that’ll be accessible from pages like RecentChanges that patrollers monitor for edits.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;If the patroller decides to dig deeper into an IP address by going to their Contributions page, they’ll be able to see a collapsible box that shows more IP related information.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/ip-info-box-wikimedia-design.png&quot; alt=&quot;The IP Info box shown on the Contributions page gives detailed information to the patrollers.&quot; /&gt;
-  &lt;figcaption&gt;The IP Info box shown on the Contributions page gives detailed information to the patrollers.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Sharing these mocks internally brought up three questions:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;How much information is useful?&lt;/li&gt;
-  &lt;li&gt;Who should have access to this information?&lt;/li&gt;
-  &lt;li&gt;Should some patrollers have access to partial bits of information?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;balancing-needs&quot;&gt;Balancing needs&lt;/h1&gt;
-
-&lt;p&gt;Our projects have a wide variety of contributors and vary in socio-demography, accessibility and motivations. These and other factors were captured in the &lt;a href=&quot;https://meta.wikimedia.org/wiki/Research:Knowledge_Gaps_Index/Taxonomy&quot; target=&quot;_blank&quot;&gt;Knowledge Gap Taxonomy&lt;/a&gt; research, which not only looked at the gaps in Wikipedia’s content but the gaps in the contributors as well. In turn, we reframed our design questions as:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;How might we make sure that revealing IP information doesn’t put our most marginalized contributors at risk?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;How might we ensure that access to information and tools doesn’t become a barrier to contributions for our least technically skilled contributors?&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;While IP information needs to be available to all, we wanted to make sure that it doesn’t put anyone at risk and it isn’t so technical &amp;amp; overwhelming that it becomes meaningless to most patrollers.&lt;/p&gt;
-
-&lt;h2 id=&quot;team-workshop&quot;&gt;Team Workshop&lt;/h2&gt;
-
-&lt;p&gt;The Anti-Harassment Tools team and the Trust &amp;amp; Safety teams came together for a small workshop to discuss these items. We acknowledged that we want both non-technical and technical users to have easy access to IP information. We also acknowledged that we can’t put our unregistered editors at risk especially because some of the IP information, like location and organization, can potentially help in identifying a person.&lt;/p&gt;
-
-&lt;p&gt;In our discussions around accessibility for patrollers we noted questions and concerns around information overload, accuracy of information and false confidence in IP data. We also considered if having IP information more readily available might lead to its misuse. The following clusters began to form:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Data:&lt;/strong&gt; How might we make sure that people understand the data they’re looking at, and understand its accuracy too?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Personal information:&lt;/strong&gt; How might we make sure that information is accessible to those who need it, without putting unregistered editors at risk?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Agency:&lt;/strong&gt; How might we inform unregistered editors of the data they are leaving traces of and show them ways to protect it (create an account)?&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;After brainstorming on the questions we started to organize our thoughts in the following manner — we need to balance the concerns of ease of use for patrollers and risk to unregistered editors. To do this we plotted the different pieces of IP information on a graph with Risk on the Y axis and Usefulness to patrolling on the X axis.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/ip-info-task-model-wikimedia-design.jpg&quot; alt=&quot;Task model for IP Patrolling on wikis.&quot; /&gt;
-  &lt;figcaption&gt;Plotting the different pieces of IP information based on Risk (to editor) and Usefulness (to patroller). See &lt;a href=&quot;https://miro.com/app/board/o9J_lmUSH8s=/&quot; target=&quot;_blank&quot;&gt;Miro&lt;/a&gt; for a full view.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;This exercise was based on the learnings from research as well as the team’s experience. Two clear clusters appeared, the high risk one mostly containing information that could reveal an editor’s location.&lt;/p&gt;
-
-&lt;p&gt;Based on this, we are planning to show a limited set of information to most users and give access to more sensitive information to only our most trusted users — Administrators and CheckUsers.&lt;/p&gt;
-
-&lt;h1 id=&quot;gathering-feedback&quot;&gt;Gathering feedback&lt;/h1&gt;
-
-&lt;h2 id=&quot;community-input&quot;&gt;Community input&lt;/h2&gt;
-
-&lt;p&gt;Sharing our findings with the community led to some interesting &lt;a href=&quot;https://meta.wikimedia.org/wiki/Talk:IP_Editing:_Privacy_Enhancement_and_Abuse_Mitigation/IP_Info_feature&quot; target=&quot;_blank&quot;&gt;conversations and feedback&lt;/a&gt;. Some common themes were:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Increasing or deepening the scope of a particular piece of information. IP Information is complex and having more context and data usually helps.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Adding more data sources to get a wider picture of the IP information. This would also help in figuring out if the data being shown is reliable.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Specific points about IP ranges and IPv6 addresses and how to deal with them.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;usability-tests&quot;&gt;Usability tests&lt;/h2&gt;
-
-&lt;p&gt;We were also able to do some usability tests with Patrollers in the community. Overall, the feature was well-received and they liked that they won’t have to rely on external tools in the future. We were given some specific feedback around:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The distribution of information between the popup and the box. Some information is more helpful in the popup to decide whether or not to investigate further.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Having more guidance on how to use this information.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Showing some of this information on Diff pages so that editors have access to it while comparing revisions.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h1&gt;
-
-&lt;p&gt;The implementation is currently in the works and we’ll be rolling it out to wikis slowly as a BetaFeature, incorporating improvements based on usability testing. We’ll also be implementing feedback mechanisms in the tool so that we can learn more about how people are using the tool. To follow the updates on this feature and join the discussion, check out the project’s page on &lt;a href=&quot;https://meta.wikimedia.org/wiki/IP_Editing:_Privacy_Enhancement_and_Abuse_Mitigation/IP_Info_feature&quot; target=&quot;_blank&quot;&gt;Wikimedia’s Meta-Wiki&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Cover image by Tristan J. Wilson. Taken from &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:TJDW_Stonehenge_20111107.tif&quot; target=&quot;_blank&quot;&gt;Commons&lt;/a&gt;, licensed under &lt;a href=&quot;https://creativecommons.org/publicdomain/zero/1.0/deed.en&quot; target=&quot;_blank&quot;&gt;CC0 1.0&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Thanks to Carolyn Li-Madeo, Rita Ho, Aida Ramirez, Jessica Klein &amp;amp; Niharika Kohli for your feedback and editing help.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Balancing the needs of patrollers and unregistered editors on the wikis</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/stonehenge.jpg" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/patrolling-unregistered-editors-on-wikipedia/stonehenge.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;em&gt;Thanks to Lucy Blackwell, Jazmin Tanner &amp;amp; Josh Minor for their contributions.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Designing for mobile apps presents unique challenges and opportunities compared to traditional websites. Mobile apps run natively on a device and have access to system resources that are harder to access within a web based architecture.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-and-apps-a-love-story/header.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/wikipedia-and-apps-a-love-story/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

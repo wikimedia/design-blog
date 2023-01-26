@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" class="js--off">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<link rel="stylesheet" href="/blog/assets/styles/wmui-style-guide.min.css">
+		<link rel="stylesheet" href="/blog/assets/styles/wmui-blog.css">
+		<link rel="alternate" type="application/rss+xml" href="https://design.wikimedia.org/blog/feed.xml" title="Wikimedia Design Blog">
+		<title>Designing a single grid system for all Wikimedia projects</title>
+		<script>
+			document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
+		</script>
+		<!--[if lt IE 9]>
+			<script>window.html5={'shivCSS':false};</script>
+			<script src="js/vendor/ie/html5shiv-3.7.3.min.js"></script>
+		<![endif]-->
+		<link rel="preload" href="https://design.wikimedia.org/style-guide/fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
+	</head>
+
+	<body vocab="http://schema.org/" typeof="WebPage">
+		<header id="header" class="header">
+			<div class="content-box">
+				<a href="#content" class="is-aural is-focusable">Jump to content</a>
+				<h6 class="site__title"><a href="/blog/"><span class="site__org">Wikimedia </span><span class="site__project">Design Blog</span></a></h6>
+				<a href="https://design.wikimedia.org/" class="lnk--contribute" title="Design at Wikimedia Foundation">Design at Wikimedia</a>
+			</div>
+		</header>
+
+		<div class="page" itemscope itemtype="http://schema.org/Blog">
+			<div class="content-box">
+				<div>
+					<main id="content" class="content">
+						<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+	<header class="post__header">
+		<img src="/blog/assets/uploads/designing-single-grid-system/Cover2.webp" alt="Designing a single grid system for all Wikimedia projects">
+		<p class="post__meta">
+		<time class="dt-published" datetime="2023-01-25T00:00:00+00:00" itemprop="datePublished">Jan 25, 2023
+		</time></p>
+		<h1 class="post__title p-name" itemprop="name headline">Designing a single grid system for all Wikimedia projects</h1>
+	</header>
+
+	<div class="post__content e-content" itemprop="articleBody">
+		<p><em>By <a href="https://uk.linkedin.com/in/kieran-mccann-0332057a" target="_blank" rel="nofollow">Kieran McCann</a> &amp; <a href="https://es.linkedin.com/in/barmarcal" target="_blank" rel="nofollow">Bárbara Martínez</a></em></p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p><em>By Kieran McCann</em></p>
+
+<p>When I first started working at the Wikimedia Foundation I was surprised to discover that although our projects used some basic layouts, there was no underlying layout grid system. As a visual designer, who originally studied graphic design from a print perspective, this felt like an elementary part of our design toolkit was missing. Without a grid system, making decisions about where items should sit on the page, and maintaining visual consistency across multiple projects would be more challenging.</p>
+
+<p>Maybe I shouldn’t have been surprised. Wikipedia launched in 2001 when the web, and certainly modern web design, was in its infancy. Since its launch there have been relatively few major design iterations. Indeed when I started in early 2021, the last release of a new ‘<a href="https://en.wikipedia.org/wiki/Wikipedia:Skin?">skin</a>’ – the template which changes the look and feel of a Wikipedia – was <a href="https://www.mediawiki.org/wiki/Skin:Vector">Vector</a> (now called <em>Vector Legacy</em>) which was deployed in 2010. Back then there were limited methods to apply layout grid systems on the web – both CSS Grid and Flexbox were still in the early stages of development and not well supported – so it is not surprising that a grid system was not implemented as part of this release. There were later <a href="https://www.mediawiki.org/wiki/Requests_for_comment/Grid_system">attempts to introduce a grid system</a>, which was implemented to our Content Translation project, but to retrofit a grid to already existing projects would have been a major undertaking, so that grid was not applied globally.</p>
+
+<p>Luckily, when I joined the Foundation, one of my first projects was working on the visual design for the <a href="https://www.mediawiki.org/w/index.php?title=Reading/Web/Desktop_Improvement">Desktop Improvements</a> project. This would be our first major redesign of the web interface in twelve years and as such would be a rare opportunity to rethink how we approach layout across the wikis and, importantly, to develop a grid system.</p>
+
+<h3 id="what-is-a-grid-system-and-why-do-we-need-one">What is a grid system and why do we need one?</h3>
+
+<p>A grid is a system for organising content within space – that could be a printed page, screen or  the built environment. A grid creates visual rhythm that helps us navigate space and content. To appreciate the importance of grids think about how you read a newspaper or walk around a city. You might not be particularly conscious of the grid but without it your ability to consume the content or find your way around would be much more difficult.</p>
+
+<p>In terms of modern user interface design a grid system is particularly important in allowing us to create flexible but consistent layouts across the huge variety of screen sizes that people may be using. By using a fluid grid we can divide the page width into several equally sized and spaced columns. Page content is then placed in alignment with these columns and when the viewport expands/shrinks horizontally, these fluid grid columns will expand proportionally.</p>
+
+<figure class="figure--video">
+	<video src="/blog/assets/uploads/designing-single-grid-system/ezgif.com-gif-maker_(6).webm" alt="Grid System" controls="">
+	</video>
+
+	
+</figure>
+
+<p>A grid system is also a valuable tool for the design team because it will allow us make design decisions based on a documented structure that we are all using, which in turn will help us to design more efficiently and consistently.</p>
+
+<h3 id="initial-proposal">Initial proposal</h3>
+
+<p>In my initial grid explorations as part of the Desktop Improvements project I quickly settled on using a 12-column grid for larger screen widths. The advantage of a 12-column grid is that it offers a wide range of column combinations to create both symmetrically balanced layouts and flexible, asymmetrical layouts. The latter is particularly useful for less standard compositions with different types of content, such as the dashboard format of the newcomer homepage.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/designing-single-grid-system/01_Initial-proposal_Desktop.webp" alt="Initial proposal for large screens" loading="lazy" width="720" />
+
+	
+</figure>
+
+<p>A 12-column grid, however, is only functional up to a certain screen width. Once the screen gets too narrow then single columns stop being a useful measure. I proposed to use different grids for the different breakpoints and devices (desktop, tablet, mobile) since at smaller screen sizes you need less layout flexibility.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/designing-single-grid-system/02_Initial-proposal_Tablet.webp" alt="Initial proposal for small screens" loading="lazy" width="720" />
+
+	
+</figure>
+
+<p>One of the added advantages of this proposed flexible grid is that it opened up the possibility of making the new skin we were working on more responsive to screen sizes.</p>
+
+<p>This proposal was then tested with various layouts used across the Wikis and then passed over to Bárbara and the Design System team to turn it into a workable design tool.</p>
+
+<h2 id="defining-a-systematic-solution-for-the-grid">Defining a systematic solution for the grid</h2>
+
+<p><em>By Bárbara Martínez</em></p>
+
+<p>After drafting the initial proposal, the Design System team and I started working on the systematic solution for this grid in order to create a solution that scales to any current and future Wikimedia web project.</p>
+
+<h3 id="elements-to-fit-in-the-grid">Elements to fit in the grid</h3>
+
+<p>A systematic grid solution must include the following elements:</p>
+
+<h4 id="grid-elements">Grid elements</h4>
+
+<ul>
+  <li><strong>Grid columns:</strong> vertical blocks are used to create and align the screen content. Breakpoints will determine the number of columns displayed in each screen size. The layout will be adapted to the available space on larger screens by using more grid columns. We will therefore use more grid columns on larger screens than on smaller ones.</li>
+  <li><strong>Margins:</strong> separation between grid columns and screen edges. In each breakpoint, margins might differ, and they could be fixed or scaled. We will use bigger margins on larger screens in order to create more space between the content and the screen edges.</li>
+  <li><strong>Gutters:</strong> horizontal separation between the grid columns that help separate the content blocks on the page. Gutter width might be different in each breakpoint range and they will be bigger on large screens since they help to create more space between columns.</li>
+</ul>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/designing-single-grid-system/Columns-margins-gutters.webp" alt="Columns, margins and gutters" loading="lazy" width="720" />
+
+	
+</figure>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/designing-single-grid-system/Breakpoints.webp" alt="Breakpoints" loading="lazy" width="720" />
+
+	
+</figure>
+
+<h4 id="breakpoints">Breakpoints</h4>
+
+<p>Breakpoints are the screen size ranges where the design fits certain characteristics. They are created to adapt the layout as well as possible to each screen size.</p>
+
+<p><strong>Breakpoints are decisive in the creation of the grid system since the grid elements will adapt to each breakpoint range.</strong></p>
+
+<p>For this reason, the following breakpoints were previously created:</p>
+
+<ul>
+  <li><strong>Desktop Wide:</strong> 1680px and larger screens</li>
+  <li><strong>Desktop:</strong> 1120px - 1679px screens</li>
+  <li><strong>Tablet:</strong> 640px - 1119px screens</li>
+  <li><strong>Mobile:</strong> 320px - 639px screens</li>
+</ul>
+
+<h4 id="layouts">Layouts</h4>
+
+<p>Layouts define the content structure for each page. Layouts are created by placing blocks of content on the page, in order to create a template that can be reused on other pages. We will use each layout according to the design requirements.</p>
+
+<p>After analyzing all the Wikimedia projects, we categorized the page content into 3 different layouts:</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/designing-single-grid-system/Layout_Left-Asymmetric_panels.webp" alt="Screenshot of left panel layout (ToC) " loading="lazy" width="720" />
+
+	<figcaption>
+<p>Left panel layout (ToC)</p>
+
+</figcaption>
+</figure>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/designing-single-grid-system/Layout_No_panels.webp" alt="Screenshot of layout without side panels " loading="lazy" width="720" />
+
+	<figcaption>
+<p>Layout without side panels</p>
+
+</figcaption>
+</figure>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/designing-single-grid-system/Layout_Full_width.webp" alt="Screenshot of full width layout " loading="lazy" width="720" />
+
+	<figcaption>
+<p>Full width layout</p>
+
+</figcaption>
+</figure>
+
+<h3 id="problems-found-with-the-12-column-grid-on-desktop">Problems found with the 12-column grid on desktop</h3>
+
+<p>Although the 12-column grid is one of the most common grids used for desktop, it didn’t allow us to cover the main use cases of our product. After testing the 12-column grid with the most important Wikimedia projects (Wikipedia, Abstract Wikipedia, Wikimedia Commons, Special Search, Growth…) and layouts, we ran into some problems creating a systematic solution with this desktop grid.</p>
+
+<p>We found a major issue to fix while <a href="https://dsg-grid-2.web.app/cher">testing the 12-column grid</a> with the Wikipedia article content and the table of content (ToC). Based on previous research and user testing, we needed to cover some minimum and maximum widths for certain page elements. In order to ensure proper legibility, a max-width of 960px was required for the article content. Also, the ideal min-width for the ToC was 200-245px.</p>
+
+<p>Trying to find the ideal margins and gutters in this 12-column grid for desktop was difficult. We either achieved the article content max-width or the ToC min-width, but never both at the same time. In most cases, the ToC was too narrow.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/designing-single-grid-system/12_columns_-_40px_margin_-_40_px_gutter.webp" alt="40px margin - 40 px gutter" loading="lazy" width="720" />
+
+	<figcaption>
+<p>40px margin - 40 px gutter</p>
+
+</figcaption>
+</figure>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/designing-single-grid-system/12_columns_-_32px_margin_-_24_px_gutter.webp" alt="32px margin - 24 px gutter" loading="lazy" width="720" />
+
+	<figcaption>
+<p>32px margin - 24 px gutter</p>
+
+</figcaption>
+</figure>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/designing-single-grid-system/12_columns_-_24px_margin_-_16px_gutter.webp" alt="24px margin - 16px gutter" loading="lazy" width="720" />
+
+	<figcaption>
+<p>24px margin - 16px gutter</p>
+
+</figcaption>
+</figure>
+
+<figure class="figure--video">
+	<video src="/blog/assets/uploads/designing-single-grid-system/Cher.webm" alt="Viewport resize" controls="">
+	</video>
+
+	
+</figure>
+
+<p>The ToC was too narrow when placed in the first two grid columns (especially on screens below 1280px). This was something we needed to fix since the ToC is really important in our Wikimedia projects.</p>
+
+<p>We tried to expand the width of the right panel from 2 to 3 grid columns. However, this solution did not meet our needs since the ToC went from being too narrow to too wide.</p>
+
+<figure class="figure--video">
+	<video src="/blog/assets/uploads/designing-single-grid-system/12col_2-3_col.webm" alt="2col vs 3col ToC" controls="">
+	</video>
+
+	
+</figure>
+
+<p>Due to the wide columns of the 12-column grid, the width difference between a 2-column and 3-column ToC was too great.</p>
+
+<p>We couldn’t find the perfect width for the right panel, either it was too narrow (2 columns) or it was too wide (3 columns).</p>
+
+<h3 id="solution-proposed-24-column-grid-for-desktop">Solution proposed: 24-column grid for desktop</h3>
+
+<p>As the 12-column grid was not working for our Wikimedia desktop use cases we decided to find another solution. After some explorations, we decided to use a 24-column grid for desktop instead.</p>
+
+<p>The 24-column grid offers the following benefits:</p>
+
+<ul>
+  <li>The 24-column grid is just twice as many columns as the 12-column grid.</li>
+  <li>The combination of columns is greater and allows us more flexibility when deciding the width of the side panels, as well as the central content.</li>
+  <li>By combining 24 columns, we have greater flexibility when creating new layouts or updating existing ones.</li>
+  <li>Users won’t notice the difference between a 12 or 24-column grid, since the grid columns are not visible to them in the interface. So a 12 or 24-column grid will be perceived as the same visual solution for them.</li>
+</ul>
+
+<figure class="figure--video">
+	<video src="/blog/assets/uploads/designing-single-grid-system/24col-grid.webm" alt="24col grid" controls="">
+	</video>
+
+	
+</figure>
+
+<h3 id="testing-the-new-systematic-solution">Testing the new systematic solution</h3>
+
+<p>The 24-column grid was tested with different projects and use cases to make sure it would work for both our current real use cases and future possible use cases.</p>
+
+<figure class="figure--video">
+	<video src="/blog/assets/uploads/designing-single-grid-system/ToC_24col.webm" alt="24col grid resize" controls="">
+	</video>
+
+	
+</figure>
+
+<h4 id="tested-with-article-content-and-toc">Tested with article content and ToC</h4>
+
+<p>We tested the table of contents and the article content with the 24-column grid in <a href="https://dsg-grid-2.web.app/cher">this prototype</a> and they worked perfectly on large, medium, and small desktop sizes.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/designing-single-grid-system/Captura_de_Pantalla_2022-12-06_a_las_13.46.00.webp" alt="Testing grid with other projects" loading="lazy" width="720" />
+
+	
+</figure>
+
+<h4 id="tested-with-wikimedia-projects">Tested with Wikimedia projects</h4>
+
+<p>It was then tested with the most important Wikimedia projects to cover all current use cases.</p>
+
+<figure class="figure--video">
+	<video src="/blog/assets/uploads/designing-single-grid-system/languages.webm" alt="" controls="">
+	</video>
+
+	
+</figure>
+
+<h4 id="tested-with-different-languages">Tested with different languages</h4>
+
+<p>As we work with more than 300 languages, we also tested the 24-column grid with many languages to check if it worked well with different scripts.</p>
+
+<figure class="figure--video">
+	<video src="/blog/assets/uploads/designing-single-grid-system/TestingSolution_BaseFont.webm" alt="Language test" controls="">
+	</video>
+
+	
+</figure>
+
+<h4 id="tested-with-the-base-font">Tested with the base font</h4>
+
+<p>Our current base font is 14px for desktop. But we also tested the 24-column grid with a base font of 16px in case it changes in the future.</p>
+
+<h3 id="final-grid-proposal">Final grid proposal</h3>
+
+<p>After testing this new solution with our different projects and use cases, we determined that the 24-column grid was the best solution. Our final solution was the following.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/designing-single-grid-system/Final_proposal.webp" alt="Final grid proposal" loading="lazy" width="720" />
+
+	
+</figure>
+
+<h4 id="desktop-wide">Desktop Wide</h4>
+
+<p><em>1680px and larger screens</em></p>
+
+<ul>
+  <li>24 columns</li>
+  <li>Margins: they scale according to the width of the screen</li>
+  <li>Gutters 24px</li>
+</ul>
+
+<h4 id="desktop">Desktop</h4>
+
+<p><em>1120px - 1679px screens</em></p>
+
+<ul>
+  <li>24 columns</li>
+  <li>Margins: 32px to max content width, then they scale</li>
+  <li>Gutters 24px</li>
+</ul>
+
+<h4 id="tablet">Tablet</h4>
+
+<p><em>640px - 1119px screens</em></p>
+
+<ul>
+  <li>8 columns</li>
+  <li>Margins: 24px</li>
+  <li>Gutters: 24px</li>
+</ul>
+
+<h4 id="mobile">Mobile</h4>
+
+<p><em>320px - 639px screens</em></p>
+
+<ul>
+  <li>4 columns</li>
+  <li>Margins – 16px</li>
+  <li>Gutters – 16px</li>
+</ul>
+
+<p>In addition to being the most appropriate solution for our desktop projects, the new grid will cover the 3 layouts we are currently using in production. The number of grid columns used varies in each layout and screen size.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/designing-single-grid-system/02_Layouts.webp" alt="Layouts" loading="lazy" width="720" />
+
+	
+</figure>
+
+<p>On desktop breakpoints (from 1120px screens onwards), side panels will be visible by default, while on tablet and mobile, they will be hidden. As a result, both the content of the page and the navigational menus will be wide enough for any screen size.</p>
+
+<figure class="figure--video">
+	<video src="/blog/assets/uploads/designing-single-grid-system/Cher_resize.webm" alt="Viewport resize" controls="">
+	</video>
+
+	
+</figure>
+
+<p>Also, this new grid covers an endless number of design solutions on different screen sizes since the combination of columns is highly variable.</p>
+
+<figure class="figure--video">
+	<video src="/blog/assets/uploads/designing-single-grid-system/ezgif.com-gif-maker_(2).webm" alt="Possible grid combinations" controls="">
+	</video>
+
+	
+</figure>
+
+<h3 id="where-will-this-grid-be-used">Where will this grid be used?</h3>
+
+<p>This new grid will be applied to any new Wikimedia web project. So it will be applied in both <a href="https://www.mediawiki.org/wiki/Skin:Vector/2022">Vector 2022</a> (desktop skin) and <a href="https://www.mediawiki.org/wiki/Skin:Minerva_Neue">Minerva</a> (mobile skin). Due to this new grid system’s exclusive use in new projects, it won’t be used in <a href="https://www.mediawiki.org/w/index.php?title=Skin:Vector">Vector legacy</a> (desktop legacy skin).</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/designing-single-grid-system/Where_will_this_grid_be_used.webp" alt="Desktop and mobile views" loading="lazy" width="720" />
+
+	
+</figure>
+
+<h2 id="lessons-learned">Lessons learned</h2>
+
+<p>The most important lesson we learned after designing the new Wikimedia grid was to focus on what really worked for us, and not to worry about what is commonly used on other websites. Although a 12-column grid is one of the most common desktop grids, it didn’t suit our Wikimedia use cases, so we needed to evolve our approach.</p>
+
+<p>It is important to adapt the final solution to what you really need for your project, even if your first iterations are based on lessons learned from something commonly used. Following lessons learned from other projects is worthless if this solution is not the right solution for you.</p>
+
+<h2 id="get-in-touch"><strong>Get in touch</strong></h2>
+
+<p>Thanks for reading! You can read more details about the <a href="https://www.mediawiki.org/wiki/Design_Systems_Team">Design Systems Team</a> and all our current and future initiatives.</p>
+
+<p><em>Thanks to Alex Hollender, Sarai Sanchez and Volker Eckl for your feedback and collaboration creating the new Wikimedia grid system. Thanks to Lucy Blackwell for the awesome review and feedback on this post.</em></p>
+
+	</div>
+
+	<a class="u-url" href="/blog/2023/01/25/designing-single-grid-system.html" hidden></a>
+</article>
+
+					</main>
+				</div>
+			</div>
+		</div>
+
+		<footer id="footer" class="footer">
+			<div class="content-box">
+				<ul class="footer__list footer__list--connect">
+					<li><a href="https://github.com/wikimedia/" target="_blank" rel="noopener">Contribute on GitHub</a></li>
+					<li><a href="https://twitter.com/@WikimediaDesign" title="Follow Wikimedia Product Design team on Twitter">Follow @WikimediaDesign</a></li>
+					<li><a href="https://medium.com/wikimediadesign" title="Follow Wikimedia Product Design team on Medium">Read on Medium</a></li>
+					<li><a href="https://lists.wikimedia.org/mailman/listinfo/design" title="Join Wikimedia Design mailing list">Join mailing list</a></li>
+				</ul>
+				<p>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener" property="license">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.</p>
+				<ul class="footer__list footer__list--policy">
+					<li><a href="https://wikimediafoundation.org/privacy-policy/">Privacy policy</a></li>
+					<li><a href="https://design.wikimedia.org/accessibility-statement.html">Accessibility statement</a></li>
+				</ul>
+				<p><a href="https://wikimediafoundation.org/" class="lnk--wikimedia-project" property="author" typeof="Organization">A Wikimedia Foundation project</a></p>
+				<noscript><p><img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" alt=""></p></noscript>
+			</div>
+		</footer>
+	</body>
+</html>
