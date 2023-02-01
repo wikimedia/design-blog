@@ -8,17 +8,22 @@ hr {
 	height: 2px;
 }
 
-figcaption {
-	margin: 1.2rem 0 3.2rem;
-	font-size: 1.2rem;
-	text-align: center;
-}
-
 table,
 th,
 td {
 	border: 1px solid #c8ccd1;
 	border-collapse: collapse;
+}
+
+figure {
+	margin: 2.4rem auto;
+}
+
+figcaption {
+	margin: 0.8rem 0;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	text-align: center;
 }
 
 .post__table td {
@@ -27,7 +32,6 @@ td {
 
 .post__title {
 	margin-top: 0;
-	font-size: 3.6rem;
 }
 
 .post--card .post__title {
@@ -42,18 +46,16 @@ td {
 	font-weight: 100;
 }
 
-.post__content li,
-.post__content p {
-	color: #202122;
-	margin-bottom: 5rem;
-	font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
-	font-size: 2rem;
-	letter-spacing: 0.05px;
-	line-height: 3.2rem;
+.post__content > p,
+.post__content > ul {
+	margin: 1.2rem auto;
 }
 
-.post__content li {
-	margin-bottom: 1rem;
+.post__content li,
+.post__content > p {
+	color: #202122;
+	font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+	letter-spacing: 0.05px;
 }
 
 .post__content .post__small {
@@ -69,14 +71,6 @@ td {
 .post__content footer p {
 	margin-bottom: 2rem;
 	line-height: 1.2;
-}
-
-.post__content figcaption > p {
-	color: inherit;
-	margin: inherit;
-	font-family: inherit;
-	font-size: inherit;
-	letter-spacing: inherit;
 }
 
 .banner {
@@ -132,6 +126,20 @@ td {
 	margin: 0 3rem;
 }
 
+.figure--image > img,
+.figure--video > video {
+	display: block;
+	max-width: 100%;
+	max-height: 50vh;
+	/* Prevent small media objects from losing their original aspect ratio, see T313362. */
+	object-fit: contain;
+}
+
+.figure--audio {
+	width: fit-content;
+	margin: 1.6rem auto;
+}
+
 @media ( min-width: 780px ) {
 	.content {
 		width: 720px;
@@ -140,19 +148,4 @@ td {
 	.banner__content {
 		padding-top: 3rem;
 	}
-}
-
-.figure--image > img,
-.figure--video > video {
-	display: block;
-	max-width: 100%;
-	max-height: 50vh;
-	margin: 1.6rem auto;
-	/* Prevent small media objects from losing their original aspect ratio, see T313362. */
-	object-fit: contain;
-}
-
-.figure--audio {
-	width: fit-content;
-	margin: 1.6rem auto;
 }
