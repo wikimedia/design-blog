@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2023-01-26T02:30:00+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Designing a single grid system for all Wikimedia projects</title><link href="https://design.wikimedia.org/blog/2023/01/25/designing-single-grid-system.html" rel="alternate" type="text/html" title="Designing a single grid system for all Wikimedia projects" /><published>2023-01-25T00:00:00+00:00</published><updated>2023-01-25T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2023/01/25/designing-single-grid-system</id><content type="html" xml:base="https://design.wikimedia.org/blog/2023/01/25/designing-single-grid-system.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://uk.linkedin.com/in/kieran-mccann-0332057a&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Kieran McCann&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://es.linkedin.com/in/barmarcal&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Bárbara Martínez&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2023-02-03T03:23:52+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Designing a single grid system for all Wikimedia projects</title><link href="https://design.wikimedia.org/blog/2023/01/25/designing-single-grid-system.html" rel="alternate" type="text/html" title="Designing a single grid system for all Wikimedia projects" /><published>2023-01-25T00:00:00+00:00</published><updated>2023-01-25T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2023/01/25/designing-single-grid-system</id><content type="html" xml:base="https://design.wikimedia.org/blog/2023/01/25/designing-single-grid-system.html">&lt;p&gt;&lt;em&gt;By &lt;a href=&quot;https://uk.linkedin.com/in/kieran-mccann-0332057a&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Kieran McCann&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://es.linkedin.com/in/barmarcal&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Bárbara Martínez&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
@@ -17,7 +17,7 @@
 &lt;p&gt;In terms of modern user interface design a grid system is particularly important in allowing us to create flexible but consistent layouts across the huge variety of screen sizes that people may be using. By using a fluid grid we can divide the page width into several equally sized and spaced columns. Page content is then placed in alignment with these columns and when the viewport expands/shrinks horizontally, these fluid grid columns will expand proportionally.&lt;/p&gt;
 
 &lt;figure class=&quot;figure--video&quot;&gt;
-	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/ezgif.com-gif-maker_(6).webm&quot; alt=&quot;Grid System&quot; controls=&quot;&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/ezgif.com-gif-maker_(6).webm&quot; alt=&quot;Grid System&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
 	&lt;/video&gt;
 
 	
@@ -161,7 +161,7 @@
 &lt;/figure&gt;
 
 &lt;figure class=&quot;figure--video&quot;&gt;
-	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/Cher.webm&quot; alt=&quot;Viewport resize&quot; controls=&quot;&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/Cher.webm&quot; alt=&quot;Viewport resize&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
 	&lt;/video&gt;
 
 	
@@ -172,7 +172,7 @@
 &lt;p&gt;We tried to expand the width of the right panel from 2 to 3 grid columns. However, this solution did not meet our needs since the ToC went from being too narrow to too wide.&lt;/p&gt;
 
 &lt;figure class=&quot;figure--video&quot;&gt;
-	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/12col_2-3_col.webm&quot; alt=&quot;2col vs 3col ToC&quot; controls=&quot;&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/12col_2-3_col.webm&quot; alt=&quot;2col vs 3col ToC&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
 	&lt;/video&gt;
 
 	
@@ -196,7 +196,7 @@
 &lt;/ul&gt;
 
 &lt;figure class=&quot;figure--video&quot;&gt;
-	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/24col-grid.webm&quot; alt=&quot;24col grid&quot; controls=&quot;&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/24col-grid.webm&quot; alt=&quot;24col grid&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
 	&lt;/video&gt;
 
 	
@@ -207,7 +207,7 @@
 &lt;p&gt;The 24-column grid was tested with different projects and use cases to make sure it would work for both our current real use cases and future possible use cases.&lt;/p&gt;
 
 &lt;figure class=&quot;figure--video&quot;&gt;
-	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/ToC_24col.webm&quot; alt=&quot;24col grid resize&quot; controls=&quot;&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/ToC_24col.webm&quot; alt=&quot;24col grid resize&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
 	&lt;/video&gt;
 
 	
@@ -228,7 +228,7 @@
 &lt;p&gt;It was then tested with the most important Wikimedia projects to cover all current use cases.&lt;/p&gt;
 
 &lt;figure class=&quot;figure--video&quot;&gt;
-	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/languages.webm&quot; alt=&quot;&quot; controls=&quot;&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/languages.webm&quot; alt=&quot;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
 	&lt;/video&gt;
 
 	
@@ -239,7 +239,7 @@
 &lt;p&gt;As we work with more than 300 languages, we also tested the 24-column grid with many languages to check if it worked well with different scripts.&lt;/p&gt;
 
 &lt;figure class=&quot;figure--video&quot;&gt;
-	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/TestingSolution_BaseFont.webm&quot; alt=&quot;Language test&quot; controls=&quot;&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/TestingSolution_BaseFont.webm&quot; alt=&quot;Language test&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
 	&lt;/video&gt;
 
 	
@@ -310,7 +310,7 @@
 &lt;p&gt;On desktop breakpoints (from 1120px screens onwards), side panels will be visible by default, while on tablet and mobile, they will be hidden. As a result, both the content of the page and the navigational menus will be wide enough for any screen size.&lt;/p&gt;
 
 &lt;figure class=&quot;figure--video&quot;&gt;
-	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/Cher_resize.webm&quot; alt=&quot;Viewport resize&quot; controls=&quot;&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/Cher_resize.webm&quot; alt=&quot;Viewport resize&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
 	&lt;/video&gt;
 
 	
@@ -319,7 +319,7 @@
 &lt;p&gt;Also, this new grid covers an endless number of design solutions on different screen sizes since the combination of columns is highly variable.&lt;/p&gt;
 
 &lt;figure class=&quot;figure--video&quot;&gt;
-	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/ezgif.com-gif-maker_(2).webm&quot; alt=&quot;Possible grid combinations&quot; controls=&quot;&quot;&gt;
+	&lt;video src=&quot;/blog/assets/uploads/designing-single-grid-system/ezgif.com-gif-maker_(2).webm&quot; alt=&quot;Possible grid combinations&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
 	&lt;/video&gt;
 
 	

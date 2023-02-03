@@ -4,7 +4,7 @@
 	<video
 		src="{{ src | relative_url}}"
 		{% if include.alt %}alt="{{ include.alt }}"{% endif %}
-		controls
+		{% if include.mode == "gif" %}autoplay loop muted{% else %}controls{% endif %}
 	>
 	</video>
 
