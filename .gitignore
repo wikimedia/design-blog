@@ -5,5 +5,6 @@
 /_dev/
 /vendor/
 assets/uploads/*/src/*
+node_modules
 .DS_Store
 **/.DS_Store

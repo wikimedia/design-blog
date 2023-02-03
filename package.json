@@ -1,0 +1,20 @@
+{
+	"private": true,
+	"name": "blog",
+	"repository": {
+		"type": "git",
+		"url": "https://gerrit.wikimedia.org/g/design/blog/"
+	},
+	"bugs": "https://phabricator.wikimedia.org/tag/design-research/",
+	"license": "MIT",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "npm run lint:stylelint",
+		"lint:stylelint": "stylelint assets/styles/wmui-blog.css"
+	},
+	"devDependencies": {
+		"stylelint": "^14.16.1",
+		"stylelint-config-wikimedia": "^0.13.1",
+		"stylelint-order": "^6.0.1"
+	}
+}

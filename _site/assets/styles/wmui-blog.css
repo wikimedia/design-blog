@@ -25,6 +25,11 @@ td {
 	padding: 4px;
 }
 
+.post__title {
+	margin-top: 0;
+	font-size: 3.6rem;
+}
+
 .post--card .post__title {
 	margin-top: 1.6rem;
 	font-size: 3.2rem;
@@ -35,11 +40,6 @@ td {
 	font-size: 2rem;
 	font-weight: 100;
 	font-style: italic;
-}
-
-.post__title {
-	margin-top: 0;
-	font-size: 3.6rem;
 }
 
 .post__content li,
