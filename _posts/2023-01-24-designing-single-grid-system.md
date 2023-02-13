@@ -27,6 +27,7 @@ In terms of modern user interface design a grid system is particularly important
 {% include video.html
   src="ezgif.com-gif-maker_(6).webm"
   alt="Grid System"
+  mode="gif"
 %}
 
 A grid system is also a valuable tool for the design team because it will allow us make design decisions based on a documented structure that we are all using, which in turn will help us to design more efficiently and consistently. 
@@ -143,6 +144,7 @@ Trying to find the ideal margins and gutters in this 12-column grid for desktop 
 {% include video.html
   src="Cher.webm"
   alt="Viewport resize"
+  mode="gif"
 %}
 
 The ToC was too narrow when placed in the first two grid columns (especially on screens below 1280px). This was something we needed to fix since the ToC is really important in our Wikimedia projects.
@@ -152,6 +154,7 @@ We tried to expand the width of the right panel from 2 to 3 grid columns. Howeve
 {% include video.html
   src="12col_2-3_col.webm"
   alt="2col vs 3col ToC"
+  mode="gif"
 %}
 
 Due to the wide columns of the 12-column grid, the width difference between a 2-column and 3-column ToC was too great.
@@ -172,6 +175,7 @@ The 24-column grid offers the following benefits:
 {% include video.html
   src="24col-grid.webm"
   alt="24col grid"
+  mode="gif"
 %}
 
 ### Testing the new systematic solution
@@ -181,6 +185,7 @@ The 24-column grid was tested with different projects and use cases to make sure
 {% include video.html
   src="ToC_24col.webm"
   alt="24col grid resize"
+  mode="gif"
 %}
 
 #### Tested with article content and ToC
@@ -199,6 +204,7 @@ It was then tested with the most important Wikimedia projects to cover all curre
 {% include video.html
   src="languages.webm"
   alt=""
+  mode="gif"
 %}
 
 #### Tested with different languages
@@ -208,6 +214,7 @@ As we work with more than 300 languages, we also tested the 24-column grid with 
 {% include video.html
   src="TestingSolution_BaseFont.webm"
   alt="Language test"
+  mode="gif"
 %}
 
 #### Tested with the base font
@@ -267,6 +274,7 @@ On desktop breakpoints (from 1120px screens onwards), side panels will be visibl
 {% include video.html
   src="Cher_resize.webm"
   alt="Viewport resize"
+  mode="gif"
 %}
 
 Also, this new grid covers an endless number of design solutions on different screen sizes since the combination of columns is highly variable.
@@ -274,6 +282,7 @@ Also, this new grid covers an endless number of design solutions on different sc
 {% include video.html
   src="ezgif.com-gif-maker_(2).webm"
   alt="Possible grid combinations"
+  mode="gif"
 %}
 
 ### Where will this grid be used?
