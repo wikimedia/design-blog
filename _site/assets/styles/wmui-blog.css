@@ -9,8 +9,8 @@ hr {
 }
 
 figcaption {
-	font-size: 1.2rem;
 	margin: 1.2rem 0 3.2rem;
+	font-size: 1.2rem;
 	text-align: center;
 }
 
@@ -38,18 +38,18 @@ td {
 .banner__intro,
 .post__excerpt {
 	font-size: 2rem;
-	font-weight: 100;
 	font-style: italic;
+	font-weight: 100;
 }
 
 .post__content li,
 .post__content p {
-	margin-bottom: 5rem;
-	font-size: 2rem;
-	line-height: 3.2rem;
 	color: #202122;
-	letter-spacing: 0.05px;
+	margin-bottom: 5rem;
 	font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+	font-size: 2rem;
+	letter-spacing: 0.05px;
+	line-height: 3.2rem;
 }
 
 .post__content li {
@@ -57,8 +57,8 @@ td {
 }
 
 .post__content .post__small {
-	font-size: 1.6rem;
 	margin: 0;
+	font-size: 1.6rem;
 }
 
 .post__content .post__authors {
@@ -67,16 +67,16 @@ td {
 }
 
 .post__content footer p {
-	line-height: 1.2;
 	margin-bottom: 2rem;
+	line-height: 1.2;
 }
 
 .post__content figcaption > p {
-	margin: inherit;
-	font-size: inherit;
-	font-family: inherit;
-	letter-spacing: inherit;
 	color: inherit;
+	margin: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	letter-spacing: inherit;
 }
 
 .banner {
@@ -85,14 +85,14 @@ td {
 }
 
 .banner__content {
-	padding-left: 2rem;
 	padding-top: 0;
+	padding-left: 2rem;
 }
 
 .banner__heading {
 	margin: 0;
-	font-size: 3.5rem;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
+	font-size: 3.5rem;
 	font-weight: 800;
 }
 
