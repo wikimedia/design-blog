@@ -6,3 +6,7 @@ cc-by-40:
 cc-by-sa-25:
   name: "CC BY-SA 2.5"
   url: "https://creativecommons.org/licenses/by-sa/2.5/"
+
+cc-by-sa-40:
+  name: "CC BY-SA 4.0"
+  url: "https://creativecommons.org/licenses/by-sa/4.0/"
