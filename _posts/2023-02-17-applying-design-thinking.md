@@ -8,31 +8,6 @@ date: 2023-02-17
 
 _By [Matthew Williams](https://twitter.com/derrellwilliams){:target="_blank" rel="nofollow"}_
 
-***Takeaways to the reader?***
-Examples of how using a design process to plan an offsite will make it more effective
-Tips and tricks for making a hybrid meeting as seamless as possible
-
-***Topic outline***
-Based on [Meta: Wikimedia Blog / Guidelines](https://meta.wikimedia.org/wiki/Wikimedia_Blog/Guidelines#Grand_idea_product_launch)
-
-1. Introduction & context
-	- Summary of our team and how most of us hadn’t met in person before
-	- Using a design process to plan an offsite
-2. Research
-	- Sharing what research we did in the planning stage including sending out a survey to the team to see what they were hoping and expecting from an offsite
-3. Exploration / Brainstorming
-	- Idea generation
-	- Connecting the ideas into days and themes
-4. Hybrid meeting strategies
-	- How we used multiple cameras, microphones, etc.
-	- How we connected the in-person events to the remote activities and assignments
-5. Coffee Meet-Ups
-	- Our strategy for finding ways for everyone to get to know each other
-6. Bringing it all together
-	- Summary of the different day's events
-7. Reflection
-	Survey results
-
 With a design team of 26 people spread out through 5 continents, 14 countries, and 9 time zones, finding ways to make remote work effective is something we have worked hard to achieve through our meetings, interactions, and practices. But with 50% of our current team having never met each other in person due to starting during the Covid-19 pandemic, we knew there were certain collaborative and relationship pieces missing in our puzzle to create a welcoming and impactful team culture.
 
 It's a unique situation to spend hundreds, if not thousands of hours working closely with others and never spend time in person. But with most travel restrictions loosening in the countries where we all lived, we decided it was time to connect together as a team in person. With the high investment of time and resources to get us all into the same room, we decided to approach planning the offsite like any other design project to help ensure our time together would be well spent. Here was our approach.
