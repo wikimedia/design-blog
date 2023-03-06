@@ -26,6 +26,10 @@ figcaption {
 	text-align: center;
 }
 
+blockquote {
+	font-size: 1.6rem;
+}
+
 .post__table td {
 	padding: 4px;
 }
