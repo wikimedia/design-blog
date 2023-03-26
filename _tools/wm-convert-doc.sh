@@ -56,6 +56,21 @@ _convert_document() {
 		s|^#-8|########|;
 		s|^#-9|########|' |
 
+	# Remove <span>
+	perl -pe 's|<span .*?>(.*?)</span>|$1|g' |
+
+	# Remove HTML comments
+	perl -pe 's|<!--(.*?)-->||' |
+
+	# Rewrite italic syntax
+	perl -pe 's|\*(.+?)\*|_$1_|g;
+			  s|\*_|\*\*|g;
+			  s|_\*|\*\*|g' |
+
+	# Condense multiple line breaks
+	# NOTE: setting '$/' to undef make Perl read the whole file as a single line
+	perl -pe '$/ = undef;s/(\R{2,})/\n\n/g' |
+
 	# Save to disk
 	cat > "$outputFile"
 }
