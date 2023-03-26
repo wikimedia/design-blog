@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" class="js--off">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<link rel="stylesheet" href="/blog/assets/styles/wmui-style-guide.min.css">
+		<link rel="stylesheet" href="/blog/assets/styles/wmui-blog.css">
+		<link rel="alternate" type="application/rss+xml" href="https://design.wikimedia.org/blog/feed.xml" title="Wikimedia Design Blog">
+		<title>Improving search on Wikipedia</title>
+		<script>
+			document.documentElement.className = document.documentElement.className.replace(/\bjs--off\b/,'js--on');
+		</script>
+		<link rel="preload" href="https://design.wikimedia.org/style-guide/fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
+	</head>
+
+	<body vocab="http://schema.org/" typeof="WebPage">
+		<header id="header" class="header">
+			<div class="content-box">
+				<a href="#content" class="is-aural is-focusable">Jump to content</a>
+				<h6 class="site__title"><a href="/blog/"><span class="site__org">Wikimedia </span><span class="site__project">Design Blog</span></a></h6>
+				<a href="https://design.wikimedia.org/" class="lnk--contribute" title="Design at Wikimedia Foundation">Design at Wikimedia</a>
+			</div>
+		</header>
+
+		<div class="page" itemscope itemtype="http://schema.org/Blog">
+			<div class="content-box">
+				<div>
+					<main id="content" class="content">
+						<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+	<header class="post__header">
+		<img src="/blog/assets/uploads/improving-search-wikipedia/featured.webp" alt="Improving search on Wikipedia">
+		<p class="post__meta">
+		<time class="dt-published" datetime="2023-03-17T00:00:00+00:00" itemprop="datePublished">Mar 17, 2023
+		</time></p>
+		<h1 class="post__title p-name" itemprop="name headline">Improving search on Wikipedia</h1>
+	</header>
+
+	<div class="post__content e-content" itemprop="articleBody">
+		<p><em>By <a href="mailto:spatel@wikimedia.org">Sneha Patel</a></em></p>
+
+<p>Wikipedia’s mission is to enable every single person on the planet free access to the sum of all human knowledge in the language of their choice.</p>
+
+<p>But how does one go about finding what they are looking for on Wikipedia? Today most of our readers come across Wikipedia content through Google and other external search engines. But Wikipedia also has its own search that often goes unnoticed by readers. So what is the purpose of having search on Wikipedia when it is so easy to use external search engines to find content on Wikipedia? The Search Platform team has a <a href="https://www.mediawiki.org/wiki/Wikimedia_Search_Platform/Why_Search_is_Important?useskin=vector-2022">summary</a> of some reasons why search on Wikipedia is important. Privacy, safety, sharing and preserving knowledge, and caring about all language communities regardless of profitability, are some of the principles that govern search on Wikipedia.</p>
+
+<p>It is not our goal to have Wikipedia replace popular search engines. However, it is important for search on-wiki to keep up with the key features that readers expect from search and serve those who are specifically looking for content on Wikipedia. After all, how difficult could it be to find things in the world’s largest encyclopedia? With the enormous amounts of great content added by our volunteers, not just on Wikipedia but all of its <a href="https://en.wikipedia.org/wiki/Wikipedia:Wikimedia_sister_projects?useskin=vector-2022">sister projects</a>, improving the search and discovery of content is of vital importance.</p>
+
+<h2 id="origins-of-the-project">Origins of the project</h2>
+
+<p>One of the initiatives to improve finding and discovery of content is the <a href="https://www.mediawiki.org/w/index.php?title=Structured_Data_Across_Wikimedia&amp;useskin=vector-2022">Structured Data Across Wikimedia</a> program, which aims to structure existing Wikipedia content so that it is machine-recognizable. Making our content machine recognizable or in other words adding metadata to organize unstructured data &amp; media, makes searching easier and content more discoverable.</p>
+
+<p>The <a href="https://www.mediawiki.org/w/index.php?title=Structured_Data_Across_Wikimedia/Search_Improvements&amp;useskin=vector-2022">Search Improvements project</a>, with the help of structured content, aims to provide a more inviting and more efficient way to search and find content on the Wikipedias.</p>
+
+<p>This post is a reflection on how we arrived at the improvements we made for search.</p>
+
+<h2 id="understanding-reader-behaviour">Understanding reader behaviour</h2>
+
+<p>The design process began with research to better understand how people use search on Wikipedia. We reviewed the analytics, did UX analysis of current search, and ran qualitative interviews with readers. These research inquiries led us to general understanding on how readers are using our search and what might be blocking them from using its full potential.</p>
+
+<p>We learnt that most of the research participants followed a general path to Wikipedia’s content.</p>
+
+<ol>
+  <li>Most participant’s usual route to knowledge on Wikipedia begins in Google.</li>
+  <li>Once the participant arrived on Wikipedia, a few would use the search bar on Wikipedia to initiate another search.</li>
+  <li>When an article match is found the participants were redirected to that article.</li>
+  <li>When the desired content (in this case, an article) was not found (or not served in the auto suggestions in the search box), participants abandoned their search on Wikipedia.</li>
+</ol>
+
+<p>However, not finding the desired content on Wikipedia is often a discovery problem rather than a content problem.</p>
+
+<h2 id="what-influences-the-current-behavior">What influences the current behavior?</h2>
+
+<p>The current search box does an excellent job of finding article title matches. e.g. if one types <em>“Nicaragua”</em> the article name will be suggested in the dropdown.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image7.webp" alt="Screenshot of Wikipedia showing matched article suggestions in search box" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Matched article suggestions in search box</p>
+
+</figcaption>
+</figure>
+
+<p>But when one searches for <em>“rainfall in Nicaragua”</em>, because there is no article with that title, there are no suggested articles displayed.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image6.webp" alt="Screenshot of Wikipedia showing empty results in search box" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Empty results in search box</p>
+
+</figcaption>
+</figure>
+
+<p>This is because article suggestions in the search bar are not the result of a robust search over the entire text of Wikipedia articles, but are instead a result of a quicker process of matching the search query with only the title of an article.</p>
+
+<p>However, as the typical reader doesn’t know this, their usual reaction is that the information they are looking for does not exist on Wikipedia. And this is when readers are likely to abandon searching on Wikipedia.</p>
+
+<h2 id="other-ways-to-search-on-wikipedia">Other ways to search on Wikipedia</h2>
+
+<p>In such cases, even though an article matching the reader’s search term does not exist, it is likely that the information the reader seeks is hidden but available under <a href="https://en.wikipedia.org/w/index.php?title=Geography_of_Nicaragua&amp;useskin=vector-2022#Rainfall">sections or articles with different names</a> or in sister projects like <a href="https://commons.wikimedia.org/wiki/File:Rain_Shower_outside_Cafe_Campestre_-_Balgue_-_Ometepe_Island_-_Nicaragua_(31604033052).jpg?useskin=vector-2022">Wikimedia commons</a> or <a href="https://en.wikivoyage.org/wiki/Nicaragua?useskin=vector-2022#Climate">Wikivoyage</a> and other sources within our ecosystem. However, those places are not easily discoverable for readers.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image5.webp" alt="Screenshot of Wikipedia showing Rainfall section in the article named Geography of Nicaragua" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Rainfall section in the article named Geography of Nicaragua</p>
+
+</figcaption>
+</figure>
+
+<p>If the readers were to click on the link in the search box that says “Search for pages containing rainfall in Nicaragua” it would take them to the <a href="https://en.wikipedia.org/w/index.php?search=rainfall+in+nicaragua&amp;title=Special%3ASearch&amp;ns0=1&amp;useskin=vector-2022">Search page</a>, which performs a more thorough search, resulting in other articles that may contain the desired information. The discovery of this page was missed consistently by the participants due to it being a bit hidden away in the UI. And the function of this page was not obvious for those who were shown the page.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image3.webp" alt="Screenshot of Wikipedia showing link to search page from the search bar and the search page" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Link to search page from the search bar</p>
+
+</figcaption>
+</figure>
+
+<h2 id="search-bar-vs-search-page">Search bar vs Search page</h2>
+
+<p>Can the aforementioned more thorough search be made available in the search bar? Certainly. But only to some extent so that we don’t bloat the lightweight search bar with too much information. Including this level of broader search in the search bar would also require significant technological infrastructure improvements to maintain performance and latency. And while we could work on making the search bar more responsive to such queries, that would require a huge effort in both time and resources in building what already exists on the search page.</p>
+
+<p>However, we found that the search page was difficult to use for readers based on our initial research. Improving this page would both encourage more usage and highlight the already existing functionality. Which is why for this project, we decided to focus on addressing the problems on the search page.</p>
+
+<h2 id="what-problems-did-we-discover-on-the-search-page">What problems did we discover on the Search page?</h2>
+
+<h3 id="problem-1-search-ui-reinforced-mental-models-that-prevented-participants-from-exploring-the-search-results">Problem 1: Search UI reinforced mental models that prevented participants from exploring the search results.</h3>
+
+<p>Due to the learnt behaviours on the Search bar, participants had a strong mental model that if the article is not suggested in the drop down it was a failed search – even if the Search page would show a wide variety of relevant results for the same search query. The current messaging that appears at the top of the results (a highly salient location) indicating “article not found”, reinforced this mental model.</p>
+
+<p>We found out that a lot of these messages were customized by their respective communities with the intention of being one of the main ways in which users were taught to start their <a href="https://en.wikipedia.org/wiki/Wikipedia:How_to_create_a_page?useskin=vector-2022#Method_1:_searching">article creation process</a>. Altering this message would cause more disruption in the short to medium term, so we concentrated on other immediate opportunities for improvement instead.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image8.webp" alt="Screenshot of Wikipedia showing 'no page found' message" loading="lazy" width="720" />
+
+	<figcaption>
+<p>No page found message often caused readers to abandon a search with relevant results</p>
+
+</figcaption>
+</figure>
+
+<h3 id="problem-2-lack-of-proper-visual-design">Problem 2: Lack of proper visual design</h3>
+
+<p>There were several visual design issues identified on the search page:</p>
+
+<ul>
+  <li>The page lacked visual content which made scanning and locating information on a text heavy page more difficult.</li>
+  <li>The colors on the page were in-appropriately used and drew attention to less important things for e.g. green to highlight metadata, thereby taking the focus away from the content.</li>
+  <li>The page column layout was not consistent with other pages on Wikipedia. The ultimate goal for this page would be to use our new design grid system, the benefits of which are explained in this <a href="https://design.wikimedia.org/blog/2023/01/25/designing-single-grid-system.html">blog post</a>.</li>
+</ul>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image9.webp" alt="Screenshot of Wikipedia showing search page before redesign" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Search page before redesign</p>
+
+</figcaption>
+</figure>
+
+<h3 id="problem-3-lack-of-context-for-a-given-result">Problem 3: Lack of context for a given result.</h3>
+
+<p>The snippets that appear on the search page help readers discover content within the article’s sections. However, most of the snippets are partial sentences that do not provide users with enough context of the article’s information. To read more of the snippet, the user would have to click through to the article and find that snippet on the page manually, increasing the amount of time it would take to find the information they are looking for, and leading them away from other potentially relevant results.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image4.webp" alt="Screenshot of Wikipedia highlighting snippets in the search results on search page" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Snippets shown in the search results on search page</p>
+
+</figcaption>
+</figure>
+
+<h3 id="problem-4-search-results-from-other-projects-were-either-not-discovered-or-misinterpreted">Problem 4: Search results from other projects were either not discovered or misinterpreted.</h3>
+
+<p>Most participants did not notice or pay attention to the second column of the search results which shows results from other <a href="https://en.wikipedia.org/wiki/Wikipedia:Wikimedia_sister_projects?useskin=vector-2022">projects</a> that are part of the Wikimedia ecosystem. Participants assumed them to be ads due to the similar location of ads on other search engines. Ads are, in fact, against the principles that govern <a href="https://en.wikipedia.org/wiki/Wikimedia_Foundation?useskin=vector-2022">WMF</a> products, but readers were not aware or conscious of this fact enough during their search to overcome their initial assumptions. We found that due to the general unawareness of these other WMF projects, the value of seeing search results from these projects was not made clear with our current page design.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image1.webp" alt="Screenshot of Wikipedia highlighting search results in sister projects" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Search results in sister projects</p>
+
+</figcaption>
+</figure>
+
+<p>Fixing some of the above problems and creating new opportunities for discovering content would pave the way for future search enhancements.</p>
+
+<h2 id="choosing-an-audience-for-search-improvements">Choosing an audience for search improvements</h2>
+
+<p>The Search page would especially be beneficial when an article title match is not found in the search bar. This may happen more often while searching for content in emerging language Wikipedias that often have fewer articles. Hence, we saw a great opportunity in improving this page for emerging language Wikipedias. A better broader search would allow searchers on smaller wikis to discover content within articles and in other Wikimedia projects, and not entirely rely on an article title match in the search bar.</p>
+
+<p>By focusing on Portuguese, Russian and Indonesian Wikipedias, we could also build on the existing relationships between those communities and our team’s (Structured Data) community ambassadors in those wikis, allowing for better facilitations in receiving feedback from the community.</p>
+
+<h2 id="user-stories">User Stories</h2>
+
+<p>By this point we had a fairly good idea of what problem and opportunities we were going to go after. Which brings me to our next steps in the process: drafting user stories.</p>
+
+<p>User stories help articulate the user needs and allows us to have a better understanding of why users want a certain functionality. It also ensures that the team remains on the same page when ideating on solutions. It serves as not only a tool for understanding user needs but also a tool for better collaboration.</p>
+
+<p>The following user stories were written to provide focus areas for the search page improvements.</p>
+
+<h3 id="user-story-1">User Story 1</h3>
+
+<p><code class="language-plaintext highlighter-rouge">When</code> I am looking at search results on the Special:Search page</p>
+
+<p><code class="language-plaintext highlighter-rouge">I want to</code> be able to easily scan the page,</p>
+
+<p><code class="language-plaintext highlighter-rouge">so that</code> I can quickly locate the information I am looking for.</p>
+
+<h3 id="user-story-2">User Story 2</h3>
+
+<p><code class="language-plaintext highlighter-rouge">When</code> I am looking at the results on the Special:Search page</p>
+
+<p><code class="language-plaintext highlighter-rouge">I want to</code> be able to see key information,</p>
+
+<p><code class="language-plaintext highlighter-rouge">so that</code> I can evaluate the relevance of various search results and find the information I was seeking..</p>
+
+<h3 id="user-story-3">User Story 3</h3>
+
+<p><code class="language-plaintext highlighter-rouge">When</code> going through search on special:search page</p>
+
+<p><code class="language-plaintext highlighter-rouge">I want to</code> be able to see links to relevant content like linked galleries, wikiquotes etc,</p>
+
+<p><code class="language-plaintext highlighter-rouge">so that</code> I can discover and explore other Wikimedia projects for relevant content.</p>
+
+<h2 id="proposed-design-improvements">Proposed design improvements</h2>
+
+<p>After a series of team activities, design sessions, and feedback rounds we settled on the following improvements for the Search page.</p>
+
+<h3 id="article-thumbnails">Article thumbnails</h3>
+
+<p>To address the user needs presented in the user story #1, we introduced article thumbnail images in search results. They were added to serve as a visual navigational aid in an otherwise text heavy page. Thumbnails can also assist searchers in finding information quickly: e.g. if one only knew roughly how a yellow daisy looked, thumbnails can easily help that user <a href="https://en.wikipedia.org/w/index.php?search=flower+daisy+yellow&amp;title=Special:Search&amp;profile=advanced&amp;fulltext=1&amp;ns0=1&amp;useskin=vector-2022">locate the right name</a> for the flower. Adding visuals proved to be useful to the research participants we showed these designs to.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image10.webp" alt="Screenshot of Wikipedia showing redesigned search page with thumbnail images" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Redesigned search page with thumbnail images</p>
+
+</figcaption>
+</figure>
+
+<h4 id="design-considerations">Design considerations</h4>
+
+<ul>
+  <li>
+    <p>A few different <a href="https://phabricator.wikimedia.org/T307034#7939730">explorations</a> were discussed before we settled on a square sized thumbnail. One of our goals was to provide an efficient way to scan information and varying sizes of images would come in the way of this goal. Another design rationale in support of not showing the full size of the images was that these images were supportive of the content users searched and not the content itself. Since this was not an image search we did not think showing the full size of images was serving our core purpose.</p>
+  </li>
+  <li>
+    <p>While we thought thumbnails were a good addition for readers, some editors found them to adversely affect their workflow so we added a <a href="https://en.wikipedia.org/wiki/Help:Preferences">specific preference</a> to turn it off in the settings.</p>
+  </li>
+  <li>
+    <p>We decided to not show thumbnails for mobile devices due to data and bandwidth considerations of a portable device.</p>
+  </li>
+</ul>
+
+<p>We also used this opportunity to fix some of the other visual design problems mentioned earlier in the post. Since we felt that most readers would benefit from all these changes, we released this across all Wikipedias.</p>
+
+<h3 id="search-preview---desktop">Search preview - Desktop</h3>
+
+<p>Search Preview was introduced to address the needs presented in user story #2 and #3. Its purpose was to surface key information pertaining to the result and provide necessary context, so that the user could evaluate the relevance of search results without leaving the results page. Previews also help the readers go directly to the section of an article that they are interested in, thereby reducing the amount of the time it would take the user to find information within articles. Search previews also serve as a space to surface relevant content from other Wikimedia projects for users to explore – such as related images from <a href="https://commons.wikimedia.org/wiki/Main_Page?useskin=vector-2022">Wikimedia Commons</a>. These designs were well received by readers in user tests and were reviewed with community members.</p>
+
+<figure class="figure--video">
+	<video src="/blog/assets/uploads/improving-search-wikipedia/image12.webm" alt="Screen capture of Wikipedia showing search preview on Desktop" autoplay="" loop="" muted="">
+	</video>
+
+	
+	<figcaption>Search preview on Desktop</figcaption>
+	
+</figure>
+
+<h4 id="design-considerations-1">Design considerations</h4>
+
+<ul>
+  <li>
+    <p>Preview design was partly inspired by <a href="https://commons.wikimedia.org/w/index.php?search=golden+crowned+kinglet&amp;title=Special:MediaSearch&amp;useskin=vector-2022&amp;type=image">Wikimedia Commons search previews</a> and <a href="https://www.mediawiki.org/wiki/mw:Page_Previews?useskin=vector-2022">Wikipedia page previews</a>. We did not want the search preview to feel like a completely new element introduced to our system and so we tried to follow the existing patterns and visual look while only differing in places where we needed to differ.</p>
+  </li>
+  <li>
+    <p>Several <a href="https://www.figma.com/proto/DCrbEdMqur0yfgwducTMQ4/Search-Prototypes?node-id=103%3A4687&amp;scaling=min-zoom&amp;page-id=0%3A1&amp;starting-point-node-id=271%3A7230&amp;hotspot-hints=0&amp;hide-ui=1" target="_blank" rel="nofollow">solutions</a> for opening a preview were explored before we settled on something <a href="https://www.figma.com/proto/DCrbEdMqur0yfgwducTMQ4/Search-Prototypes?node-id=1%3A2834&amp;scaling=min-zoom&amp;page-id=0%3A1&amp;starting-point-node-id=271%3A7230&amp;hotspot-hints=0&amp;hide-ui=1" target="_blank" rel="nofollow">simpler</a> where the visual affordance (arrow) for discovering previews would only appear upon hover and the users would be made aware of the feature through a first time tutorial. We tested this approach and once the user tried it, the interaction became intuitive very quickly.</p>
+  </li>
+  <li>To decide what content should appear in previews we went back to our user story #2. The following key information would provide users with enough context to decide whether to further explore a particular result or not.
+    <ul>
+      <li>Lead image of the article</li>
+      <li>Expanded snippets</li>
+      <li>Sections of the article</li>
+    </ul>
+  </li>
+  <li>
+    <p>Expanding snippets turned out to be more complicated than expected. A rudimentary solution was suggested <a href="https://phabricator.wikimedia.org/T316397">here</a> and several ideas were captured <a href="https://phabricator.wikimedia.org/T329230">here</a> for improving the expansion of snippets in the future.</p>
+  </li>
+  <li>In order to address the user story #3 related to the discovery of relevant content in other Wikimedia projects, the following content was also added to search previews.
+    <ul>
+      <li>Relevant images from <a href="https://commons.wikimedia.org/wiki/Main_Page?useskin=vector-2022">Wikimedia Commons</a>.</li>
+      <li>Links to other relevant pages in other <a href="https://wikimediafoundation.org/our-work/wikimedia-projects/#a1-reference">Wikimedia projects</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Due to the experimental nature of these solutions we decided to launch in Portuguese, Russian and Indonesian wikis after a few rounds of community consultation. We plan to learn from the usage of these features before launching it to other language wikis.</p>
+
+<h3 id="search-preview---mobile">Search preview - Mobile</h3>
+
+<p>The process of defining what search preview on mobile would look like was more nuanced than just taking the desktop preview and designing it to fit the mobile screen.</p>
+
+<h4 id="design-considerations-2">Design considerations</h4>
+
+<p>If we were to take the desktop design as is and put it on mobile it would have resulted in a new page that the user would have to navigate to. This would defeat the purpose of having a quick glance at the contents of the article. If users have to go to a new page to see a preview they may as well go to the article itself.</p>
+
+<p>We had to go back to the drawing board to see what would work for mobile. After several <a href="https://wikimediadesign.notion.site/Search-results-preview-on-mobile-99b8becb8a6a47f8a96a2316c97d8808">design explorations</a> and feedback rounds, we settled on the following carousel design which when tested worked well with our users.</p>
+
+<figure class="figure--video">
+	<video src="/blog/assets/uploads/improving-search-wikipedia/image11.webm" alt="Screen capture of Wikipedia showing search preview on Mobile" autoplay="" loop="" muted="">
+	</video>
+
+	
+	<figcaption>Search preview on Mobile</figcaption>
+	
+</figure>
+
+<h2 id="challenges-and-learnings">Challenges and learnings</h2>
+
+<ul>
+  <li>
+    <p>The challenge that the product teams face in an open source environment is that many things are customizable. In our project we found there were elements on search pages customized by the editor community for their specific workflows. So ensuring the newer better UI is adopted by all communities is not always guaranteed.</p>
+  </li>
+  <li>
+    <p>While we want to design for casual readers, changes can be disruptive for existing editor workflows. The needs of both types of users need to be constantly balanced: e.g. thumbnails in search proved very useful for the readers while some editors found them distracting.</p>
+  </li>
+  <li>
+    <p>Engaging with the community early in the process is important. However, sometimes not everyone will discover or notice the proposed changes until it is released. Extra time needs to be budgeted in the project to account for unforeseen feedback coming in after the feature is released.</p>
+  </li>
+  <li>
+    <p>There can be different values and perspectives amongst the community – even when working on the same mission – as illustrated in this <a href="https://en.wikipedia.org/wiki/Wikipedia_talk:Non-free_content?useskin=vector-2022">discussion</a> of whether to allow non-free images as thumbnails or not. This demonstrates the diversity of our community and making constructive compromises is inherent to how we create products at the foundation.</p>
+  </li>
+</ul>
+
+<h2 id="next-steps">Next steps</h2>
+
+<p>A few things we would like to do in the future to continue improving the search experience:</p>
+
+<ul>
+  <li>
+    <p>Find ways in which the Search page can be made more discoverable. Now that we have improved the Search page a bit, we want more people to enjoy making use of its full power! In order to do this, we want to raise its visibility and awareness.</p>
+  </li>
+  <li>
+    <p>Use learnings from the improvements on this page to improve search in the top of the search experience funnel: i.e. most searches begin with the search bar, and we believe there is also a lot of potential to improve this feature.</p>
+  </li>
+  <li>
+    <p>Do research on the editor needs of search. Our data indicates that 20% of users end up on the Search page on English Wikipedia. However, we do not know if these are casual readers or editors. Since the research we did with readers suggested that they were unaware of the Search page, our assumption was that the vast number of people using this page might be editors. While for this project we focused our efforts on reader experience, as a next step we would like to understand how to improve search for editors.</p>
+  </li>
+  <li>
+    <p>Figure out the high impact areas for search improvement. There is a lot we can do to improve search but we cannot do it all given the resources we have. For that reason it would be good to identify what changes will have the most positive impact on the experience and prioritize those.</p>
+  </li>
+  <li>
+    <p>Continue to learn about reader behaviour and find opportunities for improvement. We have only started uncovering some of the basic problems with search but there are way more undiscovered opportunities out there.</p>
+  </li>
+</ul>
+
+<p>If you are part of one of the wikis where these features are released (<a href="https://pt.wikipedia.org/w/index.php?search=&amp;title=Especial:Pesquisar&amp;useskin=vector-2022">Portuguese</a>, <a href="https://ru.wikipedia.org/w/index.php?search=&amp;title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%9F%D0%BE%D0%B8%D1%81%D0%BA&amp;profile=advanced&amp;fulltext=1&amp;ns0=1&amp;useskin=vector-2022">Russian</a> and <a href="https://id.wikipedia.org/w/index.php?search=&amp;title=Istimewa:Pencarian&amp;profile=advanced&amp;fulltext=1&amp;ns0=1&amp;useskin=vector-2022">Indonesian</a>) I hope you will try it out and provide feedback on the <em><a href="https://www.mediawiki.org/w/index.php?title=Structured_Data_Across_Wikimedia/Search_Improvements&amp;useskin=vector-2022">community page</a>.</em></p>
+
+<p><em>Thanks to Rita Ho &amp; Matthew Williams for their design mentorship throughout the project; Michael Raish for helping with initial phases of design research; Rita Ho, Carolyn Li-Madeo, &amp; Mike Pham for thoughtful edits and feedback on this post; and not to mention the Structured Data team for building these features &amp; the Search platform team for providing technical support.</em></p>
+
+	</div>
+
+	<a class="u-url" href="/blog/2023/03/17/improving-search-wikipedia.html" hidden></a>
+</article>
+
+					</main>
+				</div>
+			</div>
+		</div>
+
+		<footer id="footer" class="footer">
+			<div class="content-box">
+				<ul class="footer__list footer__list--connect">
+					<li><a href="https://github.com/wikimedia/" target="_blank" rel="noopener">Contribute on GitHub</a></li>
+					<li><a href="https://twitter.com/@WikimediaDesign" title="Follow Wikimedia Product Design team on Twitter">Follow @WikimediaDesign</a></li>
+					<li><a href="https://medium.com/wikimediadesign" title="Follow Wikimedia Product Design team on Medium">Read on Medium</a></li>
+					<li><a href="https://lists.wikimedia.org/mailman/listinfo/design" title="Join Wikimedia Design mailing list">Join mailing list</a></li>
+				</ul>
+				<p>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener" property="license">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.</p>
+				<ul class="footer__list footer__list--policy">
+					<li><a href="https://wikimediafoundation.org/privacy-policy/">Privacy policy</a></li>
+					<li><a href="https://design.wikimedia.org/accessibility-statement.html">Accessibility statement</a></li>
+				</ul>
+				<p><a href="https://wikimediafoundation.org/" class="lnk--wikimedia-project" property="author" typeof="Organization">A Wikimedia Foundation project</a></p>
+				<noscript><p><img src="https://piwik.wikimedia.org/piwik.php?idsite=16&rec=1" alt=""></p></noscript>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,49 +1,330 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2023-03-04T03:17:51+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Applying design thinking to planning an offsite</title><link href="https://design.wikimedia.org/blog/2023/02/17/applying-design-thinking.html" rel="alternate" type="text/html" title="Applying design thinking to planning an offsite" /><published>2023-02-17T00:00:00+00:00</published><updated>2023-02-17T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2023/02/17/applying-design-thinking</id><content type="html" xml:base="https://design.wikimedia.org/blog/2023/02/17/applying-design-thinking.html"><![CDATA[<p><em>By <a href="https://twitter.com/derrellwilliams" target="_blank" rel="nofollow">Matthew Williams</a></em></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2023-03-28T13:45:31+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Improving search on Wikipedia</title><link href="https://design.wikimedia.org/blog/2023/03/17/improving-search-wikipedia.html" rel="alternate" type="text/html" title="Improving search on Wikipedia" /><published>2023-03-17T00:00:00+00:00</published><updated>2023-03-17T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2023/03/17/improving-search-wikipedia</id><content type="html" xml:base="https://design.wikimedia.org/blog/2023/03/17/improving-search-wikipedia.html"><![CDATA[<p><em>By <a href="mailto:spatel@wikimedia.org">Sneha Patel</a></em></p>
 
-<p><strong><em>Takeaways to the reader?</em></strong>
-Examples of how using a design process to plan an offsite will make it more effective
-Tips and tricks for making a hybrid meeting as seamless as possible</p>
+<p>Wikipedia’s mission is to enable every single person on the planet free access to the sum of all human knowledge in the language of their choice.</p>
 
-<p><strong><em>Topic outline</em></strong>
-Based on <a href="https://meta.wikimedia.org/wiki/Wikimedia_Blog/Guidelines#Grand_idea_product_launch">Meta: Wikimedia Blog / Guidelines</a></p>
+<p>But how does one go about finding what they are looking for on Wikipedia? Today most of our readers come across Wikipedia content through Google and other external search engines. But Wikipedia also has its own search that often goes unnoticed by readers. So what is the purpose of having search on Wikipedia when it is so easy to use external search engines to find content on Wikipedia? The Search Platform team has a <a href="https://www.mediawiki.org/wiki/Wikimedia_Search_Platform/Why_Search_is_Important?useskin=vector-2022">summary</a> of some reasons why search on Wikipedia is important. Privacy, safety, sharing and preserving knowledge, and caring about all language communities regardless of profitability, are some of the principles that govern search on Wikipedia.</p>
+
+<p>It is not our goal to have Wikipedia replace popular search engines. However, it is important for search on-wiki to keep up with the key features that readers expect from search and serve those who are specifically looking for content on Wikipedia. After all, how difficult could it be to find things in the world’s largest encyclopedia? With the enormous amounts of great content added by our volunteers, not just on Wikipedia but all of its <a href="https://en.wikipedia.org/wiki/Wikipedia:Wikimedia_sister_projects?useskin=vector-2022">sister projects</a>, improving the search and discovery of content is of vital importance.</p>
+
+<h2 id="origins-of-the-project">Origins of the project</h2>
+
+<p>One of the initiatives to improve finding and discovery of content is the <a href="https://www.mediawiki.org/w/index.php?title=Structured_Data_Across_Wikimedia&amp;useskin=vector-2022">Structured Data Across Wikimedia</a> program, which aims to structure existing Wikipedia content so that it is machine-recognizable. Making our content machine recognizable or in other words adding metadata to organize unstructured data &amp; media, makes searching easier and content more discoverable.</p>
+
+<p>The <a href="https://www.mediawiki.org/w/index.php?title=Structured_Data_Across_Wikimedia/Search_Improvements&amp;useskin=vector-2022">Search Improvements project</a>, with the help of structured content, aims to provide a more inviting and more efficient way to search and find content on the Wikipedias.</p>
+
+<p>This post is a reflection on how we arrived at the improvements we made for search.</p>
+
+<h2 id="understanding-reader-behaviour">Understanding reader behaviour</h2>
+
+<p>The design process began with research to better understand how people use search on Wikipedia. We reviewed the analytics, did UX analysis of current search, and ran qualitative interviews with readers. These research inquiries led us to general understanding on how readers are using our search and what might be blocking them from using its full potential.</p>
+
+<p>We learnt that most of the research participants followed a general path to Wikipedia’s content.</p>
 
 <ol>
-  <li>Introduction &amp; context
-    <ul>
-      <li>Summary of our team and how most of us hadn’t met in person before</li>
-      <li>Using a design process to plan an offsite</li>
-    </ul>
-  </li>
-  <li>Research
-    <ul>
-      <li>Sharing what research we did in the planning stage including sending out a survey to the team to see what they were hoping and expecting from an offsite</li>
-    </ul>
-  </li>
-  <li>Exploration / Brainstorming
-    <ul>
-      <li>Idea generation</li>
-      <li>Connecting the ideas into days and themes</li>
-    </ul>
-  </li>
-  <li>Hybrid meeting strategies
-    <ul>
-      <li>How we used multiple cameras, microphones, etc.</li>
-      <li>How we connected the in-person events to the remote activities and assignments</li>
-    </ul>
-  </li>
-  <li>Coffee Meet-Ups
-    <ul>
-      <li>Our strategy for finding ways for everyone to get to know each other</li>
-    </ul>
-  </li>
-  <li>Bringing it all together
-    <ul>
-      <li>Summary of the different day’s events</li>
-    </ul>
-  </li>
-  <li>Reflection
- Survey results</li>
+  <li>Most participant’s usual route to knowledge on Wikipedia begins in Google.</li>
+  <li>Once the participant arrived on Wikipedia, a few would use the search bar on Wikipedia to initiate another search.</li>
+  <li>When an article match is found the participants were redirected to that article.</li>
+  <li>When the desired content (in this case, an article) was not found (or not served in the auto suggestions in the search box), participants abandoned their search on Wikipedia.</li>
 </ol>
+
+<p>However, not finding the desired content on Wikipedia is often a discovery problem rather than a content problem.</p>
+
+<h2 id="what-influences-the-current-behavior">What influences the current behavior?</h2>
+
+<p>The current search box does an excellent job of finding article title matches. e.g. if one types <em>“Nicaragua”</em> the article name will be suggested in the dropdown.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image7.webp" alt="Screenshot of Wikipedia showing matched article suggestions in search box" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Matched article suggestions in search box</p>
+
+</figcaption>
+</figure>
+
+<p>But when one searches for <em>“rainfall in Nicaragua”</em>, because there is no article with that title, there are no suggested articles displayed.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image6.webp" alt="Screenshot of Wikipedia showing empty results in search box" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Empty results in search box</p>
+
+</figcaption>
+</figure>
+
+<p>This is because article suggestions in the search bar are not the result of a robust search over the entire text of Wikipedia articles, but are instead a result of a quicker process of matching the search query with only the title of an article.</p>
+
+<p>However, as the typical reader doesn’t know this, their usual reaction is that the information they are looking for does not exist on Wikipedia. And this is when readers are likely to abandon searching on Wikipedia.</p>
+
+<h2 id="other-ways-to-search-on-wikipedia">Other ways to search on Wikipedia</h2>
+
+<p>In such cases, even though an article matching the reader’s search term does not exist, it is likely that the information the reader seeks is hidden but available under <a href="https://en.wikipedia.org/w/index.php?title=Geography_of_Nicaragua&amp;useskin=vector-2022#Rainfall">sections or articles with different names</a> or in sister projects like <a href="https://commons.wikimedia.org/wiki/File:Rain_Shower_outside_Cafe_Campestre_-_Balgue_-_Ometepe_Island_-_Nicaragua_(31604033052).jpg?useskin=vector-2022">Wikimedia commons</a> or <a href="https://en.wikivoyage.org/wiki/Nicaragua?useskin=vector-2022#Climate">Wikivoyage</a> and other sources within our ecosystem. However, those places are not easily discoverable for readers.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image5.webp" alt="Screenshot of Wikipedia showing Rainfall section in the article named Geography of Nicaragua" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Rainfall section in the article named Geography of Nicaragua</p>
+
+</figcaption>
+</figure>
+
+<p>If the readers were to click on the link in the search box that says “Search for pages containing rainfall in Nicaragua” it would take them to the <a href="https://en.wikipedia.org/w/index.php?search=rainfall+in+nicaragua&amp;title=Special%3ASearch&amp;ns0=1&amp;useskin=vector-2022">Search page</a>, which performs a more thorough search, resulting in other articles that may contain the desired information. The discovery of this page was missed consistently by the participants due to it being a bit hidden away in the UI. And the function of this page was not obvious for those who were shown the page.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image3.webp" alt="Screenshot of Wikipedia showing link to search page from the search bar and the search page" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Link to search page from the search bar</p>
+
+</figcaption>
+</figure>
+
+<h2 id="search-bar-vs-search-page">Search bar vs Search page</h2>
+
+<p>Can the aforementioned more thorough search be made available in the search bar? Certainly. But only to some extent so that we don’t bloat the lightweight search bar with too much information. Including this level of broader search in the search bar would also require significant technological infrastructure improvements to maintain performance and latency. And while we could work on making the search bar more responsive to such queries, that would require a huge effort in both time and resources in building what already exists on the search page.</p>
+
+<p>However, we found that the search page was difficult to use for readers based on our initial research. Improving this page would both encourage more usage and highlight the already existing functionality. Which is why for this project, we decided to focus on addressing the problems on the search page.</p>
+
+<h2 id="what-problems-did-we-discover-on-the-search-page">What problems did we discover on the Search page?</h2>
+
+<h3 id="problem-1-search-ui-reinforced-mental-models-that-prevented-participants-from-exploring-the-search-results">Problem 1: Search UI reinforced mental models that prevented participants from exploring the search results.</h3>
+
+<p>Due to the learnt behaviours on the Search bar, participants had a strong mental model that if the article is not suggested in the drop down it was a failed search – even if the Search page would show a wide variety of relevant results for the same search query. The current messaging that appears at the top of the results (a highly salient location) indicating “article not found”, reinforced this mental model.</p>
+
+<p>We found out that a lot of these messages were customized by their respective communities with the intention of being one of the main ways in which users were taught to start their <a href="https://en.wikipedia.org/wiki/Wikipedia:How_to_create_a_page?useskin=vector-2022#Method_1:_searching">article creation process</a>. Altering this message would cause more disruption in the short to medium term, so we concentrated on other immediate opportunities for improvement instead.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image8.webp" alt="Screenshot of Wikipedia showing 'no page found' message" loading="lazy" width="720" />
+
+	<figcaption>
+<p>No page found message often caused readers to abandon a search with relevant results</p>
+
+</figcaption>
+</figure>
+
+<h3 id="problem-2-lack-of-proper-visual-design">Problem 2: Lack of proper visual design</h3>
+
+<p>There were several visual design issues identified on the search page:</p>
+
+<ul>
+  <li>The page lacked visual content which made scanning and locating information on a text heavy page more difficult.</li>
+  <li>The colors on the page were in-appropriately used and drew attention to less important things for e.g. green to highlight metadata, thereby taking the focus away from the content.</li>
+  <li>The page column layout was not consistent with other pages on Wikipedia. The ultimate goal for this page would be to use our new design grid system, the benefits of which are explained in this <a href="https://design.wikimedia.org/blog/2023/01/25/designing-single-grid-system.html">blog post</a>.</li>
+</ul>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image9.webp" alt="Screenshot of Wikipedia showing search page before redesign" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Search page before redesign</p>
+
+</figcaption>
+</figure>
+
+<h3 id="problem-3-lack-of-context-for-a-given-result">Problem 3: Lack of context for a given result.</h3>
+
+<p>The snippets that appear on the search page help readers discover content within the article’s sections. However, most of the snippets are partial sentences that do not provide users with enough context of the article’s information. To read more of the snippet, the user would have to click through to the article and find that snippet on the page manually, increasing the amount of time it would take to find the information they are looking for, and leading them away from other potentially relevant results.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image4.webp" alt="Screenshot of Wikipedia highlighting snippets in the search results on search page" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Snippets shown in the search results on search page</p>
+
+</figcaption>
+</figure>
+
+<h3 id="problem-4-search-results-from-other-projects-were-either-not-discovered-or-misinterpreted">Problem 4: Search results from other projects were either not discovered or misinterpreted.</h3>
+
+<p>Most participants did not notice or pay attention to the second column of the search results which shows results from other <a href="https://en.wikipedia.org/wiki/Wikipedia:Wikimedia_sister_projects?useskin=vector-2022">projects</a> that are part of the Wikimedia ecosystem. Participants assumed them to be ads due to the similar location of ads on other search engines. Ads are, in fact, against the principles that govern <a href="https://en.wikipedia.org/wiki/Wikimedia_Foundation?useskin=vector-2022">WMF</a> products, but readers were not aware or conscious of this fact enough during their search to overcome their initial assumptions. We found that due to the general unawareness of these other WMF projects, the value of seeing search results from these projects was not made clear with our current page design.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image1.webp" alt="Screenshot of Wikipedia highlighting search results in sister projects" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Search results in sister projects</p>
+
+</figcaption>
+</figure>
+
+<p>Fixing some of the above problems and creating new opportunities for discovering content would pave the way for future search enhancements.</p>
+
+<h2 id="choosing-an-audience-for-search-improvements">Choosing an audience for search improvements</h2>
+
+<p>The Search page would especially be beneficial when an article title match is not found in the search bar. This may happen more often while searching for content in emerging language Wikipedias that often have fewer articles. Hence, we saw a great opportunity in improving this page for emerging language Wikipedias. A better broader search would allow searchers on smaller wikis to discover content within articles and in other Wikimedia projects, and not entirely rely on an article title match in the search bar.</p>
+
+<p>By focusing on Portuguese, Russian and Indonesian Wikipedias, we could also build on the existing relationships between those communities and our team’s (Structured Data) community ambassadors in those wikis, allowing for better facilitations in receiving feedback from the community.</p>
+
+<h2 id="user-stories">User Stories</h2>
+
+<p>By this point we had a fairly good idea of what problem and opportunities we were going to go after. Which brings me to our next steps in the process: drafting user stories.</p>
+
+<p>User stories help articulate the user needs and allows us to have a better understanding of why users want a certain functionality. It also ensures that the team remains on the same page when ideating on solutions. It serves as not only a tool for understanding user needs but also a tool for better collaboration.</p>
+
+<p>The following user stories were written to provide focus areas for the search page improvements.</p>
+
+<h3 id="user-story-1">User Story 1</h3>
+
+<p><code class="language-plaintext highlighter-rouge">When</code> I am looking at search results on the Special:Search page</p>
+
+<p><code class="language-plaintext highlighter-rouge">I want to</code> be able to easily scan the page,</p>
+
+<p><code class="language-plaintext highlighter-rouge">so that</code> I can quickly locate the information I am looking for.</p>
+
+<h3 id="user-story-2">User Story 2</h3>
+
+<p><code class="language-plaintext highlighter-rouge">When</code> I am looking at the results on the Special:Search page</p>
+
+<p><code class="language-plaintext highlighter-rouge">I want to</code> be able to see key information,</p>
+
+<p><code class="language-plaintext highlighter-rouge">so that</code> I can evaluate the relevance of various search results and find the information I was seeking..</p>
+
+<h3 id="user-story-3">User Story 3</h3>
+
+<p><code class="language-plaintext highlighter-rouge">When</code> going through search on special:search page</p>
+
+<p><code class="language-plaintext highlighter-rouge">I want to</code> be able to see links to relevant content like linked galleries, wikiquotes etc,</p>
+
+<p><code class="language-plaintext highlighter-rouge">so that</code> I can discover and explore other Wikimedia projects for relevant content.</p>
+
+<h2 id="proposed-design-improvements">Proposed design improvements</h2>
+
+<p>After a series of team activities, design sessions, and feedback rounds we settled on the following improvements for the Search page.</p>
+
+<h3 id="article-thumbnails">Article thumbnails</h3>
+
+<p>To address the user needs presented in the user story #1, we introduced article thumbnail images in search results. They were added to serve as a visual navigational aid in an otherwise text heavy page. Thumbnails can also assist searchers in finding information quickly: e.g. if one only knew roughly how a yellow daisy looked, thumbnails can easily help that user <a href="https://en.wikipedia.org/w/index.php?search=flower+daisy+yellow&amp;title=Special:Search&amp;profile=advanced&amp;fulltext=1&amp;ns0=1&amp;useskin=vector-2022">locate the right name</a> for the flower. Adding visuals proved to be useful to the research participants we showed these designs to.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/improving-search-wikipedia/image10.webp" alt="Screenshot of Wikipedia showing redesigned search page with thumbnail images" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Redesigned search page with thumbnail images</p>
+
+</figcaption>
+</figure>
+
+<h4 id="design-considerations">Design considerations</h4>
+
+<ul>
+  <li>
+    <p>A few different <a href="https://phabricator.wikimedia.org/T307034#7939730">explorations</a> were discussed before we settled on a square sized thumbnail. One of our goals was to provide an efficient way to scan information and varying sizes of images would come in the way of this goal. Another design rationale in support of not showing the full size of the images was that these images were supportive of the content users searched and not the content itself. Since this was not an image search we did not think showing the full size of images was serving our core purpose.</p>
+  </li>
+  <li>
+    <p>While we thought thumbnails were a good addition for readers, some editors found them to adversely affect their workflow so we added a <a href="https://en.wikipedia.org/wiki/Help:Preferences">specific preference</a> to turn it off in the settings.</p>
+  </li>
+  <li>
+    <p>We decided to not show thumbnails for mobile devices due to data and bandwidth considerations of a portable device.</p>
+  </li>
+</ul>
+
+<p>We also used this opportunity to fix some of the other visual design problems mentioned earlier in the post. Since we felt that most readers would benefit from all these changes, we released this across all Wikipedias.</p>
+
+<h3 id="search-preview---desktop">Search preview - Desktop</h3>
+
+<p>Search Preview was introduced to address the needs presented in user story #2 and #3. Its purpose was to surface key information pertaining to the result and provide necessary context, so that the user could evaluate the relevance of search results without leaving the results page. Previews also help the readers go directly to the section of an article that they are interested in, thereby reducing the amount of the time it would take the user to find information within articles. Search previews also serve as a space to surface relevant content from other Wikimedia projects for users to explore – such as related images from <a href="https://commons.wikimedia.org/wiki/Main_Page?useskin=vector-2022">Wikimedia Commons</a>. These designs were well received by readers in user tests and were reviewed with community members.</p>
+
+<figure class="figure--video">
+	<video src="/blog/assets/uploads/improving-search-wikipedia/image12.webm" alt="Screen capture of Wikipedia showing search preview on Desktop" autoplay="" loop="" muted="">
+	</video>
+
+	
+	<figcaption>Search preview on Desktop</figcaption>
+	
+</figure>
+
+<h4 id="design-considerations-1">Design considerations</h4>
+
+<ul>
+  <li>
+    <p>Preview design was partly inspired by <a href="https://commons.wikimedia.org/w/index.php?search=golden+crowned+kinglet&amp;title=Special:MediaSearch&amp;useskin=vector-2022&amp;type=image">Wikimedia Commons search previews</a> and <a href="https://www.mediawiki.org/wiki/mw:Page_Previews?useskin=vector-2022">Wikipedia page previews</a>. We did not want the search preview to feel like a completely new element introduced to our system and so we tried to follow the existing patterns and visual look while only differing in places where we needed to differ.</p>
+  </li>
+  <li>
+    <p>Several <a href="https://www.figma.com/proto/DCrbEdMqur0yfgwducTMQ4/Search-Prototypes?node-id=103%3A4687&amp;scaling=min-zoom&amp;page-id=0%3A1&amp;starting-point-node-id=271%3A7230&amp;hotspot-hints=0&amp;hide-ui=1" target="_blank" rel="nofollow">solutions</a> for opening a preview were explored before we settled on something <a href="https://www.figma.com/proto/DCrbEdMqur0yfgwducTMQ4/Search-Prototypes?node-id=1%3A2834&amp;scaling=min-zoom&amp;page-id=0%3A1&amp;starting-point-node-id=271%3A7230&amp;hotspot-hints=0&amp;hide-ui=1" target="_blank" rel="nofollow">simpler</a> where the visual affordance (arrow) for discovering previews would only appear upon hover and the users would be made aware of the feature through a first time tutorial. We tested this approach and once the user tried it, the interaction became intuitive very quickly.</p>
+  </li>
+  <li>To decide what content should appear in previews we went back to our user story #2. The following key information would provide users with enough context to decide whether to further explore a particular result or not.
+    <ul>
+      <li>Lead image of the article</li>
+      <li>Expanded snippets</li>
+      <li>Sections of the article</li>
+    </ul>
+  </li>
+  <li>
+    <p>Expanding snippets turned out to be more complicated than expected. A rudimentary solution was suggested <a href="https://phabricator.wikimedia.org/T316397">here</a> and several ideas were captured <a href="https://phabricator.wikimedia.org/T329230">here</a> for improving the expansion of snippets in the future.</p>
+  </li>
+  <li>In order to address the user story #3 related to the discovery of relevant content in other Wikimedia projects, the following content was also added to search previews.
+    <ul>
+      <li>Relevant images from <a href="https://commons.wikimedia.org/wiki/Main_Page?useskin=vector-2022">Wikimedia Commons</a>.</li>
+      <li>Links to other relevant pages in other <a href="https://wikimediafoundation.org/our-work/wikimedia-projects/#a1-reference">Wikimedia projects</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Due to the experimental nature of these solutions we decided to launch in Portuguese, Russian and Indonesian wikis after a few rounds of community consultation. We plan to learn from the usage of these features before launching it to other language wikis.</p>
+
+<h3 id="search-preview---mobile">Search preview - Mobile</h3>
+
+<p>The process of defining what search preview on mobile would look like was more nuanced than just taking the desktop preview and designing it to fit the mobile screen.</p>
+
+<h4 id="design-considerations-2">Design considerations</h4>
+
+<p>If we were to take the desktop design as is and put it on mobile it would have resulted in a new page that the user would have to navigate to. This would defeat the purpose of having a quick glance at the contents of the article. If users have to go to a new page to see a preview they may as well go to the article itself.</p>
+
+<p>We had to go back to the drawing board to see what would work for mobile. After several <a href="https://wikimediadesign.notion.site/Search-results-preview-on-mobile-99b8becb8a6a47f8a96a2316c97d8808">design explorations</a> and feedback rounds, we settled on the following carousel design which when tested worked well with our users.</p>
+
+<figure class="figure--video">
+	<video src="/blog/assets/uploads/improving-search-wikipedia/image11.webm" alt="Screen capture of Wikipedia showing search preview on Mobile" autoplay="" loop="" muted="">
+	</video>
+
+	
+	<figcaption>Search preview on Mobile</figcaption>
+	
+</figure>
+
+<h2 id="challenges-and-learnings">Challenges and learnings</h2>
+
+<ul>
+  <li>
+    <p>The challenge that the product teams face in an open source environment is that many things are customizable. In our project we found there were elements on search pages customized by the editor community for their specific workflows. So ensuring the newer better UI is adopted by all communities is not always guaranteed.</p>
+  </li>
+  <li>
+    <p>While we want to design for casual readers, changes can be disruptive for existing editor workflows. The needs of both types of users need to be constantly balanced: e.g. thumbnails in search proved very useful for the readers while some editors found them distracting.</p>
+  </li>
+  <li>
+    <p>Engaging with the community early in the process is important. However, sometimes not everyone will discover or notice the proposed changes until it is released. Extra time needs to be budgeted in the project to account for unforeseen feedback coming in after the feature is released.</p>
+  </li>
+  <li>
+    <p>There can be different values and perspectives amongst the community – even when working on the same mission – as illustrated in this <a href="https://en.wikipedia.org/wiki/Wikipedia_talk:Non-free_content?useskin=vector-2022">discussion</a> of whether to allow non-free images as thumbnails or not. This demonstrates the diversity of our community and making constructive compromises is inherent to how we create products at the foundation.</p>
+  </li>
+</ul>
+
+<h2 id="next-steps">Next steps</h2>
+
+<p>A few things we would like to do in the future to continue improving the search experience:</p>
+
+<ul>
+  <li>
+    <p>Find ways in which the Search page can be made more discoverable. Now that we have improved the Search page a bit, we want more people to enjoy making use of its full power! In order to do this, we want to raise its visibility and awareness.</p>
+  </li>
+  <li>
+    <p>Use learnings from the improvements on this page to improve search in the top of the search experience funnel: i.e. most searches begin with the search bar, and we believe there is also a lot of potential to improve this feature.</p>
+  </li>
+  <li>
+    <p>Do research on the editor needs of search. Our data indicates that 20% of users end up on the Search page on English Wikipedia. However, we do not know if these are casual readers or editors. Since the research we did with readers suggested that they were unaware of the Search page, our assumption was that the vast number of people using this page might be editors. While for this project we focused our efforts on reader experience, as a next step we would like to understand how to improve search for editors.</p>
+  </li>
+  <li>
+    <p>Figure out the high impact areas for search improvement. There is a lot we can do to improve search but we cannot do it all given the resources we have. For that reason it would be good to identify what changes will have the most positive impact on the experience and prioritize those.</p>
+  </li>
+  <li>
+    <p>Continue to learn about reader behaviour and find opportunities for improvement. We have only started uncovering some of the basic problems with search but there are way more undiscovered opportunities out there.</p>
+  </li>
+</ul>
+
+<p>If you are part of one of the wikis where these features are released (<a href="https://pt.wikipedia.org/w/index.php?search=&amp;title=Especial:Pesquisar&amp;useskin=vector-2022">Portuguese</a>, <a href="https://ru.wikipedia.org/w/index.php?search=&amp;title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:%D0%9F%D0%BE%D0%B8%D1%81%D0%BA&amp;profile=advanced&amp;fulltext=1&amp;ns0=1&amp;useskin=vector-2022">Russian</a> and <a href="https://id.wikipedia.org/w/index.php?search=&amp;title=Istimewa:Pencarian&amp;profile=advanced&amp;fulltext=1&amp;ns0=1&amp;useskin=vector-2022">Indonesian</a>) I hope you will try it out and provide feedback on the <em><a href="https://www.mediawiki.org/w/index.php?title=Structured_Data_Across_Wikimedia/Search_Improvements&amp;useskin=vector-2022">community page</a>.</em></p>
+
+<p><em>Thanks to Rita Ho &amp; Matthew Williams for their design mentorship throughout the project; Michael Raish for helping with initial phases of design research; Rita Ho, Carolyn Li-Madeo, &amp; Mike Pham for thoughtful edits and feedback on this post; and not to mention the Structured Data team for building these features &amp; the Search platform team for providing technical support.</em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[A journey of arriving at the search improvements for Wikipedia]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/improving-search-wikipedia/featured.webp" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/improving-search-wikipedia/featured.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Applying design thinking to planning an offsite</title><link href="https://design.wikimedia.org/blog/2023/02/17/applying-design-thinking.html" rel="alternate" type="text/html" title="Applying design thinking to planning an offsite" /><published>2023-02-17T00:00:00+00:00</published><updated>2023-02-17T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2023/02/17/applying-design-thinking</id><content type="html" xml:base="https://design.wikimedia.org/blog/2023/02/17/applying-design-thinking.html"><![CDATA[<p><em>By <a href="https://twitter.com/derrellwilliams" target="_blank" rel="nofollow">Matthew Williams</a></em></p>
 
 <p>With a design team of 26 people spread out through 5 continents, 14 countries, and 9 time zones, finding ways to make remote work effective is something we have worked hard to achieve through our meetings, interactions, and practices. But with 50% of our current team having never met each other in person due to starting during the Covid-19 pandemic, we knew there were certain collaborative and relationship pieces missing in our puzzle to create a welcoming and impactful team culture.</p>
 
@@ -1733,191 +2014,4 @@ As we saw it, the three key takeaways from the test were:</p>
   <p>“All the moments of hearing my multi-cultural team speaking in different languages was such a beautiful sound and an aural reminder of our diversity.”</p>
 </blockquote>
 
-<p>I’ve shared this story today in the hopes that it may inspire others to run a similar activity in their own teams. If you do, please share your experience, we would love to hear about it.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[An activity to speak your native language.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/surfacing-embracing-diversity/header.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/surfacing-embracing-diversity/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Understanding the Wiki Communications and Mentorship Ecosystems</title><link href="https://design.wikimedia.org/blog/2021/12/20/understanding-the-wiki-communications-and-mentorship-ecosystems.html" rel="alternate" type="text/html" title="Understanding the Wiki Communications and Mentorship Ecosystems" /><published>2021-12-20T07:30:00+00:00</published><updated>2021-12-20T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2021/12/20/understanding-the-wiki-communications-and-mentorship-ecosystems</id><content type="html" xml:base="https://design.wikimedia.org/blog/2021/12/20/understanding-the-wiki-communications-and-mentorship-ecosystems.html"><![CDATA[<p><em>By <a href="mailto:dchen@wikimedia.org">Daisy Chen</a></em></p>
-
-<p>As the Wikimedia Foundation’s <a href="https://www.mediawiki.org/wiki/Growth" target="_blank">Growth</a> and <a href="https://www.mediawiki.org/wiki/Editing_team" target="_blank">Editing</a> teams were respectively making plans and progress on Newcomer features and Talk Pages in recent quarters, the teams were curious about where and how wiki users are communicating with one another, and how mentorship manifests within the communication ecosystem. As a first step in this process, <a href="https://design.wikimedia.org/strategy/" target="_blank">Product Design Strategy</a> completed an initial round of research with a participant cohort of primarily affiliate group members, Foundation staff, and other long-time volunteers to illuminate the communications/mentorship ecosystem and identify areas of potential future study.</p>
-
-<h1 id="what-we-wanted-to-learn">What we wanted to learn</h1>
-
-<p>While the Growth and Editing teams wanted to keep the research and discovery process open-ended, they both had some goals in mind for their respective teams’ work. The Growth team hoped the research outcomes would inform the mentorship and collaboration opportunities being tested in the Newcomer program initiatives. The Editing team wanted to understand use cases, benefits and impacts of various communication channels being utilized and how that might feed their work on Talk Pages and New Discussion Tool. Both teams felt this research would impact ongoing work and future plans around communication features/support and mentorship/collaboration opportunities, and we jointly created a couple grounding sets of research questions to that end:</p>
-
-<h2 id="communications">Communications</h2>
-
-<ul>
-  <li>What are the various communication tools used by different communities to have these discussions?</li>
-  <li>What types of work are done on these channels?</li>
-  <li>How do community members communicate besides on wiki (ie., besides Talk pages, Village Pump, etc) across different language wikis?</li>
-  <li>What are the motivations for using on and/vs off wiki channels? What are the benefits and tradeoffs of each?</li>
-  <li>Why are these tools used instead/as well, and what are their efficacies as effective/positive communication tools?</li>
-</ul>
-
-<h2 id="mentorship">Mentorship</h2>
-
-<ul>
-  <li>How is mentorship defined? What does it look like on the ground?</li>
-  <li>What factors influence mentorship motivation? How can users be encouraged to mentor others, and see their impacts?</li>
-  <li>How has/does communicating with other contributors affect newcomers’ understanding of Wikipedia as a community of people working together and their connection to it?</li>
-  <li>What is the efficacy of the off wiki channels specifically in attracting and fostering new contributors?</li>
-  <li>How can productivity tools that promote collaborative editing/communication/tracking, potentially integrated on wiki, also affect mentorship effectiveness?</li>
-</ul>
-
-<h1 id="our-research-participants-and-process">Our research participants and process</h1>
-
-<p>To contain the scope of this initial round of research (with a second round envisioned to expand our research into other segments), we decided to keep our first participant cohort to those who have had more experience working in the various wiki communities. These folks worked in a wide range of wiki-related roles both in various organizational and volunteer capacities; the goal was to hear about their communications and mentorship experiences at length. Interviews were conducted in English.</p>
-
-<p>A few target languages/regions came into focus after reviewing geographic areas of interest the Growth and Editing teams pinpointed and where ongoing recruitment of potential participants seemed to be proving most fruitful. Ultimately, the participants were determined after evaluating languages, regions and genders represented, and diversity of roles within the wiki movement, among other factors. The languages/regions in particular were determined when we were able to establish a ‘critical mass’ of sorts, where we spoke with enough participants in each to start observing patterns in their responses and experiences.</p>
-
-<p>We concluded the project with 18 participant interviews across 4 primary geographic regions. Each of the interviews were semi-structured, with a prepared discussion guide to provide a basic framework for the exploration while allowing for the participants to freely express both directly and tangentially relevant experiences and feedback.</p>
-
-<table class="post__table">
-  <tr>
-    <th>Primary Location</th>
-    <th>Country(/ies)</th>
-    <th>Language(s)</th>
-    <th># participants</th>
-  </tr>
-  <tr>
-    <td>South America</td>
-    <td>Brazil, Portugal*</td>
-    <td>Portuguese</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>Southeast Asia</td>
-    <td>Indonesia, Philippines, UK*</td>
-    <td>Bahasa indonesian, Nias, Bikol, Tagalog, Pangasinan</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>South Asia</td>
-    <td>India</td>
-    <td>Hindi, Bengali, Punjabi, many other Indic languages</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>MENA/T</td>
-    <td>Turkey, Jordan, Morocco</td>
-    <td>Turkish, Arabic</td>
-    <td>4</td>
-  </tr>
-</table>
-<p class="post__small">* grouped with South America due to work on same language wiki</p>
-
-<h1 id="what-did-we-discover-in-these-conversations">What did we discover in these conversations?</h1>
-
-<h2 id="communications-1">Communications</h2>
-
-<p><strong>Devices and access.</strong> Even given the characteristics of this cohort (juggling a wide range of audiences and channels both on and off wiki, high volume of communication, high relative access to digital resources), none of the participants indicated that they used their mobile as a primary device for their communications. Many indicated that laptop/desktop access made many tasks easier to accomplish as some on wiki tasks are not yet mobile-friendly or lack appropriate functionality (in addition to inherent screen and device limitations). Laptop/desktop use was also convenient as many classically mobile tasks (texting, sending images, calling) are increasingly available from a desktop version.</p>
-
-<figure>
-  <img src="/blog/assets/uploads/understanding-wiki-communications/devices-used.png" alt="Devices used to communicate for wiki work." />
-</figure>
-
-<p>Even though this is the direct finding from this cohort, many from the cohort broached the issue that many existing and potential users, especially from the Southeast Asia and South Asia (India) regions, are facing device/digital resource limitations. They may face inconsistent internet infrastructure/access, limited/expensive data, and limited access to devices (no/shared access to a singular mobile device, paid entry to internet cafes with device access). To address this, optimizing our mobile experience in terms of accessibility/reliability and additional features while limiting bandwidth used where possible is key to reaching this audience further.</p>
-
-<p><strong>On or off wiki communication?</strong> This cohort bucked expectations again here; even though their wiki communication is heavily due to a wiki-related role/obligation and their individual capacities as volunteers, they tended to do most of the communication off the wikis. Those who utilized on-wiki communications more often indicated they did so primarily for posting official updates and documenting conversations and outcomes.</p>
-
-<p>Participants often strategically move conversations between on and off wiki channels, most specifically moving discussions to off wiki channels and then returning on wiki to document the outcomes and decisions from those discussions. The reasons given for moving discussions off wiki included:</p>
-
-<ul>
-  <li>expediency (having the discussions was logistically quicker to do on off wiki channels)</li>
-  <li>Wider reach/more inclusive (more people quantitatively in general and more were engaged in the conversation than on on wiki alternative arenas)</li>
-  <li>more availability for private or otherwise sensitive conversation as needed (everything on wiki is visible for anyone)</li>
-</ul>
-
-<p><br />
-Finally, many participants empathetically said that being on wiki is a “disadvantage” and an “inequality”, especially for newer users. The learning curve overall, the invisibility of accessing help and finding communication channels, understanding the norms of communication in each wiki community – all contribute to why the cohort as a rule tends to try and meet newer users where they are, which is most often an off wiki channel.</p>
-
-<figure>
-  <img src="/blog/assets/uploads/understanding-wiki-communications/where-participants-communicate.png" alt="Where do our participants communicate." />
-  <figcaption>“The more time you put in off wiki, the less time you need to defend it on meta"</figcaption>
-</figure>
-
-<p><strong><em>On and off wiki channels.</em></strong> Below you’ll find examples of channels being used both on and off wiki, an approximated scorecard of the pros and cons of the two main options, and basic flow charts of the most common use cases.</p>
-
-<p><strong>Main takeaways:</strong> off wiki channels score higher on all listed criteria for our participants and provide the most helpful outcomes when it comes to the tasks and connections they need to make in their wiki work.</p>
-
-<p>Off wiki channels as a whole offer:</p>
-
-<ul>
-  <li>quicker responses</li>
-  <li>more casual feel that can lead to more sincere communication</li>
-  <li>option for private conversations</li>
-  <li>better accessibility and mobile/UI-friendly</li>
-</ul>
-
-<p><br />
-Where does off wiki communication fall short as a category? The regard for on wiki legitimacy remains; it is a must for announcements, recording of important decisions and outcomes, and everything posted is public, documentable, and referenceable. The transparency and accountability on off wiki options are not as clear cut.</p>
-
-<figure>
-  <img src="/blog/assets/uploads/understanding-wiki-communications/on-off-wiki-chart.png" alt="On and off wiki chart." />
-</figure>
-
-<figure>
-  <img src="/blog/assets/uploads/understanding-wiki-communications/on-off-wiki-graph.png" alt="On and off wiki graph." />
-</figure>
-
-<p><strong><em>What do participants think could improve communication?</em></strong> The participant suggestions below are charted on a continuum of simple to execute (left/green) to the more complex (right/red). They are also sorted into suggestions that could impact communications more directly (top half) and changes that have more of an indirect impact (bottom half).</p>
-
-<figure>
-  <img src="/blog/assets/uploads/understanding-wiki-communications/improve-communication.png" alt="Improving Communication." />
-</figure>
-
-<h2 id="mentorship-1">Mentorship</h2>
-
-<p>Mentorship as described by many participants is transactional and editing-centric. A few members of this cohort, while tackling task-based, editing-focused questions, have also emphasized and lived the importance of additional facets of a mentorship relationship. Moving forward, we should support a tailored approach to mentorship, one that spans the transactional/functional (knowing what/how to do) to the institutional/inspirational (understanding of the movement, engagement borne of interest, belonging and recognition).</p>
-
-<p><em>“We need longevity and sustainability from good mentorship. Do we want 1 person who edits 100 times or get 10 people to do 10 edits each?”</em></p>
-
-<p>Within this framework, we’ll also need to address our users’ varying needs. While facilitating “human-powered” means of mentorship interactions, we should also take care to supplement learning with technical solutions.</p>
-
-<figure>
-  <img src="/blog/assets/uploads/understanding-wiki-communications/examples-of-mentorship.png" alt="Examples of mentorship and their impacts and frequencies, charted." />
-  <figcaption>Examples of mentorship and their impacts and frequencies, charted</figcaption>
-</figure>
-
-<ol>
-  <li><strong><em>Answering questions about editing tasks.</em></strong> This could be on a one-off or an ongoing basis</li>
-  <li><strong><em>Specific, targeted Commons photo advice.</em></strong> A participant brought up this example; this individual received specific, actionable feedback on why photos were not being approved and what it would take for a photo to be approved and even featured</li>
-  <li><strong><em>Creating and disseminating tutorial type materials.</em></strong></li>
-  <li><strong><em>Holding editing-focused workshops and events.</em></strong></li>
-  <li><strong><em>Teaching about the movement and opportunities;</em></strong> e.g. Making mentees aware of the larger movement, organizational structures, and providing advice on mentees’ draft proposals for their own projects</li>
-  <li><strong><em>Involving people in a hobby-based campaign;</em></strong> e.g. The Wiki Loves Butterfly initiative involved finding butterfly enthusiasts on social media, motivating them to join wiki, having 1:1 chats with them and meeting in person, showing them commons/uploading/categories and other editing-related tasks, doing/coordinating fieldwork and taking butterfly lifecycle photos, holding photo workshops etc.</li>
-  <li><strong><em>Constant communication and community;</em></strong> e.g. Wiki World Heritage User Group holds workshops and is in constant communication/collaboration. Its engagement plan also includes a skills assessment in which members and newcomers are asked about knowledge on various topics/tools, and where they’d like to learn more. This is used to match people up, invite them to specific topic/tool discussions or sessions, or set up curriculum for planned workshops.</li>
-</ol>
-
-<p><strong>What do participants think could improve mentorship?</strong> There is some overlap in suggested solutions here, particularly the suggestion for forum-style, centralized discussion interface and for better documentation of various resources and FAQs. Participant suggestions range from simpler (left/green) to the more complex (right/red).</p>
-
-<figure>
-  <img src="/blog/assets/uploads/understanding-wiki-communications/improve-mentorship.png" alt="Improving Mentorship." />
-</figure>
-
-<h2 id="takeaways">Takeaways</h2>
-
-<h3 id="communications-2">Communications</h3>
-
-<p>There are some relatively quicker fixes we can make to make our on wiki communications options more accessible, intuitive, and visible to our community, especially on mobile.</p>
-
-<p>At a higher level, our Product teams need to weigh the pros and cons of making on wiki the go-to place for all wiki-related communications or acknowledge that on wiki is simply not meant to be that type of all-encompassing destination and support off wiki channels where possible.</p>
-
-<p>Other general considerations include device and data limitations many of our community members and potential users face, differing cultural tendencies (e.g, security, privacy, building trust) and community-specific norms around policing, attitudes towards newcomers/anonymous users, etc.</p>
-
-<h3 id="mentorship-2">Mentorship</h3>
-
-<p>The communications ecosystem’s visibility and functionality are the foundation for mentorship to develop, flourish, and sustain. The functionality aspect should increasingly address not just transactional forms of newcomer help/training (documentation pages, FAQs, bots) but also allow for organic growth of mentorship connections and opportunities.</p>
-
-<p>When mentorship connections do not arise organically, such as in structured newcomer programs, the resulting mentorship interactions tend to remain more transactional in nature and lack an inspirational element that fosters feelings of ownership and more naturally creates opportunities for challenge/reward dynamics to arise. These are factors that tend to establish additional connections, interests, and overall a more prolonged, lasting relationship with the mentor and the movement.</p>
-
-<h2 id="whats-next-planning-collaboration-evaluation">What’s next? Planning, collaboration, evaluation.</h2>
-
-<p><strong><em>Prioritization and planning current/future roadmap.</em></strong> The findings inform ways (and focus areas) in which our Growth team’s Newcomer homepage/tasks initiatives can be improved and supplemented with concurrent efforts. The team can focus on ideation, prioritization, and planning for features in upcoming quarters/annual plans.</p>
-
-<p><strong><em>Scoping &amp; cross-team collaboration.</em></strong> Other Foundation teams may find this work relevant in their focus areas, both in and outside of Product. There are opportunities for the Growth team to coordinate with other teams (e.g. Editing, Android &amp; iOS, Trust &amp; Safety) on issues impacting communications and mentorship.</p>
-
-<p><strong><em>Analytics/UX evaluations of Newcomer initiatives.</em></strong> As Growth team’s newcomer initiatives are rolled out on test wikis and perhaps additional wikis, evaluating on an iterative basis how the features are or aren’t meeting the needs of a variety of user personas, using both analytics and usability testing/interviews.</p>
-
-<h2 id="further-strategic-research">Further strategic research</h2>
-
-<p><strong><em>Additional relevant personas.</em></strong> The next phase of this research should include newcomers and mentees (specific subset of newcomers) more specifically. This will provide first-hand knowledge of how those first experiencing communications related to the wikis become aware of the variety of channels, their expectations and the realities, and their experiences of the newcomer initiatives and interactions with experienced users (in a general or specifically mentorship-type capacity) in these spaces.</p>
-
-<p><strong><em>Specific communities.</em></strong> Further research should include communities with limited device and connectivity and also cultural concerns whereby trust is primarily built through in-person connections to see what support possibilities exist.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Where and how wiki users are communicating with one another, and how mentorship manifests within the communication ecosystem.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/understanding-wiki-communications/header.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/understanding-wiki-communications/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>I’ve shared this story today in the hopes that it may inspire others to run a similar activity in their own teams. If you do, please share your experience, we would love to hear about it.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[An activity to speak your native language.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/surfacing-embracing-diversity/header.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/surfacing-embracing-diversity/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
