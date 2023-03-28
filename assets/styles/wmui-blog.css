@@ -139,6 +139,9 @@ blockquote {
 
 	/* Prevent small media objects from losing their original aspect ratio, see T313362. */
 	object-fit: contain;
+
+	/* Center align the inner element, see T333106. */
+	margin: 0 auto;
 }
 
 .figure--audio {
