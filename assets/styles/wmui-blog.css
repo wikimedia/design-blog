@@ -149,6 +149,16 @@ blockquote {
 	margin: 1.6rem auto;
 }
 
+.post__header > figure {
+	margin: 0;
+}
+
+/* Align start. */
+.post__header > figure > img,
+.post__header > figure > figcaption {
+	width: fit-content;
+}
+
 @media ( min-width: 780px ) {
 	.content {
 		width: 720px;
