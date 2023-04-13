@@ -1,4 +1,201 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2023-03-28T13:45:31+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">Improving search on Wikipedia</title><link href="https://design.wikimedia.org/blog/2023/03/17/improving-search-wikipedia.html" rel="alternate" type="text/html" title="Improving search on Wikipedia" /><published>2023-03-17T00:00:00+00:00</published><updated>2023-03-17T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2023/03/17/improving-search-wikipedia</id><content type="html" xml:base="https://design.wikimedia.org/blog/2023/03/17/improving-search-wikipedia.html"><![CDATA[<p><em>By <a href="mailto:spatel@wikimedia.org">Sneha Patel</a></em></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://design.wikimedia.org/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://design.wikimedia.org/blog/" rel="alternate" type="text/html" /><updated>2023-04-13T02:25:57+00:00</updated><id>https://design.wikimedia.org/blog/feed.xml</id><title type="html">Wikimedia Design Blog</title><subtitle>Make sharing of knowledge easy and joyful, for everyone.</subtitle><entry><title type="html">This internship was way beyond my comfort zone and absolutely worth it!</title><link href="https://design.wikimedia.org/blog/2023/03/30/internship-beyond-comfort-zone.html" rel="alternate" type="text/html" title="This internship was way beyond my comfort zone and absolutely worth it!" /><published>2023-03-30T00:00:00+00:00</published><updated>2023-03-30T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2023/03/30/internship-beyond-comfort-zone</id><content type="html" xml:base="https://design.wikimedia.org/blog/2023/03/30/internship-beyond-comfort-zone.html"><![CDATA[<p><em>By <a href="https://www.linkedin.com/in/betakots/" target="_blank" rel="nofollow">Beta Kot</a></em></p>
+
+<p>You have just graduated and are now on the hunt for entry-level jobs. In the process, you stumble upon an internship opportunity. What would you do? Would you take the internship?</p>
+
+<p>I was in the exact position not long ago – in two minds on whether or not to apply for internships. I took a leap of faith, applied and this experience was just the perfect eye opener for me. In retrospect, this is one of the best decisions I have ever made and will always make without thinking twice. This is why.</p>
+
+<p>I had the opportunity to intern as a User Experience Designer at Wikimedia Foundation for 9 months. Not knowing what to expect, I walked in with an open mind. Everything felt right from the start. I even remember thinking to myself, “I am happy here. It really does feel like home”. True to their values, my experience at Wikimedia really was a depiction of working in an environment where one feels a sense of belonging ― a family.</p>
+
+<p>Julieta Fernandez, my fellow intern and I, were warmly welcomed and introduced to the larger team. We even got the opportunity to meet every member at an individual level. What better way could there be to connect and learn more about your team members! My key take-aways from the fun and little chats with the individual team members were:</p>
+
+<ul>
+  <li><strong>Most people are nice:</strong> Team members are more than willing to support and watch you grow, don’t shy away from asking for help. Communicate, reach out as much as possible to reap the most out of the benefits of teamwork.</li>
+  <li><strong>It’s okay to be nervous</strong>: Give yourself an opportunity to push beyond your comfort zone, that’s how you grow and become better.</li>
+</ul>
+
+<p>During the nine months, I supported 2 teams: <a href="https://www.mediawiki.org/wiki/Editing_team">Editing</a> and <a href="https://www.mediawiki.org/wiki/Growth">Growth</a>. I worked closely with Product Managers, Researchers and fellow Designers to improve the editing experience of Wikipedia. I worked alongside mentors who guided me all through the way, growing my knowledge.</p>
+
+<p>While at Wikimedia, I worked on two major projects: <strong>The Personalized Praise</strong> project and the design of the <strong>Reply Tool New Comment Indicator</strong>. The weekly catch-up with my Mentor, Principal Designer and Product Manager helped align the design goals and expectations. During these check-ins I received feedback, and directions; making working on the projects seamless, enjoyable and fun! My manager was always there to support and ensure my well being throughout. This gave me a peace of mind, and a calm environment to work in.</p>
+
+<p>Here’s a quick summary of the projects:</p>
+
+<h2 id="project-1-the-personalized-praise-design">Project 1: The personalized praise design</h2>
+
+<p>For this project, the team asked: How might we encourage newcomers who have visited our homepage and tried our features to keep editing and build on their momentum?</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/internship-beyond-comfort-zone/image4.webp" alt="Collage of the proposed personalized praise designs" loading="lazy" width="720" />
+
+	<figcaption>
+<p>The proposed personalized praise designs</p>
+
+</figcaption>
+</figure>
+
+<p>To approach this problem, I used a user centered design thinking approach:</p>
+
+<h3 id="1-empathize-gathering-high-quality-user-understanding">1. EMPATHIZE: GATHERING HIGH-QUALITY USER UNDERSTANDING</h3>
+
+<p>In this phase, I reviewed current plans, designs and user research materials. I also conducted further discussions with mentors, subject matter experts, and the Growth team to deeply understand user needs, barriers, attitudes and aspirations and the context of this feature’s existence.</p>
+
+<h3 id="2-define-formulating-the-challenge-into-a-clear-articulation">2. DEFINE: FORMULATING THE CHALLENGE INTO A CLEAR ARTICULATION</h3>
+
+<p>In this phase, I gathered all the insights I had collected from the empathize phase, and began to make sense of the landscape of solutions I was exploring by answering the following questions;</p>
+
+<h4 id="a-what-do-we-want-to-do">a) What do we want to do?</h4>
+
+<h5 id="1-what-is-the-ultimate-goalvision-for-this-project">1. What is the ultimate goal/vision for this project?</h5>
+
+<p>Raise retention. Increase the number of newcomers in the Growth experiment group who have activated (made 1 edit) to become active contributors through revising existing and new positive reinforcement mechanisms that motivate them to keep editing.</p>
+
+<h5 id="2-what-is-the-short-term-goalneed-for-this-project">2. What is the short term goal/need for this project?</h5>
+
+<p>Provide encouragement by improving the existing positive reinforcement mechanisms available on wiki<strong>.</strong></p>
+
+<h4 id="b-what-dont-we-want-to-do">b) What don’t we want to do?</h4>
+
+<ol>
+  <li>Set up incentives that encourage reckless editing that prizes quantity over quality.</li>
+  <li>Disrupt or subvert community philosophies on how editors should be incentivized.</li>
+  <li>Burden or affect work on Scaling, Structured tasks, or the Mentor dashboard.</li>
+  <li>Build too much infrastructure or service that requires high effort.</li>
+  <li>Make changes that affect the analysis of the overall newcomer experiments</li>
+  <li>People feel unduly scrutinized for their contributions and feel as though their privacy is impacted.</li>
+</ol>
+
+<h3 id="3-ideate-and-collaborate">3. IDEATE AND COLLABORATE</h3>
+
+<p>In this phase, the key goal was to create an environment where divergent and provocative options are embraced and assessed, with the eventual goal of converging on a few strongest pathways to pursue.</p>
+
+<p>This came to a reality with the help of the Community Ambassadors. Community Ambassadors are experienced Wikipedia editors that teach, mentor, and lead others, helping marginalized groups (such as speakers of a foreign language) to contribute to, and benefit from, the Wikimedia projects. They took a major role in helping us brainstorm ideas that would require minimum effort but are highly impactful.</p>
+
+<p>After doing a S.W.O.T. (Strengths, weaknesses, opportunities, threats) assessment, we built confidence in the strategic viability of the pathway: <em>Integrating a Send Appreciation module into the existing Mentor Dashboard.</em></p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/internship-beyond-comfort-zone/image2.webp" alt="Sketches of editor encouragement mechanisms" loading="lazy" width="720" />
+
+	<figcaption>
+<p>Quick sketches of how we might encourage junior editors to keep editing and building on their momentum</p>
+
+</figcaption>
+</figure>
+
+<h3 id="4-prototype-transforming-ideas-into-tangible-artifacts">4. PROTOTYPE: TRANSFORMING IDEAS INTO TANGIBLE “ARTIFACTS”</h3>
+
+<p>In this phase, proposed solutions were improved, redesigned and rejected through a series of reviews and critiques from the broader team.</p>
+
+<p>This rapid iterative process allowed me to be imperfect and detach from my work in a healthy way by embracing collaboration by “piggybacking” ideas from different sources. What a fun experience!</p>
+
+<h4 id="the-evolution-of-the-send-appreciation-feature">The evolution of the send appreciation feature</h4>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/internship-beyond-comfort-zone/image6.webp" alt="Collage showing the evolution of the send appreciation feature, from the initial idea to the final exploration" loading="lazy" width="720" />
+
+	<figcaption>
+<p>The evolution of the send appreciation feature, from the initial idea to the final exploration</p>
+
+</figcaption>
+</figure>
+
+<h4 id="the-prototype">The Prototype</h4>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/internship-beyond-comfort-zone/image7.webp" alt="Collage showing the mentors flow of sending appreciation to a mentee from the dashboard" loading="lazy" width="720" />
+
+	<figcaption>
+<p>The mentors flow of sending appreciation to a mentee from the dashboard</p>
+
+</figcaption>
+</figure>
+
+<p><a href="https://www.figma.com/proto/fOa1x7hw6EM9VnaMJv7vib/Positive-reinforcement?node-id=3378-113680" target="_blank" rel="nofollow">Try it yourself</a> :)</p>
+
+<h3 id="5-test-getting-feedback-from-the-community">5. TEST: GETTING FEEDBACK FROM THE COMMUNITY</h3>
+
+<p>In this phase, we were keen on asking open-ended and solution-focused questions to avoid answers that shut down iterative improvement. We aimed to encourage the experienced Wikipedia editors/mentors that would be using this feature to give personalized praise to new editors to build on the concept or solution in productive ways.</p>
+
+<p>Our goal is to get fast and productive feedback from the real world, insert our new learning back into the process, and optimize the concept until we have solved the problem.</p>
+
+<p>This project is currently under development :) Getting out there is what is next; yay!</p>
+
+<h4 id="impact-what-i-have-learnt">IMPACT: What I have learnt</h4>
+
+<p>The rapid iterative process allowed me to be imperfect and detach from my work in a healthy way by embracing collaboration by “piggybacking” ideas from different sources.</p>
+
+<h2 id="project-2-the-reply-tool-new-comment-indicator">Project 2: The Reply Tool New Comment Indicator</h2>
+
+<p>With a global community of contributors on Wikipedia, the Editing team was focused on making participating productively on talk pages, administration pages where editors can discuss improvements to articles or other Wikipedia pages easier and more intuitive for our Junior contributors, registered users who have made &lt;100 cumulative contributions to that particular <a href="https://en.wikipedia.org/wiki/en:List_of_Wikipedias">Wikipedia</a> project and Senior contributors, registered users who have made &gt;500 cumulative contributions to that particular Wikipedia project.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/internship-beyond-comfort-zone/image1.webp" alt="Collage showing the design and placement of the reply tool new comment indicator in desktop and mobile" loading="lazy" width="720" />
+
+	<figcaption>
+<p>The design and placement of the reply tool new comment indicator in desktop and mobile</p>
+
+</figcaption>
+</figure>
+
+<p>This new contributor workflow for replying to specific comments is intended to make participating productively on talk pages easier and more intuitive for Junior and Senior Contributors.</p>
+
+<h3 id="the-challenge-phab-task-t300560">The Challenge, Phab task T300560</h3>
+
+<p>The alert should be presented in such a way that people: Are aware of its presence, but are not distracted by it. Understand they have the option to engage with the alert, but do not feel obligated to.</p>
+
+<h4 id="ux">UX</h4>
+
+<p>The moment a qualifying change has been made, show an alert in/around the Reply Tool informing people that the page has changed from the version they are looking at.</p>
+
+<p>The alert should allow people to:</p>
+
+<ul>
+  <li>Show the new comment(s) that have been posted</li>
+  <li>Ignore or dismiss the alert.</li>
+</ul>
+
+<h4 id="secondary-research">Secondary research</h4>
+
+<p>In this phase, I did understand the context of the feature’s existence. This is where I also stopped and thought about the users I am designing for, gathering insights about their goal and key aspects.</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/internship-beyond-comfort-zone/image3.webp" alt="Illustration of an user story stating their key goals and motivations" loading="lazy" width="720" />
+
+	<figcaption>
+<p>User story stating their key goals and motivations</p>
+
+</figcaption>
+</figure>
+
+<h4 id="competitive-audit">Competitive Audit</h4>
+
+<p>I audited a few social media platforms like Instragam, LinkedIn and Facebook. This provided direction and opportunities to address with the feature.</p>
+
+<h4 id="the-impact">The Impact</h4>
+
+<p>A new experience is live for the new comment indicator that appears in the Reply Tool when someone publishes a comment while you are drafting a reply, improving the contributor workflow for replying to comments on talk pages, across Wikipedia’s <a href="https://en.wikipedia.org/wiki/Namespace"><em>16 talk namespaces</em></a>. Yayyy!</p>
+
+<figure class="figure--image">
+	<img src="/blog/assets/uploads/internship-beyond-comfort-zone/image5.webp" alt="Illustration of the key functions of the reply tool new comment indicator and a magnified view of its design" loading="lazy" width="720" />
+
+	<figcaption>
+<p>The key functions of the reply tool new comment indicator and a magnified view of its design</p>
+
+</figcaption>
+</figure>
+
+<h3 id="what-i-learnt">What I learnt</h3>
+
+<ol>
+  <li>Finding the balance between the organization’s design system constraints and creativity, thinking outside the box!</li>
+  <li>The more familiar users are with something, the more they like it.</li>
+</ol>
+
+<p>The highlight of my internship was being able to SIT BACK, OBSERVE, and LEARN. How do teams collaborate? How are problems approached and solved? How do team members relate with one another on a professional and personal level? I was able to attend many different team meetings such as research readouts, project kickoffs, and many more. I made sure to bring a notebook to every one of them cause oh, dear! You can never run out of fascinating concepts!</p>
+
+<p>To sum it all up, I achieved immense personal growth. I also developed a diverse set of skills such as illustration, presentation, and giving and soliciting feedback in a team setting. My newfound interest in design systems and their component libraries was just the icing on the cake.</p>
+
+<p>“Hey! You are here to learn, get hands-on experience and meet wonderful people that you can always look up to and get inspired by. Just make the best of it. We are here to support you, mentor you and watch you grow” those were the words I heard when I needed them the most and so I’ll pass them on to you. At the end of the day, that’s what internships are about.</p>
+
+<p><em>A huge thank you to the entire Wikimedia Product Design, Editing and Growth teams for the opportunity, support, feedback and the unforgettable experience!</em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[You have just graduated and are now on the hunt for entry-level jobs. In the process, you stumble upon an internship opportunity. What would you do? Would you take the internship?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/internship-beyond-comfort-zone/image8.webp" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/internship-beyond-comfort-zone/image8.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Improving search on Wikipedia</title><link href="https://design.wikimedia.org/blog/2023/03/17/improving-search-wikipedia.html" rel="alternate" type="text/html" title="Improving search on Wikipedia" /><published>2023-03-17T00:00:00+00:00</published><updated>2023-03-17T00:00:00+00:00</updated><id>https://design.wikimedia.org/blog/2023/03/17/improving-search-wikipedia</id><content type="html" xml:base="https://design.wikimedia.org/blog/2023/03/17/improving-search-wikipedia.html"><![CDATA[<p><em>By <a href="mailto:spatel@wikimedia.org">Sneha Patel</a></em></p>
 
 <p>Wikipedia’s mission is to enable every single person on the planet free access to the sum of all human knowledge in the language of their choice.</p>
 
@@ -1944,74 +2141,4 @@ As we saw it, the three key takeaways from the test were:</p>
 
 <p><em>Thanks to: Ed Sanders, Sherry Snyder, Peter Pelberg, James Forrester, Bethany Gerdemann, David Lynch, David Chan, Bartosz Dziewoński, Val Puffet-Michel and Esther Akinloose</em></p>
 
-<p><small>Unless otherwise credited, all images in this post are licensed under CC-BY-SA-4.0.</small></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Improving the user experience of Wikipedia discussion pages.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/talk-is-cheap/header.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/talk-is-cheap/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Surfacing and embracing diversity within your team</title><link href="https://design.wikimedia.org/blog/2022/01/10/surfacing-and-embracing-diversity-within-your-team.html" rel="alternate" type="text/html" title="Surfacing and embracing diversity within your team" /><published>2022-01-10T07:30:00+00:00</published><updated>2022-01-10T07:30:00+00:00</updated><id>https://design.wikimedia.org/blog/2022/01/10/surfacing-and-embracing-diversity-within-your-team</id><content type="html" xml:base="https://design.wikimedia.org/blog/2022/01/10/surfacing-and-embracing-diversity-within-your-team.html"><![CDATA[<p><em>By <a href="https://lucyblackwell.medium.com/">Lucy Blackwell</a></em></p>
-
-<p>Diverse teams generally <a href="https://www.mckinsey.com/featured-insights/diversity-and-inclusion/diversity-wins-how-inclusion-matters" target="_blank" rel="noopener">perform better than others</a>, but what do we mean by diversity and how do we know what diversity exists within our own teams?  Most people consider diversity to be things like gender, sexual orientation, racial or ethnic identity, religion, languages spoken, age, educational background, etc. and ultimately everyone has multiple facets to their identity that make them who they are, but some of these facets are not always visible in the workplace.</p>
-
-<p>Last month my colleague and I organised and facilitated our annual three-day virtual offsite, for our global team of 25 designers and researchers. Across the team we span multiple timezones and continents and are a very global team geographically, but we are also an entirely English-language speaking team, grounded in many of the cultural norms of American society, where the Wikimedia Foundations headquarters are based. So we decided to focus the offsite on an overarching theme of ‘communication,’ with a particular focus on understanding a little more about each person’s cultural background and the role communication played in this for them.</p>
-
-<h1 id="the-idea">The idea</h1>
-
-<p>We surveyed the team to find out what languages everyone spoke, and what each person’s native language was. We discovered that almost half the team had NOT learnt English as their first language. It occurred to me then that if we could actually hear every person in the team, speak about themselves in their native language, we may experience something quite different about each other. What if we hired translators to translate team members speaking in their first language?</p>
-
-<p>We wanted to be sure that people were encouraged to open up as much or as little as they felt comfortable doing in this context. We were aware that for some people speaking about themselves in a large group can feel quite intimidating, and different people have different levels of personal information they want to share in a work environment. So I thought that perhaps adding a level of abstraction to the conversation might ease this tension. We decided to ask folks to describe themselves through a set of ‘artifacts’ or ‘objects’.</p>
-
-<h1 id="preparation">Preparation</h1>
-
-<p>Before the session we asked each person to spend some time identifying and thinking about some objects in their lives that had significance for them. What did they mean to them personally, and what did they say about who they were? They prepared for the activity by following these guidelines;</p>
-
-<ol>
-  <li>Identify a set of three ‘<a href="https://en.wiktionary.org/wiki/artifact" target="_blank">artifacts</a>’ (or objects) that show…<br />
-    <ol type="a">
-     <li>Something that represents different aspects of your <strong>personality</strong>.</li>
-     <li>Something that represents the <strong>culture(s)</strong> you most closely associate with.</li>
-     <li>Something that represents the <strong>method of communication</strong> that makes you feel most alive.</li>
- </ol>
-  </li>
-  <li>Take photos or download images of your artifacts and add them to a shared slide deck.</li>
-  <li>Prepare to talk for 2 minutes about your artifacts and why you chose them, in your native language.</li>
-</ol>
-
-<h1 id="activity">Activity</h1>
-
-<p>We hired seven translators to join the online event and translate the talks, sentence-by-sentence, from Hindi, Cantonese, German, French, Italian, Russian and Spanish back into English for the team. As the activity flowed I could see the faces of the team lit up with intrigue and curiosity as they discovered a whole new side to their teammates. As one person later said,</p>
-
-<blockquote>
-  <p>“Hearing my colleagues speak in their native language was like meeting new people.”</p>
-</blockquote>
-
-<p>People were highly creative in how they interpreted the activity and chose fascinating objects to describe themselves. For example, one person showed a picture of a digital watch to describe their personality whilst another showed a tent hung between two trees.</p>
-
-<figure>
-  <img src="/blog/assets/uploads/surfacing-embracing-diversity/watch-tent.png" alt="Digital watch to describe their personality whilst another showed a tent hung between two trees." />
-</figure>
-
-<p>Some people chose very similar objects to describe their culture, often when they in fact came from quite different backgrounds. For example, a couple of people chose stones and objects from nature, whilst two showed pictures of their bikes, and two others shared bottles of olive oil.</p>
-
-<figure>
-  <img src="/blog/assets/uploads/surfacing-embracing-diversity/nature-objects.png" alt="Stones and objects from nature, whilst two showed pictures of their bikes, and two others shared bottles of olive oil." />
-</figure>
-
-<p>Many people chose music as the method of communication that makes them feel most alive.  Perhaps we should have a team playlist?</p>
-
-<h1 id="learnings">Learnings</h1>
-
-<p>The process of translating the talks wasn’t easy, given the fact that many of the people in the team actually spoke better English than some of the professional translators we had hired. This meant that when a few of the translations appeared not to be entirely accurate, some of the people doing their talks, felt the need to briefly re-explain what had been said in English.  As one of the participants said,</p>
-
-<blockquote>
-  <p>“Listening to translators on the first day, especially when it was evident there was missed or incorrect interpretation. It really highlighted the invisible communication issues we face as designers and researchers working on a multilingual product with people from around the world, and the importance of reviewing text, written, speech, and visual communications as there is so much room for (mis)interpretation.”</p>
-</blockquote>
-
-<p>But this whole process was very interesting to observe and felt like as much part of the experience as the talking was. As the challenges of speaking and translating different languages became evident throughout the exercise, one participant observed,</p>
-
-<blockquote>
-  <p>“Hearing fellow team members presenting in their native languages was a lovely moment that made me appreciate what a global team we have and also full of admiration of how so many people communicate so eloquently in English when it’s their second language.”</p>
-</blockquote>
-
-<p>There was something about this experience that allowed us all to connect on a different level. One person said to me that no-one had ever asked them to speak their native language at work before. By seeing the different facets of each other and starting to form new types of connections, we began to see how our different views and perspectives actually bring us together and make us stronger as a team. And in turn, this will lay the foundations for being able to work on more complex problems together and ultimately build even better products. As one of my colleagues so beautifully put it;</p>
-
-<blockquote>
-  <p>“All the moments of hearing my multi-cultural team speaking in different languages was such a beautiful sound and an aural reminder of our diversity.”</p>
-</blockquote>
-
-<p>I’ve shared this story today in the hopes that it may inspire others to run a similar activity in their own teams. If you do, please share your experience, we would love to hear about it.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[An activity to speak your native language.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/surfacing-embracing-diversity/header.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/surfacing-embracing-diversity/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p><small>Unless otherwise credited, all images in this post are licensed under CC-BY-SA-4.0.</small></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Improving the user experience of Wikipedia discussion pages.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://design.wikimedia.org/blog/assets/uploads/talk-is-cheap/header.png" /><media:content medium="image" url="https://design.wikimedia.org/blog/assets/uploads/talk-is-cheap/header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
