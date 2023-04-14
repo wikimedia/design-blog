@@ -38,11 +38,11 @@ For this project, the team asked: How might we encourage newcomers who have visi
 
 To approach this problem, I used a user centered design thinking approach:
 
-### 1. EMPATHIZE: GATHERING HIGH-QUALITY USER UNDERSTANDING
+### 1. Empathize: Gathering high-quality user understanding
 
 In this phase, I reviewed current plans, designs and user research materials. I also conducted further discussions with mentors, subject matter experts, and the Growth team to deeply understand user needs, barriers, attitudes and aspirations and the context of this feature's existence.
 
-### 2. DEFINE: FORMULATING THE CHALLENGE INTO A CLEAR ARTICULATION
+### 2. Define: Formulating the challenge into a clear articulation
 
 In this phase, I gathered all the insights I had collected from the empathize phase, and began to make sense of the landscape of solutions I was exploring by answering the following questions;
 
@@ -65,7 +65,7 @@ Provide encouragement by improving the existing positive reinforcement mechanism
 5.  Make changes that affect the analysis of the overall newcomer experiments
 6.  People feel unduly scrutinized for their contributions and feel as though their privacy is impacted.
 
-### 3. IDEATE AND COLLABORATE
+### 3. Ideate and collaborate
 
 In this phase, the key goal was to create an environment where divergent and provocative options are embraced and assessed, with the eventual goal of converging on a few strongest pathways to pursue.
 
@@ -79,7 +79,7 @@ After doing a S.W.O.T. (Strengths, weaknesses, opportunities, threats) assessmen
   caption="Quick sketches of how we might encourage junior editors to keep editing and building on their momentum"
 %}
 
-### 4. PROTOTYPE: TRANSFORMING IDEAS INTO TANGIBLE "ARTIFACTS"
+### 4. Prototype: Transforming ideas into tangible “artifacts”
 
 In this phase, proposed solutions were improved, redesigned and rejected through a series of reviews and critiques from the broader team.
 
@@ -103,7 +103,7 @@ This rapid iterative process allowed me to be imperfect and detach from my work 
 
 [Try it yourself](https://www.figma.com/proto/fOa1x7hw6EM9VnaMJv7vib/Positive-reinforcement?node-id=3378-113680){:target="_blank" rel="nofollow"} :)
 
-### 5. TEST: GETTING FEEDBACK FROM THE COMMUNITY
+### 5. Test: Getting feedback from the community
 
 In this phase, we were keen on asking open-ended and solution-focused questions to avoid answers that shut down iterative improvement. We aimed to encourage the experienced Wikipedia editors/mentors that would be using this feature to give personalized praise to new editors to build on the concept or solution in productive ways.
 
@@ -111,11 +111,11 @@ Our goal is to get fast and productive feedback from the real world, insert our 
 
 This project is currently under development :) Getting out there is what is next; yay!
 
-#### IMPACT: What I have learnt
+#### Impact: What I have learnt
 
 The rapid iterative process allowed me to be imperfect and detach from my work in a healthy way by embracing collaboration by “piggybacking” ideas from different sources.
 
-## Project 2: The Reply Tool New Comment Indicator
+## Project 2: The reply tool new comment indicator
 
 With a global community of contributors on Wikipedia, the Editing team was focused on making participating productively on talk pages, administration pages where editors can discuss improvements to articles or other Wikipedia pages easier and more intuitive for our Junior contributors, registered users who have made \<100 cumulative contributions to that particular [Wikipedia](https://en.wikipedia.org/wiki/en:List_of_Wikipedias) project and Senior contributors, registered users who have made \>500 cumulative contributions to that particular Wikipedia project.
 
@@ -127,18 +127,20 @@ With a global community of contributors on Wikipedia, the Editing team was focus
 
 This new contributor workflow for replying to specific comments is intended to make participating productively on talk pages easier and more intuitive for Junior and Senior Contributors.
 
-### The Challenge, Phab task T300560
+### The Challenge
+
+***Phabricator task: [T300560](https://phabricator.wikimedia.org/T300560)***
 
 The alert should be presented in such a way that people: Are aware of its presence, but are not distracted by it. Understand they have the option to engage with the alert, but do not feel obligated to.
 
-#### UX
+#### User experience
 
 The moment a qualifying change has been made, show an alert in/around the Reply Tool informing people that the page has changed from the version they are looking at.
 
 The alert should allow people to:
 
 - Show the new comment(s) that have been posted
-- Ignore or dismiss the alert.
+- Ignore or dismiss the alert
 
 #### Secondary research
 
@@ -150,7 +152,7 @@ In this phase, I did understand the context of the feature’s existence. This i
   caption="User story stating their key goals and motivations"
 %}
 
-#### Competitive Audit
+#### Competitive audit
 
 I audited a few social media platforms like Instragam, LinkedIn and Facebook. This provided direction and opportunities to address with the feature.
 
